@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 3rd3ye - </title>
+    <link>https://3rd3ye.github.io/categories/</link>
+    <description>Recent content in Categories on 3rd3ye - </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>3rd3ye@gmail.com (3rd3ye)</managingEditor>
+    <webMaster>3rd3ye@gmail.com (3rd3ye)</webMaster><atom:link href="https://3rd3ye.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
