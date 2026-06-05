@@ -1,0 +1,50 @@
+<header class="header">
+  <nav class="nav">
+    <div class="logo">
+      <a href="{{ "" | relURL }}">
+        <svg width="32" height="32" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+          <rect x="14" y="2" width="3" height="3" fill="#ef9f27"/>
+          <rect x="19" y="2" width="3" height="3" fill="#ef9f27"/>
+          <rect x="17" y="2" width="2" height="2" fill="#ba7517" opacity="0.5"/>
+          <rect x="11" y="5" width="3" height="3" fill="#ef9f27" opacity="0.8"/>
+          <rect x="22" y="5" width="3" height="3" fill="#ef9f27" opacity="0.8"/>
+          <rect x="7" y="7" width="2" height="2" fill="#ba7517" opacity="0.6"/>
+          <rect x="27" y="7" width="2" height="2" fill="#ba7517" opacity="0.6"/>
+          <rect x="5" y="14" width="3" height="3" fill="#ef9f27"/>
+          <rect x="5" y="19" width="3" height="3" fill="#ef9f27"/>
+          <rect x="28" y="14" width="3" height="3" fill="#ef9f27"/>
+          <rect x="28" y="19" width="3" height="3" fill="#ef9f27"/>
+          <rect x="7" y="27" width="2" height="2" fill="#ba7517" opacity="0.6"/>
+          <rect x="27" y="27" width="2" height="2" fill="#ba7517" opacity="0.6"/>
+          <rect x="11" y="28" width="3" height="3" fill="#ef9f27" opacity="0.8"/>
+          <rect x="22" y="28" width="3" height="3" fill="#ef9f27" opacity="0.8"/>
+          <rect x="14" y="31" width="3" height="3" fill="#ef9f27"/>
+          <rect x="19" y="31" width="3" height="3" fill="#ef9f27"/>
+          <rect x="17" y="31" width="2" height="2" fill="#ba7517" opacity="0.5"/>
+          <rect x="12" y="12" width="12" height="12" rx="1" fill="#0f6e56"/>
+          <rect x="14" y="14" width="3" height="3" fill="#1d9e75"/>
+          <rect x="19" y="14" width="3" height="3" fill="#1d9e75"/>
+          <rect x="17" y="14" width="2" height="2" fill="#085041"/>
+          <rect x="14" y="17" width="2" height="2" fill="#085041"/>
+          <rect x="16" y="16" width="4" height="4" fill="#9fe1cb"/>
+          <rect x="20" y="17" width="2" height="2" fill="#085041"/>
+          <rect x="14" y="19" width="3" height="3" fill="#1d9e75"/>
+          <rect x="17" y="19" width="2" height="2" fill="#0f6e56"/>
+          <rect x="19" y="19" width="3" height="3" fill="#ef9f27" opacity="0.9"/>
+          <line x1="9" y1="9" x2="12" y2="12" stroke="#ba7517" stroke-width="0.8" opacity="0.4"/>
+          <line x1="27" y1="9" x2="24" y2="12" stroke="#ba7517" stroke-width="0.8" opacity="0.4"/>
+          <line x1="9" y1="27" x2="12" y2="24" stroke="#ba7517" stroke-width="0.8" opacity="0.4"/>
+          <line x1="27" y1="27" x2="24" y2="24" stroke="#ba7517" stroke-width="0.8" opacity="0.4"/>
+        </svg>
+        <span style="font-family:'Playfair Display',serif;font-size:20px;font-weight:600;color:#085041">3rd<span style="color:#ba7517">eye</span></span>
+      </a>
+    </div>
+    {{- if .Site.Menus.main }}
+    <ul id="menu">
+      {{- range .Site.Menus.main }}
+      <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+      {{- end }}
+    </ul>
+    {{- end }}
+  </nav>
+</header>

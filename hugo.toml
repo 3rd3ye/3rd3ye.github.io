@@ -1,0 +1,71 @@
+baseURL = 'https://3rd3ye.github.io/'
+languageCode = 'en-us'
+title = '3rd3eye'
+theme = 'PaperMod'
+paginate = 10
+enableRobotsTXT = true
+buildDrafts = false
+
+[params]
+  env = 'production'
+  author = '3rd3eye'
+  description = 'Security researcher & writer — thinking like an attacker, writing like a human.'
+  DateFormat = 'Jan 2, 2006'
+  defaultTheme = 'light'
+  disableThemeToggle = true
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+
+[params.homeInfoParams]
+  Title = '3rd3eye'
+  Content = 'Security researcher & writer — thinking like an attacker, writing like a human.'
+
+[[params.socialIcons]]
+  name = 'github'
+  url = 'https://github.com/3rd3ye'
+
+[[params.socialIcons]]
+  name = 'linkedin'
+  url = 'https://www.linkedin.com/in/3rd3ye/'
+
+[[params.socialIcons]]
+  name = 'rss'
+  url = '/index.xml'
+
+[[menu.main]]
+  identifier = 'writing'
+  name = 'Writing'
+  url = '/posts/'
+  weight = 10
+
+[[menu.main]]
+  identifier = 'tags'
+  name = 'Topics'
+  url = '/tags/'
+  weight = 20
+
+[[menu.main]]
+  identifier = 'about'
+  name = 'About'
+  url = '/about/'
+  weight = 30
+
+[taxonomies]
+  tag = 'tags'
+  category = 'categories'
+  series = 'series'
+
+[markup.highlight]
+  noClasses = false
+  codeFences = true
+  guessSyntax = true
+  lineNos = false
+  style = 'monokai'

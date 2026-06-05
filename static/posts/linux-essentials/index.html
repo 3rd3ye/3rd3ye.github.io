@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Linux Essentials · 3rd3ye</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,400&family=DM+Sans:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#252c3a;--bg2:#2e3548;--bg3:#38405a;--teal:#34f0b8;--teal2:#1e9e78;--teal3:#90f5d8;--gold:#ffc84a;--gold2:#d48e18;--ink:#f0ede6;--ink2:#ccc9c0;--ink3:#a0a09a;--ink4:#6a6a64;--border:#38405a;--font-body:'DM Sans',sans-serif;--font-display:'Lora',serif;--font-mono:'JetBrains Mono',monospace}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);line-height:1.7}
+nav{display:flex;align-items:center;justify-content:space-between;padding:0 36px;height:56px;background:var(--bg);border-bottom:.5px solid var(--border);position:sticky;top:0;z-index:100}
+.logo{font-family:var(--font-display);font-size:19px;font-weight:600;color:var(--teal3);cursor:pointer}
+.logo span{color:var(--gold)}
+.nav-back{font-size:11px;color:var(--ink3);text-decoration:none;font-family:var(--font-mono);transition:color .2s}
+.nav-back:hover{color:var(--teal3)}
+.post{max-width:720px;margin:0 auto;padding:48px 36px 80px}
+.post-cat{font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);margin-bottom:14px}
+.post-title{font-family:var(--font-display);font-size:36px;font-weight:600;line-height:1.18;color:var(--ink);margin-bottom:14px}
+.post-meta{display:flex;align-items:center;gap:12px;padding-bottom:24px;border-bottom:.5px solid var(--border);margin-bottom:32px}
+.post-date{font-family:var(--font-mono);font-size:10px;color:var(--ink4)}
+.post-time{font-size:10px;color:var(--teal2)}
+.post-author{font-size:10px;color:var(--ink4)}
+.content{font-size:15px;line-height:1.88;color:var(--ink2)}
+.content h2{font-family:var(--font-display);font-size:22px;color:var(--ink);margin:36px 0 14px}
+.content h3{font-family:var(--font-display);font-size:18px;color:var(--ink2);margin:26px 0 10px}
+.content p{margin-bottom:20px}
+.content code{font-family:var(--font-mono);background:var(--bg3);border:.5px solid var(--border);border-radius:3px;padding:1px 7px;font-size:13px;color:var(--teal3)}
+.content pre{background:#141c28;border-radius:7px;padding:20px;margin-bottom:22px;overflow-x:auto;border:.5px solid var(--border)}
+.content pre code{background:transparent;border:none;padding:0;color:var(--teal3);font-size:13px}
+.content ul,.content ol{padding-left:22px;margin-bottom:20px}
+.content li{margin-bottom:8px;color:var(--ink2)}
+.content a{color:var(--teal3);border-bottom:.5px solid var(--teal2);text-decoration:none}
+.content blockquote{border-left:2px solid var(--teal2);padding-left:18px;margin:24px 0;font-style:italic;color:var(--ink3)}
+.post-tags{margin-top:36px;padding-top:20px;border-top:.5px solid var(--border);display:flex;gap:8px;flex-wrap:wrap}
+.ptag{font-size:10px;padding:3px 10px;border-radius:20px;background:var(--bg3);border:.5px solid var(--border);color:var(--ink3)}
+footer{background:var(--bg2);border-top:.5px solid var(--border);padding:18px 36px;display:flex;justify-content:space-between;align-items:center}
+.footer-copy{font-family:var(--font-mono);font-size:10px;color:var(--ink4)}
+.footer-nav{display:flex;gap:20px}
+.footer-nav a{font-size:11px;color:var(--ink3);text-decoration:none}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo" onclick="window.location='/'">3rd<span>eye</span></div>
+  <a class="nav-back" href="/">← Back home</a>
+</nav>
+<div class="post">
+  <div class="post-cat">Linux Security</div>
+  <h1 class="post-title">Linux Essentials: Building a Secure Foundation from Scratch</h1>
+  <div class="post-meta">
+    <span class="post-date">2025-04-12</span>
+    <span style="color:#555">·</span>
+    <span class="post-time">6 min read</span>
+    <span style="color:#555">·</span>
+    <span class="post-author">3rd3ye</span>
+  </div>
+  <div class="content">
+    <p>Whether you're setting up a VPS, a home lab, or a CTF machine, starting with a hardened baseline saves significant pain later. This post walks through the essential steps I take on every fresh Linux install.</p>
+
+    <h2>User and Privilege Management</h2>
+    <p>Never run as root for daily tasks. The first thing to do on a new system:</p>
+    <pre><code># Create a non-root user
+adduser analyst
+usermod -aG sudo analyst
+
+# Lock the root account
+passwd -l root</code></pre>
+    <p>Review which users have sudo access:</p>
+    <pre><code>grep -Po '^sudo.+:\K.*$' /etc/group | tr ',' '\n'</code></pre>
+
+    <h2>SSH Hardening</h2>
+    <p>Default SSH configurations are dangerously permissive. Edit <code>/etc/ssh/sshd_config</code>:</p>
+    <pre><code>PermitRootLogin no
+PasswordAuthentication no
+PubkeyAuthentication yes
+MaxAuthTries 3
+AllowUsers analyst
+Protocol 2</code></pre>
+    <p>Generate a strong key pair on your local machine and copy the public key:</p>
+    <pre><code>ssh-keygen -t ed25519 -C "lab-key"
+ssh-copy-id -i ~/.ssh/id_ed25519.pub analyst@target</code></pre>
+
+    <h2>Firewall with UFW</h2>
+    <p>UFW (Uncomplicated Firewall) wraps iptables in a sane interface:</p>
+    <pre><code># Default deny inbound, allow outbound
+ufw default deny incoming
+ufw default allow outgoing
+
+# Allow only what you need
+ufw allow 22/tcp comment 'SSH'
+ufw enable
+
+# Check status
+ufw status verbose</code></pre>
+
+    <h2>Audit Logging with auditd</h2>
+    <p><code>auditd</code> gives you kernel-level visibility into system calls:</p>
+    <pre><code>apt install auditd audispd-plugins
+
+# Watch for privilege escalation attempts
+auditctl -w /etc/sudoers -p wa -k sudoers_change
+auditctl -w /etc/passwd -p wa -k passwd_change
+
+# Watch for suspicious executions
+auditctl -a always,exit -F arch=b64 -S execve -k exec_log
+
+systemctl enable auditd
+systemctl start auditd</code></pre>
+
+    <h2>File Integrity Monitoring</h2>
+    <p>AIDE (Advanced Intrusion Detection Environment) creates a baseline of your filesystem and alerts on changes:</p>
+    <pre><code>apt install aide
+aideinit
+cp /var/lib/aide/aide.db.new /var/lib/aide/aide.db
+
+# Run a check
+aide --check</code></pre>
+
+    <h2>What's Next</h2>
+    <p>These steps form the foundation. From here, the next layer involves:</p>
+    <ul>
+      <li>CIS Benchmark compliance</li>
+      <li>Kernel hardening via <code>sysctl</code></li>
+      <li>AppArmor or SELinux profiles</li>
+      <li>Centralised log shipping (rsyslog → SIEM)</li>
+    </ul>
+    <p>A hardened system isn't a one-time task — it's a practice.</p>
+  </div>
+  <div class="post-tags">
+    <span class="ptag">Linux</span>
+    <span class="ptag">Hardening</span>
+    <span class="ptag">SSH</span>
+    <span class="ptag">UFW</span>
+    <span class="ptag">Beginner</span>
+  </div>
+</div>
+<footer>
+  <span class="footer-copy">© 2025 3RD3YE · All rights reserved</span>
+  <nav class="footer-nav">
+    <a href="https://github.com/3rd3ye" target="_blank">GitHub</a>
+    <a href="/">Home</a>
+    <a href="/about">Contact</a>
+  </nav>
+</footer>
+</body>
+</html>

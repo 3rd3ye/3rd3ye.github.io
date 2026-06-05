@@ -1,0 +1,197 @@
+{{- define "main" }}
+<div class="home-hero">
+  <div class="home-hero-left">
+    <div class="home-hero-eyebrow">Featured · Malware analysis</div>
+    <h1>Fileless malware:<br><em>living off the land</em></h1>
+    <p class="home-hero-sub">How modern attackers exploit trusted system tools — PowerShell, WMI, scheduled tasks — to execute entirely in memory, leaving no trace on disk.</p>
+    <div class="home-hero-byline">
+      <div class="home-hero-avatar">3E</div>
+      <div class="home-hero-meta"><strong>3rd3eye</strong> &nbsp;·&nbsp; May 2025 &nbsp;·&nbsp; 8 min read</div>
+      <a class="home-hero-read" href="/posts/filess-malware/">Read post →</a>
+    </div>
+  </div>
+  <div class="home-hero-vis">
+    <svg width="100%" viewBox="0 0 320 380" xmlns="http://www.w3.org/2000/svg">
+      <rect width="320" height="380" fill="#085041"/>
+      <line x1="160" y1="190" x2="70" y2="105" stroke="#5dcaa5" stroke-width="0.7" opacity="0.35"/>
+      <line x1="160" y1="190" x2="248" y2="112" stroke="#5dcaa5" stroke-width="0.7" opacity="0.35"/>
+      <line x1="160" y1="190" x2="52" y2="268" stroke="#5dcaa5" stroke-width="0.7" opacity="0.35"/>
+      <line x1="160" y1="190" x2="268" y2="275" stroke="#ef9f27" stroke-width="0.7" opacity="0.45"/>
+      <line x1="160" y1="190" x2="160" y2="312" stroke="#5dcaa5" stroke-width="0.7" opacity="0.35"/>
+      <g style="animation:drift 4s ease-in-out infinite">
+        <rect x="148" y="176" width="24" height="30" rx="2" fill="#1d9e75"/>
+        <rect x="150" y="178" width="4" height="4" fill="#9fe1cb" opacity="0.7"/>
+        <rect x="156" y="178" width="4" height="4" fill="#9fe1cb" opacity="0.4"/>
+        <rect x="150" y="184" width="20" height="2" fill="#9fe1cb" opacity="0.4"/>
+        <rect x="150" y="188" width="16" height="2" fill="#9fe1cb" opacity="0.3"/>
+        <rect x="150" y="192" width="20" height="2" fill="#ef9f27" opacity="0.5"/>
+        <text x="160" y="216" text-anchor="middle" font-size="7" fill="#5dcaa5" font-family="monospace">ATTACKER</text>
+      </g>
+      <g style="animation:drift 4s ease-in-out infinite;animation-delay:0.8s">
+        <rect x="56" y="91" width="28" height="28" rx="2" fill="#0f6e56"/>
+        <rect x="58" y="93" width="6" height="6" fill="#9fe1cb" opacity="0.7"/>
+        <rect x="66" y="93" width="16" height="2" fill="#9fe1cb" opacity="0.4"/>
+        <rect x="58" y="101" width="22" height="1.5" fill="#5dcaa5" opacity="0.3"/>
+        <rect x="58" y="105" width="18" height="1.5" fill="#5dcaa5" opacity="0.3"/>
+        <rect x="58" y="109" width="22" height="1.5" fill="#ef9f27" opacity="0.4"/>
+        <text x="70" y="129" text-anchor="middle" font-size="6.5" fill="#9fe1cb" font-family="monospace">PowerShell</text>
+      </g>
+      <g style="animation:pulse-node 2.5s ease-in-out infinite;animation-delay:0.3s">
+        <rect x="234" y="98" width="28" height="28" rx="2" fill="#0f6e56"/>
+        <rect x="236" y="100" width="6" height="6" fill="#9fe1cb" opacity="0.7"/>
+        <rect x="244" y="100" width="16" height="2" fill="#9fe1cb" opacity="0.4"/>
+        <rect x="236" y="108" width="22" height="1.5" fill="#5dcaa5" opacity="0.3"/>
+        <rect x="236" y="112" width="14" height="1.5" fill="#5dcaa5" opacity="0.3"/>
+        <text x="248" y="136" text-anchor="middle" font-size="6.5" fill="#9fe1cb" font-family="monospace">WMI</text>
+      </g>
+      <g style="animation:drift 4.5s ease-in-out infinite;animation-delay:1.2s">
+        <rect x="38" y="254" width="28" height="28" rx="2" fill="#0f6e56"/>
+        <rect x="40" y="256" width="24" height="2" fill="#9fe1cb" opacity="0.5"/>
+        <rect x="40" y="260" width="18" height="2" fill="#5dcaa5" opacity="0.4"/>
+        <rect x="40" y="264" width="22" height="2" fill="#5dcaa5" opacity="0.3"/>
+        <rect x="40" y="268" width="20" height="2" fill="#5dcaa5" opacity="0.3"/>
+        <text x="52" y="292" text-anchor="middle" font-size="6.5" fill="#9fe1cb" font-family="monospace">Registry</text>
+      </g>
+      <g style="animation:pulse-node 2s ease-in-out infinite;animation-delay:0.6s">
+        <rect x="254" y="261" width="28" height="28" rx="2" fill="#633806"/>
+        <rect x="256" y="263" width="4" height="4" fill="#ef9f27" opacity="0.8"/>
+        <rect x="262" y="263" width="4" height="4" fill="#ef9f27" opacity="0.5"/>
+        <rect x="256" y="269" width="22" height="2" fill="#fac775" opacity="0.4"/>
+        <rect x="256" y="273" width="16" height="2" fill="#fac775" opacity="0.3"/>
+        <text x="268" y="299" text-anchor="middle" font-size="6.5" fill="#fac775" font-family="monospace">C2 server</text>
+      </g>
+      <g style="animation:drift 3.8s ease-in-out infinite;animation-delay:0.5s">
+        <rect x="146" y="298" width="28" height="22" rx="2" fill="#0f6e56"/>
+        <rect x="148" y="300" width="24" height="2" fill="#9fe1cb" opacity="0.6"/>
+        <rect x="148" y="304" width="18" height="1.5" fill="#5dcaa5" opacity="0.4"/>
+        <rect x="148" y="308" width="22" height="1.5" fill="#ef9f27" opacity="0.4"/>
+        <text x="160" y="330" text-anchor="middle" font-size="6.5" fill="#9fe1cb" font-family="monospace">Schtasks</text>
+      </g>
+      <text x="160" y="46" text-anchor="middle" font-size="9" fill="#9fe1cb" font-family="serif" opacity="0.65" style="animation:flicker 8s ease-in-out infinite">Attack surface map</text>
+      <text x="160" y="60" text-anchor="middle" font-size="7" fill="#5dcaa5" font-family="monospace" opacity="0.4">fileless execution paths</text>
+    </svg>
+  </div>
+</div>
+
+<div class="tag-bar">
+  <a href="/posts/" class="active">All</a>
+  <a href="/tags/malware/">Malware</a>
+  <a href="/tags/linux/">Linux</a>
+  <a href="/tags/forensics/">Forensics</a>
+  <a href="/tags/ctf/">CTF</a>
+  <a href="/tags/reverse-engineering/">Reverse eng.</a>
+  <a href="/tags/writeups/" class="warm">Writeups</a>
+  <a href="/tags/tooling/" class="warm">Tooling</a>
+</div>
+
+<div class="page-layout">
+  <div class="posts-col">
+    <div class="posts-col-header">
+      <span class="posts-col-label">Latest writing</span>
+      <a class="rss-btn" href="/index.xml">RSS</a>
+    </div>
+
+    {{- range .Pages }}
+    <div class="post-card">
+      <div>
+        <div class="post-card-cat">{{ with .Params.categories }}{{ index . 0 }}{{ end }}</div>
+        <a class="post-card-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <div class="post-card-excerpt">{{ .Summary | truncate 160 }}</div>
+        <div class="post-card-meta">
+          <span class="post-card-date">{{ .Date.Format "2006-01-02" }}</span>
+          <span class="post-card-sep">·</span>
+          <span class="post-card-time">{{ .ReadingTime }} min read</span>
+        </div>
+        <div class="post-card-tags">
+          {{- range .Params.tags }}
+          <a class="post-card-tag" href="/tags/{{ . | urlize }}/">{{ . }}</a>
+          {{- end }}
+        </div>
+      </div>
+      <div class="post-card-thumb">
+        {{ with .Params.cover }}
+        <img src="{{ .image }}" alt="{{ .alt }}" style="width:100%;height:100%;object-fit:cover;">
+        {{ else }}
+        <svg viewBox="0 0 96 70" xmlns="http://www.w3.org/2000/svg" width="96" height="70">
+          <rect width="96" height="70" fill="#085041" rx="8"/>
+          <rect x="8" y="8" width="80" height="10" rx="1" fill="#0f6e56"/>
+          <rect x="10" y="10" width="8" height="6" rx="1" fill="#9fe1cb" opacity="0.8"/>
+          <rect x="8" y="22" width="80" height="40" rx="1" fill="#04342c"/>
+          <rect x="12" y="28" width="60" height="2" fill="#1d9e75" opacity="0.7"/>
+          <rect x="12" y="33" width="44" height="2" fill="#5dcaa5" opacity="0.5"/>
+          <rect x="12" y="38" width="55" height="2" fill="#5dcaa5" opacity="0.4"/>
+          <rect x="12" y="43" width="35" height="2" fill="#ef9f27" opacity="0.5"/>
+          <rect x="12" y="48" width="50" height="2" fill="#5dcaa5" opacity="0.35"/>
+          <rect x="12" y="53" width="40" height="2" fill="#1d9e75" opacity="0.4"/>
+        </svg>
+        {{ end }}
+      </div>
+    </div>
+    {{- end }}
+
+    <div class="coming-card">
+      <div>
+        <div class="coming-label">Next up</div>
+        <div class="coming-title">Reverse engineering a ransomware sample — a step-by-step VM walkthrough</div>
+      </div>
+      <button class="coming-btn">Notify me →</button>
+    </div>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sb">
+      <div class="sb-title">About me</div>
+      <div class="sb-about">
+        <div class="sb-avatar">3E</div>
+        <div>
+          <div class="sb-name">3rd3eye</div>
+          <div class="sb-role">Security researcher & writer</div>
+          <div class="sb-bio">Learning in public — documenting malware analysis, Linux internals, and CTF writeups as I go deeper into offensive security.</div>
+          <div class="sb-links">
+            <a class="sb-link" href="https://github.com/3rd3ye" target="_blank">GitHub</a>
+            <a class="sb-link" href="https://www.linkedin.com/in/3rd3ye/" target="_blank">LinkedIn</a>
+            <a class="sb-link" href="https://tryhackme.com" target="_blank">TryHackMe</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sb">
+      <div class="sb-title">Stay in the loop</div>
+      <div class="sb-nl-desc">New posts, tools, and writeups — no noise, no spam.</div>
+      <input class="sb-nl-input" type="email" placeholder="your@email.com"/>
+      <button class="sb-nl-btn">Subscribe →</button>
+      <div class="sb-nl-note">~2 emails/month · No spam ever</div>
+    </div>
+
+    <div class="sb">
+      <div class="sb-title">Work with me</div>
+      <div class="sb-hire">
+        <div class="sb-hire-top">
+          <div class="sb-hire-heading">Open to consulting & collab</div>
+          <div class="sb-hire-sub">Security · Content · CTF training</div>
+        </div>
+        <div class="sb-hire-body">
+          <ul class="sb-hire-list">
+            <li>Malware analysis & writeups</li>
+            <li>Security blog ghostwriting</li>
+            <li>CTF team training</li>
+            <li>Tool reviews & sponsorships</li>
+          </ul>
+          <a class="sb-hire-btn" href="/contact/">Get in touch →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="sb">
+      <div class="sb-title">Start here — learning path</div>
+      <div class="sb-path">
+        <div class="sb-path-item"><div class="sb-path-num">1</div><div><div class="sb-path-name">Linux fundamentals</div><div class="sb-path-desc">Filesystem, permissions, networking basics</div><span class="sb-path-badge">Read my post</span></div></div>
+        <div class="sb-path-item"><div class="sb-path-num">2</div><div><div class="sb-path-name">Networking & protocols</div><div class="sb-path-desc">TCP/IP, DNS, Wireshark practice</div><span class="sb-path-badge">TryHackMe</span></div></div>
+        <div class="sb-path-item"><div class="sb-path-num">3</div><div><div class="sb-path-name">Web app hacking</div><div class="sb-path-desc">OWASP Top 10, Burp Suite, SQLi</div><span class="sb-path-badge">PortSwigger</span></div></div>
+        <div class="sb-path-item"><div class="sb-path-num">4</div><div><div class="sb-path-name">Malware & reverse engineering</div><div class="sb-path-desc">Static/dynamic analysis, Ghidra</div><span class="sb-path-badge">Read my post</span></div></div>
+      </div>
+    </div>
+  </aside>
+</div>
+{{- end }}

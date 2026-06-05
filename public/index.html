@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="light">
+
+<head>
+	<meta name="generator" content="Hugo 0.162.1"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>3rd3eye</title>
+
+<meta name="description" content="Security researcher &amp; writer — thinking like an attacker, writing like a human.">
+<meta name="author" content="3rd3eye">
+<link rel="canonical" href="http://localhost:1313/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.89ca4972ab5e6aaa05e9a0dae0c4bb64b26585bc79e36f5cf33614eea0283abe.css" integrity="sha256-icpJcqteaqoF6aDa4MS7ZLJlhbx5429c8zYU7qAoOr4=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><link rel="stylesheet" href="/css/custom.css">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta property="og:url" content="http://localhost:1313/">
+  <meta property="og:site_name" content="3rd3eye">
+  <meta property="og:title" content="3rd3eye">
+  <meta property="og:description" content="Security researcher &amp; writer — thinking like an attacker, writing like a human.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="3rd3eye">
+  <meta name="twitter:description" content="Security researcher &amp; writer — thinking like an attacker, writing like a human.">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "3rd3eye",
+  "url": "http://localhost:1313/",
+  "description": "Security researcher \u0026 writer — thinking like an attacker, writing like a human.",
+  "logo": "http://localhost:1313/favicon.ico",
+  "sameAs": [
+      "https://github.com/3rd3ye", "https://www.linkedin.com/in/3rd3ye/", "/index.xml"
+  ]
+}
+</script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+  <nav class="nav">
+    <div class="logo">
+      <a href="/">
+        <svg width="32" height="32" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+          <rect x="14" y="2" width="3" height="3" fill="#ef9f27"/>
+          <rect x="19" y="2" width="3" height="3" fill="#ef9f27"/>
+          <rect x="17" y="2" width="2" height="2" fill="#ba7517" opacity="0.5"/>
+          <rect x="11" y="5" width="3" height="3" fill="#ef9f27" opacity="0.8"/>
+          <rect x="22" y="5" width="3" height="3" fill="#ef9f27" opacity="0.8"/>
+          <rect x="7" y="7" width="2" height="2" fill="#ba7517" opacity="0.6"/>
+          <rect x="27" y="7" width="2" height="2" fill="#ba7517" opacity="0.6"/>
+          <rect x="5" y="14" width="3" height="3" fill="#ef9f27"/>
+          <rect x="5" y="19" width="3" height="3" fill="#ef9f27"/>
+          <rect x="28" y="14" width="3" height="3" fill="#ef9f27"/>
+          <rect x="28" y="19" width="3" height="3" fill="#ef9f27"/>
+          <rect x="7" y="27" width="2" height="2" fill="#ba7517" opacity="0.6"/>
+          <rect x="27" y="27" width="2" height="2" fill="#ba7517" opacity="0.6"/>
+          <rect x="11" y="28" width="3" height="3" fill="#ef9f27" opacity="0.8"/>
+          <rect x="22" y="28" width="3" height="3" fill="#ef9f27" opacity="0.8"/>
+          <rect x="14" y="31" width="3" height="3" fill="#ef9f27"/>
+          <rect x="19" y="31" width="3" height="3" fill="#ef9f27"/>
+          <rect x="17" y="31" width="2" height="2" fill="#ba7517" opacity="0.5"/>
+          <rect x="12" y="12" width="12" height="12" rx="1" fill="#0f6e56"/>
+          <rect x="14" y="14" width="3" height="3" fill="#1d9e75"/>
+          <rect x="19" y="14" width="3" height="3" fill="#1d9e75"/>
+          <rect x="17" y="14" width="2" height="2" fill="#085041"/>
+          <rect x="14" y="17" width="2" height="2" fill="#085041"/>
+          <rect x="16" y="16" width="4" height="4" fill="#9fe1cb"/>
+          <rect x="20" y="17" width="2" height="2" fill="#085041"/>
+          <rect x="14" y="19" width="3" height="3" fill="#1d9e75"/>
+          <rect x="17" y="19" width="2" height="2" fill="#0f6e56"/>
+          <rect x="19" y="19" width="3" height="3" fill="#ef9f27" opacity="0.9"/>
+          <line x1="9" y1="9" x2="12" y2="12" stroke="#ba7517" stroke-width="0.8" opacity="0.4"/>
+          <line x1="27" y1="9" x2="24" y2="12" stroke="#ba7517" stroke-width="0.8" opacity="0.4"/>
+          <line x1="9" y1="27" x2="12" y2="24" stroke="#ba7517" stroke-width="0.8" opacity="0.4"/>
+          <line x1="27" y1="27" x2="24" y2="24" stroke="#ba7517" stroke-width="0.8" opacity="0.4"/>
+        </svg>
+        <span style="font-family:'Playfair Display',serif;font-size:20px;font-weight:600;color:#085041">3rd<span style="color:#ba7517">eye</span></span>
+      </a>
+    </div>
+    <ul id="menu">
+      <li><a href="/posts/">Writing</a></li>
+      <li><a href="/tags/">Topics</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+  </nav>
+</header><main class="main">
+<div class="home-hero">
+  <div class="home-hero-left">
+    <div class="home-hero-eyebrow">Featured · Malware analysis</div>
+    <h1>Fileless malware:<br><em>living off the land</em></h1>
+    <p class="home-hero-sub">How modern attackers exploit trusted system tools — PowerShell, WMI, scheduled tasks — to execute entirely in memory, leaving no trace on disk.</p>
+    <div class="home-hero-byline">
+      <div class="home-hero-avatar">3E</div>
+      <div class="home-hero-meta"><strong>3rd3eye</strong> &nbsp;·&nbsp; May 2025 &nbsp;·&nbsp; 8 min read</div>
+      <a class="home-hero-read" href="/posts/filess-malware/">Read post →</a>
+    </div>
+  </div>
+  <div class="home-hero-vis">
+    <svg width="100%" viewBox="0 0 320 380" xmlns="http://www.w3.org/2000/svg">
+      <rect width="320" height="380" fill="#085041"/>
+      <line x1="160" y1="190" x2="70" y2="105" stroke="#5dcaa5" stroke-width="0.7" opacity="0.35"/>
+      <line x1="160" y1="190" x2="248" y2="112" stroke="#5dcaa5" stroke-width="0.7" opacity="0.35"/>
+      <line x1="160" y1="190" x2="52" y2="268" stroke="#5dcaa5" stroke-width="0.7" opacity="0.35"/>
+      <line x1="160" y1="190" x2="268" y2="275" stroke="#ef9f27" stroke-width="0.7" opacity="0.45"/>
+      <line x1="160" y1="190" x2="160" y2="312" stroke="#5dcaa5" stroke-width="0.7" opacity="0.35"/>
+      <g style="animation:drift 4s ease-in-out infinite">
+        <rect x="148" y="176" width="24" height="30" rx="2" fill="#1d9e75"/>
+        <rect x="150" y="178" width="4" height="4" fill="#9fe1cb" opacity="0.7"/>
+        <rect x="156" y="178" width="4" height="4" fill="#9fe1cb" opacity="0.4"/>
+        <rect x="150" y="184" width="20" height="2" fill="#9fe1cb" opacity="0.4"/>
+        <rect x="150" y="188" width="16" height="2" fill="#9fe1cb" opacity="0.3"/>
+        <rect x="150" y="192" width="20" height="2" fill="#ef9f27" opacity="0.5"/>
+        <text x="160" y="216" text-anchor="middle" font-size="7" fill="#5dcaa5" font-family="monospace">ATTACKER</text>
+      </g>
+      <g style="animation:drift 4s ease-in-out infinite;animation-delay:0.8s">
+        <rect x="56" y="91" width="28" height="28" rx="2" fill="#0f6e56"/>
+        <rect x="58" y="93" width="6" height="6" fill="#9fe1cb" opacity="0.7"/>
+        <rect x="66" y="93" width="16" height="2" fill="#9fe1cb" opacity="0.4"/>
+        <rect x="58" y="101" width="22" height="1.5" fill="#5dcaa5" opacity="0.3"/>
+        <rect x="58" y="105" width="18" height="1.5" fill="#5dcaa5" opacity="0.3"/>
+        <rect x="58" y="109" width="22" height="1.5" fill="#ef9f27" opacity="0.4"/>
+        <text x="70" y="129" text-anchor="middle" font-size="6.5" fill="#9fe1cb" font-family="monospace">PowerShell</text>
+      </g>
+      <g style="animation:pulse-node 2.5s ease-in-out infinite;animation-delay:0.3s">
+        <rect x="234" y="98" width="28" height="28" rx="2" fill="#0f6e56"/>
+        <rect x="236" y="100" width="6" height="6" fill="#9fe1cb" opacity="0.7"/>
+        <rect x="244" y="100" width="16" height="2" fill="#9fe1cb" opacity="0.4"/>
+        <rect x="236" y="108" width="22" height="1.5" fill="#5dcaa5" opacity="0.3"/>
+        <rect x="236" y="112" width="14" height="1.5" fill="#5dcaa5" opacity="0.3"/>
+        <text x="248" y="136" text-anchor="middle" font-size="6.5" fill="#9fe1cb" font-family="monospace">WMI</text>
+      </g>
+      <g style="animation:drift 4.5s ease-in-out infinite;animation-delay:1.2s">
+        <rect x="38" y="254" width="28" height="28" rx="2" fill="#0f6e56"/>
+        <rect x="40" y="256" width="24" height="2" fill="#9fe1cb" opacity="0.5"/>
+        <rect x="40" y="260" width="18" height="2" fill="#5dcaa5" opacity="0.4"/>
+        <rect x="40" y="264" width="22" height="2" fill="#5dcaa5" opacity="0.3"/>
+        <rect x="40" y="268" width="20" height="2" fill="#5dcaa5" opacity="0.3"/>
+        <text x="52" y="292" text-anchor="middle" font-size="6.5" fill="#9fe1cb" font-family="monospace">Registry</text>
+      </g>
+      <g style="animation:pulse-node 2s ease-in-out infinite;animation-delay:0.6s">
+        <rect x="254" y="261" width="28" height="28" rx="2" fill="#633806"/>
+        <rect x="256" y="263" width="4" height="4" fill="#ef9f27" opacity="0.8"/>
+        <rect x="262" y="263" width="4" height="4" fill="#ef9f27" opacity="0.5"/>
+        <rect x="256" y="269" width="22" height="2" fill="#fac775" opacity="0.4"/>
+        <rect x="256" y="273" width="16" height="2" fill="#fac775" opacity="0.3"/>
+        <text x="268" y="299" text-anchor="middle" font-size="6.5" fill="#fac775" font-family="monospace">C2 server</text>
+      </g>
+      <g style="animation:drift 3.8s ease-in-out infinite;animation-delay:0.5s">
+        <rect x="146" y="298" width="28" height="22" rx="2" fill="#0f6e56"/>
+        <rect x="148" y="300" width="24" height="2" fill="#9fe1cb" opacity="0.6"/>
+        <rect x="148" y="304" width="18" height="1.5" fill="#5dcaa5" opacity="0.4"/>
+        <rect x="148" y="308" width="22" height="1.5" fill="#ef9f27" opacity="0.4"/>
+        <text x="160" y="330" text-anchor="middle" font-size="6.5" fill="#9fe1cb" font-family="monospace">Schtasks</text>
+      </g>
+      <text x="160" y="46" text-anchor="middle" font-size="9" fill="#9fe1cb" font-family="serif" opacity="0.65" style="animation:flicker 8s ease-in-out infinite">Attack surface map</text>
+      <text x="160" y="60" text-anchor="middle" font-size="7" fill="#5dcaa5" font-family="monospace" opacity="0.4">fileless execution paths</text>
+    </svg>
+  </div>
+</div>
+
+<div class="tag-bar">
+  <a href="/posts/" class="active">All</a>
+  <a href="/tags/malware/">Malware</a>
+  <a href="/tags/linux/">Linux</a>
+  <a href="/tags/forensics/">Forensics</a>
+  <a href="/tags/ctf/">CTF</a>
+  <a href="/tags/reverse-engineering/">Reverse eng.</a>
+  <a href="/tags/writeups/" class="warm">Writeups</a>
+  <a href="/tags/tooling/" class="warm">Tooling</a>
+</div>
+
+<div class="page-layout">
+  <div class="posts-col">
+    <div class="posts-col-header">
+      <span class="posts-col-label">Latest writing</span>
+      <a class="rss-btn" href="/index.xml">RSS</a>
+    </div>
+    <div class="post-card">
+      <div>
+        <div class="post-card-cat"></div>
+        <a class="post-card-title" href="/posts/">Posts</a>
+        <div class="post-card-excerpt"></div>
+        <div class="post-card-meta">
+          <span class="post-card-date">2026-05-31</span>
+          <span class="post-card-sep">·</span>
+          <span class="post-card-time">0 min read</span>
+        </div>
+        <div class="post-card-tags">
+        </div>
+      </div>
+      <div class="post-card-thumb">
+        
+        <svg viewBox="0 0 96 70" xmlns="http://www.w3.org/2000/svg" width="96" height="70">
+          <rect width="96" height="70" fill="#085041" rx="8"/>
+          <rect x="8" y="8" width="80" height="10" rx="1" fill="#0f6e56"/>
+          <rect x="10" y="10" width="8" height="6" rx="1" fill="#9fe1cb" opacity="0.8"/>
+          <rect x="8" y="22" width="80" height="40" rx="1" fill="#04342c"/>
+          <rect x="12" y="28" width="60" height="2" fill="#1d9e75" opacity="0.7"/>
+          <rect x="12" y="33" width="44" height="2" fill="#5dcaa5" opacity="0.5"/>
+          <rect x="12" y="38" width="55" height="2" fill="#5dcaa5" opacity="0.4"/>
+          <rect x="12" y="43" width="35" height="2" fill="#ef9f27" opacity="0.5"/>
+          <rect x="12" y="48" width="50" height="2" fill="#5dcaa5" opacity="0.35"/>
+          <rect x="12" y="53" width="40" height="2" fill="#1d9e75" opacity="0.4"/>
+        </svg>
+        
+      </div>
+    </div>
+
+    <div class="coming-card">
+      <div>
+        <div class="coming-label">Next up</div>
+        <div class="coming-title">Reverse engineering a ransomware sample — a step-by-step VM walkthrough</div>
+      </div>
+      <button class="coming-btn">Notify me →</button>
+    </div>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sb">
+      <div class="sb-title">About me</div>
+      <div class="sb-about">
+        <div class="sb-avatar">3E</div>
+        <div>
+          <div class="sb-name">3rd3eye</div>
+          <div class="sb-role">Security researcher & writer</div>
+          <div class="sb-bio">Learning in public — documenting malware analysis, Linux internals, and CTF writeups as I go deeper into offensive security.</div>
+          <div class="sb-links">
+            <a class="sb-link" href="https://github.com/3rd3ye" target="_blank">GitHub</a>
+            <a class="sb-link" href="https://www.linkedin.com/in/3rd3ye/" target="_blank">LinkedIn</a>
+            <a class="sb-link" href="https://tryhackme.com" target="_blank">TryHackMe</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sb">
+      <div class="sb-title">Stay in the loop</div>
+      <div class="sb-nl-desc">New posts, tools, and writeups — no noise, no spam.</div>
+      <input class="sb-nl-input" type="email" placeholder="your@email.com"/>
+      <button class="sb-nl-btn">Subscribe →</button>
+      <div class="sb-nl-note">~2 emails/month · No spam ever</div>
+    </div>
+
+    <div class="sb">
+      <div class="sb-title">Work with me</div>
+      <div class="sb-hire">
+        <div class="sb-hire-top">
+          <div class="sb-hire-heading">Open to consulting & collab</div>
+          <div class="sb-hire-sub">Security · Content · CTF training</div>
+        </div>
+        <div class="sb-hire-body">
+          <ul class="sb-hire-list">
+            <li>Malware analysis & writeups</li>
+            <li>Security blog ghostwriting</li>
+            <li>CTF team training</li>
+            <li>Tool reviews & sponsorships</li>
+          </ul>
+          <a class="sb-hire-btn" href="/contact/">Get in touch →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="sb">
+      <div class="sb-title">Start here — learning path</div>
+      <div class="sb-path">
+        <div class="sb-path-item"><div class="sb-path-num">1</div><div><div class="sb-path-name">Linux fundamentals</div><div class="sb-path-desc">Filesystem, permissions, networking basics</div><span class="sb-path-badge">Read my post</span></div></div>
+        <div class="sb-path-item"><div class="sb-path-num">2</div><div><div class="sb-path-name">Networking & protocols</div><div class="sb-path-desc">TCP/IP, DNS, Wireshark practice</div><span class="sb-path-badge">TryHackMe</span></div></div>
+        <div class="sb-path-item"><div class="sb-path-num">3</div><div><div class="sb-path-name">Web app hacking</div><div class="sb-path-desc">OWASP Top 10, Burp Suite, SQLi</div><span class="sb-path-badge">PortSwigger</span></div></div>
+        <div class="sb-path-item"><div class="sb-path-num">4</div><div><div class="sb-path-name">Malware & reverse engineering</div><div class="sb-path-desc">Static/dynamic analysis, Ghidra</div><span class="sb-path-badge">Read my post</span></div></div>
+      </div>
+    </div>
+  </aside>
+</div>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">3rd3eye</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+</body>
+
+</html>

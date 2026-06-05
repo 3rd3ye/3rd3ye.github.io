@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insights · 3rd3ye Security Research</title>
+<meta name="description" content="Security research blog covering malware analysis, Linux internals, reverse engineering, and threat modelling. Learning in public.">
+<meta name="author" content="3rd3ye">
+<meta property="og:title" content="Insights · 3rd3ye">
+<meta property="og:description" content="Malware analysis, Linux internals, reverse engineering and threat intelligence — written for humans.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://3rd3ye.github.io">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Insights · 3rd3ye">
+<meta name="twitter:description" content="Malware analysis, Linux internals, reverse engineering and threat intelligence.">
+<link rel="canonical" href="https://3rd3ye.github.io">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36'%3E%3Crect x='12' y='12' width='12' height='12' rx='1' fill='%231e9e78'/%3E%3Crect x='14' y='14' width='3' height='3' fill='%2334f0b8'/%3E%3Crect x='19' y='14' width='3' height='3' fill='%2334f0b8'/%3E%3Crect x='16' y='16' width='4' height='4' fill='%2390f5d8'/%3E%3Crect x='14' y='19' width='3' height='3' fill='%2334f0b8'/%3E%3Crect x='19' y='19' width='3' height='3' fill='%23ffc84a'/%3E%3Crect x='14' y='2' width='3' height='3' fill='%23ffc84a'/%3E%3Crect x='19' y='2' width='3' height='3' fill='%23ffc84a'/%3E%3Crect x='14' y='31' width='3' height='3' fill='%23ffc84a'/%3E%3Crect x='19' y='31' width='3' height='3' fill='%23ffc84a'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,400&family=DM+Sans:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+@keyframes drift{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@keyframes puls{0%,100%{opacity:.2}50%{opacity:.9}}
+@keyframes fadeIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes scanPulse{0%,100%{opacity:.03}50%{opacity:.08}}
+@keyframes barGrow{from{width:0}to{width:var(--w)}}
+@keyframes timelineDrop{from{opacity:0;transform:translateX(-8px)}to{opacity:1;transform:translateX(0)}}
+
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  /* Much lighter palette — steel blue-grey base */
+  --bg:   #2a3042;
+  --bg2:  #323a52;
+  --bg3:  #3b4460;
+  --bg4:  #47526e;
+  --bg5:  #546080;
+
+  --teal: #34f0b8;
+  --teal2:#1e9e78;
+  --teal3:#90f5d8;
+  --teal4:#d6fdf0;
+
+  --blue: #7ee8c8;
+  --blue2:#2a9e84;
+  --blue3:#c8f5eb;
+
+  --gold: #ffc84a;
+  --gold2:#d48e18;
+  --gold3:#ffe9a8;
+
+  --red:  #ff7a68;
+  --red2: #b83020;
+  --red3: #ffd0cc;
+
+  --purple:#c09aff;
+  --purple2:#7855e0;
+  --purple3:#e4d8ff;
+
+  --ink:  #f0ede6;
+  --ink2: #ccc9c0;
+  --ink3: #a0a09a;
+  --ink4: #6a6a64;
+
+  --border:#3a4462;
+  --border2:#4a5578;
+
+  --font-body:'DM Sans',sans-serif;
+  --font-display:'Lora',serif;
+  --font-mono:'JetBrains Mono',monospace;
+}
+html{font-size:15px}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);line-height:1.6}
+a{text-decoration:none;color:inherit}
+
+/* ── NAV ── */
+.nav{display:flex;align-items:center;justify-content:space-between;padding:0 36px;height:64px;background:var(--bg);border-bottom:.5px solid var(--border);position:sticky;top:0;z-index:100;backdrop-filter:blur(14px)}
+.logo{display:flex;align-items:center;gap:0;cursor:pointer}
+.hero-tagline{font-family:var(--font-mono);font-size:10.5px;color:var(--ink4);letter-spacing:.5px;font-style:italic;margin-bottom:20px;opacity:.8}
+.nav-links{display:flex;gap:28px;list-style:none}
+.nav-links a{font-size:10.5px;font-weight:500;letter-spacing:1.4px;text-transform:uppercase;color:var(--ink3);transition:color .2s;cursor:pointer}
+.nav-links a:hover{color:var(--teal3)}
+.nav-cta{font-family:var(--font-body);font-size:11px;color:var(--ink3);border:.5px solid var(--border2);padding:6px 16px;border-radius:4px;background:transparent;cursor:pointer;transition:all .2s}
+.nav-cta:hover{border-color:var(--teal2);color:var(--teal3)}
+
+/* ── HERO ── */
+.hero{display:flex;flex-direction:column;border-bottom:.5px solid var(--border);width:100%}
+.hero-l{padding:20px 40px 24px;display:flex;flex-direction:column;justify-content:flex-start;position:relative;overflow:hidden;background:var(--bg);width:100%}
+.scanlines{position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 3px,rgba(255,255,255,.005) 3px,rgba(255,255,255,.005) 4px);pointer-events:none;animation:scanPulse 4s ease-in-out infinite}
+.hero-eyebrow{font-size:9px;letter-spacing:3.5px;text-transform:uppercase;color:var(--gold);font-weight:500;margin-bottom:12px;display:flex;align-items:center;gap:10px;animation:fadeIn .5s ease both}
+.hero-eyebrow::before{content:'';width:20px;height:.5px;background:var(--gold);opacity:.7}
+.hero-h1{font-family:var(--font-display);font-size:28px;font-weight:600;line-height:1.15;color:var(--ink);margin-bottom:6px;animation:fadeIn .5s ease both .1s}
+.hero-h1 em{font-style:italic;font-weight:400;color:var(--teal3)}
+.hero-quote{font-size:11.5px;line-height:1.8;color:var(--ink2);margin-bottom:20px;border-left:1.5px solid var(--teal2);padding-left:14px;font-style:italic;max-width:380px;animation:fadeIn .5s ease both .25s}
+.hero-btns{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:20px;animation:fadeIn .5s ease both .32s}
+.btn-p{padding:10px 22px;background:var(--teal2);color:var(--teal3);border:none;border-radius:5px;font-size:12px;font-weight:500;cursor:pointer;font-family:var(--font-body);transition:background .2s}
+.btn-p:hover{background:#27c096}
+.btn-s{padding:10px 22px;background:transparent;color:var(--ink2);border:.5px solid var(--border2);border-radius:5px;font-size:12px;font-weight:500;cursor:pointer;font-family:var(--font-body);transition:all .2s}
+.btn-s:hover{border-color:var(--blue2);color:var(--blue3)}
+.hero-stats{display:flex;gap:24px;padding-top:22px;border-top:.5px solid var(--border);animation:fadeIn .5s ease both .4s}
+.stat-n{font-family:var(--font-mono);font-size:20px;font-weight:500;color:var(--teal3)}
+.stat-l{font-size:9px;color:var(--ink4);letter-spacing:.6px;margin-top:3px;text-transform:uppercase}
+.hero-r{background:var(--bg2);overflow:hidden;position:relative;width:100%;height:360px;flex-shrink:0}
+
+/* ── TAGBAR ── */
+.tagbar{display:flex;gap:7px;padding:12px 36px;border-bottom:.5px solid var(--border);flex-wrap:wrap;background:var(--bg);align-items:center}
+.tbl{font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:var(--ink4);margin-right:4px}
+.tag{font-size:10px;padding:4px 13px;border-radius:20px;border:.5px solid var(--border2);color:var(--ink3);cursor:pointer;background:transparent;white-space:nowrap;transition:all .18s;font-family:var(--font-body)}
+.tag.on,.tag:hover{background:var(--teal2);color:var(--teal3);border-color:var(--teal2)}
+.tag.b{border-color:var(--blue2);color:var(--blue3)}.tag.b:hover{background:var(--blue2);color:var(--blue3)}
+.tag.p{border-color:var(--purple2);color:var(--purple3)}.tag.p:hover{background:var(--purple2);color:var(--purple3)}
+.tag.g{border-color:var(--gold2);color:var(--gold3)}.tag.g:hover{background:var(--gold2);color:var(--gold3)}
+.tag.r{border-color:var(--red2);color:var(--red3)}.tag.r:hover{background:var(--red2);color:var(--red3)}
+
+/* ── MAIN BODY GRID ── */
+.body{display:grid;grid-template-columns:1fr 292px;padding:0 36px}
+.posts{padding:28px 32px 36px 0;border-right:.5px solid var(--border)}
+.posts-hd{display:flex;align-items:center;justify-content:space-between;margin-bottom:22px}
+.posts-lbl{font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:var(--ink4)}
+.rss{font-size:11px;color:var(--gold);font-weight:500;cursor:pointer}
+
+/* Post cards */
+.pcard{display:grid;grid-template-columns:1fr 90px;gap:20px;padding:24px 0;border-bottom:.5px solid var(--border);cursor:pointer}
+.pcard:hover .ptitle{color:var(--teal3)}
+.pcat{font-size:9px;font-weight:500;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);margin-bottom:8px}
+.ptitle{font-family:var(--font-display);font-size:17px;font-weight:600;line-height:1.32;color:var(--ink);margin-bottom:9px;transition:color .2s}
+.pexc{font-size:12px;line-height:1.85;color:var(--ink3);margin-bottom:11px}
+.pmeta{display:flex;align-items:center;gap:8px}
+.pdate{font-family:var(--font-mono);font-size:9.5px;color:var(--ink4)}
+.ptime{font-size:9.5px;color:var(--teal);font-weight:500}
+.ptags{display:flex;gap:5px;flex-wrap:wrap;margin-top:9px}
+.ptag{font-size:9px;padding:2px 9px;border-radius:20px;background:var(--bg3);border:.5px solid var(--border);color:var(--ink3)}
+.pthumb{border-radius:6px;overflow:hidden;height:68px;align-self:start;margin-top:4px}
+
+/* Coming soon */
+.coming{margin-top:0;border:.5px solid var(--purple2);border-radius:8px;padding:18px 20px;background:rgba(120,85,224,.08);display:flex;align-items:center;justify-content:space-between;gap:14px}
+.coming-lbl{font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--purple3);margin-bottom:5px}
+.coming-title{font-family:var(--font-display);font-size:13px;color:var(--ink);line-height:1.42}
+.coming-btn{padding:7px 14px;background:var(--purple2);color:var(--purple3);border:none;border-radius:5px;font-size:11px;font-weight:500;cursor:pointer;white-space:nowrap;font-family:var(--font-body)}
+
+/* ── SECTION LABEL (reused) ── */
+.sec-lbl{font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:var(--ink4);padding-bottom:11px;border-bottom:.5px solid var(--border);margin-bottom:16px}
+
+/* ── ACTIVITY TIMELINE ── */
+.timeline{margin-top:28px}
+.tl-item{display:flex;gap:14px;padding-bottom:18px;position:relative}
+.tl-item:not(:last-child) .tl-line{position:absolute;left:7px;top:16px;bottom:0;width:.5px;background:var(--border2)}
+.tl-dot{width:15px;height:15px;border-radius:50%;flex-shrink:0;margin-top:2px;display:flex;align-items:center;justify-content:center;border:.5px solid;position:relative;z-index:1}
+.tl-dot span{width:5px;height:5px;border-radius:50%;display:block}
+.tl-body{}
+.tl-type{font-size:9px;font-weight:500;letter-spacing:1.8px;text-transform:uppercase;margin-bottom:3px}
+.tl-title{font-size:12px;font-weight:500;color:var(--ink);margin-bottom:2px;line-height:1.4}
+.tl-meta{font-size:10px;color:var(--ink4)}
+
+/* ── THREAT INTEL TABLE ── */
+.threat-table{width:100%;border-collapse:collapse;margin-top:28px}
+.threat-table caption{font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:var(--ink4);padding-bottom:11px;border-bottom:.5px solid var(--border);margin-bottom:12px;text-align:left;caption-side:top;padding-top:0}
+.threat-table th{font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--ink4);font-weight:500;padding:8px 10px 8px 0;border-bottom:.5px solid var(--border);text-align:left}
+.threat-table td{font-size:11px;padding:9px 10px 9px 0;border-bottom:.5px solid var(--border);vertical-align:middle;color:var(--ink2)}
+.threat-table tr:last-child td{border-bottom:none}
+.threat-table tr:hover td{color:var(--ink)}
+.tt-name{font-weight:500;color:var(--ink);font-family:var(--font-mono);font-size:10.5px}
+.tt-badge{display:inline-block;font-size:9px;padding:2px 8px;border-radius:3px;font-weight:500;white-space:nowrap}
+.tt-sev{display:flex;align-items:center;gap:5px;font-family:var(--font-mono);font-size:10px}
+.sev-bar{height:4px;border-radius:2px}
+
+/* ── SIDEBAR ── */
+.sb{padding:28px 0 36px 28px}
+.sbs{margin-bottom:26px}
+.sbt{font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:var(--ink4);padding-bottom:11px;border-bottom:.5px solid var(--border);margin-bottom:14px}
+.about-row{display:flex;gap:11px}
+.av{width:40px;height:40px;border-radius:50%;background:rgba(52,240,184,.1);border:1px solid var(--teal2);display:flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-size:10px;color:var(--teal3);flex-shrink:0}
+.sb-name{font-size:13px;font-weight:500;color:var(--ink);margin-bottom:2px}
+.sb-role{font-size:10px;color:var(--gold);margin-bottom:7px}
+.sb-bio{font-size:11px;line-height:1.8;color:var(--ink3);margin-bottom:9px}
+.sb-links{display:flex;gap:5px;flex-wrap:wrap}
+.sbl{font-size:10px;padding:3px 9px;border-radius:20px;border:.5px solid var(--border);color:var(--ink3);background:var(--bg3);transition:all .18s;cursor:pointer}
+.sbl:hover{border-color:var(--teal2);color:var(--teal3)}
+.nl-desc{font-size:11px;color:var(--ink3);line-height:1.8;margin-bottom:9px}
+.nl-in{width:100%;padding:8px 12px;border:.5px solid var(--border);border-radius:5px;background:var(--bg2);font-size:12px;color:var(--ink);outline:none;font-family:var(--font-body);margin-bottom:7px;transition:border-color .2s}
+.nl-in:focus{border-color:var(--teal2)}
+.nl-btn{width:100%;padding:9px;background:var(--teal2);color:var(--teal3);border:none;border-radius:5px;font-size:12px;font-weight:500;cursor:pointer;font-family:var(--font-body);margin-bottom:6px}
+.nl-note{font-size:10px;color:var(--ink4);text-align:center}
+.hire-card{border:.5px solid var(--border);border-radius:8px;overflow:hidden}
+.hire-top{background:var(--bg3);border-bottom:.5px solid var(--border);padding:13px 15px}
+.hire-h{font-family:var(--font-display);font-size:13px;color:var(--ink);margin-bottom:3px}
+.hire-s{font-size:10px;color:var(--blue3);opacity:.85}
+.hire-body{padding:12px 15px;background:var(--bg2)}
+.hire-list{list-style:none;display:flex;flex-direction:column;gap:7px;margin-bottom:11px}
+.hire-list li{display:flex;align-items:center;gap:8px;font-size:11px;color:var(--ink3)}
+.hire-list li::before{content:'';width:4px;height:4px;border-radius:50%;background:var(--gold);flex-shrink:0}
+.hire-btn{display:block;width:100%;padding:8px;background:var(--gold2);color:var(--gold3);border:none;border-radius:5px;font-size:11px;font-weight:500;cursor:pointer;text-align:center;font-family:var(--font-body)}
+.path-item{display:flex;gap:10px;padding:9px 0;border-bottom:.5px solid var(--border);align-items:flex-start}
+.path-item:last-child{border-bottom:none}
+.path-num{width:19px;height:19px;border-radius:50%;background:rgba(52,240,184,.1);border:.5px solid var(--teal2);display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:500;color:var(--teal3);flex-shrink:0;margin-top:1px}
+.path-name{font-size:11px;font-weight:500;color:var(--ink);margin-bottom:2px}
+.path-desc{font-size:10px;color:var(--ink3);margin-bottom:3px}
+.path-badge{display:inline-block;font-size:9px;padding:1px 8px;border-radius:20px;background:rgba(255,200,74,.08);color:var(--gold3);border:.5px solid var(--gold2)}
+
+/* ── SKILL BARS ── */
+.skill-row{margin-bottom:10px}
+.skill-lbl{display:flex;justify-content:space-between;font-size:11px;margin-bottom:5px;color:var(--ink3)}
+.skill-pct{color:var(--teal3);font-family:var(--font-mono);font-size:10px}
+.bar-bg{background:var(--bg3);border-radius:3px;height:4px;overflow:hidden}
+.bar{height:100%;border-radius:3px;animation:barGrow .9s cubic-bezier(.4,0,.2,1) both}
+
+/* ── BOTTOM BAND ── */
+.bottom-band{border-top:.5px solid var(--border);padding:0 36px}
+.bb-grid{display:grid;grid-template-columns:3fr 1fr;border-bottom:.5px solid var(--border)}
+.bb-col{padding:26px 28px 26px 0;border-right:.5px solid var(--border)}
+.bb-col:last-child{padding:26px 0 26px 28px;border-right:none}
+.bb-hd{font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:var(--ink4);padding-bottom:11px;border-bottom:.5px solid var(--border);margin-bottom:16px}
+.read-item{display:flex;gap:10px;padding:9px 0;border-bottom:.5px solid var(--border);cursor:pointer}
+.read-item:last-child{border-bottom:none}
+.read-item:hover .read-title{color:var(--teal3)}
+.read-num{font-family:var(--font-mono);font-size:11px;color:var(--ink4);flex-shrink:0;margin-top:1px;min-width:18px}
+.read-title{font-size:11.5px;color:var(--ink);margin-bottom:2px;font-weight:500;transition:color .18s;line-height:1.35}
+.read-src{font-size:10px;color:var(--ink4)}
+.read-tag{font-size:9px;padding:1px 7px;border-radius:20px;display:inline-block;margin-top:3px}
+.mitre-row{display:flex;align-items:center;padding:7px 0;border-bottom:.5px solid var(--border)}
+.mitre-row:last-child{border-bottom:none}
+.mitre-phase{font-size:9.5px;color:var(--ink3);width:106px;flex-shrink:0}
+.mitre-tech{font-size:10px;font-family:var(--font-mono);color:var(--ink2);flex:1}
+.sev-dot{width:7px;height:7px;border-radius:50%;display:inline-block}
+
+/* ── RECENT ACTIVITY POPUP ── */
+.act-toggle{position:fixed;right:0;top:50%;transform:translateY(-50%);z-index:200;background:#1e2838;border:.5px solid var(--border);border-right:none;border-radius:6px 0 0 6px;padding:10px 8px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:6px;transition:background .2s}
+.act-toggle:hover{background:var(--bg3)}
+.act-toggle-txt{writing-mode:vertical-rl;font-family:var(--font-mono);font-size:8px;letter-spacing:2px;color:var(--ink4);text-transform:uppercase;user-select:none}
+.act-toggle-dot{width:6px;height:6px;border-radius:50%;background:var(--teal);animation:puls 2s ease-in-out infinite}
+.act-panel{position:fixed;right:-300px;top:50%;transform:translateY(-50%);width:280px;z-index:199;background:#1a2130;border:.5px solid var(--border);border-radius:8px 0 0 8px;transition:right .32s cubic-bezier(.4,0,.2,1);max-height:70vh;display:flex;flex-direction:column;box-shadow:-8px 0 32px rgba(0,0,0,.4)}
+.act-panel.open{right:0}
+.act-panel-hd{padding:14px 16px 12px;border-bottom:.5px solid var(--border);display:flex;justify-content:space-between;align-items:center;flex-shrink:0}
+.act-panel-title{font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:var(--ink4);font-family:var(--font-mono)}
+.act-close{background:none;border:none;color:var(--ink4);cursor:pointer;font-size:14px;line-height:1;padding:0;transition:color .2s}
+.act-close:hover{color:var(--teal3)}
+.act-panel-body{overflow-y:auto;flex:1;padding:8px 0}
+.act-item{display:flex;gap:10px;padding:10px 16px;border-bottom:.5px solid rgba(58,68,98,.4);cursor:pointer;transition:background .15s;align-items:flex-start}
+.act-item:last-child{border-bottom:none}
+.act-item:hover{background:rgba(52,240,184,.04)}
+.act-dot{width:7px;height:7px;border-radius:50%;flex-shrink:0;margin-top:4px}
+.act-type{font-size:8px;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:3px;font-family:var(--font-mono)}
+.act-desc{font-size:11.5px;color:var(--ink2);line-height:1.4;font-weight:500}
+.act-when{font-size:9.5px;color:var(--ink4);margin-top:2px;font-family:var(--font-mono)}
+
+/* ── LIVE ATTACK STRIP ── */
+
+/* ── FOOTER ── */
+.footer{background:var(--bg2);border-top:.5px solid var(--border);padding:18px 36px;display:flex;justify-content:space-between;align-items:center;flex-wrap:nowrap;gap:0}
+.footer-copy{font-family:var(--font-mono);font-size:10px;color:var(--ink4);letter-spacing:.3px}
+.footer-nav{display:flex;gap:24px;align-items:center}
+.footer-nav a{font-size:11.5px;color:var(--ink3);transition:color .2s;letter-spacing:.3px}
+.footer-nav a:hover{color:var(--teal3)}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 900px) {
+  .hero{grid-template-columns:1fr;min-height:auto}
+  .hero-r{height:220px}
+  .hero-l{padding:28px 24px}
+  .hero-h1{font-size:26px}
+  .body{grid-template-columns:1fr;padding:0 20px}
+  .posts{padding:24px 0;border-right:none}
+  .sb{padding:24px 0;border-top:.5px solid var(--border)}
+  .bb-grid{grid-template-columns:1fr!important}
+  .bb-col{border-right:none!important;padding:22px 0!important}
+  .bb-col:last-child{border-top:.5px solid var(--border)}
+  .nav{padding:0 20px}
+  .tagbar{padding:10px 20px}
+  .bottom-band{padding:0 20px}
+  .pcard{grid-template-columns:1fr}
+  .pthumb{display:none}
+  .footer{padding:18px 20px;flex-direction:column;align-items:flex-start;gap:12px}
+}
+@media (max-width: 560px) {
+  .hero{grid-template-columns:1fr;height:auto;min-height:auto}
+  .hero-l{padding:28px 20px}
+  .hero-r{min-height:220px}
+}
+@media (max-width: 600px) {
+  .nav-links{display:none}
+  .hero-h1{font-size:22px}
+  .hero-stats{gap:16px}
+  .stat-n{font-size:17px}
+  .threat-table{font-size:10px}
+  .threat-table th,.threat-table td{padding:6px 6px 6px 0}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="logo" onclick="window.location='/'">
+    <svg viewBox="0 0 148 36" width="148" height="36" xmlns="http://www.w3.org/2000/svg" style="display:block">
+      <defs>
+        <filter id="lglow"><feGaussianBlur stdDeviation="1.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+      </defs>
+      <!-- Pixel-style "3RD3YE" — each letter hand-drawn as pixel blocks, white with teal glow -->
+      <!-- 3 -->
+      <rect x="2"  y="4"  width="10" height="2" fill="#e8f0e0"/>
+      <rect x="10" y="6"  width="2"  height="4" fill="#e8f0e0"/>
+      <rect x="2"  y="14" width="10" height="2" fill="#e8f0e0"/>
+      <rect x="10" y="16" width="2"  height="4" fill="#e8f0e0"/>
+      <rect x="2"  y="24" width="10" height="2" fill="#e8f0e0"/>
+      <!-- R -->
+      <rect x="16" y="4"  width="2"  height="22" fill="#e8f0e0"/>
+      <rect x="18" y="4"  width="8"  height="2"  fill="#e8f0e0"/>
+      <rect x="24" y="6"  width="2"  height="4"  fill="#e8f0e0"/>
+      <rect x="18" y="14" width="8"  height="2"  fill="#e8f0e0"/>
+      <rect x="24" y="16" width="2"  height="2"  fill="#e8f0e0"/>
+      <rect x="22" y="18" width="2"  height="2"  fill="#e8f0e0"/>
+      <rect x="20" y="20" width="2"  height="2"  fill="#e8f0e0"/>
+      <rect x="18" y="22" width="2"  height="4"  fill="#e8f0e0"/>
+      <!-- D -->
+      <rect x="30" y="4"  width="2"  height="22" fill="#e8f0e0"/>
+      <rect x="32" y="4"  width="6"  height="2"  fill="#e8f0e0"/>
+      <rect x="36" y="6"  width="2"  height="4"  fill="#e8f0e0"/>
+      <rect x="38" y="10" width="2"  height="8"  fill="#e8f0e0"/>
+      <rect x="36" y="18" width="2"  height="4"  fill="#e8f0e0"/>
+      <rect x="32" y="24" width="6"  height="2"  fill="#e8f0e0"/>
+      <!-- 3 -->
+      <rect x="44" y="4"  width="10" height="2" fill="#c8f070"/>
+      <rect x="52" y="6"  width="2"  height="4" fill="#c8f070"/>
+      <rect x="44" y="14" width="10" height="2" fill="#c8f070"/>
+      <rect x="52" y="16" width="2"  height="4" fill="#c8f070"/>
+      <rect x="44" y="24" width="10" height="2" fill="#c8f070"/>
+      <!-- Y -->
+      <rect x="58" y="4"  width="2"  height="2"  fill="#c8f070"/>
+      <rect x="66" y="4"  width="2"  height="2"  fill="#c8f070"/>
+      <rect x="60" y="6"  width="2"  height="2"  fill="#c8f070"/>
+      <rect x="64" y="6"  width="2"  height="2"  fill="#c8f070"/>
+      <rect x="62" y="8"  width="2"  height="18" fill="#c8f070"/>
+      <!-- E -->
+      <rect x="72" y="4"  width="2"  height="22" fill="#c8f070"/>
+      <rect x="74" y="4"  width="8"  height="2"  fill="#c8f070"/>
+      <rect x="74" y="14" width="6"  height="2"  fill="#c8f070"/>
+      <rect x="74" y="24" width="8"  height="2"  fill="#c8f070"/>
+      <!-- subtle glow layer -->
+      <rect x="2"  y="4"  width="80" height="22" fill="none" filter="url(#lglow)" opacity="0"/>
+    </svg>
+  </div>
+  <ul class="nav-links">
+    <li><a href="/writing">Writing</a></li><li><a href="/topics">Topics</a></li>
+    <li><a href="/lab">Lab</a></li><li><a href="/about">About</a></li>
+  </ul>
+  <button class="nav-cta" onclick="window.location='/about#contact'">Open to collaborating</button>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <!-- HERO illustration on top -->
+  <div class="hero-r">
+    <canvas id="heroCanvas" style="position:absolute;top:0;left:0;width:100%;height:100%;display:block"></canvas>
+    <!-- Static SVG layer — woodblock / ink-wash, sits above canvas -->
+    <svg id="heroSvg" width="100%" height="100%" viewBox="0 0 430 340" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" style="position:absolute;top:0;left:0;pointer-events:none">
+      <defs>
+        <radialGradient id="hcg" cx="50%" cy="48%" r="52%">
+          <stop offset="0%" stop-color="#34f0b8" stop-opacity=".07"/>
+          <stop offset="100%" stop-color="#323a52" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="heglow" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#34f0b8" stop-opacity=".16"/>
+          <stop offset="100%" stop-color="#34f0b8" stop-opacity="0"/>
+        </radialGradient>
+        <filter id="hblur4"><feGaussianBlur stdDeviation="4"/></filter>
+        <filter id="hblur2"><feGaussianBlur stdDeviation="2"/></filter>
+      </defs>
+
+      <!-- Glow halo — static -->
+      <ellipse cx="215" cy="168" rx="105" ry="95" fill="url(#heglow)" filter="url(#hblur4)"/>
+
+      <!-- ── FOREST / LANDSCAPE — static ink-wash ── -->
+      <!-- Ground wash -->
+      <ellipse cx="215" cy="295" rx="195" ry="30" fill="#1e2838" opacity=".6"/>
+      <ellipse cx="215" cy="300" rx="170" ry="20" fill="#1a2230" opacity=".5"/>
+
+      <!-- Far trees — faint, static, ink-wash silhouette -->
+      <path d="M30 270 Q34 230 38 200 Q42 230 46 270Z" fill="#34f0b8" opacity=".07"/>
+      <path d="M50 275 Q55 228 60 195 Q65 228 70 275Z" fill="#34f0b8" opacity=".06"/>
+      <path d="M22 278 Q27 248 31 225 Q35 248 39 278Z" fill="#ffc84a" opacity=".05"/>
+      <path d="M360 272 Q364 238 368 210 Q372 238 376 272Z" fill="#34f0b8" opacity=".07"/>
+      <path d="M378 268 Q382 240 386 218 Q390 240 394 268Z" fill="#34f0b8" opacity=".06"/>
+      <path d="M395 274 Q399 250 403 232 Q407 250 411 274Z" fill="#ffc84a" opacity=".05"/>
+
+      <!-- Mid trees — bolder ink strokes, static -->
+      <!-- Left cluster -->
+      <path d="M68 280 Q76 220 84 172 Q92 220 100 280Z" fill="#2a3a50" stroke="#34f0b8" stroke-width=".4" opacity=".55"/>
+      <path d="M82 282 Q88 236 94 198 Q100 236 106 282Z" fill="#243040" stroke="#34f0b8" stroke-width=".3" opacity=".45"/>
+      <path d="M54 284 Q62 244 68 212 Q74 244 80 284Z" fill="#2a3a50" stroke="#ffc84a" stroke-width=".3" opacity=".4"/>
+      <!-- Right cluster -->
+      <path d="M330 280 Q338 220 346 172 Q354 220 362 280Z" fill="#2a3a50" stroke="#34f0b8" stroke-width=".4" opacity=".55"/>
+      <path d="M348 282 Q354 236 360 198 Q366 236 372 282Z" fill="#243040" stroke="#34f0b8" stroke-width=".3" opacity=".45"/>
+      <path d="M316 284 Q324 244 330 212 Q336 244 342 284Z" fill="#2a3a50" stroke="#ffc84a" stroke-width=".3" opacity=".4"/>
+
+      <!-- Foreground trees — darkest, most detail, static -->
+      <path d="M105 290 Q118 218 131 158 Q144 218 157 290Z" fill="#1e2e42" stroke="#34f0b8" stroke-width=".6" opacity=".7"/>
+      <!-- trunk detail -->
+      <line x1="131" y1="258" x2="131" y2="290" stroke="#34f0b8" stroke-width=".8" opacity=".2"/>
+      <path d="M275 290 Q288 218 301 158 Q314 218 327 290Z" fill="#1e2e42" stroke="#34f0b8" stroke-width=".6" opacity=".7"/>
+      <line x1="301" y1="258" x2="301" y2="290" stroke="#34f0b8" stroke-width=".8" opacity=".2"/>
+
+      <!-- Central large tree — the dominant static element -->
+      <path d="M215 292 Q232 214 248 148 Q256 214 264 292Z" fill="#1a2838" stroke="#ffc84a" stroke-width=".5" opacity=".5"/>
+      <path d="M215 292 Q200 214 186 148 Q178 214 170 292Z" fill="#1a2838" stroke="#34f0b8" stroke-width=".5" opacity=".5"/>
+      <!-- Trunk -->
+      <line x1="215" y1="248" x2="215" y2="292" stroke="#ffc84a" stroke-width="1.5" opacity=".18"/>
+      <!-- Branch lines — static ink-wash feel -->
+      <line x1="215" y1="190" x2="196" y2="168" stroke="#34f0b8" stroke-width=".7" opacity=".15"/>
+      <line x1="215" y1="190" x2="234" y2="168" stroke="#34f0b8" stroke-width=".7" opacity=".15"/>
+      <line x1="215" y1="210" x2="200" y2="200" stroke="#34f0b8" stroke-width=".5" opacity=".1"/>
+      <line x1="215" y1="210" x2="230" y2="200" stroke="#34f0b8" stroke-width=".5" opacity=".1"/>
+
+      <!-- ── EYE — static structure, animated pulse ── -->
+      <!-- Eye socket shadow -->
+      <ellipse cx="215" cy="148" rx="52" ry="24" fill="#0f1820" opacity=".8" filter="url(#hblur2)"/>
+      <!-- Eye almond -->
+      <ellipse cx="215" cy="148" rx="48" ry="21" fill="#111c2a" opacity=".96"/>
+      <!-- Iris rings — STATIC concentric woodblock -->
+      <circle cx="215" cy="148" r="16" fill="#0e1822" stroke="#34f0b8" stroke-width="1" opacity=".95"/>
+      <circle cx="215" cy="148" r="13" fill="none" stroke="#34f0b8" stroke-width=".4" opacity=".5"/>
+      <circle cx="215" cy="148" r="10.5" fill="none" stroke="#ffc84a" stroke-width=".4" opacity=".4"/>
+      <circle cx="215" cy="148" r="7.5" fill="none" stroke="#34f0b8" stroke-width=".35" opacity=".45"/>
+      <!-- Pupil — static fill -->
+      <circle cx="215" cy="148" r="4.8" fill="#34f0b8" opacity=".88"/>
+      <circle cx="215" cy="148" r="2.8" fill="#081810" opacity=".96"/>
+      <!-- Specular highlight — static -->
+      <circle cx="217.5" cy="146" r="1.3" fill="#d6fdf0" opacity=".9"/>
+      <!-- Eyelid brush-strokes — static ink curves -->
+      <path d="M167 148 Q191 124 215 123 Q239 124 263 148" fill="none" stroke="#7ee8c8" stroke-width="1.6" stroke-linecap="round" opacity=".45"/>
+      <path d="M167 148 Q191 168 215 169 Q239 168 263 148" fill="none" stroke="#7ee8c8" stroke-width="1" stroke-linecap="round" opacity=".28"/>
+      <!-- Lash ticks — static -->
+      <line x1="185" y1="135" x2="183" y2="128" stroke="#7ee8c8" stroke-width=".6" opacity=".2"/>
+      <line x1="200" y1="126" x2="199" y2="119" stroke="#7ee8c8" stroke-width=".6" opacity=".2"/>
+      <line x1="215" y1="123" x2="215" y2="116" stroke="#7ee8c8" stroke-width=".7" opacity=".22"/>
+      <line x1="230" y1="126" x2="231" y2="119" stroke="#7ee8c8" stroke-width=".6" opacity=".2"/>
+      <line x1="245" y1="135" x2="247" y2="128" stroke="#7ee8c8" stroke-width=".6" opacity=".2"/>
+
+      <!-- ── SNAKES — static silhouettes scattered in forest ── -->
+      <!-- Snake 1 — lower left, coiled S-curve -->
+      <path d="M88 268 Q96 260 104 268 Q112 276 120 268 Q128 260 136 268" fill="none" stroke="#34f0b8" stroke-width="1.8" stroke-linecap="round" opacity=".18"/>
+      <!-- Snake head 1 -->
+      <ellipse cx="136" cy="268" rx="4" ry="2.5" fill="#34f0b8" opacity=".15" transform="rotate(-15 136 268)"/>
+      <!-- forked tongue -->
+      <path d="M140 267 L143 264 M140 267 L143 270" stroke="#34f0b8" stroke-width=".7" opacity=".12"/>
+      <!-- Snake 2 — lower right -->
+      <path d="M294 272 Q302 264 310 272 Q318 280 326 272 Q334 264 342 272" fill="none" stroke="#ffc84a" stroke-width="1.8" stroke-linecap="round" opacity=".16"/>
+      <ellipse cx="342" cy="272" rx="4" ry="2.5" fill="#ffc84a" opacity=".14" transform="rotate(12 342 272)"/>
+      <path d="M346 271 L349 268 M346 271 L349 274" stroke="#ffc84a" stroke-width=".7" opacity=".11"/>
+      <!-- Snake 3 — mid left, longer sinuous -->
+      <path d="M62 258 Q72 248 82 256 Q92 264 102 254 Q112 244 122 252" fill="none" stroke="#34f0b8" stroke-width="1.4" stroke-linecap="round" opacity=".13"/>
+      <!-- Snake 4 — mid right, smaller -->
+      <path d="M318 260 Q326 252 334 260 Q342 268 350 260" fill="none" stroke="#7ee8c8" stroke-width="1.2" stroke-linecap="round" opacity=".13"/>
+
+      <!-- ── ANIMATED ELEMENTS (SVG animate) ── -->
+      <!-- Eye glow pulse -->
+      <circle cx="215" cy="148" r="16" fill="none" stroke="#34f0b8" stroke-width="1" opacity=".4">
+        <animate attributeName="r" values="16;34;16" dur="4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".4;0;.4" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <!-- Second softer pulse ring -->
+      <circle cx="215" cy="148" r="22" fill="none" stroke="#ffc84a" stroke-width=".5" opacity=".15">
+        <animate attributeName="r" values="22;48;22" dur="6s" repeatCount="indefinite" begin="1s"/>
+        <animate attributeName="opacity" values=".15;0;.15" dur="6s" repeatCount="indefinite" begin="1s"/>
+      </circle>
+
+      <!-- Orbiting debris ring — animated rotation, static in form -->
+      <g opacity=".18">
+        <ellipse cx="215" cy="148" rx="66" ry="66" fill="none" stroke="#34f0b8" stroke-width=".4" stroke-dasharray="2 12">
+          <animateTransform attributeName="transform" type="rotate" values="0 215 148;360 215 148" dur="50s" repeatCount="indefinite"/>
+        </ellipse>
+      </g>
+      <g opacity=".12">
+        <ellipse cx="215" cy="148" rx="80" ry="80" fill="none" stroke="#ffc84a" stroke-width=".3" stroke-dasharray="1.5 18">
+          <animateTransform attributeName="transform" type="rotate" values="360 215 148;0 215 148" dur="35s" repeatCount="indefinite"/>
+        </ellipse>
+      </g>
+
+      <!-- Firefly particles — animated, scattered among trees -->
+      <circle cx="142" cy="215" r="1.4" fill="#34f0b8" opacity=".7">
+        <animate attributeName="opacity" values=".7;0;.7" dur="2.4s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="215;210;215" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="168" cy="232" r="1.2" fill="#ffc84a" opacity=".6">
+        <animate attributeName="opacity" values=".6;0.1;.6" dur="3.1s" repeatCount="indefinite" begin=".6s"/>
+        <animate attributeName="cy" values="232;226;232" dur="4s" repeatCount="indefinite" begin=".6s"/>
+      </circle>
+      <circle cx="258" cy="220" r="1.3" fill="#34f0b8" opacity=".65">
+        <animate attributeName="opacity" values=".65;0;.65" dur="2.7s" repeatCount="indefinite" begin="1.1s"/>
+        <animate attributeName="cy" values="220;214;220" dur="3.6s" repeatCount="indefinite" begin="1.1s"/>
+      </circle>
+      <circle cx="286" cy="238" r="1.1" fill="#7ee8c8" opacity=".55">
+        <animate attributeName="opacity" values=".55;0.1;.55" dur="3.5s" repeatCount="indefinite" begin="1.8s"/>
+        <animate attributeName="cy" values="238;231;238" dur="4.2s" repeatCount="indefinite" begin="1.8s"/>
+      </circle>
+      <circle cx="195" cy="245" r="1.5" fill="#ffc84a" opacity=".5">
+        <animate attributeName="opacity" values=".5;0;.5" dur="2.9s" repeatCount="indefinite" begin=".3s"/>
+        <animate attributeName="cy" values="245;239;245" dur="3.8s" repeatCount="indefinite" begin=".3s"/>
+      </circle>
+      <circle cx="236" cy="252" r="1.2" fill="#34f0b8" opacity=".45">
+        <animate attributeName="opacity" values=".45;0.05;.45" dur="3.3s" repeatCount="indefinite" begin="2s"/>
+      </circle>
+
+      <!-- Mist tendrils — animated opacity drift -->
+      <ellipse cx="120" cy="286" rx="55" ry="8" fill="#34f0b8" opacity=".03">
+        <animate attributeName="opacity" values=".03;.07;.03" dur="7s" repeatCount="indefinite"/>
+        <animate attributeName="rx" values="55;70;55" dur="9s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="310" cy="284" rx="50" ry="7" fill="#34f0b8" opacity=".03">
+        <animate attributeName="opacity" values=".03;.06;.03" dur="8s" repeatCount="indefinite" begin="2s"/>
+        <animate attributeName="rx" values="50;64;50" dur="10s" repeatCount="indefinite" begin="2s"/>
+      </ellipse>
+
+      <!-- Corner label — static -->
+      <text x="22" y="20" font-size="6.5" fill="#7ee8c8" font-family="'JetBrains Mono',monospace" opacity=".28" letter-spacing="2">VIGILANCE</text>
+      <line x1="22" y1="24" x2="100" y2="24" stroke="#34f0b8" stroke-width=".3" opacity=".1"/>
+      <text x="22" y="318" font-size="5" fill="#6a6a64" font-family="'JetBrains Mono',monospace" opacity=".35" letter-spacing="1.2">a forest full of snakes</text>
+    </svg>
+  </div>
+
+  <!-- title + tagline below image -->
+  <div class="hero-l">
+    <div class="scanlines"></div>
+    <h1 class="hero-h1">Insights</h1>
+    <div class="hero-tagline">wandering around a forest full of snakes</div>
+    <div class="hero-btns">
+      <button class="btn-p" onclick="window.location='/writing'">Read the blog →</button>
+      <button class="btn-s" onclick="window.location='/topics'">View topics</button>
+    </div>
+  </div>
+
+</div>
+
+<!-- TAG BAR -->
+<div class="tagbar">
+  <span class="tbl">Filter</span>
+  <span class="tag on" onclick="filterPosts(this,'all')">All</span>
+  <span class="tag r" onclick="filterPosts(this,'malware')">Malware</span>
+  <span class="tag" onclick="filterPosts(this,'linux')">Linux</span>
+  <span class="tag b" onclick="filterPosts(this,'forensics')">Forensics</span>
+  <span class="tag b" onclick="filterPosts(this,'ctf')">CTF</span>
+  <span class="tag p" onclick="filterPosts(this,'reverse')">Reverse eng.</span>
+  <span class="tag p" onclick="filterPosts(this,'threat')">Threat modelling</span>
+  <span class="tag g" onclick="filterPosts(this,'quantum')">Quantum</span>
+</div>
+
+<!-- MAIN BODY -->
+<div class="body">
+  <!-- LEFT COLUMN: posts + timeline + threat table -->
+  <div class="posts">
+    <div class="posts-hd"><span class="posts-lbl">Latest writing</span><a class="rss">RSS feed</a></div>
+
+    <div class="pcard" data-tags="linux">
+      <div>
+        <div class="pcat">Linux security</div>
+        <div class="ptitle">Linux essentials: building a secure foundation from scratch</div>
+        <div class="pexc">A practical walkthrough of hardening a fresh Linux install — user privilege management, firewall configuration, and audit logging done right from day one.</div>
+        <div class="pmeta"><span class="pdate">2025-04-12</span><span style="color:#555">·</span><span class="ptime">6 min read</span></div>
+        <div class="ptags"><span class="ptag">Linux</span><span class="ptag">Hardening</span><span class="ptag">Beginner</span></div>
+      </div>
+      <div class="pthumb">
+        <svg viewBox="0 0 90 68" width="90" height="68">
+          <rect width="90" height="68" fill="#1e2430" rx="5"/>
+          <rect x="5" y="5" width="80" height="9" rx="1.5" fill="#2a3042"/>
+          <circle cx="11" cy="9.5" r="2" fill="#ff7a68" opacity=".7"/><circle cx="17" cy="9.5" r="2" fill="#ffc84a" opacity=".6"/><circle cx="23" cy="9.5" r="2" fill="#34f0b8" opacity=".5"/>
+          <rect x="5" y="17" width="80" height="44" rx="1" fill="#131820"/>
+          <text x="9" y="27" font-size="4.5" fill="#34f0b8" font-family="monospace">$ sudo ufw enable</text>
+          <text x="9" y="35" font-size="4.5" fill="#90f5d8" font-family="monospace" opacity=".55">Firewall active on startup</text>
+          <text x="9" y="43" font-size="4.5" fill="#34f0b8" font-family="monospace">$ chmod 700 ~/.ssh</text>
+          <text x="9" y="51" font-size="4.5" fill="#ffc84a" font-family="monospace" opacity=".65">$ auditd --status active</text>
+          <text x="9" y="59" font-size="4.5" fill="#34f0b8" font-family="monospace">▮<animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/></text>
+        </svg>
+      </div>
+    </div>
+
+    <div class="pcard" data-tags="malware" style="border-bottom:.5px solid var(--border);margin-bottom:28px">
+      <div>
+        <div class="pcat">Malware analysis</div>
+        <div class="ptitle">Fileless malware: how attackers live off the land</div>
+        <div class="pexc">Deep dive into LOLBAS techniques — PowerShell, WMI, and scheduled tasks as weapons in a memory-resident attack chain with zero disk footprint.</div>
+        <div class="pmeta"><span class="pdate">2025-05-03</span><span style="color:#555">·</span><span class="ptime">8 min read</span></div>
+        <div class="ptags"><span class="ptag">Malware</span><span class="ptag">LOLBAS</span><span class="ptag">Windows</span></div>
+      </div>
+      <div class="pthumb">
+        <svg viewBox="0 0 90 68" width="90" height="68">
+          <rect width="90" height="68" fill="#140e18" rx="5"/>
+          <circle cx="45" cy="34" r="20" fill="none" stroke="#ff7a68" stroke-width=".6" opacity=".35"/>
+          <circle cx="45" cy="34" r="13" fill="none" stroke="#b83020" stroke-width=".6" opacity=".5"/>
+          <circle cx="45" cy="34" r="6" fill="#ff7a68" opacity=".75"/>
+          <line x1="45" y1="12" x2="45" y2="20" stroke="#ff7a68" stroke-width=".6" opacity=".4"/>
+          <line x1="45" y1="48" x2="45" y2="56" stroke="#ff7a68" stroke-width=".6" opacity=".4"/>
+          <line x1="23" y1="34" x2="31" y2="34" stroke="#ff7a68" stroke-width=".6" opacity=".4"/>
+          <line x1="59" y1="34" x2="67" y2="34" stroke="#ff7a68" stroke-width=".6" opacity=".4"/>
+          <circle cx="45" cy="34" r="6" fill="none" stroke="#ff7a68" stroke-width=".8"><animate attributeName="r" values="6;18;6" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0;.8" dur="3s" repeatCount="indefinite"/></circle>
+          <text x="45" y="62" text-anchor="middle" font-size="4" fill="#a0a09a" font-family="'JetBrains Mono',monospace">memory-only</text>
+        </svg>
+      </div>
+    </div>
+
+    <!-- COMING NEXT -->
+    <div class="coming" style="margin-bottom:20px">
+      <div>
+        <div class="coming-lbl">Next up</div>
+        <div class="coming-title">Reverse engineering a ransomware sample — step-by-step VM walkthrough</div>
+      </div>
+      <button class="coming-btn">Notify me →</button>
+    </div>
+
+
+    <!-- THREAT INTEL SNAPSHOT — isometric network scene -->
+    <div style="margin-top:28px">
+      <div style="font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:var(--ink4);padding-bottom:10px;border-bottom:.5px solid var(--border);margin-bottom:14px">Threat intel snapshot</div>
+
+      <!-- Isometric attack scene SVG -->
+      <svg viewBox="0 0 540 260" width="100%" style="display:block;margin-bottom:16px;border-radius:6px;overflow:visible" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <radialGradient id="tglow1" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#ff7a68" stop-opacity=".18"/><stop offset="100%" stop-color="#ff7a68" stop-opacity="0"/></radialGradient>
+          <radialGradient id="tglow2" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#34f0b8" stop-opacity=".14"/><stop offset="100%" stop-color="#34f0b8" stop-opacity="0"/></radialGradient>
+          <radialGradient id="tglow3" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#ffc84a" stop-opacity=".14"/><stop offset="100%" stop-color="#ffc84a" stop-opacity="0"/></radialGradient>
+          <filter id="tblur"><feGaussianBlur stdDeviation="3"/></filter>
+          <filter id="tgfx"><feGaussianBlur stdDeviation="1.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+          <!-- isometric transform helpers -->
+        </defs>
+        <rect width="540" height="260" fill="#141c28" rx="6"/>
+        <!-- subtle grid floor -->
+        <line x1="0" y1="200" x2="540" y2="200" stroke="#1e2840" stroke-width=".5"/>
+        <line x1="0" y1="220" x2="540" y2="220" stroke="#1a2234" stroke-width=".3"/>
+        <!-- floor tiles perspective -->
+        <path d="M0 240 L270 180 L540 240 L540 260 L0 260Z" fill="#111820" opacity=".9"/>
+        <path d="M0 240 L270 180 L540 240" fill="none" stroke="#1e2840" stroke-width=".6"/>
+        <!-- grid lines on floor -->
+        <path d="M54 260 L216 194" stroke="#1a2436" stroke-width=".5"/>
+        <path d="M108 260 L270 194" stroke="#1a2436" stroke-width=".5"/>
+        <path d="M162 260 L324 194" stroke="#1a2436" stroke-width=".5"/>
+        <path d="M216 260 L378 194" stroke="#1a2436" stroke-width=".5"/>
+        <path d="M270 260 L432 194" stroke="#1a2436" stroke-width=".5"/>
+        <path d="M324 260 L486 194" stroke="#1a2436" stroke-width=".5"/>
+        <path d="M378 260 L540 194" stroke="#1a2436" stroke-width=".5"/>
+        <path d="M108 258 L0 222" stroke="#1a2436" stroke-width=".5"/>
+        <path d="M216 252 L0 208" stroke="#1a2436" stroke-width=".5"/>
+        <path d="M324 246 L0 194" stroke="#1a2436" stroke-width=".5"/>
+        <path d="M432 240 L108 194" stroke="#1a2436" stroke-width=".5"/>
+        <path d="M540 234 L216 194" stroke="#1a2436" stroke-width=".5"/>
+
+        <!-- ── SERVER RACK — left, target victim ── -->
+        <!-- Rack body isometric -->
+        <path d="M62 200 L62 110 L102 88 L142 110 L142 200Z" fill="#1a2438"/>
+        <path d="M62 110 L102 88 L142 110 L102 132Z" fill="#2a3a54"/>
+        <path d="M102 132 L142 110 L142 200 L102 222Z" fill="#1e2e42"/>
+        <path d="M62 110 L102 132 L102 222 L62 200Z" fill="#162030"/>
+        <!-- Rack LED strips -->
+        <rect x="68" y="118" width="28" height="3" rx="1" fill="#34f0b8" opacity=".6"/>
+        <rect x="68" y="126" width="22" height="3" rx="1" fill="#34f0b8" opacity=".4"/>
+        <rect x="68" y="134" width="26" height="3" rx="1" fill="#ffc84a" opacity=".5"/>
+        <rect x="68" y="142" width="20" height="3" rx="1" fill="#34f0b8" opacity=".3"/>
+        <rect x="68" y="150" width="24" height="3" rx="1" fill="#ff7a68" opacity=".5">
+          <animate attributeName="opacity" values=".5;1;.5" dur="1.2s" repeatCount="indefinite"/>
+        </rect>
+        <!-- blinking alert on rack -->
+        <circle cx="136" cy="122" r="3.5" fill="#ff7a68" opacity=".9">
+          <animate attributeName="opacity" values=".9;0.2;.9" dur=".8s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="136" cy="122" r="7" fill="url(#tglow1)" filter="url(#tblur)"/>
+        <!-- rack label -->
+        <text x="102" y="82" text-anchor="middle" font-size="7" fill="#34f0b8" font-family="'JetBrains Mono',monospace" opacity=".5">TARGET</text>
+
+        <!-- ── FIREWALL NODE — centre ── -->
+        <path d="M220 180 L220 130 L250 114 L280 130 L280 180Z" fill="#1e2d40"/>
+        <path d="M220 130 L250 114 L280 130 L250 146Z" fill="#2e4060"/>
+        <path d="M250 146 L280 130 L280 180 L250 196Z" fill="#1a2a3c"/>
+        <path d="M220 130 L250 146 L250 196 L220 180Z" fill="#162236"/>
+        <!-- shield icon on face -->
+        <path d="M228 152 L228 142 L236 138 L244 142 L244 152 Q244 158 236 162 Q228 158 228 152Z" fill="none" stroke="#34f0b8" stroke-width="1" opacity=".7"/>
+        <text x="250" y="108" text-anchor="middle" font-size="6.5" fill="#7ee8c8" font-family="'JetBrains Mono',monospace" opacity=".45">FIREWALL</text>
+
+        <!-- ── ATTACKER TERMINAL — right ── -->
+        <path d="M380 178 L380 118 L420 96 L460 118 L460 178Z" fill="#1e1626"/>
+        <path d="M380 118 L420 96 L460 118 L420 140Z" fill="#2e1e3a"/>
+        <path d="M420 140 L460 118 L460 178 L420 200Z" fill="#1a1230"/>
+        <path d="M380 118 L420 140 L420 200 L380 178Z" fill="#160e28"/>
+        <!-- terminal screen on face -->
+        <rect x="386" y="126" width="26" height="18" rx="1.5" fill="#0a0810" opacity=".9"/>
+        <text x="388" y="133" font-size="3.8" fill="#ff7a68" font-family="'JetBrains Mono',monospace" opacity=".9">$ ./exploit.py</text>
+        <text x="388" y="139" font-size="3.8" fill="#ffc84a" font-family="'JetBrains Mono',monospace" opacity=".7">[+] shell spawned</text>
+        <text x="388" y="145" font-size="3.8" fill="#34f0b8" font-family="'JetBrains Mono',monospace" opacity=".6">root@victim:~#<animate attributeName="opacity" values=".6;0;.6" dur="1.1s" repeatCount="indefinite"/></text>
+        <circle cx="454" cy="124" r="3" fill="#ff7a68" opacity=".8">
+          <animate attributeName="opacity" values=".8;0.2;.8" dur=".6s" repeatCount="indefinite"/>
+        </circle>
+        <text x="420" y="90" text-anchor="middle" font-size="7" fill="#ff7a68" font-family="'JetBrains Mono',monospace" opacity=".5">ATTACKER</text>
+
+        <!-- ── C2 SERVER — top centre ── -->
+        <path d="M230 90 L230 60 L250 50 L270 60 L270 90Z" fill="#1a1828"/>
+        <path d="M230 60 L250 50 L270 60 L250 70Z" fill="#2a2840"/>
+        <path d="M250 70 L270 60 L270 90 L250 100Z" fill="#16142a"/>
+        <path d="M230 60 L250 70 L250 100 L230 90Z" fill="#121028"/>
+        <!-- antenna -->
+        <line x1="250" y1="50" x2="250" y2="36" stroke="#c09aff" stroke-width="1" opacity=".5"/>
+        <circle cx="250" cy="34" r="3" fill="#c09aff" opacity=".7">
+          <animate attributeName="opacity" values=".7;0.2;.7" dur="1.4s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="250" cy="34" r="8" fill="none" stroke="#c09aff" stroke-width=".6" opacity=".3">
+          <animate attributeName="r" values="3;14;3" dur="2.5s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values=".3;0;.3" dur="2.5s" repeatCount="indefinite"/>
+        </circle>
+        <text x="250" y="44" text-anchor="middle" font-size="5.5" fill="#c09aff" font-family="'JetBrains Mono',monospace" opacity=".4">C2</text>
+
+        <!-- ── ATTACK VECTORS — animated connection lines ── -->
+        <!-- Attacker → Firewall (initial probe) -->
+        <line x1="380" y1="148" x2="280" y2="155" stroke="#ff7a68" stroke-width="1.2" stroke-dasharray="5 3" opacity=".65">
+          <animate attributeName="stroke-dashoffset" values="0;-16" dur="1s" repeatCount="indefinite"/>
+        </line>
+        <circle cx="380" cy="148" r="3" fill="#ff7a68" opacity=".7">
+          <animate attributeName="r" values="3;6;3" dur="1s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values=".7;0.1;.7" dur="1s" repeatCount="indefinite"/>
+        </circle>
+        <!-- Firewall → Server (post-compromise, red = breach) -->
+        <line x1="220" y1="155" x2="142" y2="158" stroke="#ff7a68" stroke-width="1.2" stroke-dasharray="4 3" opacity=".55">
+          <animate attributeName="stroke-dashoffset" values="0;-14" dur="1.2s" repeatCount="indefinite"/>
+        </line>
+        <!-- Attacker ↔ C2 beacon -->
+        <path d="M420 140 Q380 90 270 68" fill="none" stroke="#c09aff" stroke-width="1" stroke-dasharray="4 4" opacity=".5">
+          <animate attributeName="stroke-dashoffset" values="0;-18" dur="1.8s" repeatCount="indefinite"/>
+        </path>
+        <!-- C2 → Server (exfil data) -->
+        <path d="M232 68 Q160 100 102 130" fill="none" stroke="#ffc84a" stroke-width=".9" stroke-dasharray="3 5" opacity=".45">
+          <animate attributeName="stroke-dashoffset" values="0;-16" dur="2.2s" repeatCount="indefinite"/>
+        </path>
+
+        <!-- ── DATA PACKETS — small circles moving along paths ── -->
+        <circle r="3" fill="#ff7a68" opacity=".8" filter="url(#tgfx)">
+          <animateMotion dur="1.8s" repeatCount="indefinite" path="M380,148 L280,155"/>
+          <animate attributeName="opacity" values=".8;0.3;.8" dur="1.8s" repeatCount="indefinite"/>
+        </circle>
+        <circle r="2.5" fill="#c09aff" opacity=".7" filter="url(#tgfx)">
+          <animateMotion dur="2.2s" repeatCount="indefinite" path="M420,140 Q380,90 270,68"/>
+          <animate attributeName="opacity" values=".7;0.2;.7" dur="2.2s" repeatCount="indefinite"/>
+        </circle>
+        <circle r="2" fill="#ffc84a" opacity=".65" filter="url(#tgfx)">
+          <animateMotion dur="2.8s" repeatCount="indefinite" begin=".5s" path="M232,68 Q160,100 102,130"/>
+        </circle>
+        <circle r="2.5" fill="#ff7a68" opacity=".6" filter="url(#tgfx)">
+          <animateMotion dur="1.5s" repeatCount="indefinite" begin=".9s" path="M220,155 L142,158"/>
+        </circle>
+
+        <!-- ── BREACH GLOW on server ── -->
+        <ellipse cx="92" cy="168" rx="44" ry="18" fill="url(#tglow1)" filter="url(#tblur)" opacity=".8">
+          <animate attributeName="opacity" values=".8;0.3;.8" dur="2s" repeatCount="indefinite"/>
+        </ellipse>
+
+        <!-- ── LEGEND ── -->
+        <circle cx="18" cy="248" r="3" fill="#ff7a68" opacity=".8"/>
+        <text x="26" y="251" font-size="7" fill="#a0a09a" font-family="'JetBrains Mono',monospace">Active exploit</text>
+        <circle cx="110" cy="248" r="3" fill="#c09aff" opacity=".8"/>
+        <text x="118" y="251" font-size="7" fill="#a0a09a" font-family="'JetBrains Mono',monospace">C2 beacon</text>
+        <circle cx="190" cy="248" r="3" fill="#ffc84a" opacity=".8"/>
+        <text x="198" y="251" font-size="7" fill="#a0a09a" font-family="'JetBrains Mono',monospace">Data exfil</text>
+        <circle cx="268" cy="248" r="3" fill="#34f0b8" opacity=".8"/>
+        <text x="276" y="251" font-size="7" fill="#a0a09a" font-family="'JetBrains Mono',monospace">Defender</text>
+      </svg>
+
+      <!-- Technique cards grid — real-world look -->
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
+        <div style="background:#151e2e;border:.5px solid #2a3448;border-radius:5px;padding:10px 12px;border-left:2.5px solid #ff7a68">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px">
+            <span style="font-family:var(--font-mono);font-size:8.5px;color:#ff7a68">T1059.001</span>
+            <span style="font-size:8px;background:rgba(255,122,104,.12);color:#ff7a68;padding:1px 6px;border-radius:3px;border:.4px solid #ff7a68">CRITICAL</span>
+          </div>
+          <div style="font-size:11.5px;font-weight:500;color:var(--ink);margin-bottom:2px">PowerShell Execution</div>
+          <div style="font-size:9.5px;color:var(--ink4)">Execution · Windows · Seen in 78% of ransomware chains</div>
+        </div>
+        <div style="background:#151e2e;border:.5px solid #2a3448;border-radius:5px;padding:10px 12px;border-left:2.5px solid #ff7a68">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px">
+            <span style="font-family:var(--font-mono);font-size:8.5px;color:#ff7a68">T1003.001</span>
+            <span style="font-size:8px;background:rgba(255,122,104,.12);color:#ff7a68;padding:1px 6px;border-radius:3px;border:.4px solid #ff7a68">CRITICAL</span>
+          </div>
+          <div style="font-size:11.5px;font-weight:500;color:var(--ink);margin-bottom:2px">LSASS Memory Dump</div>
+          <div style="font-size:9.5px;color:var(--ink4)">Credential Access · Windows · Used by Mimikatz, PtH</div>
+        </div>
+        <div style="background:#151e2e;border:.5px solid #2a3448;border-radius:5px;padding:10px 12px;border-left:2.5px solid #ffc84a">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px">
+            <span style="font-family:var(--font-mono);font-size:8.5px;color:#ffc84a">T1071.004</span>
+            <span style="font-size:8px;background:rgba(255,200,74,.1);color:#ffc84a;padding:1px 6px;border-radius:3px;border:.4px solid #ffc84a">HIGH</span>
+          </div>
+          <div style="font-size:11.5px;font-weight:500;color:var(--ink);margin-bottom:2px">DNS Tunneling</div>
+          <div style="font-size:9.5px;color:var(--ink4)">Exfiltration · Cross-platform · Bypasses most firewalls</div>
+        </div>
+        <div style="background:#151e2e;border:.5px solid #2a3448;border-radius:5px;padding:10px 12px;border-left:2.5px solid #c09aff">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px">
+            <span style="font-family:var(--font-mono);font-size:8.5px;color:#c09aff">T1550.002</span>
+            <span style="font-size:8px;background:rgba(192,154,255,.1);color:#c09aff;padding:1px 6px;border-radius:3px;border:.4px solid #c09aff">HIGH</span>
+          </div>
+          <div style="font-size:11.5px;font-weight:500;color:var(--ink);margin-bottom:2px">Pass-the-Hash</div>
+          <div style="font-size:9.5px;color:var(--ink4)">Lateral Movement · Windows · No plaintext needed</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SIDEBAR -->
+  <div class="sb">
+
+    <div class="sbs">
+      <div class="sbt">Stay in the loop</div>
+      <div class="nl-desc">New posts, tools, writeups — no noise, no spam.</div>
+      <input class="nl-in" type="email" placeholder="your@email.com"/>
+      <button class="nl-btn">Subscribe →</button>
+      <div class="nl-note">~2 emails/month · No spam ever</div>
+    </div>
+
+    <div class="sbs">
+      <div class="sbt">Work with me</div>
+      <div class="hire-card">
+        <div class="hire-top"><div class="hire-h">Open to consulting &amp; collab</div><div class="hire-s">Security · Content · CTF training</div></div>
+        <div class="hire-body">
+          <ul class="hire-list">
+            <li>Malware analysis &amp; writeups</li><li>Security blog ghostwriting</li>
+            <li>CTF team training</li><li>Tool reviews &amp; sponsorships</li>
+          </ul>
+          <a class="hire-btn">Get in touch →</a>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+<!-- BOTTOM BAND -->
+<div class="bottom-band">
+  <div class="bb-grid" style="grid-template-columns:3fr 1fr">
+    <!-- COL 1: Global Threat Map — full width, prominent -->
+    <div class="bb-col" style="padding-right:28px">
+      <div class="bb-hd">Global threat landscape · 2015 — 2025</div>
+      <svg viewBox="0 0 720 280" width="100%" style="display:block;margin-top:8px" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <radialGradient id="mglow" cx="50%" cy="50%" r="55%">
+            <stop offset="0%" stop-color="#34f0b8" stop-opacity=".08"/>
+            <stop offset="100%" stop-color="#252e40" stop-opacity="0"/>
+          </radialGradient>
+          <radialGradient id="ruglow" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#ff7a68" stop-opacity=".25"/>
+            <stop offset="100%" stop-color="#ff7a68" stop-opacity="0"/>
+          </radialGradient>
+          <radialGradient id="cnglow" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#ffc84a" stop-opacity=".2"/>
+            <stop offset="100%" stop-color="#ffc84a" stop-opacity="0"/>
+          </radialGradient>
+          <filter id="arcglow"><feGaussianBlur stdDeviation="2.5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+          <filter id="dotglow"><feGaussianBlur stdDeviation="4"/></filter>
+        </defs>
+        <rect width="720" height="280" fill="#1e2736" rx="6"/>
+        <!-- grid texture -->
+        <pattern id="mgr" width="28" height="28" patternUnits="userSpaceOnUse">
+          <path d="M28 0L0 0 0 28" fill="none" stroke="#2e3a52" stroke-width=".5"/>
+        </pattern>
+        <rect width="720" height="280" fill="url(#mgr)" rx="6" opacity=".7"/>
+        <rect width="720" height="280" fill="url(#mglow)" rx="6"/>
+
+        <!-- ── CONTINENTS (scaled up, more detail) ── -->
+        <!-- North America -->
+        <path d="M68 68 Q80 54 104 48 Q128 42 145 52 Q162 62 166 76 Q170 92 160 110 Q148 128 136 138 Q120 148 106 148 Q88 148 76 136 Q60 122 58 104 Q54 84 68 68Z" fill="#2e3d58" stroke="#3d5070" stroke-width="1" opacity=".95"/>
+        <!-- Central America stub -->
+        <path d="M136 148 Q146 144 152 152 Q156 160 148 166 Q140 170 134 162 Q128 154 136 148Z" fill="#2e3d58" stroke="#3d5070" stroke-width=".6" opacity=".7"/>
+        <!-- South America -->
+        <path d="M118 172 Q136 164 150 170 Q164 178 166 198 Q168 218 162 238 Q154 256 138 262 Q122 266 110 254 Q96 240 94 218 Q92 196 118 172Z" fill="#2e3d58" stroke="#3d5070" stroke-width="1" opacity=".95"/>
+        <!-- Greenland -->
+        <path d="M150 28 Q168 18 186 22 Q200 26 198 38 Q196 50 180 56 Q164 60 152 52 Q142 44 150 28Z" fill="#263448" stroke="#3d5070" stroke-width=".5" opacity=".5"/>
+        <!-- UK/Iceland small -->
+        <path d="M248 52 Q256 48 262 52 Q266 58 260 64 Q254 68 248 64 Q242 58 248 52Z" fill="#2e3d58" stroke="#3d5070" stroke-width=".4" opacity=".6"/>
+        <!-- Europe -->
+        <path d="M268 46 Q284 36 304 40 Q320 44 326 56 Q330 68 320 80 Q308 90 292 88 Q274 86 266 72 Q260 58 268 46Z" fill="#2e3d58" stroke="#3d5070" stroke-width=".9" opacity=".95"/>
+        <!-- Scandinavia -->
+        <path d="M290 28 Q302 22 316 28 Q324 34 318 44 Q310 48 298 44 Q286 40 290 28Z" fill="#2e3d58" stroke="#3d5070" stroke-width=".5" opacity=".7"/>
+        <!-- Africa -->
+        <path d="M280 96 Q298 88 316 96 Q330 106 332 126 Q334 148 326 168 Q316 186 298 196 Q280 202 264 190 Q246 176 244 154 Q242 130 252 112 Q262 96 280 96Z" fill="#2e3d58" stroke="#3d5070" stroke-width="1" opacity=".95"/>
+        <!-- Madagascar -->
+        <path d="M336 152 Q342 148 348 154 Q350 162 344 168 Q338 170 334 164 Q330 158 336 152Z" fill="#2e3d58" stroke="#3d5070" stroke-width=".4" opacity=".6"/>
+        <!-- Russia / North Asia (large sprawling shape) -->
+        <path d="M350 22 Q400 12 460 14 Q520 16 560 22 Q594 28 596 42 Q598 56 572 64 Q536 72 490 70 Q444 68 400 64 Q362 60 344 50 Q334 42 338 32 Q342 24 350 22Z" fill="#2e3d58" stroke="#3d5070" stroke-width=".9" opacity=".85"/>
+        <!-- Middle East -->
+        <path d="M328 96 Q344 88 360 94 Q372 102 370 118 Q366 132 352 138 Q336 140 326 130 Q314 118 318 106 Q320 96 328 96Z" fill="#2e3d58" stroke="#3d5070" stroke-width=".8" opacity=".9"/>
+        <!-- South Asia / India -->
+        <path d="M388 94 Q406 86 422 94 Q436 104 432 126 Q426 148 408 158 Q392 162 378 148 Q362 134 366 112 Q370 94 388 94Z" fill="#2e3d58" stroke="#3d5070" stroke-width=".9" opacity=".9"/>
+        <!-- East Asia / China -->
+        <path d="M442 52 Q476 40 516 48 Q548 56 554 74 Q558 92 540 106 Q518 118 490 116 Q460 112 442 96 Q426 80 430 64 Q434 52 442 52Z" fill="#2e3d58" stroke="#3d5070" stroke-width=".9" opacity=".9"/>
+        <!-- Korea / Japan zone -->
+        <path d="M546 68 Q558 62 568 68 Q574 76 568 86 Q560 92 550 88 Q540 82 542 72 Q542 68 546 68Z" fill="#2e3d58" stroke="#3d5070" stroke-width=".6" opacity=".8"/>
+        <path d="M576 56 Q584 50 592 56 Q596 64 590 72 Q582 76 576 70 Q570 64 576 56Z" fill="#2e3d58" stroke="#3d5070" stroke-width=".5" opacity=".7"/>
+        <!-- Southeast Asia -->
+        <path d="M482 118 Q500 112 514 120 Q524 130 518 146 Q510 158 496 158 Q480 156 472 142 Q464 128 482 118Z" fill="#2e3d58" stroke="#3d5070" stroke-width=".7" opacity=".85"/>
+        <!-- Australia -->
+        <path d="M520 180 Q550 168 580 176 Q608 184 610 204 Q612 224 590 236 Q566 246 540 238 Q510 228 506 208 Q502 190 520 180Z" fill="#2e3d58" stroke="#3d5070" stroke-width=".9" opacity=".9"/>
+        <!-- New Zealand -->
+        <path d="M624 218 Q630 212 638 218 Q642 226 636 234 Q628 238 622 230 Q618 224 624 218Z" fill="#2e3d58" stroke="#3d5070" stroke-width=".4" opacity=".6"/>
+
+        <!-- ── GLOW HALOS on source nodes ── -->
+        <circle cx="462" cy="36" r="28" fill="url(#ruglow)" filter="url(#dotglow)" opacity=".7"/>
+        <circle cx="498" cy="80" r="24" fill="url(#cnglow)" filter="url(#dotglow)" opacity=".65"/>
+
+        <!-- ── ATTACK ARCS ── -->
+        <!-- RU→US (SolarWinds 2020, NotPetya) -->
+        <path d="M462 36 Q360 -10 148 100" fill="none" stroke="#ff7a68" stroke-width="1.8" stroke-dasharray="6 4" opacity=".75" filter="url(#arcglow)">
+          <animate attributeName="stroke-dashoffset" values="0;-30" dur="1.8s" repeatCount="indefinite"/>
+        </path>
+        <circle cx="148" cy="100" r="5.5" fill="#ff7a68" opacity=".85">
+          <animate attributeName="r" values="5.5;11;5.5" dur="1.8s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values=".85;0.15;.85" dur="1.8s" repeatCount="indefinite"/>
+        </circle>
+        <!-- RU→EU (NotPetya Ukraine, Fancy Bear) -->
+        <path d="M462 36 Q400 10 296 64" fill="none" stroke="#ff7a68" stroke-width="1.4" stroke-dasharray="5 4" opacity=".65" filter="url(#arcglow)">
+          <animate attributeName="stroke-dashoffset" values="0;-26" dur="2s" repeatCount="indefinite"/>
+        </path>
+        <circle cx="296" cy="64" r="4.5" fill="#ff7a68" opacity=".75">
+          <animate attributeName="r" values="4.5;9;4.5" dur="2s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values=".75;0.1;.75" dur="2s" repeatCount="indefinite"/>
+        </circle>
+        <!-- RU→UA specifically (Sandworm grid attacks) -->
+        <path d="M462 36 Q440 20 354 50" fill="none" stroke="#ff7a68" stroke-width="1.2" stroke-dasharray="4 4" opacity=".55">
+          <animate attributeName="stroke-dashoffset" values="0;-22" dur="1.6s" repeatCount="indefinite"/>
+        </path>
+        <circle cx="354" cy="50" r="3.5" fill="#ff7a68" opacity=".6">
+          <animate attributeName="r" values="3.5;7;3.5" dur="1.6s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values=".6;0.1;.6" dur="1.6s" repeatCount="indefinite"/>
+        </circle>
+        <!-- CN→US (OPM 2015, Exchange 2021, Volt Typhoon) -->
+        <path d="M498 80 Q420 20 148 90" fill="none" stroke="#ffc84a" stroke-width="1.6" stroke-dasharray="6 4" opacity=".7" filter="url(#arcglow)">
+          <animate attributeName="stroke-dashoffset" values="0;-28" dur="2.2s" repeatCount="indefinite"/>
+        </path>
+        <circle cx="148" cy="90" r="5" fill="#ffc84a" opacity=".8">
+          <animate attributeName="r" values="5;10;5" dur="2.2s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values=".8;0.15;.8" dur="2.2s" repeatCount="indefinite"/>
+        </circle>
+        <!-- CN→IN (2020 Ladakh border cyber ops) -->
+        <path d="M498 80 Q460 70 408 110" fill="none" stroke="#ffc84a" stroke-width="1.1" stroke-dasharray="4 4" opacity=".6">
+          <animate attributeName="stroke-dashoffset" values="0;-20" dur="2s" repeatCount="indefinite"/>
+        </path>
+        <circle cx="408" cy="110" r="3.5" fill="#ffc84a" opacity=".65">
+          <animate attributeName="r" values="3.5;7;3.5" dur="2s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values=".65;0.1;.65" dur="2s" repeatCount="indefinite"/>
+        </circle>
+        <!-- CN→EU (espionage, Hafnium) -->
+        <path d="M498 80 Q420 40 304 64" fill="none" stroke="#ffc84a" stroke-width="1" stroke-dasharray="4 5" opacity=".5">
+          <animate attributeName="stroke-dashoffset" values="0;-20" dur="2.6s" repeatCount="indefinite"/>
+        </path>
+        <circle cx="304" cy="64" r="3" fill="#ffc84a" opacity=".55"/>
+        <!-- NK→Global (WannaCry 2017, SWIFT heists) -->
+        <path d="M558 78 Q480 10 296 56" fill="none" stroke="#c09aff" stroke-width="1.3" stroke-dasharray="5 4" opacity=".65" filter="url(#arcglow)">
+          <animate attributeName="stroke-dashoffset" values="0;-24" dur="2.8s" repeatCount="indefinite"/>
+        </path>
+        <circle cx="296" cy="56" r="4" fill="#c09aff" opacity=".7">
+          <animate attributeName="r" values="4;8;4" dur="2.8s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values=".7;0.1;.7" dur="2.8s" repeatCount="indefinite"/>
+        </circle>
+        <!-- NK→US financial (Lazarus heists) -->
+        <path d="M558 78 Q480 18 148 84" fill="none" stroke="#c09aff" stroke-width="1" stroke-dasharray="4 5" opacity=".5">
+          <animate attributeName="stroke-dashoffset" values="0;-22" dur="3.2s" repeatCount="indefinite"/>
+        </path>
+        <circle cx="148" cy="84" r="3" fill="#c09aff" opacity=".55"/>
+        <!-- US→IR (Stuxnet, Olympic Games) -->
+        <path d="M128 114 Q240 40 344 114" fill="none" stroke="#34f0b8" stroke-width="1.2" stroke-dasharray="5 5" opacity=".55" filter="url(#arcglow)">
+          <animate attributeName="stroke-dashoffset" values="0;-24" dur="3.5s" repeatCount="indefinite"/>
+        </path>
+        <circle cx="344" cy="114" r="4" fill="#34f0b8" opacity=".65">
+          <animate attributeName="r" values="4;8;4" dur="3.5s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values=".65;0.1;.65" dur="3.5s" repeatCount="indefinite"/>
+        </circle>
+        <!-- Ransomware wave US→EU 2021-2023 (eCrime) -->
+        <path d="M148 104 Q210 68 290 72" fill="none" stroke="#ff7a68" stroke-width=".9" stroke-dasharray="3 5" opacity=".4">
+          <animate attributeName="stroke-dashoffset" values="0;-18" dur="2.4s" repeatCount="indefinite"/>
+        </path>
+
+        <!-- ── SOURCE NODE BADGES ── -->
+        <circle cx="462" cy="36" r="7" fill="#ff7a68" opacity=".7"/>
+        <circle cx="462" cy="36" r="12" fill="none" stroke="#ff7a68" stroke-width=".8" opacity=".3">
+          <animate attributeName="r" values="7;18;7" dur="3s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values=".3;0;.3" dur="3s" repeatCount="indefinite"/>
+        </circle>
+        <text x="462" y="26" font-size="8" fill="#ff7a68" font-family="'JetBrains Mono',monospace" opacity=".9" text-anchor="middle" font-weight="500">RU</text>
+
+        <circle cx="498" cy="80" r="7" fill="#ffc84a" opacity=".65"/>
+        <circle cx="498" cy="80" r="12" fill="none" stroke="#ffc84a" stroke-width=".8" opacity=".3">
+          <animate attributeName="r" values="7;18;7" dur="3.4s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values=".3;0;.3" dur="3.4s" repeatCount="indefinite"/>
+        </circle>
+        <text x="498" y="70" font-size="8" fill="#ffc84a" font-family="'JetBrains Mono',monospace" opacity=".9" text-anchor="middle" font-weight="500">CN</text>
+
+        <circle cx="558" cy="78" r="6" fill="#c09aff" opacity=".6"/>
+        <circle cx="558" cy="78" r="10" fill="none" stroke="#c09aff" stroke-width=".8" opacity=".3">
+          <animate attributeName="r" values="6;16;6" dur="3.8s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values=".3;0;.3" dur="3.8s" repeatCount="indefinite"/>
+        </circle>
+        <text x="570" y="70" font-size="8" fill="#c09aff" font-family="'JetBrains Mono',monospace" opacity=".9" text-anchor="middle" font-weight="500">NK</text>
+
+        <circle cx="128" cy="114" r="6" fill="#34f0b8" opacity=".55"/>
+        <text x="112" y="107" font-size="8" fill="#34f0b8" font-family="'JetBrains Mono',monospace" opacity=".8" text-anchor="middle" font-weight="500">US</text>
+
+        <!-- ── LEGEND ── -->
+        <line x1="18" y1="266" x2="700" y2="266" stroke="#2e3a52" stroke-width=".7"/>
+        <circle cx="22" cy="276" r="3.5" fill="#ff7a68" opacity=".8"/>
+        <text x="30" y="279" font-size="7.5" fill="#a0a09a" font-family="'JetBrains Mono',monospace">State-sponsored (RU)</text>
+        <circle cx="160" cy="276" r="3.5" fill="#ffc84a" opacity=".8"/>
+        <text x="168" y="279" font-size="7.5" fill="#a0a09a" font-family="'JetBrains Mono',monospace">Espionage (CN)</text>
+        <circle cx="278" cy="276" r="3.5" fill="#c09aff" opacity=".8"/>
+        <text x="286" y="279" font-size="7.5" fill="#a0a09a" font-family="'JetBrains Mono',monospace">Ransomware / eCrime (NK)</text>
+        <circle cx="448" cy="276" r="3.5" fill="#34f0b8" opacity=".8"/>
+        <text x="456" y="279" font-size="7.5" fill="#a0a09a" font-family="'JetBrains Mono',monospace">Offensive ops (US)</text>
+      </svg>
+      <!-- Incident timeline strip -->
+      <div style="display:flex;gap:0;margin-top:10px;border-top:.5px solid var(--border);padding-top:10px">
+        <div style="flex:1;border-right:.5px solid var(--border);padding:0 12px 0 0">
+          <div style="font-size:8.5px;color:var(--gold);font-family:var(--font-mono);margin-bottom:3px">2015 – 2017</div>
+          <div style="font-size:10.5px;color:var(--ink2);font-weight:500;line-height:1.5">OPM breach · Stuxnet legacy · WannaCry · NotPetya</div>
+        </div>
+        <div style="flex:1;border-right:.5px solid var(--border);padding:0 12px">
+          <div style="font-size:8.5px;color:var(--gold);font-family:var(--font-mono);margin-bottom:3px">2018 – 2020</div>
+          <div style="font-size:10.5px;color:var(--ink2);font-weight:500;line-height:1.5">Marriott · Capital One · SolarWinds</div>
+        </div>
+        <div style="flex:1;padding:0 0 0 12px">
+          <div style="font-size:8.5px;color:var(--gold);font-family:var(--font-mono);margin-bottom:3px">2021 – 2025</div>
+          <div style="font-size:10.5px;color:var(--ink2);font-weight:500;line-height:1.5">Colonial · Log4Shell · MOVEit · AI-driven ops</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- COL 2: Currently reading -->
+    <div class="bb-col">
+      <div class="bb-hd">Currently reading</div>
+      <div class="read-item"><div class="read-num">01</div><div><div class="read-title">The Art of Memory Forensics</div><div class="read-src">Ligh, Case, Levy, Walters</div><span class="read-tag" style="background:rgba(192,154,255,.12);color:var(--purple3);border:.5px solid var(--purple2)">In progress</span></div></div>
+      <div class="read-item"><div class="read-num">02</div><div><div class="read-title">Practical Malware Analysis</div><div class="read-src">Sikorski &amp; Honig</div><span class="read-tag" style="background:rgba(52,240,184,.1);color:var(--teal3);border:.5px solid var(--teal2)">Done ✓</span></div></div>
+      <div class="read-item"><div class="read-num">03</div><div><div class="read-title">Red Team Development and Operations</div><div class="read-src">Joe Vest</div><span class="read-tag" style="background:rgba(255,200,74,.1);color:var(--gold3);border:.5px solid var(--gold2)">Up next</span></div></div>
+
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <span class="footer-copy">© 2025 3RD3YE · All rights reserved</span>
+  <nav class="footer-nav">
+    <a href="https://github.com/3rd3ye" target="_blank" rel="noopener">GitHub</a>
+    <a href="/rss.xml">RSS</a>
+    <a href="/privacy">Privacy</a>
+    <a href="/about#contact">Contact</a>
+  </nav>
+</footer>
+
+<script>
+/* ── Activity panel ── */
+function toggleActivity() {
+  const p = document.getElementById('actPanel');
+  p.classList.toggle('open');
+}
+document.addEventListener('click', function(e) {
+  const panel = document.getElementById('actPanel');
+  const toggle = document.querySelector('.act-toggle');
+  if (panel && panel.classList.contains('open') && !panel.contains(e.target) && !toggle.contains(e.target)) {
+    panel.classList.remove('open');
+  }
+});
+
+/* ── Post filter ── */
+function filterPosts(el, tag) {
+  document.querySelectorAll('.tagbar .tag').forEach(t => t.classList.remove('on'));
+  el.classList.add('on');
+  document.querySelectorAll('.pcard').forEach(card => {
+    const tags = card.dataset.tags || '';
+    const match = tag === 'all' || tags.includes(tag);
+    card.style.opacity = match ? '1' : '0.2';
+    card.style.pointerEvents = match ? '' : 'none';
+  });
+}
+
+
+/* ── Hero canvas background (star-field + mist) ── */
+(function(){
+  const cv = document.getElementById('heroCanvas');
+  if (!cv) return;
+  const ctx = cv.getContext('2d');
+  let W, H, stars = [], mists = [];
+
+  function resize() {
+    const parent = cv.parentElement;
+    W = cv.width  = Math.max(parent.offsetWidth,  1);
+    H = cv.height = Math.max(parent.offsetHeight, 1);
+    init();
+  }
+
+  function init() {
+    // Fill background
+    stars = [];
+    for (let i = 0; i < 90; i++) {
+      stars.push({
+        x: Math.random()*W, y: Math.random()*H,
+        r: Math.random()*1.1+0.2,
+        a: Math.random()*0.5+0.08,
+        da: (Math.random()*0.008+0.002) * (Math.random()<.5?1:-1),
+        speed: Math.random()*0.06+0.01
+      });
+    }
+    mists = [];
+    for (let i = 0; i < 5; i++) {
+      mists.push({
+        x: Math.random()*W, y: H*0.6 + Math.random()*H*0.3,
+        rx: 60+Math.random()*80, ry: 8+Math.random()*10,
+        a: 0.02+Math.random()*0.04,
+        da: 0.0005+Math.random()*0.001,
+        dx: (Math.random()*0.15+0.05) * (Math.random()<.5?1:-1)
+      });
+    }
+  }
+
+  resize();
+  window.addEventListener('resize', resize);
+
+  function loop() {
+    ctx.clearRect(0, 0, W, H);
+    // Dark bg
+    ctx.fillStyle = '#323a52';
+    ctx.fillRect(0, 0, W, H);
+    // Grid
+    ctx.strokeStyle = '#3a4462';
+    ctx.lineWidth = 0.35;
+    for (let x=0;x<W;x+=22){ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,H);ctx.stroke();}
+    for (let y=0;y<H;y+=22){ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(W,y);ctx.stroke();}
+
+    // Stars
+    stars.forEach(s => {
+      s.a += s.da;
+      if (s.a > 0.58 || s.a < 0.06) s.da *= -1;
+      s.y -= s.speed;
+      if (s.y < -2) s.y = H + 2;
+      ctx.beginPath();
+      ctx.arc(s.x, s.y, s.r, 0, Math.PI*2);
+      ctx.fillStyle = '#90f5d8';
+      ctx.globalAlpha = s.a;
+      ctx.fill();
+    });
+
+    // Mist
+    mists.forEach(m => {
+      m.a += m.da; if (m.a > 0.07||m.a < 0.01) m.da *= -1;
+      m.x += m.dx; if (m.x > W+100||m.x < -100) m.dx *= -1;
+      const grad = ctx.createRadialGradient(m.x, m.y, 0, m.x, m.y, m.rx);
+      grad.addColorStop(0, `rgba(52,240,184,${m.a})`);
+      grad.addColorStop(1, 'rgba(52,240,184,0)');
+      ctx.beginPath();
+      ctx.ellipse(m.x, m.y, m.rx, m.ry, 0, 0, Math.PI*2);
+      ctx.fillStyle = grad;
+      ctx.globalAlpha = 1;
+      ctx.fill();
+    });
+    ctx.globalAlpha = 1;
+    requestAnimationFrame(loop);
+  }
+  loop();
+})();
+
+
+</script>
+
+<!-- RECENT ACTIVITY SIDE POPUP -->
+<div class="act-toggle" onclick="toggleActivity()" title="Recent activity">
+  <div class="act-toggle-dot"></div>
+  <div class="act-toggle-txt">Activity</div>
+</div>
+<div class="act-panel" id="actPanel">
+  <div class="act-panel-hd">
+    <span class="act-panel-title">Recent activity</span>
+    <button class="act-close" onclick="toggleActivity()">✕</button>
+  </div>
+  <div class="act-panel-body">
+    <div class="act-item">
+      <div class="act-dot" style="background:#34f0b8"></div>
+      <div>
+        <div class="act-type" style="color:#34f0b8">Post published</div>
+        <div class="act-desc">Linux Essentials: Building a secure foundation</div>
+        <div class="act-when">Apr 12, 2025 · 6 min read</div>
+      </div>
+    </div>
+    <div class="act-item">
+      <div class="act-dot" style="background:#c09aff"></div>
+      <div>
+        <div class="act-type" style="color:#c09aff">Lab note</div>
+        <div class="act-desc">Volatility 3 for Windows memory forensics — first run</div>
+        <div class="act-when">Mar 31, 2025</div>
+      </div>
+    </div>
+    <div class="act-item">
+      <div class="act-dot" style="background:#ff7a68"></div>
+      <div>
+        <div class="act-type" style="color:#ff7a68">CTF solved</div>
+        <div class="act-desc">PicoCTF — extracting injected shellcode from memory dump</div>
+        <div class="act-when">Mar 14, 2025 · Hard</div>
+      </div>
+    </div>
+    <div class="act-item">
+      <div class="act-dot" style="background:#ffc84a"></div>
+      <div>
+        <div class="act-type" style="color:#ffc84a">Reading</div>
+        <div class="act-desc">Started "The Art of Memory Forensics"</div>
+        <div class="act-when">Mar 20, 2025 · In progress</div>
+      </div>
+    </div>
+    <div class="act-item">
+      <div class="act-dot" style="background:#7ee8c8"></div>
+      <div>
+        <div class="act-type" style="color:#7ee8c8">Tool explored</div>
+        <div class="act-desc">First deep dive into Ghidra — reverse eng. a simple crackme</div>
+        <div class="act-when">Feb 28, 2025</div>
+      </div>
+    </div>
+    <div class="act-item">
+      <div class="act-dot" style="background:#ff7a68"></div>
+      <div>
+        <div class="act-type" style="color:#ff7a68">CTF solved</div>
+        <div class="act-desc">HackTheBox — ret2libc bypass (ASLR + NX stack)</div>
+        <div class="act-when">Feb 14, 2025 · Medium</div>
+      </div>
+    </div>
+    <div class="act-item">
+      <div class="act-dot" style="background:#34f0b8"></div>
+      <div>
+        <div class="act-type" style="color:#34f0b8">Post published</div>
+        <div class="act-desc">Malware analysis: anatomy of a dropper</div>
+        <div class="act-when">Feb 02, 2025 · 9 min read</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
