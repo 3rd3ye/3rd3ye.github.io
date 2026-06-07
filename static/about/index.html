@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About · 3rd3ye</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,400&family=DM+Sans:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#252c3a;--bg2:#2e3548;--bg3:#38405a;--teal:#34f0b8;--teal2:#1e9e78;--teal3:#90f5d8;--gold:#ffc84a;--gold2:#d48e18;--gold3:#ffe9a8;--red:#ff7a68;--purple:#c09aff;--purple2:#7855e0;--coral:#ff9f7a;--ink:#f0ede6;--ink2:#ccc9c0;--ink3:#a0a09a;--ink4:#6a6a64;--border:#38405a;--font-body:'DM Sans',sans-serif;--font-display:'Lora',serif;--font-mono:'JetBrains Mono',monospace}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);line-height:1.6;min-height:100vh}
+nav{display:flex;align-items:center;justify-content:space-between;padding:0 36px;height:56px;background:var(--bg);border-bottom:.5px solid var(--border);position:sticky;top:0;z-index:100}
+.logo{font-family:var(--font-display);font-size:19px;font-weight:600;color:var(--teal3);text-decoration:none}
+.logo span{color:var(--gold)}
+.nav-links{display:flex;gap:28px;list-style:none}
+.nav-links a{font-size:10.5px;font-weight:500;letter-spacing:1.4px;text-transform:uppercase;color:var(--ink3);text-decoration:none;transition:color .2s}
+.nav-links a:hover,.nav-links a.active{color:var(--teal3)}
+.nav-cta{font-size:11px;color:var(--ink3);border:.5px solid var(--border);padding:6px 16px;border-radius:4px;background:transparent;cursor:pointer;transition:all .2s;text-decoration:none}
+.nav-cta:hover{border-color:var(--teal2);color:var(--teal3)}
+
+.about-wrap{max-width:1000px;margin:0 auto;padding:52px 36px 80px;display:grid;grid-template-columns:340px 1fr;gap:56px;align-items:start}
+
+/* LEFT — identity card */
+.id-card{position:sticky;top:80px}
+.avatar-wrap{width:96px;height:96px;border-radius:50%;background:rgba(52,240,184,.1);border:1.5px solid var(--teal2);display:flex;align-items:center;justify-content:center;margin-bottom:20px;position:relative;overflow:hidden}
+.avatar-txt{font-family:var(--font-mono);font-size:22px;font-weight:500;color:var(--teal3)}
+.avatar-ring{position:absolute;inset:-4px;border-radius:50%;border:1px solid var(--teal2);opacity:.3;animation:spin 12s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.id-name{font-family:var(--font-display);font-size:26px;font-weight:600;color:var(--ink);margin-bottom:4px}
+.id-handle{font-family:var(--font-mono);font-size:12px;color:var(--teal3);margin-bottom:8px;opacity:.8}
+.id-role{font-size:13px;color:var(--gold);font-weight:500;margin-bottom:16px}
+.id-bio{font-size:13px;color:var(--ink3);line-height:1.82;margin-bottom:22px;font-style:italic;border-left:1.5px solid var(--teal2);padding-left:14px}
+.id-links{display:flex;flex-direction:column;gap:9px}
+.id-link{display:flex;align-items:center;gap:12px;padding:11px 14px;background:var(--bg2);border:.5px solid var(--border);border-radius:7px;text-decoration:none;transition:all .2s;cursor:pointer}
+.id-link:hover{border-color:var(--teal2);background:var(--bg3)}
+.id-link-icon{width:32px;height:32px;border-radius:6px;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:14px}
+.id-link-name{font-size:12.5px;font-weight:500;color:var(--ink)}
+.id-link-handle{font-size:10.5px;color:var(--ink4);font-family:var(--font-mono);margin-top:1px}
+.id-link-arrow{margin-left:auto;color:var(--ink4);font-size:14px;transition:transform .2s}
+.id-link:hover .id-link-arrow{transform:translateX(3px);color:var(--teal3)}
+
+/* RIGHT — content */
+.about-content{}
+.section{margin-bottom:44px}
+.section-lbl{font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:var(--ink4);padding-bottom:12px;border-bottom:.5px solid var(--border);margin-bottom:20px}
+.bio-text{font-size:15px;line-height:1.88;color:var(--ink2)}
+.bio-text p{margin-bottom:18px}
+.bio-text p:last-child{margin-bottom:0}
+
+/* Skills bars */
+.skill-item{margin-bottom:14px}
+.skill-hd{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}
+.skill-name{font-size:12px;color:var(--ink2)}
+.skill-pct{font-family:var(--font-mono);font-size:10.5px;color:var(--teal3)}
+.bar-bg{background:var(--bg3);border-radius:3px;height:4px;overflow:hidden}
+.bar-fill{height:100%;border-radius:3px;transition:width 1.2s cubic-bezier(.4,0,.2,1)}
+
+/* Timeline */
+.tl-item{display:flex;gap:16px;padding-bottom:20px;position:relative}
+.tl-item:not(:last-child)::before{content:'';position:absolute;left:7px;top:18px;bottom:0;width:.5px;background:var(--border)}
+.tl-dot{width:15px;height:15px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;border:.5px solid;position:relative;z-index:1;margin-top:2px}
+.tl-dot span{width:5px;height:5px;border-radius:50%;display:block}
+.tl-year{font-family:var(--font-mono);font-size:10px;color:var(--ink4);white-space:nowrap;margin-top:3px;min-width:36px}
+.tl-title{font-size:13px;font-weight:500;color:var(--ink);margin-bottom:3px}
+.tl-desc{font-size:11.5px;color:var(--ink3);line-height:1.65}
+
+/* Contact form */
+.contact-form{display:flex;flex-direction:column;gap:14px}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.form-group{display:flex;flex-direction:column;gap:6px}
+.form-label{font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--ink4)}
+.form-input,.form-textarea{padding:10px 14px;background:var(--bg2);border:.5px solid var(--border);border-radius:6px;font-size:13px;color:var(--ink);font-family:var(--font-body);outline:none;transition:border-color .2s;resize:none}
+.form-input:focus,.form-textarea:focus{border-color:var(--teal2)}
+.form-input::placeholder,.form-textarea::placeholder{color:var(--ink4)}
+.form-textarea{min-height:120px}
+.form-select{padding:10px 14px;background:var(--bg2);border:.5px solid var(--border);border-radius:6px;font-size:13px;color:var(--ink);font-family:var(--font-body);outline:none;cursor:pointer;-webkit-appearance:none;transition:border-color .2s}
+.form-select:focus{border-color:var(--teal2)}
+.form-select option{background:var(--bg2)}
+.submit-btn{padding:12px 28px;background:var(--teal2);color:var(--teal3);border:none;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;font-family:var(--font-body);align-self:flex-start;transition:background .2s}
+.submit-btn:hover{background:#27c096}
+.form-note{font-size:11px;color:var(--ink4);margin-top:4px}
+.form-success{display:none;padding:14px 18px;background:rgba(52,240,184,.08);border:.5px solid var(--teal2);border-radius:7px;font-size:13px;color:var(--teal3)}
+
+footer{background:var(--bg2);border-top:.5px solid var(--border);padding:18px 36px;display:flex;justify-content:space-between;align-items:center}
+.fc{font-family:var(--font-mono);font-size:10px;color:var(--ink4)}
+.fn{display:flex;gap:20px}
+.fn a{font-size:11px;color:var(--ink3);text-decoration:none;transition:color .2s}
+.fn a:hover{color:var(--teal3)}
+@media(max-width:860px){.about-wrap{grid-template-columns:1fr;gap:36px}.id-card{position:static}.form-row{grid-template-columns:1fr}}
+@media(max-width:600px){nav{padding:0 16px}.nav-links{display:none}.about-wrap{padding:36px 16px 60px}}
+</style>
+</head>
+<body>
+<nav>
+  <a class="logo" href="/">3rd<span>eye</span></a>
+  <ul class="nav-links">
+    <li><a href="/writing">Writing</a></li>
+    <li><a href="/topics">Topics</a></li>
+    <li><a href="/lab">Lab</a></li>
+    <li><a href="/about" class="active">About</a></li>
+  </ul>
+  <a class="nav-cta" href="#contact">Open to collaborating</a>
+</nav>
+
+<div class="about-wrap">
+
+  <!-- LEFT IDENTITY CARD -->
+  <div class="id-card">
+    <div class="avatar-wrap">
+      <div class="avatar-txt">3E</div>
+      <div class="avatar-ring"></div>
+    </div>
+    <div class="id-name">3rd3ye</div>
+    <div class="id-handle">@3rd3ye</div>
+    <div class="id-role">Security researcher &amp; writer</div>
+    <div class="id-bio">Learning in public — documenting malware analysis, Linux internals, reverse engineering and CTF writeups as I go deeper into offensive security.</div>
+
+    <div class="id-links">
+      <a class="id-link" href="https://github.com/3rd3ye" target="_blank" rel="noopener">
+        <div class="id-link-icon" style="background:rgba(240,237,230,.06)">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="#f0ede6"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+        </div>
+        <div>
+          <div class="id-link-name">GitHub</div>
+          <div class="id-link-handle">github.com/3rd3ye</div>
+        </div>
+        <div class="id-link-arrow">→</div>
+      </a>
+
+      <a class="id-link" href="https://www.linkedin.com/in/3rd3ye/" target="_blank" rel="noopener">
+        <div class="id-link-icon" style="background:rgba(10,102,194,.15)">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="#0a66c2"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </div>
+        <div>
+          <div class="id-link-name">LinkedIn</div>
+          <div class="id-link-handle">linkedin.com/in/3rd3ye</div>
+        </div>
+        <div class="id-link-arrow">→</div>
+      </a>
+
+      <a class="id-link" href="https://tryhackme.com" target="_blank" rel="noopener">
+        <div class="id-link-icon" style="background:rgba(136,53,212,.15)">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="#8835d4"><path d="M10.705 0C7.54 0 4.902 2.285 4.374 5.31a4.398 4.398 0 00-1.49-.262C1.292 5.048 0 6.34 0 7.924c0 1.582 1.292 2.874 2.883 2.874h7.822V0zm2.59 0v10.798h7.822C22.708 10.798 24 9.506 24 7.924c0-1.583-1.292-2.876-2.883-2.876-.514 0-.998.14-1.416.38C19.18 2.335 16.562 0 13.294 0zM2.883 13.202C1.292 13.202 0 14.494 0 16.076c0 1.584 1.292 2.876 2.883 2.876h7.822V13.2zm10.41 0v5.75c0 2.79 2.27 5.05 5.068 5.05 2.798 0 5.068-2.26 5.068-5.05 0-2.792-2.27-5.05-5.068-5.05a5.08 5.08 0 00-1.892.362v-1.062z"/></svg>
+        </div>
+        <div>
+          <div class="id-link-name">TryHackMe</div>
+          <div class="id-link-handle">tryhackme.com</div>
+        </div>
+        <div class="id-link-arrow">→</div>
+      </a>
+    </div>
+  </div>
+
+  <!-- RIGHT CONTENT -->
+  <div class="about-content">
+
+    <div class="section">
+      <div class="section-lbl">Bio</div>
+      <div class="bio-text">
+        <p>I'm a security researcher and writer learning in public. My focus sits at the intersection of offensive security and knowledge sharing — understanding how attacks work at a deep technical level, then writing about it clearly enough that others can learn too.</p>
+        <p>My current areas of focus are malware analysis, reverse engineering, and threat modelling. I document everything as I go — the wins, the dead ends, and the moments where things finally click. This blog is that documentation.</p>
+        <p>When I'm not writing, I'm in the lab — solving CTF challenges, building detection rules, and working through security books and courses. I believe the best defenders are the ones who think like attackers.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-lbl">Research areas &amp; skill level</div>
+      <div id="skillsWrap">
+        <div class="skill-item">
+          <div class="skill-hd"><span class="skill-name">Malware analysis</span><span class="skill-pct">80%</span></div>
+          <div class="bar-bg"><div class="bar-fill" style="width:0%;background:var(--teal2)" data-w="80%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-hd"><span class="skill-name">Linux internals &amp; hardening</span><span class="skill-pct">72%</span></div>
+          <div class="bar-bg"><div class="bar-fill" style="width:0%;background:var(--gold2)" data-w="72%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-hd"><span class="skill-name">Reverse engineering</span><span class="skill-pct">60%</span></div>
+          <div class="bar-bg"><div class="bar-fill" style="width:0%;background:var(--purple2)" data-w="60%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-hd"><span class="skill-name">Threat modelling &amp; MITRE</span><span class="skill-pct">55%</span></div>
+          <div class="bar-bg"><div class="bar-fill" style="width:0%;background:var(--coral2)" data-w="55%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-hd"><span class="skill-name">CTF &amp; web exploitation</span><span class="skill-pct">65%</span></div>
+          <div class="bar-bg"><div class="bar-fill" style="width:0%;background:var(--red2)" data-w="65%"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-lbl">Journey so far</div>
+      <div class="tl-item">
+        <div class="tl-dot" style="background:rgba(52,240,184,.1);border-color:var(--teal2)"><span style="background:var(--teal)"></span></div>
+        <div class="tl-year">2025</div>
+        <div>
+          <div class="tl-title">Started 3rd3ye — publishing research publicly</div>
+          <div class="tl-desc">First posts on fileless malware and Linux hardening. Committed to learning in public and building a body of security research.</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot" style="background:rgba(255,200,74,.1);border-color:var(--gold2)"><span style="background:var(--gold)"></span></div>
+        <div class="tl-year">2024</div>
+        <div>
+          <div class="tl-title">Deep dive into malware analysis &amp; memory forensics</div>
+          <div class="tl-desc">Started working through Practical Malware Analysis, built first Volatility workflows, and completed initial CTF challenges on HackTheBox.</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot" style="background:rgba(192,154,255,.1);border-color:var(--purple2)"><span style="background:var(--purple)"></span></div>
+        <div class="tl-year">2023</div>
+        <div>
+          <div class="tl-title">First steps into offensive security</div>
+          <div class="tl-desc">Discovered TryHackMe, completed Linux fundamentals and network security paths, started building home lab.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="contact">
+      <div class="section-lbl">Get in touch</div>
+      <div class="contact-form" id="contactForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">Name</label>
+            <input class="form-input" type="text" placeholder="Your name" id="fname">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email</label>
+            <input class="form-input" type="email" placeholder="your@email.com" id="femail">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Subject</label>
+          <select class="form-select" id="fsubject">
+            <option value="">Select a topic…</option>
+            <option>Collaboration / research</option>
+            <option>Security blog ghostwriting</option>
+            <option>CTF team training</option>
+            <option>Tool review / sponsorship</option>
+            <option>General enquiry</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Message</label>
+          <textarea class="form-textarea" placeholder="What's on your mind?" id="fmessage"></textarea>
+        </div>
+        <button class="submit-btn" onclick="submitForm()">Send message →</button>
+        <div class="form-note">I typically respond within 48 hours.</div>
+      </div>
+      <div class="form-success" id="formSuccess">
+        ✓ Message sent — I'll get back to you within 48 hours.
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  <span class="fc">© 2025 3RD3YE · All rights reserved</span>
+  <nav class="fn">
+    <a href="https://github.com/3rd3ye" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/3rd3ye/" target="_blank">LinkedIn</a>
+    <a href="/">Home</a>
+  </nav>
+</footer>
+
+<script>
+// Animate skill bars on scroll
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.querySelectorAll('.bar-fill').forEach(bar => {
+        bar.style.width = bar.dataset.w;
+      });
+      observer.unobserve(e.target);
+    }
+  });
+}, {threshold: 0.3});
+observer.observe(document.getElementById('skillsWrap'));
+
+// Contact form
+function submitForm() {
+  const name = document.getElementById('fname').value.trim();
+  const email = document.getElementById('femail').value.trim();
+  const subject = document.getElementById('fsubject').value;
+  const message = document.getElementById('fmessage').value.trim();
+  if (!name || !email || !subject || !message) {
+    alert('Please fill in all fields.');
+    return;
+  }
+  document.getElementById('contactForm').style.display = 'none';
+  document.getElementById('formSuccess').style.display = 'block';
+}
+</script>
+</body>
+</html>

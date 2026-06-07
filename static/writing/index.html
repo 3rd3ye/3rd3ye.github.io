@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Writing · 3rd3ye</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,400&family=DM+Sans:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#252c3a;--bg2:#2e3548;--bg3:#38405a;--teal:#34f0b8;--teal2:#1e9e78;--teal3:#90f5d8;--gold:#ffc84a;--gold2:#d48e18;--red:#ff7a68;--red2:#b83020;--purple:#c09aff;--purple2:#7855e0;--coral:#ff9f7a;--coral2:#c05830;--ink:#f0ede6;--ink2:#ccc9c0;--ink3:#a0a09a;--ink4:#6a6a64;--border:#38405a;--font-body:'DM Sans',sans-serif;--font-display:'Lora',serif;--font-mono:'JetBrains Mono',monospace}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);line-height:1.6;min-height:100vh}
+nav{display:flex;align-items:center;justify-content:space-between;padding:0 36px;height:56px;background:var(--bg);border-bottom:.5px solid var(--border);position:sticky;top:0;z-index:100}
+.logo{font-family:var(--font-display);font-size:19px;font-weight:600;color:var(--teal3);cursor:pointer;text-decoration:none}
+.logo span{color:var(--gold)}
+.nav-links{display:flex;gap:28px;list-style:none}
+.nav-links a{font-size:10.5px;font-weight:500;letter-spacing:1.4px;text-transform:uppercase;color:var(--ink3);text-decoration:none;transition:color .2s}
+.nav-links a:hover,.nav-links a.active{color:var(--teal3)}
+.nav-cta{font-size:11px;color:var(--ink3);border:.5px solid var(--border);padding:6px 16px;border-radius:4px;background:transparent;cursor:pointer;transition:all .2s;text-decoration:none}
+.nav-cta:hover{border-color:var(--teal2);color:var(--teal3)}
+.page-hero{padding:52px 36px 32px;border-bottom:.5px solid var(--border)}
+.page-eyebrow{font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:12px}
+.page-title{font-family:var(--font-display);font-size:36px;font-weight:600;color:var(--ink);margin-bottom:10px}
+.page-desc{font-size:14px;color:var(--ink3);max-width:520px;line-height:1.8;margin-bottom:20px}
+.search-input{padding:9px 14px;background:var(--bg2);border:.5px solid var(--border);border-radius:6px;font-size:13px;color:var(--ink);font-family:var(--font-body);outline:none;width:100%;max-width:400px;transition:border-color .2s}
+.search-input:focus{border-color:var(--teal2)}
+.search-input::placeholder{color:var(--ink4)}
+.filter-bar{display:flex;gap:7px;padding:13px 36px;border-bottom:.5px solid var(--border);flex-wrap:wrap;align-items:center}
+.fl{font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--ink4);margin-right:4px}
+.ftag{font-size:10px;padding:4px 13px;border-radius:20px;border:.5px solid var(--border);color:var(--ink3);cursor:pointer;background:transparent;transition:all .18s;font-family:var(--font-body)}
+.ftag.on,.ftag:hover{background:var(--teal2);color:var(--teal3);border-color:var(--teal2)}
+.ftag.r{border-color:var(--red2);color:var(--red)}.ftag.r.on,.ftag.r:hover{background:var(--red2);color:#fff;border-color:var(--red2)}
+.ftag.p{border-color:var(--purple2);color:var(--purple)}.ftag.p.on,.ftag.p:hover{background:var(--purple2);color:#fff;border-color:var(--purple2)}
+.ftag.g{border-color:var(--gold2);color:var(--gold)}.ftag.g.on,.ftag.g:hover{background:var(--gold2);color:#111;border-color:var(--gold2)}
+.ftag.c{border-color:var(--coral2);color:var(--coral)}.ftag.c.on,.ftag.c:hover{background:var(--coral2);color:#fff;border-color:var(--coral2)}
+.posts-wrap{max-width:860px;margin:0 auto;padding:32px 36px 60px}
+.posts-hd{display:flex;align-items:center;justify-content:space-between;margin-bottom:22px}
+.posts-lbl{font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--ink4)}
+.post-count{font-size:11px;color:var(--ink4);font-family:var(--font-mono)}
+.pcard{display:grid;grid-template-columns:1fr 90px;gap:20px;padding:24px 0;border-bottom:.5px solid var(--border);cursor:pointer}
+.pcard:last-child{border-bottom:none}
+.pcard:hover .ptitle{color:var(--teal3)}
+.pcard.hidden{display:none}
+.pcat{font-size:9px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:8px}
+.ptitle{font-family:var(--font-display);font-size:19px;font-weight:600;line-height:1.3;color:var(--ink);margin-bottom:9px;transition:color .2s}
+.pexc{font-size:12.5px;line-height:1.82;color:var(--ink3);margin-bottom:11px}
+.pmeta{display:flex;align-items:center;gap:8px}
+.pdate{font-family:var(--font-mono);font-size:10px;color:var(--ink4)}
+.ptime{font-size:10px;color:var(--teal2);font-weight:500}
+.ptags{display:flex;gap:5px;flex-wrap:wrap;margin-top:9px}
+.ptag{font-size:9px;padding:2px 9px;border-radius:20px;background:var(--bg3);border:.5px solid var(--border);color:var(--ink3)}
+.pthumb{border-radius:6px;overflow:hidden;height:68px;align-self:start;margin-top:4px}
+.empty{text-align:center;padding:60px 20px;color:var(--ink4);font-family:var(--font-mono);font-size:13px;display:none}
+footer{background:var(--bg2);border-top:.5px solid var(--border);padding:18px 36px;display:flex;justify-content:space-between;align-items:center}
+.fc{font-family:var(--font-mono);font-size:10px;color:var(--ink4)}
+.fn{display:flex;gap:20px}
+.fn a{font-size:11px;color:var(--ink3);text-decoration:none;transition:color .2s}
+.fn a:hover{color:var(--teal3)}
+@media(max-width:600px){nav{padding:0 16px}.nav-links{display:none}.page-hero,.posts-wrap{padding-left:16px;padding-right:16px}.filter-bar{padding:12px 16px}.pcard{grid-template-columns:1fr}.pthumb{display:none}}
+</style>
+</head>
+<body>
+<nav>
+  <a class="logo" href="/">3rd<span>eye</span></a>
+  <ul class="nav-links">
+    <li><a href="/writing" class="active">Writing</a></li>
+    <li><a href="/topics">Topics</a></li>
+    <li><a href="/lab">Lab</a></li>
+    <li><a href="/about">About</a></li>
+  </ul>
+  <a class="nav-cta" href="/about#contact">Open to collaborating</a>
+</nav>
+
+<div class="page-hero">
+  <div class="page-eyebrow">All posts</div>
+  <h1 class="page-title">Writing</h1>
+  <p class="page-desc">Research notes, deep dives and writeups on malware analysis, Linux security, reverse engineering and everything in between.</p>
+  <input class="search-input" type="text" placeholder="Search posts…" id="searchInput" oninput="filterAll()">
+</div>
+
+<div class="filter-bar">
+  <span class="fl">Filter</span>
+  <span class="ftag on" onclick="setFilter(this,'all')">All</span>
+  <span class="ftag r" onclick="setFilter(this,'malware')">Malware</span>
+  <span class="ftag" onclick="setFilter(this,'linux')">Linux</span>
+  <span class="ftag p" onclick="setFilter(this,'reverse')">Reverse eng.</span>
+  <span class="ftag p" onclick="setFilter(this,'threat')">Threat modelling</span>
+  <span class="ftag g" onclick="setFilter(this,'quantum')">Quantum</span>
+  <span class="ftag c" onclick="setFilter(this,'forensics')">Forensics</span>
+  <span class="ftag c" onclick="setFilter(this,'ctf')">CTF</span>
+</div>
+
+<div class="posts-wrap">
+  <div class="posts-hd">
+    <span class="posts-lbl">Latest writing</span>
+    <span class="post-count" id="postCount">2 posts</span>
+  </div>
+  <div id="postsList">
+    <div class="pcard" data-tags="malware lolbas windows" onclick="window.location='/posts/fileless-malware/'">
+      <div>
+        <div class="pcat">Malware Analysis</div>
+        <div class="ptitle">Fileless Malware: How Attackers Live Off the Land</div>
+        <div class="pexc">Deep dive into LOLBAS techniques — PowerShell, WMI, and scheduled tasks as weapons in a memory-resident attack chain with zero disk footprint.</div>
+        <div class="pmeta"><span class="pdate">2025-05-03</span><span style="color:#555">·</span><span class="ptime">8 min read</span></div>
+        <div class="ptags"><span class="ptag">Malware</span><span class="ptag">LOLBAS</span><span class="ptag">Windows</span></div>
+      </div>
+      <div class="pthumb">
+        <svg viewBox="0 0 90 68" width="90" height="68">
+          <rect width="90" height="68" fill="#140e18" rx="5"/>
+          <circle cx="45" cy="34" r="20" fill="none" stroke="#ff7a68" stroke-width=".6" opacity=".4"/>
+          <circle cx="45" cy="34" r="12" fill="none" stroke="#b83020" stroke-width=".6" opacity=".55"/>
+          <circle cx="45" cy="34" r="5" fill="#ff7a68" opacity=".8"/>
+          <circle cx="45" cy="34" fill="none" stroke="#ff7a68" stroke-width=".8"><animate attributeName="r" values="5;18;5" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0;.8" dur="3s" repeatCount="indefinite"/></circle>
+        </svg>
+      </div>
+    </div>
+    <div class="pcard" data-tags="linux hardening ssh" onclick="window.location='/posts/linux-essentials/'">
+      <div>
+        <div class="pcat">Linux Security</div>
+        <div class="ptitle">Linux Essentials: Building a Secure Foundation from Scratch</div>
+        <div class="pexc">A practical walkthrough of hardening a fresh Linux install — user privilege management, firewall configuration, and audit logging done right from day one.</div>
+        <div class="pmeta"><span class="pdate">2025-04-12</span><span style="color:#555">·</span><span class="ptime">6 min read</span></div>
+        <div class="ptags"><span class="ptag">Linux</span><span class="ptag">Hardening</span><span class="ptag">SSH</span></div>
+      </div>
+      <div class="pthumb">
+        <svg viewBox="0 0 90 68" width="90" height="68">
+          <rect width="90" height="68" fill="#1e2430" rx="5"/>
+          <rect x="5" y="5" width="80" height="9" rx="1.5" fill="#2a3042"/>
+          <circle cx="11" cy="9.5" r="2" fill="#ff7a68" opacity=".7"/><circle cx="17" cy="9.5" r="2" fill="#ffc84a" opacity=".6"/><circle cx="23" cy="9.5" r="2" fill="#34f0b8" opacity=".5"/>
+          <rect x="5" y="17" width="80" height="44" rx="1" fill="#131820"/>
+          <text x="9" y="27" font-size="4.5" fill="#34f0b8" font-family="monospace">$ sudo ufw enable</text>
+          <text x="9" y="35" font-size="4.5" fill="#90f5d8" font-family="monospace" opacity=".55">Firewall active</text>
+          <text x="9" y="43" font-size="4.5" fill="#34f0b8" font-family="monospace">$ chmod 700 ~/.ssh</text>
+          <text x="9" y="51" font-size="4.5" fill="#ffc84a" font-family="monospace" opacity=".65">$ auditd --status</text>
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div class="empty" id="emptyMsg">No posts match your search.</div>
+</div>
+
+<footer>
+  <span class="fc">© 2025 3RD3YE · All rights reserved</span>
+  <nav class="fn">
+    <a href="https://github.com/3rd3ye" target="_blank">GitHub</a>
+    <a href="/">Home</a>
+    <a href="/about#contact">Contact</a>
+  </nav>
+</footer>
+<script>
+let activeFilter='all';
+function setFilter(el,tag){document.querySelectorAll('.ftag').forEach(t=>t.classList.remove('on'));el.classList.add('on');activeFilter=tag;filterAll();}
+function filterAll(){const q=document.getElementById('searchInput').value.toLowerCase();const cards=document.querySelectorAll('.pcard');let v=0;cards.forEach(c=>{const tags=c.dataset.tags||'';const text=c.innerText.toLowerCase();const tm=activeFilter==='all'||tags.includes(activeFilter);const sm=q===''||text.includes(q);if(tm&&sm){c.classList.remove('hidden');v++;}else{c.classList.add('hidden');}});document.getElementById('postCount').textContent=v+' post'+(v!==1?'s':'');document.getElementById('emptyMsg').style.display=v===0?'block':'none';}
+</script>
+</body>
+</html>

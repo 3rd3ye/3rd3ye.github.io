@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lab · 3rd3ye</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,400&family=DM+Sans:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#252c3a;--bg2:#2e3548;--bg3:#38405a;--teal:#34f0b8;--teal2:#1e9e78;--teal3:#90f5d8;--gold:#ffc84a;--gold2:#d48e18;--red:#ff7a68;--red2:#b83020;--purple:#c09aff;--purple2:#7855e0;--coral:#ff9f7a;--coral2:#c05830;--ink:#f0ede6;--ink2:#ccc9c0;--ink3:#a0a09a;--ink4:#6a6a64;--border:#38405a;--font-body:'DM Sans',sans-serif;--font-display:'Lora',serif;--font-mono:'JetBrains Mono',monospace}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);line-height:1.6;min-height:100vh}
+nav{display:flex;align-items:center;justify-content:space-between;padding:0 36px;height:56px;background:var(--bg);border-bottom:.5px solid var(--border);position:sticky;top:0;z-index:100}
+.logo{font-family:var(--font-display);font-size:19px;font-weight:600;color:var(--teal3);text-decoration:none}
+.logo span{color:var(--gold)}
+.nav-links{display:flex;gap:28px;list-style:none}
+.nav-links a{font-size:10.5px;font-weight:500;letter-spacing:1.4px;text-transform:uppercase;color:var(--ink3);text-decoration:none;transition:color .2s}
+.nav-links a:hover,.nav-links a.active{color:var(--teal3)}
+.nav-cta{font-size:11px;color:var(--ink3);border:.5px solid var(--border);padding:6px 16px;border-radius:4px;background:transparent;cursor:pointer;transition:all .2s;text-decoration:none}
+.nav-cta:hover{border-color:var(--teal2);color:var(--teal3)}
+.page-hero{padding:52px 36px 36px;border-bottom:.5px solid var(--border)}
+.page-eyebrow{font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:12px}
+.page-title{font-family:var(--font-display);font-size:36px;font-weight:600;color:var(--ink);margin-bottom:10px}
+.page-desc{font-size:14px;color:var(--ink3);max-width:520px;line-height:1.8}
+.lab-body{max-width:1100px;margin:0 auto;padding:36px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;background:var(--border)}
+.lab-section{background:var(--bg);padding:28px}
+.ls-title{font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:var(--ink4);padding-bottom:12px;border-bottom:.5px solid var(--border);margin-bottom:18px}
+.ctf-item{padding:12px 0;border-bottom:.5px solid var(--border)}
+.ctf-item:last-child{border-bottom:none}
+.ctf-name{font-size:12.5px;font-weight:500;color:var(--ink);margin-bottom:3px}
+.ctf-meta{display:flex;align-items:center;gap:8px;margin-bottom:5px}
+.ctf-plat{font-size:10px;color:var(--ink4);font-family:var(--font-mono)}
+.ctf-diff{font-size:9px;padding:1px 7px;border-radius:20px}
+.diff-hard{background:rgba(255,122,104,.12);color:var(--red);border:.4px solid var(--red2)}
+.diff-med{background:rgba(255,200,74,.1);color:var(--gold);border:.4px solid var(--gold2)}
+.diff-easy{background:rgba(52,240,184,.1);color:var(--teal);border:.4px solid var(--teal2)}
+.ctf-tags{display:flex;gap:5px;flex-wrap:wrap}
+.ctftag{font-size:9px;padding:1px 8px;border-radius:20px;background:var(--bg3);border:.5px solid var(--border);color:var(--ink3)}
+.tool-item{display:flex;align-items:flex-start;gap:12px;padding:11px 0;border-bottom:.5px solid var(--border)}
+.tool-item:last-child{border-bottom:none}
+.tool-icon{width:32px;height:32px;border-radius:6px;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-family:var(--font-mono);font-size:9px;font-weight:500}
+.tool-name{font-size:12.5px;font-weight:500;color:var(--ink);margin-bottom:2px}
+.tool-desc{font-size:11px;color:var(--ink3);line-height:1.6}
+.tool-cat{font-size:9px;color:var(--ink4);font-family:var(--font-mono);margin-top:3px}
+.exp-item{padding:12px 0;border-bottom:.5px solid var(--border)}
+.exp-item:last-child{border-bottom:none}
+.exp-status{display:flex;align-items:center;gap:7px;margin-bottom:6px}
+.exp-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0}
+.exp-label{font-size:9px;letter-spacing:1.5px;text-transform:uppercase;font-weight:500}
+.exp-title{font-size:12.5px;font-weight:500;color:var(--ink);margin-bottom:4px;line-height:1.4}
+.exp-desc{font-size:11px;color:var(--ink3);line-height:1.65}
+.exp-date{font-size:9.5px;color:var(--ink4);font-family:var(--font-mono);margin-top:5px}
+.stat-row{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:.5px solid var(--border)}
+.stat-row:last-child{border-bottom:none}
+.stat-lbl{font-size:11px;color:var(--ink3)}
+.stat-val{font-family:var(--font-mono);font-size:12px;color:var(--teal3);font-weight:500}
+footer{background:var(--bg2);border-top:.5px solid var(--border);padding:18px 36px;display:flex;justify-content:space-between;align-items:center}
+.fc{font-family:var(--font-mono);font-size:10px;color:var(--ink4)}
+.fn{display:flex;gap:20px}
+.fn a{font-size:11px;color:var(--ink3);text-decoration:none;transition:color .2s}
+.fn a:hover{color:var(--teal3)}
+@media(max-width:900px){.lab-body{grid-template-columns:1fr;padding:16px}}
+@media(max-width:600px){nav{padding:0 16px}.nav-links{display:none}.page-hero{padding:36px 16px 24px}}
+</style>
+</head>
+<body>
+<nav>
+  <a class="logo" href="/">3rd<span>eye</span></a>
+  <ul class="nav-links">
+    <li><a href="/writing">Writing</a></li>
+    <li><a href="/topics">Topics</a></li>
+    <li><a href="/lab" class="active">Lab</a></li>
+    <li><a href="/about">About</a></li>
+  </ul>
+  <a class="nav-cta" href="/about#contact">Open to collaborating</a>
+</nav>
+
+<div class="page-hero">
+  <div class="page-eyebrow">Active workspace</div>
+  <h1 class="page-title">Lab</h1>
+  <p class="page-desc">CTF writeups, tools I use daily, and experiments in progress. This is where the actual work happens.</p>
+</div>
+
+<div class="lab-body">
+
+  <!-- CTF NOTES -->
+  <div class="lab-section">
+    <div class="ls-title">CTF notes</div>
+
+    <div class="ctf-item">
+      <div class="ctf-name">ret2libc — ASLR + NX bypass</div>
+      <div class="ctf-meta">
+        <span class="ctf-plat">HackTheBox</span>
+        <span class="ctf-diff diff-med">Medium</span>
+      </div>
+      <div class="ctf-tags"><span class="ctftag">PWN</span><span class="ctftag">Binary</span><span class="ctftag">ROP chain</span></div>
+    </div>
+
+    <div class="ctf-item">
+      <div class="ctf-name">Memory dump — extracting injected shellcode</div>
+      <div class="ctf-meta">
+        <span class="ctf-plat">PicoCTF</span>
+        <span class="ctf-diff diff-hard">Hard</span>
+      </div>
+      <div class="ctf-tags"><span class="ctftag">Forensics</span><span class="ctftag">Volatility</span><span class="ctftag">Shellcode</span></div>
+    </div>
+
+    <div class="ctf-item">
+      <div class="ctf-name">SQL injection — blind boolean extraction</div>
+      <div class="ctf-meta">
+        <span class="ctf-plat">TryHackMe</span>
+        <span class="ctf-diff diff-easy">Easy</span>
+      </div>
+      <div class="ctf-tags"><span class="ctftag">Web</span><span class="ctftag">SQLi</span><span class="ctftag">Burp Suite</span></div>
+    </div>
+
+    <div class="ctf-item">
+      <div class="ctf-name">Reverse crackme — patching license check</div>
+      <div class="ctf-meta">
+        <span class="ctf-plat">crackmes.one</span>
+        <span class="ctf-diff diff-med">Medium</span>
+      </div>
+      <div class="ctf-tags"><span class="ctftag">Reverse eng.</span><span class="ctftag">Ghidra</span><span class="ctftag">x86</span></div>
+    </div>
+
+    <div class="ctf-item">
+      <div class="ctf-name">XSS → CSRF → account takeover chain</div>
+      <div class="ctf-meta">
+        <span class="ctf-plat">PortSwigger Labs</span>
+        <span class="ctf-diff diff-hard">Hard</span>
+      </div>
+      <div class="ctf-tags"><span class="ctftag">Web</span><span class="ctftag">XSS</span><span class="ctftag">CSRF</span></div>
+    </div>
+
+    <div style="margin-top:18px;padding:10px 14px;background:var(--bg3);border-radius:6px;border:.5px solid var(--border)">
+      <div class="ls-title" style="margin-bottom:10px">Stats</div>
+      <div class="stat-row"><span class="stat-lbl">CTFs solved</span><span class="stat-val">5</span></div>
+      <div class="stat-row"><span class="stat-lbl">Hard</span><span class="stat-val" style="color:var(--red)">2</span></div>
+      <div class="stat-row"><span class="stat-lbl">Medium</span><span class="stat-val" style="color:var(--gold)">2</span></div>
+      <div class="stat-row"><span class="stat-lbl">Easy</span><span class="stat-val" style="color:var(--teal)">1</span></div>
+    </div>
+  </div>
+
+  <!-- TOOLS -->
+  <div class="lab-section">
+    <div class="ls-title">Tools I use</div>
+
+    <div class="tool-item">
+      <div class="tool-icon" style="background:rgba(192,154,255,.12);color:var(--purple)">GHD</div>
+      <div>
+        <div class="tool-name">Ghidra</div>
+        <div class="tool-desc">NSA's open-source reverse engineering framework. My go-to for binary analysis and decompilation.</div>
+        <div class="tool-cat">Reverse engineering</div>
+      </div>
+    </div>
+
+    <div class="tool-item">
+      <div class="tool-icon" style="background:rgba(52,240,184,.1);color:var(--teal)">VOL</div>
+      <div>
+        <div class="tool-name">Volatility 3</div>
+        <div class="tool-desc">Memory forensics framework for extracting artefacts from RAM dumps — processes, network connections, injected code.</div>
+        <div class="tool-cat">Memory forensics</div>
+      </div>
+    </div>
+
+    <div class="tool-item">
+      <div class="tool-icon" style="background:rgba(255,159,122,.12);color:var(--coral)">BRP</div>
+      <div>
+        <div class="tool-name">Burp Suite</div>
+        <div class="tool-desc">Web proxy for intercepting, modifying and replaying HTTP traffic. Essential for web app pentesting.</div>
+        <div class="tool-cat">Web security</div>
+      </div>
+    </div>
+
+    <div class="tool-item">
+      <div class="tool-icon" style="background:rgba(255,200,74,.1);color:var(--gold)">WRK</div>
+      <div>
+        <div class="tool-name">Wireshark</div>
+        <div class="tool-desc">Network protocol analyser for deep packet inspection — catching C2 beacons, DNS tunnels, and lateral movement.</div>
+        <div class="tool-cat">Network analysis</div>
+      </div>
+    </div>
+
+    <div class="tool-item">
+      <div class="tool-icon" style="background:rgba(255,122,104,.12);color:var(--red)">SYS</div>
+      <div>
+        <div class="tool-name">Sysmon + Splunk</div>
+        <div class="tool-desc">Kernel-level logging + SIEM. I use this combo to build detection rules and hunt for malicious behaviour.</div>
+        <div class="tool-cat">Detection &amp; hunting</div>
+      </div>
+    </div>
+
+    <div class="tool-item">
+      <div class="tool-icon" style="background:rgba(52,240,184,.1);color:var(--teal)">NMP</div>
+      <div>
+        <div class="tool-name">Nmap + Netcat</div>
+        <div class="tool-desc">The classic recon and pivoting duo. Still indispensable in every engagement and CTF.</div>
+        <div class="tool-cat">Recon &amp; pivoting</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- EXPERIMENTS -->
+  <div class="lab-section">
+    <div class="ls-title">Experiments in progress</div>
+
+    <div class="exp-item">
+      <div class="exp-status">
+        <div class="exp-dot" style="background:var(--teal)"></div>
+        <span class="exp-label" style="color:var(--teal)">Active</span>
+      </div>
+      <div class="exp-title">Building a custom YARA rule set for ransomware families</div>
+      <div class="exp-desc">Writing signatures for LockBit, BlackCat, and Cl0p based on static characteristics — packer patterns, mutex names, ransom note strings.</div>
+      <div class="exp-date">Started: Apr 2025</div>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-status">
+        <div class="exp-dot" style="background:var(--gold)"></div>
+        <span class="exp-label" style="color:var(--gold)">In progress</span>
+      </div>
+      <div class="exp-title">Volatility plugin for detecting hollowed processes</div>
+      <div class="exp-desc">Extending Volatility 3 with a custom plugin that compares VAD entries against on-disk PE sections to flag process hollowing.</div>
+      <div class="exp-date">Started: Mar 2025</div>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-status">
+        <div class="exp-dot" style="background:var(--purple)"></div>
+        <span class="exp-label" style="color:var(--purple)">Research</span>
+      </div>
+      <div class="exp-title">Mapping MITRE ATT&amp;CK to Sigma detection rules</div>
+      <div class="exp-desc">Building a personal library linking each ATT&amp;CK technique I study to one or more Sigma rules I can deploy into Splunk or Elastic.</div>
+      <div class="exp-date">Started: Feb 2025</div>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-status">
+        <div class="exp-dot" style="background:var(--coral)"></div>
+        <span class="exp-label" style="color:var(--coral)">Planned</span>
+      </div>
+      <div class="exp-title">Home lab: isolated malware analysis VM network</div>
+      <div class="exp-desc">Setting up a FlareVM + REMnux + INetSim environment for safe dynamic analysis with full network simulation.</div>
+      <div class="exp-date">Planned: Q3 2025</div>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-status">
+        <div class="exp-dot" style="background:var(--ink4)"></div>
+        <span class="exp-label" style="color:var(--ink4)">Backlog</span>
+      </div>
+      <div class="exp-title">Post-quantum cryptography — hands-on with CRYSTALS-Kyber</div>
+      <div class="exp-desc">Implementing and breaking down NIST's chosen post-quantum KEM to understand how it will replace RSA and ECC in the next decade.</div>
+      <div class="exp-date">Planned: Q4 2025</div>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <span class="fc">© 2025 3RD3YE · All rights reserved</span>
+  <nav class="fn">
+    <a href="https://github.com/3rd3ye" target="_blank">GitHub</a>
+    <a href="/">Home</a>
+    <a href="/about#contact">Contact</a>
+  </nav>
+</footer>
+</body>
+</html>

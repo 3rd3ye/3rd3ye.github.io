@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Topics · 3rd3ye</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,400&family=DM+Sans:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#252c3a;--bg2:#2e3548;--bg3:#38405a;--bg4:#444e6a;--teal:#34f0b8;--teal2:#1e9e78;--teal3:#90f5d8;--gold:#ffc84a;--gold2:#d48e18;--red:#ff7a68;--red2:#b83020;--purple:#c09aff;--purple2:#7855e0;--coral:#ff9f7a;--coral2:#c05830;--ink:#f0ede6;--ink2:#ccc9c0;--ink3:#a0a09a;--ink4:#6a6a64;--border:#38405a;--font-body:'DM Sans',sans-serif;--font-display:'Lora',serif;--font-mono:'JetBrains Mono',monospace}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);line-height:1.6;min-height:100vh}
+nav{display:flex;align-items:center;justify-content:space-between;padding:0 36px;height:56px;background:var(--bg);border-bottom:.5px solid var(--border);position:sticky;top:0;z-index:100}
+.logo{font-family:var(--font-display);font-size:19px;font-weight:600;color:var(--teal3);text-decoration:none}
+.logo span{color:var(--gold)}
+.nav-links{display:flex;gap:28px;list-style:none}
+.nav-links a{font-size:10.5px;font-weight:500;letter-spacing:1.4px;text-transform:uppercase;color:var(--ink3);text-decoration:none;transition:color .2s}
+.nav-links a:hover,.nav-links a.active{color:var(--teal3)}
+.nav-cta{font-size:11px;color:var(--ink3);border:.5px solid var(--border);padding:6px 16px;border-radius:4px;background:transparent;cursor:pointer;transition:all .2s;text-decoration:none}
+.nav-cta:hover{border-color:var(--teal2);color:var(--teal3)}
+.page-hero{padding:52px 36px 36px;border-bottom:.5px solid var(--border)}
+.page-eyebrow{font-size:9px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:12px}
+.page-title{font-family:var(--font-display);font-size:36px;font-weight:600;color:var(--ink);margin-bottom:10px}
+.page-desc{font-size:14px;color:var(--ink3);max-width:520px;line-height:1.8}
+.topics-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1px;background:var(--border);margin:0}
+.topic-card{background:var(--bg);padding:36px 32px;cursor:pointer;transition:background .2s;position:relative;overflow:hidden}
+.topic-card:hover{background:var(--bg2)}
+.topic-card::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%}
+.tc-teal::before{background:var(--teal2)}
+.tc-red::before{background:var(--red2)}
+.tc-purple::before{background:var(--purple2)}
+.tc-gold::before{background:var(--gold2)}
+.tc-coral::before{background:var(--coral2)}
+.topic-icon{margin-bottom:16px}
+.topic-num{font-family:var(--font-mono);font-size:9px;color:var(--ink4);letter-spacing:1px;margin-bottom:10px}
+.topic-name{font-family:var(--font-display);font-size:22px;font-weight:600;color:var(--ink);margin-bottom:10px;line-height:1.2}
+.topic-desc{font-size:12.5px;color:var(--ink3);line-height:1.8;margin-bottom:18px}
+.topic-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:18px}
+.ttag{font-size:9.5px;padding:3px 10px;border-radius:20px;background:var(--bg3);border:.5px solid var(--border);color:var(--ink3)}
+.topic-posts{font-family:var(--font-mono);font-size:10px;color:var(--ink4)}
+.topic-arrow{position:absolute;bottom:28px;right:28px;font-size:18px;opacity:.2;transition:opacity .2s}
+.topic-card:hover .topic-arrow{opacity:.6}
+.coming-soon{font-size:9px;letter-spacing:1.5px;text-transform:uppercase;padding:3px 10px;border-radius:20px;border:.5px solid var(--border);color:var(--ink4);display:inline-block;margin-bottom:10px}
+footer{background:var(--bg2);border-top:.5px solid var(--border);padding:18px 36px;display:flex;justify-content:space-between;align-items:center}
+.fc{font-family:var(--font-mono);font-size:10px;color:var(--ink4)}
+.fn{display:flex;gap:20px}
+.fn a{font-size:11px;color:var(--ink3);text-decoration:none;transition:color .2s}
+.fn a:hover{color:var(--teal3)}
+@media(max-width:600px){nav{padding:0 16px}.nav-links{display:none}.page-hero{padding:36px 16px 24px}.topics-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<nav>
+  <a class="logo" href="/">3rd<span>eye</span></a>
+  <ul class="nav-links">
+    <li><a href="/writing">Writing</a></li>
+    <li><a href="/topics" class="active">Topics</a></li>
+    <li><a href="/lab">Lab</a></li>
+    <li><a href="/about">About</a></li>
+  </ul>
+  <a class="nav-cta" href="/about#contact">Open to collaborating</a>
+</nav>
+
+<div class="page-hero">
+  <div class="page-eyebrow">Research areas</div>
+  <h1 class="page-title">Topics</h1>
+  <p class="page-desc">Five core domains I research, write about and actively build skills in. Each is a rabbit hole — this is where I document the descent.</p>
+</div>
+
+<div class="topics-grid">
+
+  <div class="topic-card tc-red" onclick="window.location='/writing'">
+    <div class="topic-num">01</div>
+    <div class="topic-name">Malware Analysis</div>
+    <div class="topic-desc">Dissecting malicious software to understand how it works, evades detection, and persists. From static analysis to dynamic sandboxing and memory forensics.</div>
+    <div class="topic-tags">
+      <span class="ttag">Static analysis</span>
+      <span class="ttag">Dynamic sandbox</span>
+      <span class="ttag">YARA rules</span>
+      <span class="ttag">Unpacking</span>
+      <span class="ttag">Evasion</span>
+      <span class="ttag">Fileless</span>
+    </div>
+    <div class="topic-posts">1 post published</div>
+    <div class="topic-arrow">→</div>
+    <div class="topic-icon">
+      <svg viewBox="0 0 48 48" width="48" height="48">
+        <circle cx="24" cy="24" r="18" fill="none" stroke="#ff7a68" stroke-width=".8" opacity=".35"/>
+        <circle cx="24" cy="24" r="11" fill="none" stroke="#b83020" stroke-width=".8" opacity=".5"/>
+        <circle cx="24" cy="24" r="5" fill="#ff7a68" opacity=".75"/>
+        <circle cx="24" cy="24" fill="none" stroke="#ff7a68" stroke-width=".8"><animate attributeName="r" values="5;16;5" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values=".7;0;.7" dur="3s" repeatCount="indefinite"/></circle>
+      </svg>
+    </div>
+  </div>
+
+  <div class="topic-card tc-purple" onclick="window.location='/writing'">
+    <div class="topic-num">02</div>
+    <div class="topic-name">Reverse Engineering</div>
+    <div class="topic-desc">Taking apart compiled binaries to understand their logic — without source code. Using Ghidra, IDA Pro, and x86 assembly to reconstruct what the developer tried to hide.</div>
+    <div class="topic-tags">
+      <span class="ttag">Ghidra</span>
+      <span class="ttag">IDA Pro</span>
+      <span class="ttag">x86 assembly</span>
+      <span class="ttag">Deobfuscation</span>
+      <span class="ttag">Binary patching</span>
+      <span class="ttag">Crackmes</span>
+    </div>
+    <div class="topic-posts">Coming soon</div>
+    <div class="topic-arrow">→</div>
+    <div class="topic-icon">
+      <svg viewBox="0 0 48 48" width="48" height="48">
+        <rect x="8" y="14" width="32" height="20" rx="2" fill="none" stroke="#c09aff" stroke-width=".8" opacity=".5"/>
+        <text x="12" y="24" font-size="5.5" fill="#c09aff" font-family="monospace" opacity=".8">0x48 0x89 0xe5</text>
+        <text x="12" y="31" font-size="5.5" fill="#7855e0" font-family="monospace" opacity=".6">push rbp; mov</text>
+        <line x1="8" y1="8" x2="40" y2="8" stroke="#c09aff" stroke-width=".4" opacity=".3"/>
+        <line x1="8" y1="40" x2="40" y2="40" stroke="#c09aff" stroke-width=".4" opacity=".3"/>
+      </svg>
+    </div>
+  </div>
+
+  <div class="topic-card tc-teal" onclick="window.location='/writing'">
+    <div class="topic-num">03</div>
+    <div class="topic-name">SOC &amp; Blue Team</div>
+    <div class="topic-desc">Security Operations Centre fundamentals — detection engineering, alert triage, SIEM queries, and building the defender mindset that understands attacker TTPs.</div>
+    <div class="topic-tags">
+      <span class="ttag">SIEM</span>
+      <span class="ttag">Detection engineering</span>
+      <span class="ttag">Splunk</span>
+      <span class="ttag">Elastic</span>
+      <span class="ttag">Alert triage</span>
+      <span class="ttag">Sigma rules</span>
+    </div>
+    <div class="topic-posts">Coming soon</div>
+    <div class="topic-arrow">→</div>
+    <div class="topic-icon">
+      <svg viewBox="0 0 48 48" width="48" height="48">
+        <path d="M24 8 L38 14 L38 26 Q38 36 24 42 Q10 36 10 26 L10 14 Z" fill="none" stroke="#34f0b8" stroke-width=".8" opacity=".5"/>
+        <path d="M24 14 L32 18 L32 26 Q32 32 24 36 Q16 32 16 26 L16 18 Z" fill="none" stroke="#1e9e78" stroke-width=".6" opacity=".4"/>
+        <circle cx="24" cy="26" r="3" fill="#34f0b8" opacity=".7"/>
+      </svg>
+    </div>
+  </div>
+
+  <div class="topic-card tc-gold" onclick="window.location='/writing'">
+    <div class="topic-num">04</div>
+    <div class="topic-name">AI in Security</div>
+    <div class="topic-desc">How machine learning is reshaping both attack and defence — from LLM-powered phishing to AI-driven anomaly detection and adversarial ML attacks on security models.</div>
+    <div class="topic-tags">
+      <span class="ttag">LLM threats</span>
+      <span class="ttag">Adversarial ML</span>
+      <span class="ttag">AI detection</span>
+      <span class="ttag">Prompt injection</span>
+      <span class="ttag">Model poisoning</span>
+    </div>
+    <div class="topic-posts">Coming soon</div>
+    <div class="topic-arrow">→</div>
+    <div class="topic-icon">
+      <svg viewBox="0 0 48 48" width="48" height="48">
+        <circle cx="24" cy="24" r="6" fill="none" stroke="#ffc84a" stroke-width=".8" opacity=".7"/>
+        <line x1="10" y1="16" x2="18" y2="21" stroke="#ffc84a" stroke-width=".6" opacity=".5"/>
+        <line x1="10" y1="32" x2="18" y2="27" stroke="#ffc84a" stroke-width=".6" opacity=".5"/>
+        <line x1="38" y1="16" x2="30" y2="21" stroke="#ffc84a" stroke-width=".6" opacity=".5"/>
+        <line x1="38" y1="32" x2="30" y2="27" stroke="#ffc84a" stroke-width=".6" opacity=".5"/>
+        <line x1="24" y1="8" x2="24" y2="18" stroke="#ffc84a" stroke-width=".6" opacity=".5"/>
+        <line x1="24" y1="30" x2="24" y2="40" stroke="#ffc84a" stroke-width=".6" opacity=".5"/>
+        <circle cx="10" cy="16" r="2.5" fill="#ffc84a" opacity=".6"/>
+        <circle cx="10" cy="32" r="2.5" fill="#ffc84a" opacity=".6"/>
+        <circle cx="38" cy="16" r="2.5" fill="#ffc84a" opacity=".6"/>
+        <circle cx="38" cy="32" r="2.5" fill="#ffc84a" opacity=".6"/>
+        <circle cx="24" cy="8" r="2.5" fill="#ffc84a" opacity=".6"/>
+        <circle cx="24" cy="40" r="2.5" fill="#ffc84a" opacity=".6"/>
+      </svg>
+    </div>
+  </div>
+
+  <div class="topic-card tc-coral" onclick="window.location='/writing'">
+    <div class="topic-num">05</div>
+    <div class="topic-name">Threat Research</div>
+    <div class="topic-desc">Tracking APT groups, analysing campaigns, and mapping adversary behaviour to MITRE ATT&amp;CK. Understanding threat actors is the first step in defending against them.</div>
+    <div class="topic-tags">
+      <span class="ttag">MITRE ATT&amp;CK</span>
+      <span class="ttag">APT tracking</span>
+      <span class="ttag">OSINT</span>
+      <span class="ttag">Campaign analysis</span>
+      <span class="ttag">IOC</span>
+      <span class="ttag">Kill chain</span>
+    </div>
+    <div class="topic-posts">Coming soon</div>
+    <div class="topic-arrow">→</div>
+    <div class="topic-icon">
+      <svg viewBox="0 0 48 48" width="48" height="48">
+        <circle cx="14" cy="24" r="4" fill="none" stroke="#ff9f7a" stroke-width=".8" opacity=".7"/>
+        <circle cx="34" cy="14" r="4" fill="none" stroke="#ff9f7a" stroke-width=".8" opacity=".7"/>
+        <circle cx="34" cy="34" r="4" fill="none" stroke="#ff9f7a" stroke-width=".8" opacity=".7"/>
+        <line x1="18" y1="24" x2="30" y2="16" stroke="#ff9f7a" stroke-width=".6" stroke-dasharray="3 2" opacity=".5"/>
+        <line x1="18" y1="24" x2="30" y2="32" stroke="#ff9f7a" stroke-width=".6" stroke-dasharray="3 2" opacity=".5"/>
+        <line x1="34" y1="18" x2="34" y2="30" stroke="#ff9f7a" stroke-width=".6" stroke-dasharray="3 2" opacity=".4"/>
+        <circle cx="14" cy="24" r="2" fill="#ff9f7a" opacity=".5"/>
+        <circle cx="34" cy="14" r="2" fill="#ff9f7a" opacity=".5"/>
+        <circle cx="34" cy="34" r="2" fill="#ff9f7a" opacity=".5"/>
+      </svg>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <span class="fc">© 2025 3RD3YE · All rights reserved</span>
+  <nav class="fn">
+    <a href="https://github.com/3rd3ye" target="_blank">GitHub</a>
+    <a href="/">Home</a>
+    <a href="/about#contact">Contact</a>
+  </nav>
+</footer>
+</body>
+</html>
