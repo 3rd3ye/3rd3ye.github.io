@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insights · 3RD3YE Security Research</title>
+<meta name="description" content="Security research blog covering malware analysis, Linux internals, reverse engineering, and threat modelling.">
+<link rel="stylesheet" href="assets/css/modernist.css">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+
+<header class="topbar">
+  <nav class="nav">
+    <a class="nav-brand" href="index.html"><span class="dot"></span>3RD3YE</a>
+    <button class="nav-burger" aria-label="Toggle menu"><i data-lucide="menu"></i></button>
+    <div class="nav-links">
+      <a href="writing.html">Writing</a>
+      <a href="topics.html">Topics</a>
+      <a href="lab.html">Lab</a>
+      <a href="about.html">About</a>
+    </div>
+    <div class="nav-status"><span class="pulse"></span>Open to collaborating</div>
+    <div class="theme-toggle">
+      <button data-theme="light" aria-label="Light mode"><i data-lucide="sun"></i></button>
+      <button data-theme="dark" aria-label="Dark mode"><i data-lucide="moon"></i></button>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="reveal in">
+      <div class="hero-kicker"><i data-lucide="terminal" style="width:12px;height:12px"></i> Learning in public</div>
+      <h1 class="hero-title">A forest full of snakes, mapped one <em>trace</em> at a time.</h1>
+      <p class="hero-sub">Malware analysis, Linux internals, reverse engineering and threat modelling — written for humans, not headlines.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="writing.html">Read the blog <i data-lucide="arrow-right" style="width:15px;height:15px"></i></a>
+        <a class="btn btn-secondary" href="topics.html">View topics</a>
+      </div>
+    </div>
+    <div class="hero-art reveal in" aria-hidden="true">
+      <svg viewBox="0 0 360 360" width="100%" height="100%">
+        <circle class="scan-ring" cx="180" cy="180" r="86" fill="none" stroke-width="1"></circle>
+        <circle class="scan-ring" cx="180" cy="180" r="140" fill="none" stroke-width="1"></circle>
+        <line x1="180" y1="20" x2="180" y2="340" class="scan-axis"></line>
+        <line x1="20" y1="180" x2="340" y2="180" class="scan-axis"></line>
+        <g class="scan-sweep">
+          <path d="M180 180 L180 40 A140 140 0 0 1 300 120 Z"></path>
+        </g>
+        <g class="scan-nodes">
+          <circle cx="180" cy="94" r="4"></circle>
+          <circle cx="266" cy="180" r="4"></circle>
+          <circle cx="180" cy="266" r="4"></circle>
+          <circle cx="94" cy="180" r="4"></circle>
+          <circle cx="238" cy="122" r="3"></circle>
+          <circle cx="122" cy="238" r="3"></circle>
+          <circle cx="238" cy="238" r="3"></circle>
+        </g>
+        <circle cx="180" cy="180" r="5" fill="var(--color-accent)"></circle>
+      </svg>
+      <div class="hero-art-label">
+        <span>NODE_SCAN</span><span class="cur"></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <div class="stat-row reveal">
+    <div class="stat"><b>40+</b><span>Writeups published</span></div>
+    <div class="stat"><b>25+</b><span>CTFs solved</span></div>
+    <div class="stat"><b>6</b><span>Lab tools shipped</span></div>
+    <div class="stat"><b>3 yrs</b><span>In public research</span></div>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="section-label">Latest writing</div>
+        <h2 style="margin-top:6px">Recent posts</h2>
+      </div>
+      <a class="btn btn-ghost" href="writing.html">All posts <i data-lucide="arrow-right" style="width:14px;height:14px"></i></a>
+    </div>
+    <div class="post-grid">
+      <a class="post-card reveal" href="post.html">
+        <div class="tag tag-accent" style="align-self:flex-start">Linux security</div>
+        <h3 class="card-title" style="font-size:19px">Linux essentials: building a secure foundation from scratch</h3>
+        <p class="card-body">A practical walkthrough of hardening a fresh install — privilege management, firewall configuration, and audit logging done right from day one.</p>
+        <div class="card-meta">2026-04-12 · 6 min read</div>
+        <div class="tags"><span class="tag tag-neutral">Hardening</span><span class="tag tag-neutral">Beginner</span></div>
+      </a>
+      <a class="post-card reveal" href="post.html">
+        <div class="tag tag-accent" style="align-self:flex-start">Malware analysis</div>
+        <h3 class="card-title" style="font-size:19px">Fileless malware: how attackers live off the land</h3>
+        <p class="card-body">LOLBAS techniques — PowerShell, WMI and scheduled tasks weaponised into a memory-resident attack chain with zero disk footprint.</p>
+        <div class="card-meta">2026-05-03 · 8 min read</div>
+        <div class="tags"><span class="tag tag-neutral">LOLBAS</span><span class="tag tag-neutral">Windows</span></div>
+      </a>
+      <a class="post-card reveal" href="post.html">
+        <div class="tag tag-accent" style="align-self:flex-start">Reverse engineering</div>
+        <h3 class="card-title" style="font-size:19px">Reverse engineering a ransomware sample, step by step</h3>
+        <p class="card-body">A VM-contained walkthrough — unpacking, string triage, and mapping the encryption routine before it touches a single real file.</p>
+        <div class="card-meta">Coming soon</div>
+        <div class="tags"><span class="tag tag-neutral">Ransomware</span><span class="tag tag-neutral">Static analysis</span></div>
+      </a>
+      <a class="post-card reveal" href="post.html">
+        <div class="tag tag-accent" style="align-self:flex-start">Forensics</div>
+        <h3 class="card-title" style="font-size:19px">Volatility 3 for Windows memory forensics — first run</h3>
+        <p class="card-body">Setting up a working memory-forensics pipeline and pulling process trees, network artefacts and injected code from a raw image.</p>
+        <div class="card-meta">2025-03-31 · 5 min read</div>
+        <div class="tags"><span class="tag tag-neutral">Volatility</span><span class="tag tag-neutral">Windows</span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="section-label">Threat modelling</div>
+        <h2 style="margin-top:6px">How a breach unfolds</h2>
+      </div>
+    </div>
+    <div class="chain reveal">
+      <div class="chain-step">
+        <div class="n">01</div>
+        <h5>Reconnaissance</h5>
+        <p>OSINT, exposed services and phishing surface mapped before a single packet lands.</p>
+      </div>
+      <div class="chain-step">
+        <div class="n">02</div>
+        <h5>Initial access</h5>
+        <p>Spear-phishing, exposed RDP or a vulnerable edge service opens the first foothold.</p>
+      </div>
+      <div class="chain-step">
+        <div class="n">03</div>
+        <h5>Lateral movement</h5>
+        <p>Credential dumping and living-off-the-land binaries move the attacker toward the crown jewels.</p>
+      </div>
+      <div class="chain-step">
+        <div class="n">04</div>
+        <h5>Exfiltration</h5>
+        <p>Data staged and shipped out over DNS tunnels or encrypted C2 before the ransom note drops.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container layout-2col">
+    <div>
+      <div class="section-head reveal" style="margin-bottom:var(--space-4)">
+        <div>
+          <div class="section-label">Live</div>
+          <h2 style="margin-top:6px">Threat feed</h2>
+          <p class="text-muted" style="max-width:52ch">Pulled client-side from public security newsrooms — headline, brief context, and a source link, refreshed on every visit.</p>
+        </div>
+      </div>
+      <div class="feed-list reveal" id="threat-feed">
+        <div class="feed-skel"></div>
+        <div class="feed-skel"></div>
+        <div class="feed-skel"></div>
+      </div>
+    </div>
+    <div>
+      <div class="side-block reveal">
+        <h4><i data-lucide="activity" style="width:16px;height:16px"></i> Recent activity</h4>
+        <div class="activity-list" id="activity-list">
+          <div class="feed-skel"></div>
+        </div>
+      </div>
+      <div class="side-block reveal">
+        <h4><i data-lucide="book-open" style="width:16px;height:16px"></i> Currently reading</h4>
+        <div class="read-item">
+          <div class="read-num">01</div>
+          <div><strong>The Art of Memory Forensics</strong><div class="text-muted" style="font-size:12px">Ligh, Case, Levy, Walters · In progress</div></div>
+        </div>
+        <div class="read-item">
+          <div class="read-num">02</div>
+          <div><strong>Practical Malware Analysis</strong><div class="text-muted" style="font-size:12px">Sikorski &amp; Honig · Done ✓</div></div>
+        </div>
+        <div class="read-item">
+          <div class="read-num">03</div>
+          <div><strong>Red Team Development and Operations</strong><div class="text-muted" style="font-size:12px">Joe Vest · Up next</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact" style="border-bottom:0">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="section-label">Work with me</div>
+        <h2 style="margin-top:6px">Open to consulting &amp; collaboration</h2>
+        <p class="text-muted" style="max-width:56ch">Malware writeups, security blog ghostwriting, CTF team training, tool reviews. Tell me what you're building — replies within 48h.</p>
+      </div>
+    </div>
+    <div class="contact-grid">
+      <form class="reveal" data-ajax-form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY">
+        <input type="hidden" name="subject" value="New message from 3rd3ye.dev">
+        <div class="form-grid">
+          <div class="field"><label for="f-name">Name</label><input class="input" id="f-name" name="name" required></div>
+          <div class="field"><label for="f-email">Email</label><input class="input" id="f-email" type="email" name="email" required></div>
+          <div class="field field-full"><label for="f-org">Organisation (optional)</label><input class="input" id="f-org" name="organisation"></div>
+          <div class="field field-full"><label for="f-msg">What are you looking for?</label><textarea class="input" id="f-msg" name="message" required></textarea></div>
+        </div>
+        <button class="btn btn-primary" type="submit" style="margin-top:var(--space-4)">Get in touch <i data-lucide="send" style="width:14px;height:14px"></i></button>
+        <p class="form-note">Form delivers straight to my inbox instantly via Web3Forms — no data stored on this site. Replace <code>YOUR_WEB3FORMS_ACCESS_KEY</code> in the source with your own free key to activate it (see README).</p>
+        <div class="form-success">Thanks — message sent. I'll be in touch shortly.</div>
+      </form>
+      <div class="contact-side reveal">
+        <div class="contact-art" aria-hidden="true">
+          <svg viewBox="0 0 280 180" width="100%" height="100%">
+            <g stroke="var(--color-divider)" stroke-width="1">
+              <line x1="20" y1="150" x2="260" y2="150"></line>
+              <line x1="20" y1="20" x2="20" y2="150"></line>
+            </g>
+            <polyline points="20,120 70,95 110,130 150,60 190,80 230,30 260,45" fill="none" stroke="var(--color-accent)" stroke-width="2" class="contact-wave"></polyline>
+            <g class="contact-dots" fill="var(--color-accent-700)">
+              <circle cx="70" cy="95" r="3.5"></circle>
+              <circle cx="150" cy="60" r="3.5"></circle>
+              <circle cx="230" cy="30" r="4.5" fill="var(--color-accent)"></circle>
+            </g>
+            <text x="20" y="170" font-family="var(--mono)" font-size="10" fill="var(--color-accent-700)" letter-spacing="1">SIGNAL / RESPONSE</text>
+          </svg>
+        </div>
+        <div class="contact-side-row">
+          <i data-lucide="clock" style="width:16px;height:16px;color:var(--color-accent)"></i>
+          <div><strong>48h reply window</strong><div class="text-muted" style="font-size:12.5px">Every message gets a direct reply, no auto-responder.</div></div>
+        </div>
+        <div class="contact-side-row">
+          <i data-lucide="lock" style="width:16px;height:16px;color:var(--color-accent)"></i>
+          <div><strong>No data stored</strong><div class="text-muted" style="font-size:12.5px">Submissions route straight to email via Formspree.</div></div>
+        </div>
+        <div class="contact-side-row">
+          <i data-lucide="briefcase" style="width:16px;height:16px;color:var(--color-accent)"></i>
+          <div><strong>Currently taking</strong><div class="text-muted" style="font-size:12.5px">Writeups, ghostwriting, CTF coaching, tool reviews.</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <hr class="hr">
+    <div class="footer-grid">
+      <div class="footer-fine">© <span data-year></span> 3RD3YE · All rights reserved</div>
+      <div class="footer-links">
+        <a href="https://github.com/3rd3ye" target="_blank" rel="noopener">GitHub</a>
+        <a href="rss.xml">RSS</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="about.html#contact">Contact</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<script src="assets/js/main.js"></script>
+<script>if(window.lucide){lucide.createIcons();}</script>
+</body>
+</html>

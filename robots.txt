@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://3rd3ye.github.io/sitemap.xml

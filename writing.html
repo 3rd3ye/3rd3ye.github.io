@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Writing · 3RD3YE</title>
+<meta name="description" content="All security research writing from 3rd3ye — malware analysis, Linux internals, forensics, CTF and reverse engineering.">
+<link rel="stylesheet" href="assets/css/modernist.css">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+
+<header class="topbar">
+  <nav class="nav">
+    <a class="nav-brand" href="index.html"><span class="dot"></span>3RD3YE</a>
+    <button class="nav-burger" aria-label="Toggle menu"><i data-lucide="menu"></i></button>
+    <div class="nav-links">
+      <a href="writing.html" aria-current="page">Writing</a>
+      <a href="topics.html">Topics</a>
+      <a href="lab.html">Lab</a>
+      <a href="about.html">About</a>
+    </div>
+    <div class="nav-status"><span class="pulse"></span>Open to collaborating</div>
+    <div class="theme-toggle">
+      <button data-theme="light" aria-label="Light mode"><i data-lucide="sun"></i></button>
+      <button data-theme="dark" aria-label="Dark mode"><i data-lucide="moon"></i></button>
+    </div>
+  </nav>
+</header>
+
+<div class="page-header">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> / Writing</div>
+    <h1>Writing</h1>
+    <p class="text-muted" style="max-width:56ch;font-size:16px">Every writeup, teardown and field note — filter by topic.</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="reveal" data-filter-bar style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:var(--space-6)">
+      <button class="tag tag-accent" data-filter="all" style="border:0;cursor:pointer">All</button>
+      <button class="tag tag-outline" data-filter="malware" style="cursor:pointer;background:none">Malware</button>
+      <button class="tag tag-outline" data-filter="linux" style="cursor:pointer;background:none">Linux</button>
+      <button class="tag tag-outline" data-filter="forensics" style="cursor:pointer;background:none">Forensics</button>
+      <button class="tag tag-outline" data-filter="ctf" style="cursor:pointer;background:none">CTF</button>
+      <button class="tag tag-outline" data-filter="reverse" style="cursor:pointer;background:none">Reverse eng.</button>
+      <button class="tag tag-outline" data-filter="threat" style="cursor:pointer;background:none">Threat modelling</button>
+    </div>
+    <div class="post-grid">
+      <a class="post-card reveal" href="post.html" data-tags="linux">
+        <div class="tag tag-accent" style="align-self:flex-start">Linux security</div>
+        <h3 class="card-title" style="font-size:19px">Linux essentials: building a secure foundation from scratch</h3>
+        <p class="card-body">Privilege management, firewall configuration, and audit logging done right from day one.</p>
+        <div class="card-meta">2026-04-12 · 6 min read</div>
+      </a>
+      <a class="post-card reveal" href="post.html" data-tags="malware">
+        <div class="tag tag-accent" style="align-self:flex-start">Malware analysis</div>
+        <h3 class="card-title" style="font-size:19px">Fileless malware: how attackers live off the land</h3>
+        <p class="card-body">LOLBAS techniques weaponised into a memory-resident attack chain with zero disk footprint.</p>
+        <div class="card-meta">2026-05-03 · 8 min read</div>
+      </a>
+      <a class="post-card reveal" href="post.html" data-tags="reverse malware">
+        <div class="tag tag-accent" style="align-self:flex-start">Reverse engineering</div>
+        <h3 class="card-title" style="font-size:19px">Reverse engineering a ransomware sample, step by step</h3>
+        <p class="card-body">Unpacking, string triage, and mapping the encryption routine inside a contained VM.</p>
+        <div class="card-meta">Coming soon</div>
+      </a>
+      <a class="post-card reveal" href="post.html" data-tags="forensics">
+        <div class="tag tag-accent" style="align-self:flex-start">Forensics</div>
+        <h3 class="card-title" style="font-size:19px">Volatility 3 for Windows memory forensics — first run</h3>
+        <p class="card-body">Pulling process trees, network artefacts and injected code from a raw memory image.</p>
+        <div class="card-meta">2025-03-31 · 5 min read</div>
+      </a>
+      <a class="post-card reveal" href="post.html" data-tags="ctf reverse">
+        <div class="tag tag-accent" style="align-self:flex-start">CTF</div>
+        <h3 class="card-title" style="font-size:19px">PicoCTF — extracting injected shellcode from a memory dump</h3>
+        <p class="card-body">A hard-rated pwn challenge solved with Ghidra and a patient disassembly pass.</p>
+        <div class="card-meta">2025-03-14 · 7 min read</div>
+      </a>
+      <a class="post-card reveal" href="post.html" data-tags="threat">
+        <div class="tag tag-accent" style="align-self:flex-start">Threat modelling</div>
+        <h3 class="card-title" style="font-size:19px">Building an attack-chain model your team will actually use</h3>
+        <p class="card-body">Mapping MITRE ATT&amp;CK techniques onto your own infrastructure without the noise.</p>
+        <div class="card-meta">2025-02-02 · 9 min read</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <hr class="hr">
+    <div class="footer-grid">
+      <div class="footer-fine">© <span data-year></span> 3RD3YE · All rights reserved</div>
+      <div class="footer-links">
+        <a href="https://github.com/3rd3ye" target="_blank" rel="noopener">GitHub</a>
+        <a href="rss.xml">RSS</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="about.html#contact">Contact</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<script src="assets/js/main.js"></script>
+<script>if(window.lucide){lucide.createIcons();}</script>
+</body>
+</html>
