@@ -44,8 +44,12 @@
       entries.forEach(function (en) {
         if (en.isIntersecting) { en.target.classList.add("in"); io.unobserve(en.target); }
       });
-    }, { threshold: 0.15 });
+    }, { threshold: 0, rootMargin: "0px 0px -5% 0px" });
     els.forEach(function (e) { io.observe(e); });
+    // safety net: never leave content invisible if IO stalls or a later script errors
+    setTimeout(function () {
+      els.forEach(function (e) { e.classList.add("in"); });
+    }, 1500);
   }
 
   /* ---------- activity feed (data/activity.json) ---------- */
@@ -112,10 +116,16 @@
   }
   /* ---------- threat feed: prefer prebuilt data/threat-feed.json (via GitHub Action), ---------- */
   /* fall back to live client-side fetch through public RSS proxies if it's missing/stale.        */
+  function withTimeout(promise, ms) {
+    return Promise.race([
+      promise,
+      new Promise(function (_, reject) { setTimeout(function () { reject(new Error("timeout")); }, ms); })
+    ]);
+  }
   function initThreatFeed() {
     var mount = document.getElementById("threat-feed");
     if (!mount) return;
-    fetch("data/threat-feed.json", { cache: "no-store" })
+    withTimeout(fetch("data/threat-feed.json", { cache: "no-store" }), 5000)
       .then(function (r) { return r.ok ? r.json() : Promise.reject(); })
       .then(function (items) {
         if (!items || !items.length) return Promise.reject();
@@ -124,14 +134,34 @@
       .catch(function () { fetchLiveFeed(mount); });
   }
   function fetchLiveFeed(mount) {
-    Promise.all(FEEDS.map(function (f) {
-      return fetchViaRss2json(f).catch(function () { return fetchViaAllOrigins(f); }).catch(function () { return []; });
-    })).then(function (groups) {
+    withTimeout(Promise.all(FEEDS.map(function (f) {
+      return withTimeout(fetchViaRss2json(f), 6000)
+        .catch(function () { return withTimeout(fetchViaAllOrigins(f), 6000); })
+        .catch(function () { return withTimeout(fetchViaCorsProxy(f), 6000); })
+        .catch(function () { return []; });
+    })), 15000).then(function (groups) {
       var items = [].concat.apply([], groups);
       if (!items.length) { renderFeedFallback(mount); return; }
       items.sort(function (a, b) { return (b.date || "").localeCompare(a.date || ""); });
       renderFeed(mount, items.slice(0, 6));
     }).catch(function () { renderFeedFallback(mount); });
+  }
+  function fetchViaCorsProxy(f) {
+    var api = "https://corsproxy.io/?url=" + encodeURIComponent(f.url);
+    return fetch(api).then(function (r) { return r.text(); }).then(function (xml) {
+      var doc = new DOMParser().parseFromString(xml, "text/xml");
+      var nodes = Array.prototype.slice.call(doc.querySelectorAll("item")).slice(0, 5);
+      if (!nodes.length) throw new Error("corsproxy empty");
+      return nodes.map(function (node) {
+        var get = function (tag) { var el = node.querySelector(tag); return el ? el.textContent : ""; };
+        var pub = get("pubDate");
+        return {
+          source: f.name, title: get("title"), link: get("link"),
+          date: pub ? new Date(pub).toISOString().slice(0, 10) : "",
+          snippet: stripHtml(get("description")).slice(0, 130)
+        };
+      });
+    });
   }
   function renderFeed(mount, items) {
     mount.innerHTML = items.slice(0, 6).map(function (it) {
@@ -146,7 +176,7 @@
     }).join("");
   }
   function renderFeedFallback(mount) {
-    mount.innerHTML = '<p class="feed-state">Live feed unavailable right now — both proxies are rate-limited at the moment. <a href="https://feeds.feedburner.com/TheHackersNews" target="_blank" rel="noopener">Read The Hacker News directly →</a></p>';
+    mount.innerHTML = '<p class="feed-state">Live feed temporarily unavailable — public RSS proxies are rate-limited right now. It auto-refreshes on your next visit, or read live: <a href="https://thehackernews.com" target="_blank" rel="noopener">The Hacker News</a>, <a href="https://www.bleepingcomputer.com" target="_blank" rel="noopener">BleepingComputer</a>, <a href="https://krebsonsecurity.com" target="_blank" rel="noopener">Krebs on Security</a>.</p>';
   }
   function stripHtml(html) {
     var d = document.createElement("div");
