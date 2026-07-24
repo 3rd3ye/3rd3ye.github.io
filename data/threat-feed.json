@@ -1,10 +1,52 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks",
-    "link": "https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html",
+    "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
+    "link": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
     "date": "2026-07-24",
-    "snippet": "The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new campaign that involves the use of a malicious program that's d"
+    "snippet": "Cybersecurity researchers have disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could have allowed a single phis"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers",
+    "link": "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html",
+    "date": "2026-07-24",
+    "snippet": "A crafted SVG submitted to Bing's image search ran commands as NT AUTHORITY\\SYSTEM on Microsoft's production image-processing workers, and a"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Seeing AI Agents Is Not Enough. Security Teams Must Enforce What They Can Do",
+    "link": "https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html",
+    "date": "2026-07-24",
+    "snippet": "AI agent security is moving through a familiar maturity curve: adoption, then visibility, and finally, control. But what we've collectively "
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry",
+    "link": "https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html",
+    "date": "2026-07-24",
+    "snippet": "Someone installed a popular AI assistant on a rented server, switched off the setting that makes it ask permission before running risky comm"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Golden Chickens Resurfaces With Four New Malware Families and Modular Implants",
+    "link": "https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html",
+    "date": "2026-07-24",
+    "snippet": "The threat actors behind the Golden Chickens malware-as-a-service (MaaS) ecosystem have resurfaced with four new malware families, indicatin"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Europol flags 4,340 URLs for removal in 'The Com' crackdown",
+    "link": "https://www.bleepingcomputer.com/news/security/europol-flags-4-340-urls-for-removal-in-the-com-crackdown/",
+    "date": "2026-07-24",
+    "snippet": "Europol has flagged 4,340 URLs for removal during a multi-week operation targeting online content linked to \"The Com,\" a loosely organized n"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Man gets six years for hacking 750 women's Snapchat accounts",
+    "link": "https://www.bleepingcomputer.com/news/security/man-gets-six-years-for-hacking-750-womens-snapchat-accounts/",
+    "date": "2026-07-24",
+    "snippet": "An Illinois man was sentenced on Tuesday to 76 months in prison and three years of supervised release for hacking the Snapchat accounts of o"
   },
   {
     "source": "BleepingComputer",
@@ -12,34 +54,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/",
     "date": "2026-07-24",
     "snippet": "The Clop ransomware gang (also tracked as Cl0p) is targeting Internet-exposed PTC Windchill and FlexPLM instances in a new data theft extort"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
-    "link": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
-    "date": "2026-07-23",
-    "snippet": "A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client. The"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories",
-    "link": "https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html",
-    "date": "2026-07-23",
-    "snippet": "Most of this week's trouble came dressed as something useful. A package stole data. A fake extension opened remote access. A safety app beca"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Claude Cowork Flaw Could Let AI Agent Escape Its VM and Access Mac Files",
-    "link": "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html",
-    "date": "2026-07-23",
-    "snippet": "Cybersecurity researchers have uncovered a sandbox escape vulnerability in Anthropic's Claude Cowork that makes it possible to break out of "
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Chaos Ransomware Uses msaRAT to Route C2 Traffic Through Headless Chrome and Edge",
-    "link": "https://thehackernews.com/2026/07/chaos-ransomware-uses-msarat-to-route.html",
-    "date": "2026-07-23",
-    "snippet": "The Chaos ransomware group ran its command-and-control through the victim's own browser. Cisco Talos on Thursday detailed msaRAT, the Rust i"
   },
   {
     "source": "BleepingComputer",
@@ -54,20 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/",
     "date": "2026-07-23",
     "snippet": "Origin Energy has confirmed that an unauthorized party accessed and subsequently leaked customer data online, exposing sensitive personally "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Fake Claude app promoted by Bing ads pushes SectopRAT malware",
-    "link": "https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/",
-    "date": "2026-07-23",
-    "snippet": "A malvertising campaign on the Bing search service is pushing a fake Claude desktop app installer hosted on a legitimate Claude.ai domain to"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Russian hackers exploit Zimbra zero-click flaw for email theft",
-    "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/",
-    "date": "2026-07-23",
-    "snippet": "CISA is warning that the Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is targeting organizations using Z"
   },
   {
     "source": "Krebs on Security",
