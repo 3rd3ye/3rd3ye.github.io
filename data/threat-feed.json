@@ -1,1 +1,86 @@
-[]
+[
+  {
+    "source": "The Hacker News",
+    "title": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
+    "link": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
+    "date": "2026-07-23",
+    "snippet": "A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client. The"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories",
+    "link": "https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html",
+    "date": "2026-07-23",
+    "snippet": "Most of this week's trouble came dressed as something useful. A package stole data. A fake extension opened remote access. A safety app beca"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Claude Cowork Flaw Could Let AI Agent Escape Its VM and Access Mac Files",
+    "link": "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html",
+    "date": "2026-07-23",
+    "snippet": "Cybersecurity researchers have uncovered a sandbox escape vulnerability in Anthropic's Claude Cowork that makes it possible to break out of "
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Chaos Ransomware Uses msaRAT to Route C2 Traffic Through Headless Chrome and Edge",
+    "link": "https://thehackernews.com/2026/07/chaos-ransomware-uses-msarat-to-route.html",
+    "date": "2026-07-23",
+    "snippet": "The Chaos ransomware group ran its command-and-control through the victim's own browser. Cisco Talos on Thursday detailed msaRAT, the Rust i"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "China-Nexus JadeProx Uses New TriBack Loader in Government and Healthcare Attacks",
+    "link": "https://thehackernews.com/2026/07/china-nexus-jadeprox-uses-new-triback.html",
+    "date": "2026-07-23",
+    "snippet": "An exposed Alibaba Cloud server has revealed a China-nexus operation that Group-IB tracks as JadeProx. The cluster has targeted government, "
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "New Dolphin X malware uses AI to rank high-value targets",
+    "link": "https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/",
+    "date": "2026-07-23",
+    "snippet": "A new Dolphin X remote access trojan claims to use an AI-powered profiling feature to score and rank infected users, helping cybercriminals "
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Australian energy provider Origin says data breach exposes client data",
+    "link": "https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/",
+    "date": "2026-07-23",
+    "snippet": "Origin Energy has confirmed that an unauthorized party accessed and subsequently leaked customer data online, exposing sensitive personally "
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Fake Claude app promoted by Bing ads pushes SectopRAT malware",
+    "link": "https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/",
+    "date": "2026-07-23",
+    "snippet": "A malvertising campaign on the Bing search service is pushing a fake Claude desktop app installer hosted on a legitimate Claude.ai domain to"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Russian hackers exploit Zimbra zero-click flaw for email theft",
+    "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/",
+    "date": "2026-07-23",
+    "snippet": "CISA is warning that the Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is targeting organizations using Z"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Hackers abuse Notepad++ plugins to stealthily install malware",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-plugins-to-stealthily-install-malware/",
+    "date": "2026-07-23",
+    "snippet": "Ukraine's CERT has uncovered attacks distributing an archive containing the legitimate Notepad++ application and a malicious utility called "
+  },
+  {
+    "source": "Krebs on Security",
+    "title": "LG to Ban Residential Proxies from Smart TV Apps",
+    "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
+    "date": "2026-07-22",
+    "snippet": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television i"
+  },
+  {
+    "source": "Krebs on Security",
+    "title": "Microsoft Patches a Record 570 Security Flaws",
+    "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
+    "date": "2026-07-14",
+    "snippet": "Microsoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, alm"
+  }
+]
