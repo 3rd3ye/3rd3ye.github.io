@@ -1,6 +1,20 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks",
+    "link": "https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html",
+    "date": "2026-07-24",
+    "snippet": "The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new campaign that involves the use of a malicious program that's d"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Clop ransomware targets Windchill, FlexPLM in data theft attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/",
+    "date": "2026-07-24",
+    "snippet": "The Clop ransomware gang (also tracked as Cl0p) is targeting Internet-exposed PTC Windchill and FlexPLM instances in a new data theft extort"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
     "link": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
     "date": "2026-07-23",
@@ -26,13 +40,6 @@
     "link": "https://thehackernews.com/2026/07/chaos-ransomware-uses-msarat-to-route.html",
     "date": "2026-07-23",
     "snippet": "The Chaos ransomware group ran its command-and-control through the victim's own browser. Cisco Talos on Thursday detailed msaRAT, the Rust i"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "China-Nexus JadeProx Uses New TriBack Loader in Government and Healthcare Attacks",
-    "link": "https://thehackernews.com/2026/07/china-nexus-jadeprox-uses-new-triback.html",
-    "date": "2026-07-23",
-    "snippet": "An exposed Alibaba Cloud server has revealed a China-nexus operation that Group-IB tracks as JadeProx. The cluster has targeted government, "
   },
   {
     "source": "BleepingComputer",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/",
     "date": "2026-07-23",
     "snippet": "CISA is warning that the Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is targeting organizations using Z"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Hackers abuse Notepad++ plugins to stealthily install malware",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-plugins-to-stealthily-install-malware/",
-    "date": "2026-07-23",
-    "snippet": "Ukraine's CERT has uncovered attacks distributing an archive containing the legitimate Notepad++ application and a malicious utility called "
   },
   {
     "source": "Krebs on Security",
