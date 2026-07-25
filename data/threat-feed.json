@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
+    "link": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
+    "date": "2026-07-25",
+    "snippet": "Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected "
+  },
+  {
+    "source": "The Hacker News",
     "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
     "link": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
     "date": "2026-07-25",
@@ -29,17 +36,24 @@
   },
   {
     "source": "BleepingComputer",
+    "title": "Malicious sites use JavaScript to build malware in browser memory",
+    "link": "https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/",
+    "date": "2026-07-25",
+    "snippet": "A massive malvertising campaign is using fake Solana, Luno, and TradingView webpages with malicious JavaScript that instructs browsers to as"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "ShinyHunters data leaks fuel $2,000 sextortion email scam",
+    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/",
+    "date": "2026-07-25",
+    "snippet": "Threat actors are using email addresses exposed in data breaches leaked by the ShinyHunters extortion group to send sextortion emails demand"
+  },
+  {
+    "source": "BleepingComputer",
     "title": "OpenAI confirms ChatGPT is down worldwide",
     "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/",
     "date": "2026-07-25",
     "snippet": "ChatGPT, the famous artificial intelligence chatbot that allows users to converse with various personalities and topics, has connectivity is"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery",
-    "link": "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html",
-    "date": "2026-07-24",
-    "snippet": "The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found"
   },
   {
     "source": "BleepingComputer",
@@ -54,20 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/",
     "date": "2026-07-24",
     "snippet": "A threat actor used the open-source Hermes AI agent in unattended \"YOLO\" mode to automate post-exploitation activity during an alleged breac"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Hackers hijack hotel Wi-Fi DNS to steal Microsoft 365 accounts",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/",
-    "date": "2026-07-24",
-    "snippet": "Hackers are changing the DNS settings on Wi-Fi devices at hotels and conference centers to redirect users to fake Microsoft 365 login pages."
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft blames massive Microsoft 365 outage on maintenance bug",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-massive-microsoft-365-outage-on-maintenance-bug/",
-    "date": "2026-07-24",
-    "snippet": "Microsoft says a bug in its automated network maintenance request system caused Thursday's massive outage by mistakenly removing IP routes f"
   },
   {
     "source": "Krebs on Security",
