@@ -36,6 +36,13 @@
   },
   {
     "source": "BleepingComputer",
+    "title": "OnTrac notifies customers of data breach after network hack",
+    "link": "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/",
+    "date": "2026-07-24",
+    "snippet": "OnTrac parcel delivery company is informing that hackers breached its corporate network and may have accessed personal details belonging to "
+  },
+  {
+    "source": "BleepingComputer",
     "title": "Hermes AI agent used to automate attack on Thai Finance Ministry",
     "link": "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/",
     "date": "2026-07-24",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/",
     "date": "2026-07-24",
     "snippet": "Chick-fil-A has confirmed that over 13,000 customers had their accounts breached in a wave of credential stuffing attacks targeting its webs"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Slopsquatting, Phantom Domains, and HalluSquatting Are the Same AI Attack",
-    "link": "https://www.bleepingcomputer.com/news/security/slopsquatting-phantom-domains-and-hallusquatting-are-the-same-ai-attack/",
-    "date": "2026-07-24",
-    "snippet": "Slopsquatting, phantom squatting, and HalluSquatting all exploit the same late-binding attack pattern, where AI coding agents trust hallucin"
   },
   {
     "source": "Krebs on Security",
