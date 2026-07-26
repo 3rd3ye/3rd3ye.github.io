@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable",
+    "link": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
+    "date": "2026-07-25",
+    "snippet": "A malvertising operation dubbed SourTrade is making victims' browsers build the final Windows executable themselves, using a legitimate Bun "
+  },
+  {
+    "source": "The Hacker News",
     "title": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
     "link": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
     "date": "2026-07-25",
@@ -28,11 +35,11 @@
     "snippet": "Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in"
   },
   {
-    "source": "The Hacker News",
-    "title": "DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts",
-    "link": "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html",
+    "source": "BleepingComputer",
+    "title": "Steam forum ClickFix attacks infect gamers with XMRig cryptominers",
+    "link": "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/",
     "date": "2026-07-25",
-    "snippet": "The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the abilit"
+    "snippet": "Steam discussion forums are being abused in ClickFix attacks that pretend to be fixes for game and computer problems but actually infect dev"
   },
   {
     "source": "BleepingComputer",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/",
     "date": "2026-07-24",
     "snippet": "OnTrac parcel delivery company is informing that hackers breached its corporate network and may have accessed personal details belonging to "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Hermes AI agent used to automate attack on Thai Finance Ministry",
-    "link": "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/",
-    "date": "2026-07-24",
-    "snippet": "A threat actor used the open-source Hermes AI agent in unattended \"YOLO\" mode to automate post-exploitation activity during an alleged breac"
   },
   {
     "source": "Krebs on Security",
