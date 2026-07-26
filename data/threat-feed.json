@@ -1,5 +1,12 @@
 [
   {
+    "source": "BleepingComputer",
+    "title": "GitHub, PyPI add time-absed defenses against supply chain attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/",
+    "date": "2026-07-26",
+    "snippet": "GitHub and PyPI (Python Package Index) have introduced a time-based mechanism in the Dependabot dependency management tool to protect agains"
+  },
+  {
     "source": "The Hacker News",
     "title": "Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable",
     "link": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/",
     "date": "2026-07-25",
     "snippet": "ChatGPT, the famous artificial intelligence chatbot that allows users to converse with various personalities and topics, has connectivity is"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "OnTrac notifies customers of data breach after network hack",
-    "link": "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/",
-    "date": "2026-07-24",
-    "snippet": "OnTrac parcel delivery company is informing that hackers breached its corporate network and may have accessed personal details belonging to "
   },
   {
     "source": "Krebs on Security",
