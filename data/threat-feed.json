@@ -1,6 +1,27 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid Disruption",
+    "link": "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html",
+    "date": "2026-07-27",
+    "snippet": "Dysphoria, an Internet of Things (IoT) botnet line tracked by CNCERT and XLab, has adopted blockchain-based name services and infected-devic"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
+    "link": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
+    "date": "2026-07-27",
+    "snippet": "Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute "
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: Rogue AI Agents, Check Point Exploit, Slopsquatting, ClickFix Lures and More",
+    "link": "https://thehackernews.com/2026/07/weekly-recap-rogue-ai-agents-check.html",
+    "date": "2026-07-27",
+    "snippet": "Monday starts with the usual promise that everything is under control. Then the logs wake up. This week, trusted tools crossed lines, old fl"
+  },
+  {
+    "source": "The Hacker News",
     "title": "n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process",
     "link": "https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html",
     "date": "2026-07-27",
@@ -14,25 +35,25 @@
     "snippet": "Cybersecurity researchers have flagged a Microsoft Teams-themed phishing campaign that employs \"secure document\" lures to deliver legitimate"
   },
   {
-    "source": "The Hacker News",
-    "title": "Cruciferra Crypter Uses BYOVD and Process Ghosting to Hide Windows Malware",
-    "link": "https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html",
+    "source": "BleepingComputer",
+    "title": "Apple sued over fake App Store crypto wallet app stealing $1.8M in Bitcoin",
+    "link": "https://www.bleepingcomputer.com/news/apple/apple-sued-over-fake-app-store-crypto-wallet-app-stealing-18m-in-bitcoin/",
     "date": "2026-07-27",
-    "snippet": "The China-linked cybercrime group behind the use of income tax-related phishing lures targeting Indian taxpayers, tax professionals, and cor"
+    "snippet": "Apple is being sued by three people who claim approximately $1.8 million in Bitcoin was stolen after downloading and using a fraudulent Spar"
   },
   {
-    "source": "The Hacker News",
-    "title": "TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments",
-    "link": "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html",
+    "source": "BleepingComputer",
+    "title": "Coca-Cola confirms data theft in Fairlife ransomware attack",
+    "link": "https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack/",
     "date": "2026-07-27",
-    "snippet": "Cybersecurity researchers have flagged fresh malicious cyber activity by a threat actor with ties to East Asia targeting government entities"
+    "snippet": "The Coca-Cola Company has confirmed that hackers stole data from its dairy subsidiary, Fairlife, during a ransomware attack earlier this mon"
   },
   {
-    "source": "The Hacker News",
-    "title": "GitHub Adds 3-Day Dependabot Cooldown to Limit Poisoned Package Adoption",
-    "link": "https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html",
+    "source": "BleepingComputer",
+    "title": "Ernst &amp; Young data breach claimed by ShinyHunters extortion gang",
+    "link": "https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/",
     "date": "2026-07-27",
-    "snippet": "GitHub has announced a new cooldown mechanism in Dependabot, allowing the tool to wait at least three days after a release is published befo"
+    "snippet": "The ShinyHunters extortion gang has claimed responsibility for a recently disclosed Ernst & Young data breach, saying it obtained credential"
   },
   {
     "source": "BleepingComputer",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/",
     "date": "2026-07-26",
     "snippet": "GitHub and PyPI (Python Package Index) have introduced a time-based mechanism in the Dependabot dependency management tool to protect agains"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Steam forum ClickFix attacks infect gamers with XMRig cryptominers",
-    "link": "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/",
-    "date": "2026-07-25",
-    "snippet": "Steam discussion forums are being abused in ClickFix attacks that pretend to be fixes for game and computer problems but actually infect dev"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Malicious sites use JavaScript to build malware in browser memory",
-    "link": "https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/",
-    "date": "2026-07-25",
-    "snippet": "A massive malvertising campaign is using fake Solana, Luno, and TradingView webpages with malicious JavaScript that instructs browsers to as"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "ShinyHunters data leaks fuel $2,000 sextortion email scam",
-    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/",
-    "date": "2026-07-25",
-    "snippet": "Threat actors are using email addresses exposed in data breaches leaked by the ShinyHunters extortion group to send sextortion emails demand"
   },
   {
     "source": "Krebs on Security",
