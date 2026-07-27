@@ -1,5 +1,19 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments",
+    "link": "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html",
+    "date": "2026-07-27",
+    "snippet": "Cybersecurity researchers have flagged fresh malicious cyber activity by a threat actor with ties to East Asia targeting government entities"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "GitHub Adds 3-Day Dependabot Cooldown to Limit Poisoned Package Adoption",
+    "link": "https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html",
+    "date": "2026-07-27",
+    "snippet": "GitHub has announced a new cooldown mechanism in Dependabot, allowing the tool to wait at least three days after a release is published befo"
+  },
+  {
     "source": "BleepingComputer",
     "title": "GitHub, PyPI add time-based defenses against supply chain attacks",
     "link": "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/",
@@ -26,20 +40,6 @@
     "link": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
     "date": "2026-07-25",
     "snippet": "Security researchers at&nbsp;depthfirst published working exploit code on July 24 for a GitLab flaw that GitLab patched six weeks earlier, o"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking",
-    "link": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
-    "date": "2026-07-25",
-    "snippet": "For years, phishing campaigns targeting financial institutions followed the same playbook. Victims were tricked into entering usernames and "
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE",
-    "link": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
-    "date": "2026-07-25",
-    "snippet": "Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in"
   },
   {
     "source": "BleepingComputer",
