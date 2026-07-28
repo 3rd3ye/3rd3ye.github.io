@@ -1,7 +1,28 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Microsoft Says New Cybersecurity AI Model Helps MDASH Hit 95.95% at Half the Cost",
+    "title": "Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays",
+    "link": "https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html",
+    "date": "2026-07-28",
+    "snippet": "The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC154"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In",
+    "link": "https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html",
+    "date": "2026-07-28",
+    "snippet": "JetBrains is urging customers of on-premise versions of TeamCity to update to the latest version following the discovery of a critical secur"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Researcher Says AI Helped Develop Linux Traffic-Control Race Into Root Exploit",
+    "link": "https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html",
+    "date": "2026-07-28",
+    "snippet": "STAR Labs has published a Linux kernel exploit that turns an ordinary local user into root on the CentOS Stream 9 build it targeted. The fla"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Says New Cybersecurity AI Model Helps MDASH Score 95.95% at Half the Cost",
     "link": "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html",
     "date": "2026-07-28",
     "snippet": "Microsoft has launched its first cybersecurity-specific model inside MDASH, its multi-model vulnerability identification and remediation har"
@@ -14,25 +35,18 @@
     "snippet": "A maximum-severity security flaw impacting on-premises versions of Arista VeloCloud Orchestrator (VCO) has come under active exploitation in"
   },
   {
-    "source": "The Hacker News",
-    "title": "NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework",
-    "link": "https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html",
-    "date": "2026-07-27",
-    "snippet": "NVIDIA and 36 other organizations have formed the Open Secure AI Alliance to develop and share open technologies, techniques, and tools for "
+    "source": "BleepingComputer",
+    "title": "Over 24,000 exposed server BMCs leak password hash via decades-old flaw",
+    "link": "https://www.bleepingcomputer.com/news/security/over-24-000-exposed-server-bmcs-leak-password-hash-via-decades-old-flaw/",
+    "date": "2026-07-28",
+    "snippet": "More than 24,000 internet-exposed servers are leaking authentication password hashes due to a 20-year-old vulnerability in their Baseboard M"
   },
   {
-    "source": "The Hacker News",
-    "title": "Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid Disruption",
-    "link": "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html",
-    "date": "2026-07-27",
-    "snippet": "Dysphoria, an Internet of Things (IoT) botnet line tracked by CNCERT and XLab, has adopted blockchain-based name services and infected-devic"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
-    "link": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
-    "date": "2026-07-27",
-    "snippet": "Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute "
+    "source": "BleepingComputer",
+    "title": "Data breach at medical billing firm MCBS affects 1.26 million people",
+    "link": "https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/",
+    "date": "2026-07-28",
+    "snippet": "Healthcare billing company Medical Computer Business Services (MCBS) has disclosed that a 2025 network breach exposed the sensitive informat"
   },
   {
     "source": "BleepingComputer",
@@ -54,20 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/",
     "date": "2026-07-27",
     "snippet": "A botnet called Dysphoria has compromised around 200,000 devices across the world and is using them for distributed denial of service (DDoS)"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "New Certighost PoC exploit lets attackers hijack Windows domains",
-    "link": "https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/",
-    "date": "2026-07-27",
-    "snippet": "A proof-of-concept exploit for \"Certighost,\" a Windows Active Directory Certificate Services vulnerability, has been released that can allow"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Apple sued over fake App Store crypto wallet app stealing $1.8M in Bitcoin",
-    "link": "https://www.bleepingcomputer.com/news/apple/apple-sued-over-fake-app-store-crypto-wallet-app-stealing-18m-in-bitcoin/",
-    "date": "2026-07-27",
-    "snippet": "Apple is being sued by three people who claim approximately $1.8 million in Bitcoin was stolen after downloading and using a fraudulent Spar"
   },
   {
     "source": "Krebs on Security",
