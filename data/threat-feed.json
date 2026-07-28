@@ -1,38 +1,59 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
+    "link": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
+    "date": "2026-07-28",
+    "snippet": "A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its m"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "24,650 Internet-Exposed BMCs Disclose IPMI Password Hashes Before Login",
+    "link": "https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html",
+    "date": "2026-07-28",
+    "snippet": "Cybersecurity researchers have sounded an alert after finding more than 36,000 Baseboard Management Controller (BMC) management interfaces e"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach",
+    "link": "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html",
+    "date": "2026-07-28",
+    "snippet": "JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical OpenWrt DHCPv6 Flaw Could Let Unauthenticated Attackers Run Code as Root",
+    "link": "https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html",
+    "date": "2026-07-28",
+    "snippet": "OpenWrt has shipped version 24.10.8 to close a critical DHCPv6 stack overflow and a wider set of remotely triggerable flaws in network servi"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays",
     "link": "https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html",
     "date": "2026-07-28",
     "snippet": "The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC154"
   },
   {
-    "source": "The Hacker News",
-    "title": "Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In",
-    "link": "https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html",
+    "source": "BleepingComputer",
+    "title": "CISA shares advice on isolating vital systems during cyberattacks",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks/",
     "date": "2026-07-28",
-    "snippet": "JetBrains is urging customers of on-premise versions of TeamCity to update to the latest version following the discovery of a critical secur"
+    "snippet": "The U.S. and Australian governments have released new guidance urging critical infrastructure organizations to prepare to isolate vital oper"
   },
   {
-    "source": "The Hacker News",
-    "title": "Researcher Says AI Helped Develop Linux Traffic-Control Race Into Root Exploit",
-    "link": "https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html",
+    "source": "BleepingComputer",
+    "title": "vBulletin fixes critical pre-auth RCE flaw with public exploit",
+    "link": "https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/",
     "date": "2026-07-28",
-    "snippet": "STAR Labs has published a Linux kernel exploit that turns an ordinary local user into root on the CentOS Stream 9 build it targeted. The fla"
+    "snippet": "A critical vulnerability in the vBulletin forum software allows unauthenticated attackers to execute arbitrary PHP code through template ren"
   },
   {
-    "source": "The Hacker News",
-    "title": "Microsoft Says New Cybersecurity AI Model Helps MDASH Score 95.95% at Half the Cost",
-    "link": "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html",
+    "source": "BleepingComputer",
+    "title": "Is Your SSO Protected Against Modern Credential Attacks?",
+    "link": "https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks/",
     "date": "2026-07-28",
-    "snippet": "Microsoft has launched its first cybersecurity-specific model inside MDASH, its multi-model vulnerability identification and remediation har"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Exploit Arista VeloCloud Orchestrator Command Injection Flaw",
-    "link": "https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html",
-    "date": "2026-07-28",
-    "snippet": "A maximum-severity security flaw impacting on-premises versions of Arista VeloCloud Orchestrator (VCO) has come under active exploitation in"
+    "snippet": "A compromised SSO login can provide attackers with access to multiple enterprise applications and services. Specops Software explains how st"
   },
   {
     "source": "BleepingComputer",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/",
     "date": "2026-07-28",
     "snippet": "Healthcare billing company Medical Computer Business Services (MCBS) has disclosed that a 2025 network breach exposed the sensitive informat"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Hackers target US firms in FastJson RCE zero-day attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/",
-    "date": "2026-07-27",
-    "snippet": "Hackers are actively exploiting a vulnerability in the FastJson open-source Java library, allowing remote code execution without user intera"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Arista patches VeloCloud Orchestrator zero-day exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/",
-    "date": "2026-07-27",
-    "snippet": "Arista has patched a maximum-severity command injection vulnerability in on-premises VeloCloud Orchestrator deployments that is being active"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "New Dysphoria DDoS botnet spreads to 200k devices worldwide",
-    "link": "https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/",
-    "date": "2026-07-27",
-    "snippet": "A botnet called Dysphoria has compromised around 200,000 devices across the world and is using them for distributed denial of service (DDoS)"
   },
   {
     "source": "Krebs on Security",
