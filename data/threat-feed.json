@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework",
+    "link": "https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html",
+    "date": "2026-07-27",
+    "snippet": "NVIDIA and 36 other organizations have formed the Open Secure AI Alliance to develop and share open technologies, techniques, and tools for "
+  },
+  {
+    "source": "The Hacker News",
     "title": "Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid Disruption",
     "link": "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html",
     "date": "2026-07-27",
@@ -28,11 +35,32 @@
     "snippet": "n8n has patched a high-severity expression-sandbox escape that could let an authenticated workflow editor execute operating-system commands "
   },
   {
-    "source": "The Hacker News",
-    "title": "Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update",
-    "link": "https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html",
+    "source": "BleepingComputer",
+    "title": "Hackers target US firms in FastJson RCE zero-day attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/",
     "date": "2026-07-27",
-    "snippet": "Cybersecurity researchers have flagged a Microsoft Teams-themed phishing campaign that employs \"secure document\" lures to deliver legitimate"
+    "snippet": "Hackers are actively exploiting a vulnerability in the FastJson open-source Java library, allowing remote code execution without user intera"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Arista patches VeloCloud Orchestrator zero-day exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+    "date": "2026-07-27",
+    "snippet": "Arista has patched a maximum-severity command injection vulnerability in on-premises VeloCloud Orchestrator deployments that is being active"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "New Dysphoria DDoS botnet spreads to 200k devices worldwide",
+    "link": "https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/",
+    "date": "2026-07-27",
+    "snippet": "A botnet called Dysphoria has compromised around 200,000 devices across the world and is using them for distributed denial of service (DDoS)"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "New Certighost PoC exploit lets attackers hijack Windows domains",
+    "link": "https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/",
+    "date": "2026-07-27",
+    "snippet": "A proof-of-concept exploit for \"Certighost,\" a Windows Active Directory Certificate Services vulnerability, has been released that can allow"
   },
   {
     "source": "BleepingComputer",
@@ -40,34 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/apple/apple-sued-over-fake-app-store-crypto-wallet-app-stealing-18m-in-bitcoin/",
     "date": "2026-07-27",
     "snippet": "Apple is being sued by three people who claim approximately $1.8 million in Bitcoin was stolen after downloading and using a fraudulent Spar"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Coca-Cola confirms data theft in Fairlife ransomware attack",
-    "link": "https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack/",
-    "date": "2026-07-27",
-    "snippet": "The Coca-Cola Company has confirmed that hackers stole data from its dairy subsidiary, Fairlife, during a ransomware attack earlier this mon"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Ernst &amp; Young data breach claimed by ShinyHunters extortion gang",
-    "link": "https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/",
-    "date": "2026-07-27",
-    "snippet": "The ShinyHunters extortion gang has claimed responsibility for a recently disclosed Ernst & Young data breach, saying it obtained credential"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Shadow AI agents are multiplying. Here's how to find and secure them.",
-    "link": "https://www.bleepingcomputer.com/news/security/shadow-ai-agents-are-multiplying-heres-how-to-find-and-secure-them/",
-    "date": "2026-07-27",
-    "snippet": "Shadow AI agents are rapidly spreading across enterprise platforms, often without IT or security visibility. Nudge Security explains how org"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "GitHub, PyPI add time-based defenses against supply chain attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/",
-    "date": "2026-07-26",
-    "snippet": "GitHub and PyPI (Python Package Index) have introduced a time-based mechanism in the Dependabot dependency management tool to protect agains"
   },
   {
     "source": "Krebs on Security",
