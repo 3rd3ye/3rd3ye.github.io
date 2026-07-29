@@ -1,6 +1,27 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Flying Eagle Android RAT Traces Found on 170 Servers as Source Code Circulates",
+    "link": "https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html",
+    "date": "2026-07-29",
+    "snippet": "Source code for the Flying Eagle Android remote access trojan (RAT) framework is circulating through criminal Telegram channels. Hunt.io and"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
+    "link": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
+    "date": "2026-07-29",
+    "snippet": "OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Huggin"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js",
+    "link": "https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html",
+    "date": "2026-07-29",
+    "snippet": "Beta release versions of two npm packages in the @joyfill namespace have been compromised to deliver a remote access trojan (RAT) associated"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack",
     "link": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
     "date": "2026-07-28",
@@ -12,27 +33,6 @@
     "link": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
     "date": "2026-07-28",
     "snippet": "A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its m"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "24,650 Internet-Exposed BMCs Disclose IPMI Password Hashes Before Login",
-    "link": "https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html",
-    "date": "2026-07-28",
-    "snippet": "Cybersecurity researchers have sounded an alert after finding more than 36,000 Baseboard Management Controller (BMC) management interfaces e"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach",
-    "link": "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html",
-    "date": "2026-07-28",
-    "snippet": "JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical OpenWrt DHCPv6 Flaw Could Let Unauthenticated Attackers Run Code as Root",
-    "link": "https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html",
-    "date": "2026-07-28",
-    "snippet": "OpenWrt has shipped version 24.10.8 to close a critical DHCPv6 stack overflow and a wider set of remotely triggerable flaws in network servi"
   },
   {
     "source": "BleepingComputer",
