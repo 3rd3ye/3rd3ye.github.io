@@ -1,73 +1,73 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Mythos Asks the Right Question. It Doesn't Answer It.",
-    "link": "https://thehackernews.com/2026/07/mythos-asks-right-question-it-doesnt.html",
+    "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
+    "link": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
     "date": "2026-07-29",
-    "snippet": "AI is compressing exploit timelines. The real question isn't whether your vulnerability management playbook needs to change, it's which part"
+    "snippet": "Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files f"
   },
   {
     "source": "The Hacker News",
-    "title": "Researchers Show a Single Malicious Webpage Visit Can Compromise Tor Browser",
-    "link": "https://thehackernews.com/2026/07/researchers-show-single-malicious.html",
+    "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
+    "link": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html",
     "date": "2026-07-29",
-    "snippet": "Nebula Security says a patched Firefox JIT flaw could be triggered by simply visiting a malicious webpage and was also used to compromise To"
+    "snippet": "Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for Anthropic Claude Cod"
   },
   {
     "source": "The Hacker News",
-    "title": "73% of Organizations Say They Are Not Fully Ready for a Major Cyberattack",
-    "link": "https://thehackernews.com/2026/07/73-of-organizations-say-they-are-not.html",
+    "title": "Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape",
+    "link": "https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html",
     "date": "2026-07-29",
-    "snippet": "Most organizations have incident response plans, security tools, and technical teams in place. Yet new research suggests that many still lac"
+    "snippet": "Broadcom has released security updates to address multiple security flaws impacting VMware ESX, vCenter, Workstation, and Fusion, three of w"
   },
   {
     "source": "The Hacker News",
-    "title": "Russia Charges Telegram Founder Pavel Durov With Aiding Terrorist Activity",
-    "link": "https://thehackernews.com/2026/07/russia-charges-telegram-founder-pavel.html",
+    "title": "Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline",
+    "link": "https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html",
     "date": "2026-07-29",
-    "snippet": "The Federal Security Service of the Russian Federation (FSB) on Wednesday said it charged Telegram founder Pavel Durov for allegedly facilit"
+    "snippet": "A coordinated cyberattack targeted operational technology at more than 30 Minnesota community water systems on July 26 and 27, triggering a "
   },
   {
     "source": "The Hacker News",
-    "title": "Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass",
-    "link": "https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html",
+    "title": "Nine-Year Fraud Campaign Clones Russian Company Sites to Steal Advance Payments",
+    "link": "https://thehackernews.com/2026/07/nine-year-fraud-campaign.html",
     "date": "2026-07-29",
-    "snippet": "Cybersecurity researchers have shared additional technical details about a recently patched critical security flaw impacting Check Point Sec"
+    "snippet": "Cybersecurity researchers have disclosed details of a large-scale fraud campaign that involves creating lookalike websites of major Russian "
   },
   {
     "source": "BleepingComputer",
-    "title": "These near-mint ASUS Chromebook refurbs are only $145",
-    "link": "https://www.bleepingcomputer.com/news/security/these-near-mint-asus-chromebook-refurbs-are-only-145/",
+    "title": "Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare",
+    "link": "https://www.bleepingcomputer.com/news/security/health-isac-warns-of-rising-shinyhunters-data-theft-attacks-on-healthcare/",
     "date": "2026-07-29",
-    "snippet": "Buying a new computer in 2026 is a unique experience. Rather than deal with incredibly high tech prices, more shoppers are opting for high-q"
+    "snippet": "Health-ISAC, a cybersecurity information-sharing organization for the health sector, is warning healthcare and medical technology organizati"
   },
   {
     "source": "BleepingComputer",
-    "title": "CubePilot drone software dev hit by DNS hijacking to intercept traffic",
-    "link": "https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/",
-    "date": "2026-07-28",
-    "snippet": "CubePilot, an Australian firm that designs flight controllers for drones (UAVs), announced a severe operational disruption caused by a DNS h"
+    "title": "OpenAI agent used exposed credentials at 4 services in Hugging Face breach",
+    "link": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/",
+    "date": "2026-07-29",
+    "snippet": "In a new update, OpenAI says its AI models also used publicly exposed credentials to compromise accounts on four third-party services during"
   },
   {
     "source": "BleepingComputer",
-    "title": "OpenAI models used Artifactory zero-days to escape to the internet",
-    "link": "https://www.bleepingcomputer.com/news/security/openai-models-used-artifactory-zero-days-to-escape-to-the-internet/",
-    "date": "2026-07-28",
-    "snippet": "JFrog has confirmed that OpenAI models exploited zero-day vulnerabilities in self-hosted Artifactory servers to help escape an isolated test"
+    "title": "Hackers disrupt over 30 Minnesota water utilities in coordinated OT attack",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack/",
+    "date": "2026-07-29",
+    "snippet": "The Minnesota IT Services (MNIT) agency activated its cybersecurity incident response capabilities across the entire state after hackers tar"
   },
   {
     "source": "BleepingComputer",
-    "title": "CISA shares advice on isolating vital systems during cyberattacks",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks/",
-    "date": "2026-07-28",
-    "snippet": "The U.S. and Australian governments have released new guidance urging critical infrastructure organizations to prepare to isolate vital oper"
+    "title": "Your AI Agents Are Guessing at Scale: Permissions Decide the Damage",
+    "link": "https://www.bleepingcomputer.com/news/security/your-ai-agents-are-guessing-at-scale-permissions-decide-the-damage/",
+    "date": "2026-07-29",
+    "snippet": "AI agents are designed to improvise as they complete tasks, making broad permissions a growing security risk. Token Security explains why id"
   },
   {
     "source": "BleepingComputer",
-    "title": "vBulletin fixes critical pre-auth RCE flaw with public exploit",
-    "link": "https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/",
-    "date": "2026-07-28",
-    "snippet": "A critical vulnerability in the vBulletin forum software allows unauthenticated attackers to execute arbitrary PHP code through template ren"
+    "title": "Windows 11 KB5101684 update released with 42 changes and fixes",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101684-update-released-with-42-changes-and-fixes/",
+    "date": "2026-07-29",
+    "snippet": "​​Microsoft has released the KB5101684 preview cumulative update for Windows 11 24H2 and 25H2, which 42 bug fixes and additional feature imp"
   },
   {
     "source": "Krebs on Security",
