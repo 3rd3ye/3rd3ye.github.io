@@ -1,38 +1,38 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Microsoft Copilot for Word Can Copy Hidden Prompts Into New Documents",
+    "link": "https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html",
+    "date": "2026-07-30",
+    "snippet": "Hidden instructions in a Word document can make Microsoft 365 Copilot rewrite figures in a report, then copy the same instructions into the "
+  },
+  {
+    "source": "The Hacker News",
+    "title": "The Network Has Become the Control Plane for AI Security",
+    "link": "https://thehackernews.com/2026/07/the-network-has-become-control-plane.html",
+    "date": "2026-07-30",
+    "snippet": "Network firewalls are the workhorses of modern cybersecurity. They are trusted to protect the network, blocking malicious traffic and preven"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without Prompts",
+    "link": "https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html",
+    "date": "2026-07-30",
+    "snippet": "South Korean authorities and four security firms have disclosed a state-sponsored campaign that compromised trusted domestic websites. The a"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "SilverFox Targets Japanese Manufacturer with 3-Driver BYOVD Chain and ValleyRAT",
+    "link": "https://thehackernews.com/2026/07/silverfox-targets-japanese-manufacturer.html",
+    "date": "2026-07-30",
+    "snippet": "The Chinese cybercrime group known as Silver Fox has been observed using new drivers as part of bring your own vulnerable driver (BYOVD) att"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation",
     "link": "https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html",
     "date": "2026-07-30",
     "snippet": "The Russian threat actors recently linked to the exploitation of a now-patched vulnerability in Zimbra have been observed exploiting another"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "FCC Blocks New Foreign-Produced Robots and Power Inverters Over Cyber Risks",
-    "link": "https://thehackernews.com/2026/07/fcc-blocks-new-foreign-produced-robots.html",
-    "date": "2026-07-30",
-    "snippet": "The Federal Communications Commission (FCC) added foreign-produced mobile robots and networked power inverters to its Covered List on July 2"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet",
-    "link": "https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html",
-    "date": "2026-07-30",
-    "snippet": "Amazon has tied the September 2025 hijack of the npm packages debug and chalk to North Korea. For ten months, the incident sat in the public"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive Data",
-    "link": "https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html",
-    "date": "2026-07-30",
-    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a newly disclosed security flaw impacting Cisco Secure F"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
-    "link": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
-    "date": "2026-07-29",
-    "snippet": "Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files f"
   },
   {
     "source": "BleepingComputer",
