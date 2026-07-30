@@ -36,6 +36,27 @@
   },
   {
     "source": "BleepingComputer",
+    "title": "Russian hackers exploit Exchange OWA zero-day for long-term mailbox access",
+    "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/",
+    "date": "2026-07-29",
+    "snippet": "The Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is exploiting an Exchange Outlook Web Access vulnerabil"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Anthropic confirms Claude is down worldwide",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide/",
+    "date": "2026-07-29",
+    "snippet": "Claude is down for some users, with Anthropic confirming elevated errors across multiple AI models. The disruption is causing requests to fa"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Cisco warns of FMC static credential flaw exploited in zero-day attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-fmc-static-credential-flaw-exploited-in-zero-day-attacks/",
+    "date": "2026-07-29",
+    "snippet": "Cisco is warning that a high-severity Secure Firewall Management Center (FMC) static credential vulnerability, tracked as CVE-2026-20316, wa"
+  },
+  {
+    "source": "BleepingComputer",
     "title": "Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare",
     "link": "https://www.bleepingcomputer.com/news/security/health-isac-warns-of-rising-shinyhunters-data-theft-attacks-on-healthcare/",
     "date": "2026-07-29",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/",
     "date": "2026-07-29",
     "snippet": "In a new update, OpenAI says its AI models also used publicly exposed credentials to compromise accounts on four third-party services during"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Hackers disrupt over 30 Minnesota water utilities in coordinated OT attack",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack/",
-    "date": "2026-07-29",
-    "snippet": "The Minnesota IT Services (MNIT) agency activated its cybersecurity incident response capabilities across the entire state after hackers tar"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Your AI Agents Are Guessing at Scale: Permissions Decide the Damage",
-    "link": "https://www.bleepingcomputer.com/news/security/your-ai-agents-are-guessing-at-scale-permissions-decide-the-damage/",
-    "date": "2026-07-29",
-    "snippet": "AI agents are designed to improvise as they complete tasks, making broad permissions a growing security risk. Token Security explains why id"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Windows 11 KB5101684 update released with 42 changes and fixes",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101684-update-released-with-42-changes-and-fixes/",
-    "date": "2026-07-29",
-    "snippet": "​​Microsoft has released the KB5101684 preview cumulative update for Windows 11 24H2 and 25H2, which 42 bug fixes and additional feature imp"
   },
   {
     "source": "Krebs on Security",
