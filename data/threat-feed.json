@@ -1,5 +1,19 @@
 [
   {
+    "source": "BleepingComputer",
+    "title": "Anthropic's Claude breached 3 orgs, uploaded PyPI malware during tests",
+    "link": "https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/",
+    "date": "2026-07-31",
+    "snippet": "One of Anthropic's Claude models built and uploaded a malicious Python package to PyPI during a botched security evaluation, where it ran on"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware",
+    "link": "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html",
+    "date": "2026-07-30",
+    "snippet": "Threat actors with ties to North Korea have been attributed to a sophisticated macOS malvertising campaign that involves redirecting users t"
+  },
+  {
     "source": "The Hacker News",
     "title": "ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories",
     "link": "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html",
@@ -28,11 +42,18 @@
     "snippet": "Network firewalls are the workhorses of modern cybersecurity. They are trusted to protect the network, blocking malicious traffic and preven"
   },
   {
-    "source": "The Hacker News",
-    "title": "Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without Prompts",
-    "link": "https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html",
+    "source": "BleepingComputer",
+    "title": "South Korea fines telco giant KT $39 million for customer data breach",
+    "link": "https://www.bleepingcomputer.com/news/security/south-korea-fines-telco-giant-kt-39-million-for-customer-data-breach/",
     "date": "2026-07-30",
-    "snippet": "South Korean authorities and four security firms have disclosed a state-sponsored campaign that compromised trusted domestic websites. The a"
+    "snippet": "South Korea's Personal Information Protection Commission (PIPC) has fined telecommunications giant KT Corporation KRW 53.979 billion ($39 mi"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "JetBrains warns of critical TeamCity remote code execution flaw",
+    "link": "https://www.bleepingcomputer.com/news/security/jetbrains-warns-of-critical-teamcity-remote-code-execution-flaw/",
+    "date": "2026-07-30",
+    "snippet": "JetBrains is warning of a critical authentication bypass vulnerability affecting TeamCity On-Premises that could be exploited to achieve rem"
   },
   {
     "source": "BleepingComputer",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/vmware-fixes-three-critical-flaws-allowing-auth-bypass-vm-escapes/",
     "date": "2026-07-30",
     "snippet": "Broadcom has released security updates to fix five vulnerabilities in VMware vCenter, ESX, Workstation, and Fusion, including three critical"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Google says AI helped Chrome fix 1,072 security bugs in two releases",
-    "link": "https://www.bleepingcomputer.com/news/google/google-says-ai-helped-chrome-fix-1-072-security-bugs-in-two-releases/",
-    "date": "2026-07-30",
-    "snippet": "Google says artificial intelligence is dramatically increasing the number of security vulnerabilities it can find and fix in Chrome, with mo"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "ShinyHunters claims Brinks Home breach, threatens to leak stolen data",
-    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/",
-    "date": "2026-07-30",
-    "snippet": "Residential security company Brinks Home has disclosed that hackers breached some of its systems and are threatening to leak allegedly stole"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft Teams vishing attacks lead to Chaos ransomware attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/microsoft-teams-vishing-attacks-lead-to-chaos-ransomware-attacks/",
-    "date": "2026-07-30",
-    "snippet": "Threat actors are impersonating IT support staff in Microsoft Teams calls to gain remote access to corporate devices and deploy Chaos ransom"
   },
   {
     "source": "Krebs on Security",
