@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites",
+    "link": "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
+    "date": "2026-08-01",
+    "snippet": "Attackers modified a JavaScript file served by advertising technology company Adform, turning it into a browser-side tool that rewrites cryp"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
     "link": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
     "date": "2026-08-01",
@@ -26,13 +33,6 @@
     "link": "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
     "date": "2026-07-31",
     "snippet": "Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Cheap Android TV Boxes Pose as Phones and Turn Owners’ Broadband Into Proxies",
-    "link": "https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html",
-    "date": "2026-07-31",
-    "snippet": "Bitsight says some cheap Android TV boxes have shipped with apps that rewrite their hardware identity to mimic Samsung, Huawei, Xiaomi, or V"
   },
   {
     "source": "BleepingComputer",
