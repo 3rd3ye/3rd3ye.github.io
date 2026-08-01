@@ -1,6 +1,20 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
+    "link": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
+    "date": "2026-08-01",
+    "snippet": "Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing "
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware",
+    "link": "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html",
+    "date": "2026-08-01",
+    "snippet": "A fake browser update served over hijacked hotel Wi-Fi has been used to deliver CornFlake, a remote access trojan (RAT) that can capture web"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk",
     "link": "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html",
     "date": "2026-07-31",
@@ -19,20 +33,6 @@
     "link": "https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html",
     "date": "2026-07-31",
     "snippet": "Bitsight says some cheap Android TV boxes have shipped with apps that rewrite their hardware identity to mimic Samsung, Huawei, Xiaomi, or V"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Three Recent Chrome Releases Fix 1,442 Flaws, More Than Prior 23 Updates Combined",
-    "link": "https://thehackernews.com/2026/07/three-recent-chrome-releases-fix-1442.html",
-    "date": "2026-07-31",
-    "snippet": "Google on Thursday announced that it fixed a whopping 1,072 security bugs in Chrome versions 149 and 150, surpassing the total number of fla"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Researchers Report 84 Flaws in 4G and 5G Cores, Including a Session Hijacking Flaw",
-    "link": "https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html",
-    "date": "2026-07-31",
-    "snippet": "An academic study has disclosed a \"widespread class\" of security vulnerabilities impacting 4G and 5G core networks that, if successfully exp"
   },
   {
     "source": "BleepingComputer",
