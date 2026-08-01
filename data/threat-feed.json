@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
+    "link": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html",
+    "date": "2026-08-01",
+    "snippet": "An attacker drained 1,196 Bitcoin addresses in 41 minutes on July 30, taking 1,082.65 BTC worth about $70.2 million at the time. Galaxy Rese"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites",
     "link": "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
     "date": "2026-08-01",
@@ -21,18 +28,18 @@
     "snippet": "A fake browser update served over hijacked hotel Wi-Fi has been used to deliver CornFlake, a remote access trojan (RAT) that can capture web"
   },
   {
+    "source": "BleepingComputer",
+    "title": "Rails patches critical Active Storage flaw with RCE potential",
+    "link": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/",
+    "date": "2026-08-01",
+    "snippet": "A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails applicat"
+  },
+  {
     "source": "The Hacker News",
     "title": "Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk",
     "link": "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html",
     "date": "2026-07-31",
     "snippet": "A Chinese-speaking threat actor is suspected to be behind a fresh wave of cyber attacks targeting government organizations mainly located in"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm",
-    "link": "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
-    "date": "2026-07-31",
-    "snippet": "Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware"
   },
   {
     "source": "BleepingComputer",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-new-gpt-56-models-are-becoming-more-cost-efficient/",
     "date": "2026-07-31",
     "snippet": "OpenAI says it has reduced the price of two GPT-5.6 models, cutting Luna's API price by 80% and Terra's by 20% as it works to make its model"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Hacker uses DeepSeek AI to autonomously attack vulnerable servers",
-    "link": "https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/",
-    "date": "2026-07-31",
-    "snippet": "A Chinese-speaking threat actor is using the DeepSeek AI model and the open-source Hermes Agent to conduct autonomous cyberattacks on expose"
   },
   {
     "source": "Krebs on Security",
