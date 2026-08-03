@@ -1,6 +1,27 @@
 [
   {
     "source": "The Hacker News",
+    "title": "FOMO in the SOC: Where AI Platforms like Claude Actually Fit",
+    "link": "https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html",
+    "date": "2026-08-03",
+    "snippet": "AI is moving incredibly fast, and every security leader is feeling the pressure to keep up. AI platforms like Claude, Codex and Cursor are a"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS",
+    "link": "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html",
+    "date": "2026-08-03",
+    "snippet": "An unknown Chinese-threat actor has been observed running a campaign targeting Apple iOS devices by leveraging a publicly leaked version of "
+  },
+  {
+    "source": "The Hacker News",
+    "title": "PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web",
+    "link": "https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html",
+    "date": "2026-08-03",
+    "snippet": "The Police National Legal Database (PNLD) has confirmed that police, government and customer contact information was compromised and publish"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable",
     "link": "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html",
     "date": "2026-08-03",
@@ -12,13 +33,6 @@
     "link": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
     "date": "2026-08-03",
     "snippet": "N-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and reach the customer systems ma"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code",
-    "link": "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html",
-    "date": "2026-08-03",
-    "snippet": "Three high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted model repositories to st"
   },
   {
     "source": "BleepingComputer",
@@ -40,20 +54,6 @@
     "link": "https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/",
     "date": "2026-08-02",
     "snippet": "Google is preparing a new Chrome security feature that would block policy-installed extensions from hijacking the New Tab page or changing t"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
-    "link": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html",
-    "date": "2026-08-01",
-    "snippet": "An attacker drained 1,196 Bitcoin addresses in 41 minutes on July 30, taking 1,082.65 BTC worth about $70.2 million at the time. Galaxy Rese"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites",
-    "link": "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
-    "date": "2026-08-01",
-    "snippet": "Attackers modified a JavaScript file served by advertising technology company Adform, turning it into a browser-side tool that rewrites cryp"
   },
   {
     "source": "BleepingComputer",
