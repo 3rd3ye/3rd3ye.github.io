@@ -1,38 +1,59 @@
 [
   {
     "source": "The Hacker News",
+    "title": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
+    "link": "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
+    "date": "2026-08-03",
+    "snippet": "Cybersecurity researchers have discovered a new set of malicious npm packages that target users of Alibaba developer tools with a cross-plat"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts",
+    "link": "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html",
+    "date": "2026-08-03",
+    "snippet": "Malware running as an ordinary user on a Windows machine can sign into a victim's passkey-protected accounts without a fingerprint, a PIN, o"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
+    "link": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html",
+    "date": "2026-08-03",
+    "snippet": "The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws in SonicWall Secure"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks",
+    "link": "https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html",
+    "date": "2026-08-03",
+    "snippet": "This week kept coming back to permission. A model crossed a boundary. A wallet trusted bad randomness. Webmail kept an intruder around. Publ"
+  },
+  {
+    "source": "The Hacker News",
     "title": "FOMO in the SOC: Where AI Platforms like Claude Actually Fit",
     "link": "https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html",
     "date": "2026-08-03",
     "snippet": "AI is moving incredibly fast, and every security leader is feeling the pressure to keep up. AI platforms like Claude, Codex and Cursor are a"
   },
   {
-    "source": "The Hacker News",
-    "title": "Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS",
-    "link": "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html",
+    "source": "BleepingComputer",
+    "title": "N-able warns of N-central auth bypass flaw exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
     "date": "2026-08-03",
-    "snippet": "An unknown Chinese-threat actor has been observed running a campaign targeting Apple iOS devices by leveraging a publicly leaked version of "
+    "snippet": "N-able is warning customers that hackers are exploiting an authentication bypass vulnerability (CVE-2026-18577) affecting both hosted and on"
   },
   {
-    "source": "The Hacker News",
-    "title": "PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web",
-    "link": "https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html",
+    "source": "BleepingComputer",
+    "title": "ExfilSquad hackers leak info of over 100,000 UK police officers, staff",
+    "link": "https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/",
     "date": "2026-08-03",
-    "snippet": "The Police National Legal Database (PNLD) has confirmed that police, government and customer contact information was compromised and publish"
+    "snippet": "A cyberattack on the U.K.'s Police National Legal Database (PNLD) has compromised contact data of more than 100,000 police officers and othe"
   },
   {
-    "source": "The Hacker News",
-    "title": "Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable",
-    "link": "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html",
+    "source": "BleepingComputer",
+    "title": "Inside the Underground Business of the Android BTMOB RAT malware",
+    "link": "https://www.bleepingcomputer.com/news/security/inside-the-underground-business-of-btmob-rat/",
     "date": "2026-08-03",
-    "snippet": "Thermo Fisher Scientific has patched a flaw in select Applied Biosystems human identification software that could allow data files to be alt"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
-    "link": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
-    "date": "2026-08-03",
-    "snippet": "N-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and reach the customer systems ma"
+    "snippet": "Flare researchers analyzed thousands of underground posts to examine how the BTMOB Android malware operation evolved into a fragmented ecosy"
   },
   {
     "source": "BleepingComputer",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/",
     "date": "2026-08-02",
     "snippet": "A vulnerability in COLDCARD hardware wallet firmware allowed attackers to steal an estimated $88.6 million in Bitcoin from thousands of wall"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Google Chrome may soon block New Tab hijacker extensions by default",
-    "link": "https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/",
-    "date": "2026-08-02",
-    "snippet": "Google is preparing a new Chrome security feature that would block policy-installed extensions from hijacking the New Tab page or changing t"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Rails patches critical Active Storage flaw with RCE potential",
-    "link": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/",
-    "date": "2026-08-01",
-    "snippet": "A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails applicat"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Amgen says cloud data breach exposed patient health, proprietary info",
-    "link": "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/",
-    "date": "2026-07-31",
-    "snippet": "Pharmaceutical company Amgen says it suffered a data breach after threat actors stole corporate data and patient information stored in multi"
   },
   {
     "source": "Krebs on Security",
