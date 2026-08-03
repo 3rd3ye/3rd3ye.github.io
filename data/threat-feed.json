@@ -1,5 +1,26 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable",
+    "link": "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html",
+    "date": "2026-08-03",
+    "snippet": "Thermo Fisher Scientific has patched a flaw in select Applied Biosystems human identification software that could allow data files to be alt"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
+    "link": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
+    "date": "2026-08-03",
+    "snippet": "N-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and reach the customer systems ma"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code",
+    "link": "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html",
+    "date": "2026-08-03",
+    "snippet": "Three high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted model repositories to st"
+  },
+  {
     "source": "BleepingComputer",
     "title": "OpenAI teases Astra, its next major AI model, after it solves 10 long-standing math problems",
     "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-teases-astra-its-next-major-ai-model-after-it-solves-10-long-standing-math-problems/",
@@ -35,32 +56,11 @@
     "snippet": "Attackers modified a JavaScript file served by advertising technology company Adform, turning it into a browser-side tool that rewrites cryp"
   },
   {
-    "source": "The Hacker News",
-    "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
-    "link": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
-    "date": "2026-08-01",
-    "snippet": "Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing "
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware",
-    "link": "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html",
-    "date": "2026-08-01",
-    "snippet": "A fake browser update served over hijacked hotel Wi-Fi has been used to deliver CornFlake, a remote access trojan (RAT) that can capture web"
-  },
-  {
     "source": "BleepingComputer",
     "title": "Rails patches critical Active Storage flaw with RCE potential",
     "link": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/",
     "date": "2026-08-01",
     "snippet": "A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails applicat"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk",
-    "link": "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html",
-    "date": "2026-07-31",
-    "snippet": "A Chinese-speaking threat actor is suspected to be behind a fresh wave of cyber attacks targeting government organizations mainly located in"
   },
   {
     "source": "BleepingComputer",
