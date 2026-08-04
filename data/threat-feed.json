@@ -1,6 +1,34 @@
 [
   {
     "source": "The Hacker News",
+    "title": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted",
+    "link": "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html",
+    "date": "2026-08-04",
+    "snippet": "The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise. That assumption is starting"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Google Deletes 3 ADK AI Workflows After Malicious GitHub Issue Could Trigger Privileged Agent",
+    "link": "https://thehackernews.com/2026/08/google-deletes-3-adk-ai-workflows-after.html",
+    "date": "2026-08-04",
+    "snippet": "Google deleted three AI agent workflows from its Agent Development Kit (ADK) Python repository. Pillar Security showed that a public GitHub "
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root",
+    "link": "https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html",
+    "date": "2026-08-04",
+    "snippet": "cPanel has patched a flaw that let an authenticated hosting customer execute SQL in the database's root context, crossing the privilege boun"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "DOUBLECUP Uses ClickFix and Cached PNGs to Deliver CountLoader and DeviceManager RAT",
+    "link": "https://thehackernews.com/2026/08/doublecup-uses-clickfix-and-cached-pngs.html",
+    "date": "2026-08-04",
+    "snippet": "A new Russian loader-as-a-service (LaaS) codenamed DOUBLECUP has been using ClickFix lures as a way to stage malware-laced PNG images in vic"
+  },
+  {
+    "source": "The Hacker News",
     "title": "CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises",
     "link": "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
     "date": "2026-08-04",
@@ -12,34 +40,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/",
     "date": "2026-08-04",
     "snippet": "Microsoft has linked a global campaign targeting hospitality Wi-Fi networks to the Russian threat actor Midnight Blizzard, also known as APT"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
-    "link": "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
-    "date": "2026-08-03",
-    "snippet": "Cybersecurity researchers have discovered a new set of malicious npm packages that target users of Alibaba developer tools with a cross-plat"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts",
-    "link": "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html",
-    "date": "2026-08-03",
-    "snippet": "Malware running as an ordinary user on a Windows machine can sign into a victim's passkey-protected accounts without a fingerprint, a PIN, o"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
-    "link": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html",
-    "date": "2026-08-03",
-    "snippet": "The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws in SonicWall Secure"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks",
-    "link": "https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html",
-    "date": "2026-08-03",
-    "snippet": "This week kept coming back to permission. A model crossed a boundary. A wallet trusted bad randomness. Webmail kept an intruder around. Publ"
   },
   {
     "source": "BleepingComputer",
