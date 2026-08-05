@@ -36,6 +36,27 @@
   },
   {
     "source": "BleepingComputer",
+    "title": "OpenAI, Anthropic AI agents targeted real people and systems in cyber tests",
+    "link": "https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/",
+    "date": "2026-08-04",
+    "snippet": "OpenAI and Anthropic have confirmed that their AI models were involved in separate, newly disclosed third-party cybersecurity testing incide"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "TP-Link patches Omada ZTP flaws allowing hackers to breach networks",
+    "link": "https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/",
+    "date": "2026-08-04",
+    "snippet": "TP-Link has patched 15 vulnerabilities in the zero-touch provisioning (ZTP) mechanism of its Omada network devices that could be chained wit"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Phishing service spoofs RingCentral to steal Microsoft 365 accounts",
+    "link": "https://www.bleepingcomputer.com/news/security/phishing-service-spoofs-ringcentral-to-steal-microsoft-365-accounts/",
+    "date": "2026-08-04",
+    "snippet": "The Greatness phishing-as-a-service (PhaaS) platform has expanded from credential phishing to adversary-in-the-middle attacks and device-cod"
+  },
+  {
+    "source": "BleepingComputer",
     "title": "New XCSSET variant targets macOS devs via compromised Xcode projects",
     "link": "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/",
     "date": "2026-08-04",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/",
     "date": "2026-08-04",
     "snippet": "77 extensions on the Open VSX marketplace impersonated legitimate developer tools while transmitting information about the systems and devel"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Massive ChainDrop npm supply-chain attack infects hundreds of packages",
-    "link": "https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/",
-    "date": "2026-08-04",
-    "snippet": "Self-propagating malware named 'ChainDrop' has compromised more than 1,300 packages with a combined 2 billion monthly downloads on the Node "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Varonis Agent IBAC keeps AI agents within their intended boundaries",
-    "link": "https://www.bleepingcomputer.com/news/security/varonis-agent-ibac-keeps-ai-agents-within-their-intended-boundaries/",
-    "date": "2026-08-04",
-    "snippet": "AI agents need broad access to be useful, but traditional access controls cannot determine whether an action aligns with a user's intent. Va"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Hotel Wi-Fi attacks use custom malware to breach Microsoft 365 accounts",
-    "link": "https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/",
-    "date": "2026-08-04",
-    "snippet": "Microsoft has linked a global campaign targeting hospitality Wi-Fi networks to the Russian threat actor Midnight Blizzard, also known as APT"
   },
   {
     "source": "Krebs on Security",
