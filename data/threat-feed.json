@@ -1,38 +1,38 @@
 [
   {
     "source": "The Hacker News",
-    "title": "QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer",
-    "link": "https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html",
+    "title": "New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch",
+    "link": "https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html",
     "date": "2026-08-05",
-    "snippet": "Cybersecurity researchers have disclosed what has been described as a \"long-standing supply chain attack\" on QuickFox, a virtual private net"
+    "snippet": "A memory corruption flaw in the Linux kernel's Open vSwitch datapath gives ordinary local users a path to root on a broad set of default-con"
   },
   {
     "source": "The Hacker News",
-    "title": "Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens",
-    "link": "https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html",
-    "date": "2026-08-04",
-    "snippet": "The commercial phishing-as-a-service (PhaaS) toolkit known as Greatness has become the latest crimeware solution to add support for device c"
+    "title": "Kali365 Weaponizes Microsoft Authentication Against US Companies: New Enterprise Risk",
+    "link": "https://thehackernews.com/2026/08/kali365-weaponizes-microsoft.html",
+    "date": "2026-08-05",
+    "snippet": "Kali365 is turning a legitimate Microsoft login into a gateway to corporate data. The phishing kit targets US organizations with attacker-co"
   },
   {
     "source": "The Hacker News",
-    "title": "Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks",
-    "link": "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html",
-    "date": "2026-08-04",
-    "snippet": "A credential-stealing npm worm that first appeared in keyv@6.0.0 spread beyond the Keyv and Cacheable namespaces into hundreds of packages a"
+    "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
+    "link": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
+    "date": "2026-08-05",
+    "snippet": "An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 thro"
   },
   {
     "source": "The Hacker News",
-    "title": "Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access",
-    "link": "https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html",
-    "date": "2026-08-04",
-    "snippet": "Cybersecurity researchers have disclosed details of an active, multi-wave campaign that employs social engineering lures themed around Adobe"
+    "title": "Leaked n8n API Tokens Exposed Live Instances to Credential Theft",
+    "link": "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
+    "date": "2026-08-05",
+    "snippet": "GitGuardian researchers found 321 n8n instances accepting API tokens exposed in public GitHub commits and demonstrated four ways attackers c"
   },
   {
     "source": "The Hacker News",
-    "title": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted",
-    "link": "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html",
-    "date": "2026-08-04",
-    "snippet": "The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise. That assumption is starting"
+    "title": "Open VSX Removes 77 Malicious Evil Twin Extensions Exfiltrating Developer Data",
+    "link": "https://thehackernews.com/2026/08/open-vsx-removes-77-malicious-evil-twin.html",
+    "date": "2026-08-05",
+    "snippet": "A cluster of 77 extensions on the Open VSX marketplace has been found to impersonate legitimate developer tools while transmitting informati"
   },
   {
     "source": "BleepingComputer",
