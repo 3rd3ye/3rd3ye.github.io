@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer",
+    "link": "https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html",
+    "date": "2026-08-05",
+    "snippet": "Cybersecurity researchers have disclosed what has been described as a \"long-standing supply chain attack\" on QuickFox, a virtual private net"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens",
     "link": "https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html",
     "date": "2026-08-04",
@@ -26,13 +33,6 @@
     "link": "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html",
     "date": "2026-08-04",
     "snippet": "The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise. That assumption is starting"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Deletes 3 ADK AI Workflows After Malicious GitHub Issue Could Trigger Privileged Agent",
-    "link": "https://thehackernews.com/2026/08/google-deletes-3-adk-ai-workflows-after.html",
-    "date": "2026-08-04",
-    "snippet": "Google deleted three AI agent workflows from its Agent Development Kit (ADK) Python repository. Pillar Security showed that a public GitHub "
   },
   {
     "source": "BleepingComputer",
