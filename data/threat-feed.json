@@ -1,38 +1,66 @@
 [
   {
     "source": "The Hacker News",
-    "title": "New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch",
-    "link": "https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html",
+    "title": "Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures",
+    "link": "https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html",
     "date": "2026-08-05",
-    "snippet": "A memory corruption flaw in the Linux kernel's Open vSwitch datapath gives ordinary local users a path to root on a broad set of default-con"
+    "snippet": "A macOS ClickFix operation spanning more than 250 front-end domains now fingerprints visitors before deciding whether to show them a malware"
   },
   {
     "source": "The Hacker News",
-    "title": "Kali365 Weaponizes Microsoft Authentication Against US Companies: New Enterprise Risk",
-    "link": "https://thehackernews.com/2026/08/kali365-weaponizes-microsoft.html",
+    "title": "OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes",
+    "link": "https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html",
     "date": "2026-08-05",
-    "snippet": "Kali365 is turning a legitimate Microsoft login into a gateway to corporate data. The phishing kit targets US organizations with attacker-co"
+    "snippet": "OpenAI said it disrupted a Cambodia-based scam operation that used its generative artificial intelligence (AI) chatbot ChatGPT to facilitate"
   },
   {
     "source": "The Hacker News",
-    "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
-    "link": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
+    "title": "Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt",
+    "link": "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html",
     "date": "2026-08-05",
-    "snippet": "An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 thro"
+    "snippet": "Cybersecurity researchers have discovered more than half-a-dozen services advertisements for illegal access to artificial intelligence (AI) "
   },
   {
     "source": "The Hacker News",
-    "title": "Leaked n8n API Tokens Exposed Live Instances to Credential Theft",
-    "link": "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
+    "title": "Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports",
+    "link": "https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html",
     "date": "2026-08-05",
-    "snippet": "GitGuardian researchers found 321 n8n instances accepting API tokens exposed in public GitHub commits and demonstrated four ways attackers c"
+    "snippet": "Two security flaws in Paperclip could let attackers execute commands on a network server or a developer's computer. Paperclip is an open-sou"
   },
   {
     "source": "The Hacker News",
-    "title": "Open VSX Removes 77 Malicious Evil Twin Extensions Exfiltrating Developer Data",
-    "link": "https://thehackernews.com/2026/08/open-vsx-removes-77-malicious-evil-twin.html",
+    "title": "Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug",
+    "link": "https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html",
     "date": "2026-08-05",
-    "snippet": "A cluster of 77 extensions on the Open VSX marketplace has been found to impersonate legitimate developer tools while transmitting informati"
+    "snippet": "HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Con"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "COLDCARD security audit phishing attack installs remote access tool",
+    "link": "https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/",
+    "date": "2026-08-05",
+    "snippet": "A phishing campaign is exploiting fears surrounding the recently disclosed COLDCARD wallet vulnerability and suspected $88.6 million Bitcoin"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "CISA warns of hackers exploiting Langflow, N-central, Apache Tomcat flaws",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/",
+    "date": "2026-08-05",
+    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency is giving federal agencies three days to mitigate vulnerabilities in IBM Langflow,"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Google Blogger locks hundreds of blogs in malware false positive",
+    "link": "https://www.bleepingcomputer.com/news/google/google-blogger-locks-hundreds-of-blogs-in-malware-false-positive/",
+    "date": "2026-08-05",
+    "snippet": "Google has locked hundreds of Blogger websites after a false positive claimed they violated its \"Malware and Similar Malicious Content\" poli"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "How AI-powered phishing killed blocklists for good",
+    "link": "https://www.bleepingcomputer.com/news/security/how-ai-powered-phishing-killed-blocklists-for-good/",
+    "date": "2026-08-05",
+    "snippet": "AI is helping attackers create disposable phishing infrastructure and rapidly evolving toolkits that blocklists cannot track fast enough. Pu"
   },
   {
     "source": "BleepingComputer",
@@ -40,34 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/",
     "date": "2026-08-04",
     "snippet": "OpenAI and Anthropic have confirmed that their AI models were involved in separate, newly disclosed third-party cybersecurity testing incide"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "TP-Link patches Omada ZTP flaws allowing hackers to breach networks",
-    "link": "https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/",
-    "date": "2026-08-04",
-    "snippet": "TP-Link has patched 15 vulnerabilities in the zero-touch provisioning (ZTP) mechanism of its Omada network devices that could be chained wit"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Phishing service spoofs RingCentral to steal Microsoft 365 accounts",
-    "link": "https://www.bleepingcomputer.com/news/security/phishing-service-spoofs-ringcentral-to-steal-microsoft-365-accounts/",
-    "date": "2026-08-04",
-    "snippet": "The Greatness phishing-as-a-service (PhaaS) platform has expanded from credential phishing to adversary-in-the-middle attacks and device-cod"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "New XCSSET variant targets macOS devs via compromised Xcode projects",
-    "link": "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/",
-    "date": "2026-08-04",
-    "snippet": "A new version of the XCSSET malware is targeting thousands of macOS users through compromised Xcode projects and GitHub repositories. [...]"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "77 Open VSX extensions found harvesting developer info",
-    "link": "https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/",
-    "date": "2026-08-04",
-    "snippet": "77 extensions on the Open VSX marketplace impersonated legitimate developer tools while transmitting information about the systems and devel"
   },
   {
     "source": "Krebs on Security",
