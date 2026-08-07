@@ -68,5 +68,19 @@
     "link": "https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/",
     "date": "2026-08-06",
     "snippet": "Researchers found a way to bypass recent mitigations for Spectre v2 speculative execution side-channel attacks and developed an exploit to l"
+  },
+  {
+    "source": "Krebs on Security",
+    "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
+    "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+    "date": "2026-08-06",
+    "snippet": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer f"
+  },
+  {
+    "source": "Krebs on Security",
+    "title": "Read This Before You Buy That TV Streaming Stick",
+    "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+    "date": "2026-07-30",
+    "snippet": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming f"
   }
 ]
