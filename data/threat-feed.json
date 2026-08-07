@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
+    "link": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html",
+    "date": "2026-08-07",
+    "snippet": "WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the con"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Growing Up The Hard Way",
     "link": "https://thehackernews.com/2026/08/growing-up-hard-way.html",
     "date": "2026-08-07",
@@ -28,11 +35,25 @@
     "snippet": "Cybersecurity researchers have called attention to an active \"widespread email-driven phishing campaign\" that employs adversary-in-the-middl"
   },
   {
-    "source": "The Hacker News",
-    "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
-    "link": "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html",
+    "source": "BleepingComputer",
+    "title": "Levi Strauss &amp; Co. says hackers stole corporate data in cyberattack",
+    "link": "https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/",
     "date": "2026-08-07",
-    "snippet": "PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new H"
+    "snippet": "Levi Strauss & Co. (Levi's) says that hackers used social engineering on three of its employees to gain access to and steal corporate data s"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Real emails, hijacked payments: Two H1 2026 attack chains",
+    "link": "https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/",
+    "date": "2026-08-07",
+    "snippet": "Gen's H1 2026 Threat Report examines two separate attack chains. One used compromised business inboxes and browser manipulation in a banking"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "North Carolina Ports confirms cyberattack disrupting operations",
+    "link": "https://www.bleepingcomputer.com/news/security/north-carolina-ports-confirms-cyberattack-disrupting-operations/",
+    "date": "2026-08-07",
+    "snippet": "The North Carolina Ports Authority has confirmed that a cyberattack disrupted IT systems and slowed operations at Port of Wilmington, Port o"
   },
   {
     "source": "BleepingComputer",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/",
     "date": "2026-08-06",
     "snippet": "A Go-based malware delivered in ClickFix attacks targeting macOS users is stealing cryptocurrency assets, browser-stored passwords, Apple Ke"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Hedge fund cyberattacks tied to BlackFile-linked UNC6671 extortion group",
-    "link": "https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/",
-    "date": "2026-08-06",
-    "snippet": "A recent wave of cyberattacks targeting hedge funds, private-equity firms, and other financial organizations has been linked to UNC6671, an "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Swiss government SharePoint breach compromised 200 accounts",
-    "link": "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
-    "date": "2026-08-06",
-    "snippet": "Switzerland's federal IT office says hackers exploited vulnerabilities to breach its Microsoft SharePoint servers and compromised approximat"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes",
-    "link": "https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/",
-    "date": "2026-08-06",
-    "snippet": "Researchers found a way to bypass recent mitigations for Spectre v2 speculative execution side-channel attacks and developed an exploit to l"
   },
   {
     "source": "Krebs on Security",
