@@ -1,38 +1,38 @@
 [
   {
     "source": "The Hacker News",
-    "title": "New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts",
-    "link": "https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html",
-    "date": "2026-08-06",
-    "snippet": "Zapscape, a new Linux kernel vulnerability, could allow an attacker with kernel privileges inside an L1 guest virtual machine (VM) to escape"
+    "title": "Growing Up The Hard Way",
+    "link": "https://thehackernews.com/2026/08/growing-up-hard-way.html",
+    "date": "2026-08-07",
+    "snippet": "Open Source had a great childhood. For two decades it got to be a kid. It ran around barefoot, gave everything away, trusted strangers, and "
   },
   {
     "source": "The Hacker News",
-    "title": "Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.8 CVSS Score Bugs",
-    "link": "https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html",
-    "date": "2026-08-06",
-    "snippet": "Cisco has rolled out updates to address multiple critical security vulnerabilities impacting Catalyst SD-WAN and IOS XE Software as part of "
+    "title": "18-Year-Old Linux SCTP Flaw Could Let Local Users Gain Root and Escape Containers",
+    "link": "https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html",
+    "date": "2026-08-07",
+    "snippet": "A use-after-free bug in Linux's SCTP networking code can be turned into full root on a host, and Tencent researchers say they used it to esc"
   },
   {
     "source": "The Hacker News",
-    "title": "New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs",
-    "link": "https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html",
-    "date": "2026-08-06",
-    "snippet": "An unprivileged Linux program can time a hardware interrupt to land in the gap between a processor sanitizing its branch predictor and the k"
+    "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables",
+    "link": "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html",
+    "date": "2026-08-07",
+    "snippet": "Security researcher Malcolm Stagg has disclosed a new attack class called&nbsp;NatJack&nbsp;that manipulates network address translation (NA"
   },
   {
     "source": "The Hacker News",
-    "title": "ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories",
-    "link": "https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html",
-    "date": "2026-08-06",
-    "snippet": "Apparently, opening the thing is now enough. A repo can run before the first prompt, a package can hide among hundreds, and a harmless-looki"
+    "title": "Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails",
+    "link": "https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html",
+    "date": "2026-08-07",
+    "snippet": "Cybersecurity researchers have called attention to an active \"widespread email-driven phishing campaign\" that employs adversary-in-the-middl"
   },
   {
     "source": "The Hacker News",
-    "title": "Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities",
-    "link": "https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html",
-    "date": "2026-08-06",
-    "snippet": "Forescout found 22 internet-facing Rockwell Automation programmable logic controllers (PLCs) in cities hit by recent cyberattacks on US wate"
+    "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
+    "link": "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html",
+    "date": "2026-08-07",
+    "snippet": "PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new H"
   },
   {
     "source": "BleepingComputer",
