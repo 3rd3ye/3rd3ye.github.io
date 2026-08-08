@@ -36,6 +36,13 @@
   },
   {
     "source": "BleepingComputer",
+    "title": "Hackers breach TrueConf to trojanize client installers with backdoors",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/",
+    "date": "2026-08-08",
+    "snippet": "The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched TrueConf video conferencing servers to replace client instal"
+  },
+  {
+    "source": "BleepingComputer",
     "title": "Metabase SQLi zero-day exploited in customer data-theft attacks",
     "link": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
     "date": "2026-08-07",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/",
     "date": "2026-08-07",
     "snippet": "Gen's H1 2026 Threat Report examines two separate attack chains. One used compromised business inboxes and browser manipulation in a banking"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "North Carolina Ports confirms cyberattack disrupting operations",
-    "link": "https://www.bleepingcomputer.com/news/security/north-carolina-ports-confirms-cyberattack-disrupting-operations/",
-    "date": "2026-08-07",
-    "snippet": "The North Carolina Ports Authority has confirmed that a cyberattack disrupted IT systems and slowed operations at Port of Wilmington, Port o"
   },
   {
     "source": "Krebs on Security",
