@@ -1,38 +1,38 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer",
-    "link": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
-    "date": "2026-08-07",
-    "snippet": "A cluster of nearly 800 malicious packages has been published to the npm registry as part of a new campaign designed to deliver cross-platfo"
+    "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers",
+    "link": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
+    "date": "2026-08-08",
+    "snippet": "Attacker-controlled instructions can make Atlassian's Rovo assistant collect Jira or Confluence data that a signed-in user can access, then "
   },
   {
     "source": "The Hacker News",
-    "title": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets",
-    "link": "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
-    "date": "2026-08-07",
-    "snippet": "ClickFix-style attacks are being used to deliver a Go-based malware capable of stealing cryptocurrency assets, as well as browser-stored pas"
+    "title": "New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens",
+    "link": "https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html",
+    "date": "2026-08-08",
+    "snippet": "New research shows content inside an email can escape its message boundary and interfere with the webmail interface. Across attack chains sp"
   },
   {
     "source": "The Hacker News",
-    "title": "UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data",
-    "link": "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
-    "date": "2026-08-07",
-    "snippet": "A recent wave of cyber attacks targeting financial services, private equity, and professional services is attributed to a data extortion gro"
+    "title": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication",
+    "link": "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html",
+    "date": "2026-08-08",
+    "snippet": "Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has be"
   },
   {
     "source": "The Hacker News",
-    "title": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
-    "link": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html",
-    "date": "2026-08-07",
-    "snippet": "WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the con"
+    "title": "N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist",
+    "link": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html",
+    "date": "2026-08-08",
+    "snippet": "N-able has released a fresh round of hotfixes for N‑central as part of its investigation into ongoing exploitation of a recently disclosed s"
   },
   {
     "source": "The Hacker News",
-    "title": "Growing Up The Hard Way",
-    "link": "https://thehackernews.com/2026/08/growing-up-hard-way.html",
-    "date": "2026-08-07",
-    "snippet": "Open Source had a great childhood. For two decades it got to be a kid. It ran around barefoot, gave everything away, trusted strangers, and "
+    "title": "Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts",
+    "link": "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
+    "date": "2026-08-08",
+    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical-severity security flaw impacting Progress Kemp L"
   },
   {
     "source": "BleepingComputer",
