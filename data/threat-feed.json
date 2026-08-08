@@ -1,6 +1,27 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer",
+    "link": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
+    "date": "2026-08-07",
+    "snippet": "A cluster of nearly 800 malicious packages has been published to the npm registry as part of a new campaign designed to deliver cross-platfo"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets",
+    "link": "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
+    "date": "2026-08-07",
+    "snippet": "ClickFix-style attacks are being used to deliver a Go-based malware capable of stealing cryptocurrency assets, as well as browser-stored pas"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data",
+    "link": "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
+    "date": "2026-08-07",
+    "snippet": "A recent wave of cyber attacks targeting financial services, private equity, and professional services is attributed to a data extortion gro"
+  },
+  {
+    "source": "The Hacker News",
     "title": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
     "link": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html",
     "date": "2026-08-07",
@@ -14,25 +35,18 @@
     "snippet": "Open Source had a great childhood. For two decades it got to be a kid. It ran around barefoot, gave everything away, trusted strangers, and "
   },
   {
-    "source": "The Hacker News",
-    "title": "18-Year-Old Linux SCTP Flaw Could Let Local Users Gain Root and Escape Containers",
-    "link": "https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html",
+    "source": "BleepingComputer",
+    "title": "Metabase SQLi zero-day exploited in customer data-theft attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
     "date": "2026-08-07",
-    "snippet": "A use-after-free bug in Linux's SCTP networking code can be turned into full root on a host, and Tencent researchers say they used it to esc"
+    "snippet": "A critical Metabase SQL injection vulnerability was exploited in zero-day attacks to breach customer instances in data theft attacks, known "
   },
   {
-    "source": "The Hacker News",
-    "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables",
-    "link": "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html",
+    "source": "BleepingComputer",
+    "title": "Unlimited Technology Systems breach impacts 3.8 million people",
+    "link": "https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/",
     "date": "2026-08-07",
-    "snippet": "Security researcher Malcolm Stagg has disclosed a new attack class called&nbsp;NatJack&nbsp;that manipulates network address translation (NA"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails",
-    "link": "https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html",
-    "date": "2026-08-07",
-    "snippet": "Cybersecurity researchers have called attention to an active \"widespread email-driven phishing campaign\" that employs adversary-in-the-middl"
+    "snippet": "Healthcare software company Unlimited Technology Systems reported that more than 3.8 million people were impacted by a data breach incident "
   },
   {
     "source": "BleepingComputer",
@@ -54,20 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/north-carolina-ports-confirms-cyberattack-disrupting-operations/",
     "date": "2026-08-07",
     "snippet": "The North Carolina Ports Authority has confirmed that a cyberattack disrupted IT systems and slowed operations at Port of Wilmington, Port o"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "OpenAI rolls out a major ChatGPT upgrade, even if you don’t pay for it",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/",
-    "date": "2026-08-06",
-    "snippet": "OpenAI is rolling out a more reliable version of ChatGPT GPT-5.6 Sol for Plus and Pro users, while Free users are getting unlimited text cha"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "ClickFix attack pushes macOS infostealer for crypto theft attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/",
-    "date": "2026-08-06",
-    "snippet": "A Go-based malware delivered in ClickFix attacks targeting macOS users is stealing cryptocurrency assets, browser-stored passwords, Apple Ke"
   },
   {
     "source": "Krebs on Security",
