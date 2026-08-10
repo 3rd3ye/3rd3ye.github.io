@@ -1,10 +1,38 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials",
+    "link": "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html",
+    "date": "2026-08-10",
+    "snippet": "Cybersecurity researchers have flagged a malicious Microsoft Visual Studio Code (VS Code) extension named Solidity Pro (\"solidity-pro\") that"
+  },
+  {
+    "source": "The Hacker News",
     "title": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause",
     "link": "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html",
     "date": "2026-08-10",
     "snippet": "OpenAI has announced that it's pausing some \"internal activities\" involving its upcoming artificial intelligence (AI) model Astra after an i"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "LexisNexis shuts down services after suspicious activity on servers",
+    "link": "https://www.bleepingcomputer.com/news/security/lexisnexis-shuts-down-services-after-suspicious-activity-on-servers/",
+    "date": "2026-08-10",
+    "snippet": "LexisNexis took its Diligence, Metabase API, and Newsdesk services offline as part of its response to unusual activity on servers hosted and"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Valve notifies Steam hardware customers of a data breach",
+    "link": "https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/",
+    "date": "2026-08-10",
+    "snippet": "Video game publisher and digital distribution giant Valve is notifying Steam hardware customers in Europe that hackers stole their data afte"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Critical Progress LoadMaster flaw now actively exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/",
+    "date": "2026-08-10",
+    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are exploiting a critical-severity Progress Kemp LoadMa"
   },
   {
     "source": "The Hacker News",
@@ -28,13 +56,6 @@
     "snippet": "Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has be"
   },
   {
-    "source": "The Hacker News",
-    "title": "N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist",
-    "link": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html",
-    "date": "2026-08-08",
-    "snippet": "N-able has released a fresh round of hotfixes for N‑central as part of its investigation into ongoing exploitation of a recently disclosed s"
-  },
-  {
     "source": "BleepingComputer",
     "title": "Hackers breach TrueConf to trojanize client installers with backdoors",
     "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
     "date": "2026-08-07",
     "snippet": "A critical Metabase SQL injection vulnerability was exploited in zero-day attacks to breach customer instances in data theft attacks, known "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Unlimited Technology Systems breach impacts 3.8 million people",
-    "link": "https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/",
-    "date": "2026-08-07",
-    "snippet": "Healthcare software company Unlimited Technology Systems reported that more than 3.8 million people were impacted by a data breach incident "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Levi Strauss &amp; Co. says hackers stole corporate data in cyberattack",
-    "link": "https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/",
-    "date": "2026-08-07",
-    "snippet": "Levi Strauss & Co. (Levi's) says that hackers used social engineering on three of its employees to gain access to and steal corporate data s"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Real emails, hijacked payments: Two H1 2026 attack chains",
-    "link": "https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/",
-    "date": "2026-08-07",
-    "snippet": "Gen's H1 2026 Threat Report examines two separate attack chains. One used compromised business inboxes and browser manipulation in a banking"
   },
   {
     "source": "Krebs on Security",
