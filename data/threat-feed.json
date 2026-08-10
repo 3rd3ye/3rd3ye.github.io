@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause",
+    "link": "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html",
+    "date": "2026-08-10",
+    "snippet": "OpenAI has announced that it's pausing some \"internal activities\" involving its upcoming artificial intelligence (AI) model Astra after an i"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers",
     "link": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
     "date": "2026-08-08",
@@ -26,13 +33,6 @@
     "link": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html",
     "date": "2026-08-08",
     "snippet": "N-able has released a fresh round of hotfixes for N‑central as part of its investigation into ongoing exploitation of a recently disclosed s"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts",
-    "link": "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
-    "date": "2026-08-08",
-    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical-severity security flaw impacting Progress Kemp L"
   },
   {
     "source": "BleepingComputer",
