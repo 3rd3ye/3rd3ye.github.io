@@ -1,6 +1,27 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
+    "link": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
+    "date": "2026-08-11",
+    "snippet": "Security researchers found a way to enter Microsoft SharePoint servers as any user, including an administrator, with no valid account. A sig"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt",
+    "link": "https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html",
+    "date": "2026-08-11",
+    "snippet": "The ransomware group known as DeadLock has been observed using decentralized infrastructure to facilitate victim communications and data lea"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
+    "link": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html",
+    "date": "2026-08-11",
+    "snippet": "OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability research, penetrat"
+  },
+  {
+    "source": "The Hacker News",
     "title": "A Malicious SIM Card Can Run Attacker Code Inside the Modems Behind Cellular IoT Devices",
     "link": "https://thehackernews.com/2026/08/a-malicious-sim-card-can-run-attacker.html",
     "date": "2026-08-11",
@@ -14,60 +35,39 @@
     "snippet": "Mozilla has scrapped the cryptographic key behind Firefox and Thunderbird downloads for Linux after an unencrypted copy of it was committed "
   },
   {
-    "source": "The Hacker News",
-    "title": "Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers",
-    "link": "https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html",
+    "source": "BleepingComputer",
+    "title": "Delta probes Wi-Fi deauth attack on flight carrying DEF CON attendees",
+    "link": "https://www.bleepingcomputer.com/news/security/delta-probes-wi-fi-deauth-attack-on-flight-carrying-def-con-attendees/",
     "date": "2026-08-11",
-    "snippet": "Security researchers invented a cryptocurrency startup, advertised developer jobs, and hired three people they believe were North Korean ope"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Researchers Turn USB Auto-Install Into a Full SYSTEM Takeover on Windows 11",
-    "link": "https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html",
-    "date": "2026-08-11",
-    "snippet": "Windows Plug and Play can be abused to fetch signed vendor software for an emulated USB device and execute privileged installation component"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets",
-    "link": "https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html",
-    "date": "2026-08-11",
-    "snippet": "A malicious tool server connected to an AI coding assistant can quietly walk off with SSH keys, environment secrets, source code, and custom"
+    "snippet": "Delta Air Lines is investigating an unauthorized Wi-Fi network that appeared aboard a flight from Las Vegas to Atlanta carrying passengers w"
   },
   {
     "source": "BleepingComputer",
-    "title": "CISA: Microsoft SharePoint flaw now exploited in ransomware attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/",
+    "title": "Windows 10 KB5120249 cumulative update released with fixes",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5120249-cumulative-update-released-with-fixes/",
     "date": "2026-08-11",
-    "snippet": "CISA confirmed today that ransomware gangs have begun abusing a high-severity Microsoft SharePoint remote code execution vulnerability, whic"
+    "snippet": "Microsoft has released Windows 10 KB5120249 Extended Security Updates for versions 22H2 and 21H2 to fix security vulnerabilities and bugs. ["
   },
   {
     "source": "BleepingComputer",
-    "title": "Cisco warns of high-severity ClamAV flaws with public exploits",
-    "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-high-severity-clamav-flaws-with-public-exploits/",
+    "title": "Microsoft August 2026 Patch Tuesday fixes 400 flaws, 3 zero-days",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-2026-patch-tuesday-fixes-400-flaws-3-zero-days/",
     "date": "2026-08-11",
-    "snippet": "Cisco warned of two high-severity vulnerabilities affecting the Secure Endpoint Connector that allow threat actors to crash the ClamAV scann"
+    "snippet": "Today is Microsoft's August 2026 Patch Tuesday, and with it comes security updates for a massive 400 flaws, including one actively exploited"
   },
   {
     "source": "BleepingComputer",
-    "title": "US and South Korea warn of Gunra ransomware targeting govt agencies",
-    "link": "https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/",
+    "title": "Windows 11 KB5121003 &amp; KB5120240 cumulative updates released",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5121003-and-kb5120240-cumulative-updates-released/",
     "date": "2026-08-11",
-    "snippet": "U.S. federal agencies and South Korea's National Policy Agency warned government and critical infrastructure organizations worldwide to secu"
+    "snippet": "Microsoft has released Windows 11 KB5121003 and KB5120240 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities"
   },
   {
     "source": "BleepingComputer",
-    "title": "Hackers breached a small Polish energy plant via private APN last year",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-breached-a-small-polish-energy-plant-via-private-apn-last-year/",
-    "date": "2026-08-10",
-    "snippet": "Hackers breached a heat-and-power plant facility in Poland, which supplies heat to about 50,000 residents, using a private APN (Access Point"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "BdThemes plugins supply-chain hack creates rogue WordPress admins",
-    "link": "https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/",
-    "date": "2026-08-10",
-    "snippet": "A threat actor compromised the upstream infrastructure of BdThemes, a developer of premium WordPress web-design tools, and modified a remote"
+    "title": "Wesco confirms security incident after ExfilSquad claims data theft",
+    "link": "https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/",
+    "date": "2026-08-11",
+    "snippet": "Global supply chain and distribution giant Wesco has confirmed in a statement for BleepingComputer that it is investigating a cybersecurity "
   },
   {
     "source": "Krebs on Security",
