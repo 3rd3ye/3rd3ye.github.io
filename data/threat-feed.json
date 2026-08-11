@@ -1,38 +1,59 @@
 [
   {
     "source": "The Hacker News",
-    "title": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins",
-    "link": "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html",
+    "title": "A Malicious SIM Card Can Run Attacker Code Inside the Modems Behind Cellular IoT Devices",
+    "link": "https://thehackernews.com/2026/08/a-malicious-sim-card-can-run-attacker.html",
     "date": "2026-08-11",
-    "snippet": "Cybersecurity researchers have warned of a supply chain compromise impacting WordPress plugin vendor BdThemes, prompting the content managem"
+    "snippet": "A malicious SIM card can order the device it sits in to run commands of the attacker's choosing. On the cellular modules built into electric"
   },
   {
     "source": "The Hacker News",
-    "title": "Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development",
-    "link": "https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html",
-    "date": "2026-08-10",
-    "snippet": "AI is helping development teams produce far more code, far faster. But security teams still have to review vulnerabilities, manage dependenc"
+    "title": "Mozilla Revokes Firefox and Thunderbird Linux Signing Key After Key Lands in Private Repo",
+    "link": "https://thehackernews.com/2026/08/mozilla-revokes-firefox-and-thunderbird.html",
+    "date": "2026-08-11",
+    "snippet": "Mozilla has scrapped the cryptographic key behind Firefox and Thunderbird downloads for Linux after an unencrypted copy of it was committed "
   },
   {
     "source": "The Hacker News",
-    "title": "China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw",
-    "link": "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html",
-    "date": "2026-08-10",
-    "snippet": "Microsoft has disclosed that Storm-1175, a financially motivated threat actor linked to China, has deployed a previously undocumented ransom"
+    "title": "Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers",
+    "link": "https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html",
+    "date": "2026-08-11",
+    "snippet": "Security researchers invented a cryptocurrency startup, advertised developer jobs, and hired three people they believe were North Korean ope"
   },
   {
     "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors",
-    "link": "https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html",
-    "date": "2026-08-10",
-    "snippet": "A lot of security problems still begin with someone doing a completely normal thing. Cloning a repo. Answering a call. Leaving a box exposed"
+    "title": "Researchers Turn USB Auto-Install Into a Full SYSTEM Takeover on Windows 11",
+    "link": "https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html",
+    "date": "2026-08-11",
+    "snippet": "Windows Plug and Play can be abused to fetch signed vendor software for an emulated USB device and execute privileged installation component"
   },
   {
     "source": "The Hacker News",
-    "title": "Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development",
-    "link": "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html",
-    "date": "2026-08-10",
-    "snippet": "North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun"
+    "title": "Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets",
+    "link": "https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html",
+    "date": "2026-08-11",
+    "snippet": "A malicious tool server connected to an AI coding assistant can quietly walk off with SSH keys, environment secrets, source code, and custom"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "CISA: Microsoft SharePoint flaw now exploited in ransomware attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/",
+    "date": "2026-08-11",
+    "snippet": "CISA confirmed today that ransomware gangs have begun abusing a high-severity Microsoft SharePoint remote code execution vulnerability, whic"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Cisco warns of high-severity ClamAV flaws with public exploits",
+    "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-high-severity-clamav-flaws-with-public-exploits/",
+    "date": "2026-08-11",
+    "snippet": "Cisco warned of two high-severity vulnerabilities affecting the Secure Endpoint Connector that allow threat actors to crash the ClamAV scann"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "US and South Korea warn of Gunra ransomware targeting govt agencies",
+    "link": "https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/",
+    "date": "2026-08-11",
+    "snippet": "U.S. federal agencies and South Korea's National Policy Agency warned government and critical infrastructure organizations worldwide to secu"
   },
   {
     "source": "BleepingComputer",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/",
     "date": "2026-08-10",
     "snippet": "A threat actor compromised the upstream infrastructure of BdThemes, a developer of premium WordPress web-design tools, and modified a remote"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "OpenAI releases ChatGPT 5.6 Cyber, but it's only for approved users",
-    "link": "https://www.bleepingcomputer.com/news/security/openai-releases-chatgpt-56-cyber-but-its-only-for-approved-users/",
-    "date": "2026-08-10",
-    "snippet": "OpenAI has developed a new model called \"GPT 5.6 Cyber,\" designed for vulnerability research, penetration testing, incident response, and re"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "New StormEncryptor ransomware used by former Medusa affiliate",
-    "link": "https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate/",
-    "date": "2026-08-10",
-    "snippet": "A financially motivated threat actor previously associated with the Medusa ransomware operation is now deploying a new ransomware strain cal"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "CISA: SonicWall SMA1000 flaws now exploited by ransomware gangs",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/",
-    "date": "2026-08-10",
-    "snippet": "CISA has confirmed that ransomware gangs have begun exploiting two recently patched SonicWall SMA1000 vulnerabilities, including a maximum-s"
   },
   {
     "source": "Krebs on Security",
