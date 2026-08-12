@@ -1,38 +1,59 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack",
+    "link": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
+    "date": "2026-08-11",
+    "snippet": "Microsoft released its monthly security updates on Tuesday, and one of the flaws it closed is already being used in attacks. The bug sits in"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing",
+    "link": "https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html",
+    "date": "2026-08-11",
+    "snippet": "Cybersecurity researchers have discovered a new version of the Kimwolf/AISURU Android and Internet of Things (IoT) botnet that comes with si"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Zoom Annotation Flaws Could Let a Meeting Participant Hijack Another Attendee's Client",
+    "link": "https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html",
+    "date": "2026-08-11",
+    "snippet": "Anyone sharing their screen on a Zoom call could have taken over the computers of everyone watching, and anyone watching could have taken ov"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
+    "link": "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html",
+    "date": "2026-08-11",
+    "snippet": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new social engineering campaign orchestrated by Russian"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
     "link": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
     "date": "2026-08-11",
     "snippet": "Security researchers found a way to enter Microsoft SharePoint servers as any user, including an administrator, with no valid account. A sig"
   },
   {
-    "source": "The Hacker News",
-    "title": "DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt",
-    "link": "https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html",
+    "source": "BleepingComputer",
+    "title": "DeadLock ransomware uses blockchain to resist infrastructure takedown",
+    "link": "https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/",
     "date": "2026-08-11",
-    "snippet": "The ransomware group known as DeadLock has been observed using decentralized infrastructure to facilitate victim communications and data lea"
+    "snippet": "The DeadLock ransomware operation is using a decentralized infrastructure that relies on blockchain-backed services to protect its communica"
   },
   {
-    "source": "The Hacker News",
-    "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
-    "link": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html",
+    "source": "BleepingComputer",
+    "title": "Sandworm hackers target IT pros with trojanized WireGuard VPN client",
+    "link": "https://www.bleepingcomputer.com/news/security/sandworm-hackers-target-it-pros-with-trojanized-wireguard-vpn-client/",
     "date": "2026-08-11",
-    "snippet": "OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability research, penetrat"
+    "snippet": "Hackers associated with the Russian threat group Sandworm have been targeting system administrators and IT professionals through fake job of"
   },
   {
-    "source": "The Hacker News",
-    "title": "A Malicious SIM Card Can Run Attacker Code Inside the Modems Behind Cellular IoT Devices",
-    "link": "https://thehackernews.com/2026/08/a-malicious-sim-card-can-run-attacker.html",
+    "source": "BleepingComputer",
+    "title": "Cisco warns of ASA and FTD VPN flaw exploited to crash devices",
+    "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-and-ftd-vpn-flaw-exploited-to-crash-devices/",
     "date": "2026-08-11",
-    "snippet": "A malicious SIM card can order the device it sits in to run commands of the attacker's choosing. On the cellular modules built into electric"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Mozilla Revokes Firefox and Thunderbird Linux Signing Key After Key Lands in Private Repo",
-    "link": "https://thehackernews.com/2026/08/mozilla-revokes-firefox-and-thunderbird.html",
-    "date": "2026-08-11",
-    "snippet": "Mozilla has scrapped the cryptographic key behind Firefox and Thunderbird downloads for Linux after an unencrypted copy of it was committed "
+    "snippet": "Cisco is warning that a high-severity denial-of-service vulnerability in Secure Firewall ASA and Threat Defense (FTD) software is being acti"
   },
   {
     "source": "BleepingComputer",
@@ -43,31 +64,17 @@
   },
   {
     "source": "BleepingComputer",
-    "title": "Windows 10 KB5120249 cumulative update released with fixes",
+    "title": "Microsoft releases Windows 10 KB5120249 extended security update",
     "link": "https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5120249-cumulative-update-released-with-fixes/",
     "date": "2026-08-11",
     "snippet": "Microsoft has released Windows 10 KB5120249 Extended Security Updates for versions 22H2 and 21H2 to fix security vulnerabilities and bugs. ["
   },
   {
-    "source": "BleepingComputer",
-    "title": "Microsoft August 2026 Patch Tuesday fixes 400 flaws, 3 zero-days",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-2026-patch-tuesday-fixes-400-flaws-3-zero-days/",
+    "source": "Krebs on Security",
+    "title": "Microsoft Plugs Nearly 400 Security Holes",
+    "link": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
     "date": "2026-08-11",
-    "snippet": "Today is Microsoft's August 2026 Patch Tuesday, and with it comes security updates for a massive 400 flaws, including one actively exploited"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Windows 11 KB5121003 &amp; KB5120240 cumulative updates released",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5121003-and-kb5120240-cumulative-updates-released/",
-    "date": "2026-08-11",
-    "snippet": "Microsoft has released Windows 11 KB5121003 and KB5120240 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Wesco confirms security incident after ExfilSquad claims data theft",
-    "link": "https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/",
-    "date": "2026-08-11",
-    "snippet": "Global supply chain and distribution giant Wesco has confirmed in a statement for BleepingComputer that it is investigating a cybersecurity "
+    "snippet": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, in"
   },
   {
     "source": "Krebs on Security",
@@ -75,12 +82,5 @@
     "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
     "date": "2026-08-06",
     "snippet": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer f"
-  },
-  {
-    "source": "Krebs on Security",
-    "title": "Read This Before You Buy That TV Streaming Stick",
-    "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
-    "date": "2026-07-30",
-    "snippet": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming f"
   }
 ]
