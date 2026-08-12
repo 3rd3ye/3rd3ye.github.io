@@ -1,5 +1,12 @@
 [
   {
+    "source": "BleepingComputer",
+    "title": "Google says Chrome cuts 7 billion unwanted Android notifications a day to fight abuse",
+    "link": "https://www.bleepingcomputer.com/news/security/google-says-chrome-cuts-7-billion-unwanted-android-notifications-a-day-to-fight-abuse/",
+    "date": "2026-08-12",
+    "snippet": "Google says Chrome's anti-abuse systems reduced unwanted notifications on Android by more than 7 billion per day during the first quarter of"
+  },
+  {
     "source": "The Hacker News",
     "title": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack",
     "link": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/delta-probes-wi-fi-deauth-attack-on-flight-carrying-def-con-attendees/",
     "date": "2026-08-11",
     "snippet": "Delta Air Lines is investigating an unauthorized Wi-Fi network that appeared aboard a flight from Las Vegas to Atlanta carrying passengers w"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft releases Windows 10 KB5120249 extended security update",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5120249-cumulative-update-released-with-fixes/",
-    "date": "2026-08-11",
-    "snippet": "Microsoft has released Windows 10 KB5120249 Extended Security Updates for versions 22H2 and 21H2 to fix security vulnerabilities and bugs. ["
   },
   {
     "source": "Krebs on Security",
