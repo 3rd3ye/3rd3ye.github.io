@@ -1,31 +1,38 @@
 [
   {
     "source": "BleepingComputer",
+    "title": "Hackers arrested over €30M bank fraud exploiting service provider flaw",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/",
+    "date": "2026-08-14",
+    "snippet": "Four cybercriminals were arrested in Brazil, and three others were charged in Europe over allegations that they exploited a vulnerability at"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Hackers exploit macOS Screen Sharing flaw to deploy Monero miner",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
+    "date": "2026-08-14",
+    "snippet": "The Netherlands' National Cyber Security Centre (NCSC) is warning that hackers are actively exploiting a macOS authentication bypass vulnera"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI",
+    "link": "https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/",
+    "date": "2026-08-14",
+    "snippet": "Google Workspace attacks do not always begin with phishing. Stolen OAuth tokens can provide another path into Gmail, Drive, and connected sy"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Max severity SAP Commerce Cloud flaw now targeted in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/",
+    "date": "2026-08-14",
+    "snippet": "A maximum-severity SAP Commerce Cloud remote code execution vulnerability patched three days ago is already being targeted in attacks, accor"
+  },
+  {
+    "source": "BleepingComputer",
     "title": "Shell investigates 'potential incident' after Clop data theft claims",
     "link": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/",
     "date": "2026-08-14",
     "snippet": "Oil giant Shell has confirmed it is investigating a potential security incident after the Clop ransomware gang claimed it stole 89GB of data"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "RingCentral data breach exposed info of 1.6 million accounts",
-    "link": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/",
-    "date": "2026-08-14",
-    "snippet": "The ShinyHunters extortion group stole personal information from 1.6 million RingCentral accounts after hacking the company in July, accordi"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Data analyst sent to prison for stealing data, extorting employer",
-    "link": "https://www.bleepingcomputer.com/news/security/data-analyst-sent-to-prison-for-stealing-data-extorting-employer/",
-    "date": "2026-08-14",
-    "snippet": "A former data analyst contractor for Brightly Software has been sentenced to two years in prison for targeting his employer in a $2.5 millio"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Apple sends new ‘Threat Notification’ alerts over mercenary spyware attacks",
-    "link": "https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/",
-    "date": "2026-08-14",
-    "snippet": "You're not alone if you just received an \"Apple Threat Notification\" saying it detected a \"mercenary spyware attack targeted at your iPhone."
   },
   {
     "source": "Krebs on Security",
@@ -40,13 +47,6 @@
     "link": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
     "date": "2026-08-13",
     "snippet": "Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) c"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Ukraine shuts down 94 fraudulent call centers, seize millions in cash",
-    "link": "https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash/",
-    "date": "2026-08-13",
-    "snippet": "Authorities in Ukraine shut down 94 fraudulent call centers across the country that lured people into investment scams or tried to obtain ac"
   },
   {
     "source": "The Hacker News",
