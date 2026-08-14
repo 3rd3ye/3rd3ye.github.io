@@ -1,10 +1,38 @@
 [
   {
     "source": "BleepingComputer",
+    "title": "Shell investigates 'potential incident' after Clop data theft claims",
+    "link": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/",
+    "date": "2026-08-14",
+    "snippet": "Oil giant Shell has confirmed it is investigating a potential security incident after the Clop ransomware gang claimed it stole 89GB of data"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "RingCentral data breach exposed info of 1.6 million accounts",
+    "link": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/",
+    "date": "2026-08-14",
+    "snippet": "The ShinyHunters extortion group stole personal information from 1.6 million RingCentral accounts after hacking the company in July, accordi"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Data analyst sent to prison for stealing data, extorting employer",
+    "link": "https://www.bleepingcomputer.com/news/security/data-analyst-sent-to-prison-for-stealing-data-extorting-employer/",
+    "date": "2026-08-14",
+    "snippet": "A former data analyst contractor for Brightly Software has been sentenced to two years in prison for targeting his employer in a $2.5 millio"
+  },
+  {
+    "source": "BleepingComputer",
     "title": "Apple sends new ‘Threat Notification’ alerts over mercenary spyware attacks",
     "link": "https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/",
     "date": "2026-08-14",
     "snippet": "You're not alone if you just received an \"Apple Threat Notification\" saying it detected a \"mercenary spyware attack targeted at your iPhone."
+  },
+  {
+    "source": "Krebs on Security",
+    "title": "Who&#8217;s Tracking You? Use This New Service to Find Out",
+    "link": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
+    "date": "2026-08-14",
+    "snippet": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we"
   },
   {
     "source": "The Hacker News",
@@ -19,27 +47,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash/",
     "date": "2026-08-13",
     "snippet": "Authorities in Ukraine shut down 94 fraudulent call centers across the country that lured people into investment scams or tried to obtain ac"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt",
-    "link": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/",
-    "date": "2026-08-13",
-    "snippet": "An Akira ransomware affiliate disabled the endpoint detection and response (EDR) solution on a compromised system by restarting the machine "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Hackers breach govt webmail while running parallel crypto fraud",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-govt-webmail-while-running-parallel-crypto-fraud/",
-    "date": "2026-08-13",
-    "snippet": "The Jewelbug hacker group has been carrying out espionage operations targeting governments and militaries while also engaging in cryptocurre"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft patches LegacyHive Windows zero-day vulnerability",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-legacyhive-windows-zero-day-vulnerability/",
-    "date": "2026-08-13",
-    "snippet": "Microsoft has released security patches to address a Windows zero-day vulnerability known as \"LegacyHive,\" disclosed after the July 2026 Pat"
   },
   {
     "source": "The Hacker News",
@@ -75,12 +82,5 @@
     "link": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
     "date": "2026-08-11",
     "snippet": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, in"
-  },
-  {
-    "source": "Krebs on Security",
-    "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
-    "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
-    "date": "2026-08-06",
-    "snippet": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer f"
   }
 ]
