@@ -1,6 +1,13 @@
 [
   {
     "source": "BleepingComputer",
+    "title": "How Anthropic plans to watermark Claude's AI-generated text",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/",
+    "date": "2026-08-14",
+    "snippet": "It could soon become easier to identify AI-generated content, even if it's not the usual \"It's Not X, it's Y\" type of post you'd come across"
+  },
+  {
+    "source": "BleepingComputer",
     "title": "Hackers arrested over €30M bank fraud exploiting service provider flaw",
     "link": "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/",
     "date": "2026-08-14",
@@ -26,13 +33,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/",
     "date": "2026-08-14",
     "snippet": "A maximum-severity SAP Commerce Cloud remote code execution vulnerability patched three days ago is already being targeted in attacks, accor"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Shell investigates 'potential incident' after Clop data theft claims",
-    "link": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/",
-    "date": "2026-08-14",
-    "snippet": "Oil giant Shell has confirmed it is investigating a potential security incident after the Clop ransomware gang claimed it stole 89GB of data"
   },
   {
     "source": "Krebs on Security",
