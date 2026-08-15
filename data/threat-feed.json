@@ -1,6 +1,13 @@
 [
   {
     "source": "BleepingComputer",
+    "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
+    "link": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
+    "date": "2026-08-15",
+    "snippet": "A new Mirai-based modular Linux botnet malware called Evooo1Bot has been targeting internet-facing gateway devices, turning them into SOCKS5"
+  },
+  {
+    "source": "BleepingComputer",
     "title": "How Anthropic plans to watermark Claude's AI-generated text",
     "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/",
     "date": "2026-08-14",
@@ -26,13 +33,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/",
     "date": "2026-08-14",
     "snippet": "Google Workspace attacks do not always begin with phishing. Stolen OAuth tokens can provide another path into Gmail, Drive, and connected sy"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Max severity SAP Commerce Cloud flaw now targeted in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/",
-    "date": "2026-08-14",
-    "snippet": "A maximum-severity SAP Commerce Cloud remote code execution vulnerability patched three days ago is already being targeted in attacks, accor"
   },
   {
     "source": "Krebs on Security",
