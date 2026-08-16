@@ -1,6 +1,20 @@
 [
   {
     "source": "BleepingComputer",
+    "title": "Large-scale DDoS attacks disrupted Threema secure messaging service",
+    "link": "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/",
+    "date": "2026-08-16",
+    "snippet": "Multiple distributed denial-of-service (DDoS) attacks targeted the Threema secure messaging service earlier this week, causing severe disrup"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "New AmnesiaStealer macOS malware hijacks browser sessions via remote control",
+    "link": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
+    "date": "2026-08-16",
+    "snippet": "A new information-stealing malware called AmnesiaStealer, which targets macOS users via ClickFix attacks, includes a streaming module that a"
+  },
+  {
+    "source": "BleepingComputer",
     "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
     "link": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
     "date": "2026-08-15",
@@ -19,20 +33,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/",
     "date": "2026-08-14",
     "snippet": "Four cybercriminals were arrested in Brazil, and three others were charged in Europe over allegations that they exploited a vulnerability at"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Hackers exploit macOS Screen Sharing flaw to deploy Monero miner",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
-    "date": "2026-08-14",
-    "snippet": "The Netherlands' National Cyber Security Centre (NCSC) is warning that hackers are actively exploiting a macOS authentication bypass vulnera"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI",
-    "link": "https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/",
-    "date": "2026-08-14",
-    "snippet": "Google Workspace attacks do not always begin with phishing. Stolen OAuth tokens can provide another path into Gmail, Drive, and connected sy"
   },
   {
     "source": "Krebs on Security",
