@@ -1,6 +1,27 @@
 [
   {
     "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
+    "link": "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
+    "date": "2026-08-17",
+    "snippet": "The expensive attacks are not always the clever ones. This week had plenty of proof. Exposed services got hit, old bugs found fresh use, bro"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "How MCP Servers Can Expose Enterprise Secrets",
+    "link": "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html",
+    "date": "2026-08-17",
+    "snippet": "MCP servers can expose enterprise secrets through plaintext configuration files, over-permissioned access and prompt injection, often before"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access",
+    "link": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
+    "date": "2026-08-17",
+    "snippet": "Security researchers at SSD Secure Disclosure have published a two-stage exploit chain that achieves full Android kernel access on devices r"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
     "link": "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html",
     "date": "2026-08-17",
@@ -15,6 +36,27 @@
   },
   {
     "source": "BleepingComputer",
+    "title": "Microsoft confirms GitHub is down worldwide",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-github-is-down-worldwide/",
+    "date": "2026-08-17",
+    "snippet": "GitHub is down for some users as a widespread outage is causing errors across the website, API, Actions, Pull Requests, and several other se"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Certighost and the Privilege Hiding in Your Certificate Authority",
+    "link": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
+    "date": "2026-08-17",
+    "snippet": "CVE-2026-54121 lets a standard domain user turn your Enterprise CA into a Domain Controller. The patch is the easy part. The lesson is stand"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Windows Server 2022 reaches end of mainstream support in 60 days",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-in-60-days/",
+    "date": "2026-08-17",
+    "snippet": "Microsoft has reminded IT administrators that Windows Server 2022 is rapidly approaching its mainstream end date of October 2026, when it wi"
+  },
+  {
+    "source": "BleepingComputer",
     "title": "Philips and GE investigating Clop ransomware data theft claims",
     "link": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
     "date": "2026-08-17",
@@ -26,48 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/",
     "date": "2026-08-17",
     "snippet": "The French Ministry of the Economy and Finance has disclosed a data breach after an attacker accessed the General Directorate of Public Fina"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft working on Defender patch for ShieldBreak zero-day",
-    "link": "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
-    "date": "2026-08-17",
-    "snippet": "Microsoft is working on a security patch for the \"ShieldBreak\" zero-day vulnerability disclosed last week by security researcher \"Nightmare "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
-    "link": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
-    "date": "2026-08-16",
-    "snippet": "Cryptocurrency hardware wallet provider SafePal is warning of a data breach affecting about 39,798 customers after a flaw was exploited to s"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Anthropic confirms Claude is down in major outage affecting multiple services",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/",
-    "date": "2026-08-16",
-    "snippet": "Claude is experiencing a major outage, with users reporting login problems and degraded performance across several Anthropic services. [...]"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "SAP Commerce Cloud CVE-2026-58231 Targeted in Exploitation Attempts Days After Patch",
-    "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html",
-    "date": "2026-08-15",
-    "snippet": "A maximum-severity security vulnerability impacting SAP Commerce Cloud is witnessing active exploitation efforts. The vulnerability, tracked"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Apple macOS Screen Sharing Flaw Exploited on Internet-Exposed Macs to Install Monero Miner",
-    "link": "https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html",
-    "date": "2026-08-15",
-    "snippet": "A recently patched security flaw in Apple macOS has come under active exploitation in the wild to deploy a cryptocurrency miner, the Netherl"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Spend Nearly $7 Million on Expired Domains to Redirect Traffic to Scams and Malware",
-    "link": "https://thehackernews.com/2026/08/hackers-spend-nearly-7-million-on.html",
-    "date": "2026-08-14",
-    "snippet": "Threat actors are acquiring expired domains to inherit website traffic and reputation to redirect victims to scams and malware on a large sc"
   },
   {
     "source": "Krebs on Security",
