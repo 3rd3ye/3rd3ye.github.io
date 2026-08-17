@@ -1,6 +1,20 @@
 [
   {
     "source": "BleepingComputer",
+    "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
+    "link": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
+    "date": "2026-08-16",
+    "snippet": "Cryptocurrency hardware wallet provider SafePal is warning of a data breach affecting about 39,798 customers after a flaw was exploited to s"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Anthropic confirms Claude is down in major outage affecting multiple services",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/",
+    "date": "2026-08-16",
+    "snippet": "Claude is experiencing a major outage, with users reporting login problems and degraded performance across several Anthropic services. [...]"
+  },
+  {
+    "source": "BleepingComputer",
     "title": "Large-scale DDoS attacks disrupted Threema secure messaging service",
     "link": "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/",
     "date": "2026-08-16",
@@ -19,20 +33,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
     "date": "2026-08-15",
     "snippet": "A new Mirai-based modular Linux botnet malware called Evooo1Bot has been targeting internet-facing gateway devices, turning them into SOCKS5"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "How Anthropic plans to watermark Claude's AI-generated text",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/",
-    "date": "2026-08-14",
-    "snippet": "It could soon become easier to identify AI-generated content, even if it's not the usual \"It's Not X, it's Y\" type of post you'd come across"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Hackers arrested over €30M bank fraud exploiting service provider flaw",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/",
-    "date": "2026-08-14",
-    "snippet": "Four cybercriminals were arrested in Brazil, and three others were charged in Europe over allegations that they exploited a vulnerability at"
   },
   {
     "source": "Krebs on Security",
