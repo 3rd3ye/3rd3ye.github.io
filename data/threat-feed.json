@@ -1,5 +1,40 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
+    "link": "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html",
+    "date": "2026-08-17",
+    "snippet": "Cybersecurity researchers have flagged a previously undocumented Linux botnet family dubbed Evooo1Bot that derives its core functionality fr"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware",
+    "link": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
+    "date": "2026-08-17",
+    "snippet": "Cybersecurity researchers have attributed the exploitation of a newly patched security flaw in Broadcom VMware vCenter to a suspected China-"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Philips and GE investigating Clop ransomware data theft claims",
+    "link": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
+    "date": "2026-08-17",
+    "snippet": "Tech giants General Electric (GE) and Philips have also confirmed they're investigating claims that the Clop ransomware gang breached their "
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "French tax authority data breach affects 678,000 individuals",
+    "link": "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/",
+    "date": "2026-08-17",
+    "snippet": "The French Ministry of the Economy and Finance has disclosed a data breach after an attacker accessed the General Directorate of Public Fina"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft working on Defender patch for ShieldBreak zero-day",
+    "link": "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
+    "date": "2026-08-17",
+    "snippet": "Microsoft is working on a security patch for the \"ShieldBreak\" zero-day vulnerability disclosed last week by security researcher \"Nightmare "
+  },
+  {
     "source": "BleepingComputer",
     "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
     "link": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
@@ -14,25 +49,25 @@
     "snippet": "Claude is experiencing a major outage, with users reporting login problems and degraded performance across several Anthropic services. [...]"
   },
   {
-    "source": "BleepingComputer",
-    "title": "Large-scale DDoS attacks disrupted Threema secure messaging service",
-    "link": "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/",
-    "date": "2026-08-16",
-    "snippet": "Multiple distributed denial-of-service (DDoS) attacks targeted the Threema secure messaging service earlier this week, causing severe disrup"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "New AmnesiaStealer macOS malware hijacks browser sessions via remote control",
-    "link": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
-    "date": "2026-08-16",
-    "snippet": "A new information-stealing malware called AmnesiaStealer, which targets macOS users via ClickFix attacks, includes a streaming module that a"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
-    "link": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
+    "source": "The Hacker News",
+    "title": "SAP Commerce Cloud CVE-2026-58231 Targeted in Exploitation Attempts Days After Patch",
+    "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html",
     "date": "2026-08-15",
-    "snippet": "A new Mirai-based modular Linux botnet malware called Evooo1Bot has been targeting internet-facing gateway devices, turning them into SOCKS5"
+    "snippet": "A maximum-severity security vulnerability impacting SAP Commerce Cloud is witnessing active exploitation efforts. The vulnerability, tracked"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Apple macOS Screen Sharing Flaw Exploited on Internet-Exposed Macs to Install Monero Miner",
+    "link": "https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html",
+    "date": "2026-08-15",
+    "snippet": "A recently patched security flaw in Apple macOS has come under active exploitation in the wild to deploy a cryptocurrency miner, the Netherl"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Spend Nearly $7 Million on Expired Domains to Redirect Traffic to Scams and Malware",
+    "link": "https://thehackernews.com/2026/08/hackers-spend-nearly-7-million-on.html",
+    "date": "2026-08-14",
+    "snippet": "Threat actors are acquiring expired domains to inherit website traffic and reputation to redirect victims to scams and malware on a large sc"
   },
   {
     "source": "Krebs on Security",
@@ -40,41 +75,6 @@
     "link": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
     "date": "2026-08-14",
     "snippet": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
-    "link": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
-    "date": "2026-08-13",
-    "snippet": "Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) c"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
-    "link": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
-    "date": "2026-08-12",
-    "snippet": "The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impac"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One",
-    "link": "https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html",
-    "date": "2026-08-12",
-    "snippet": "A massive set of 737 free VPN and proxy extensions have been found to mainly target Russian-speaking users seeking access to blocked service"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning",
-    "link": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
-    "date": "2026-08-12",
-    "snippet": "A newly disclosed flaw in the way OpenAI, Anthropic, and Google carried hidden AI reasoning between API calls let researchers recover intern"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Enterprise Defenses Recovered at the Edge and Collapsed Inside",
-    "link": "https://thehackernews.com/2026/08/enterprise-defenses-recovered-at-edge.html",
-    "date": "2026-08-12",
-    "snippet": "Enterprise defenses are tuned to catch the attacks that make noise. This year's data shows attackers winning by making none. According to Pi"
   },
   {
     "source": "Krebs on Security",
