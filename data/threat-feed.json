@@ -1,38 +1,52 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
+    "link": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
+    "date": "2026-08-17",
+    "snippet": "GitLab has released security updates to address a critical vulnerability impacting its Community Edition (CE) and Enterprise Edition (EE) so"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection",
+    "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html",
+    "date": "2026-08-17",
+    "snippet": "Cybersecurity researchers at Wiz&nbsp;have disclosed a new GitHub Actions workflow injection vulnerability in Snowflake's public&nbsp;snowfl"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
+    "link": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
+    "date": "2026-08-17",
+    "snippet": "A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active installations, that could "
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
+    "link": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html",
+    "date": "2026-08-17",
+    "snippet": "Cybersecurity researchers have traced the continued evolution of the Cavern (aka Cav3rn) command-and-control (C2) framework used by Iranian "
+  },
+  {
+    "source": "The Hacker News",
     "title": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
     "link": "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
     "date": "2026-08-17",
     "snippet": "The expensive attacks are not always the clever ones. This week had plenty of proof. Exposed services got hit, old bugs found fresh use, bro"
   },
   {
-    "source": "The Hacker News",
-    "title": "How MCP Servers Can Expose Enterprise Secrets",
-    "link": "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html",
+    "source": "BleepingComputer",
+    "title": "Hacker claims 3.6 million Azure account records stolen from major companies",
+    "link": "https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/",
     "date": "2026-08-17",
-    "snippet": "MCP servers can expose enterprise secrets through plaintext configuration files, over-permissioned access and prompt injection, often before"
+    "snippet": "A threat actor is selling employee databases allegedly stolen from the Microsoft Azure infrastructure of multiple Fortune 500 companies afte"
   },
   {
-    "source": "The Hacker News",
-    "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access",
-    "link": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
+    "source": "BleepingComputer",
+    "title": "Pokémon Center data breach exposes customer info, cancels some orders",
+    "link": "https://www.bleepingcomputer.com/news/security/pokemon-center-data-breach-exposes-customer-info-cancels-some-orders/",
     "date": "2026-08-17",
-    "snippet": "Security researchers at SSD Secure Disclosure have published a two-stage exploit chain that achieves full Android kernel access on devices r"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
-    "link": "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html",
-    "date": "2026-08-17",
-    "snippet": "Cybersecurity researchers have flagged a previously undocumented Linux botnet family dubbed Evooo1Bot that derives its core functionality fr"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware",
-    "link": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
-    "date": "2026-08-17",
-    "snippet": "Cybersecurity researchers have attributed the exploitation of a newly patched security flaw in Broadcom VMware vCenter to a suspected China-"
+    "snippet": "Pokémon Center is notifying customers in the United Kingdom and Germany that it suffered a third-party data breach after hackers stole custo"
   },
   {
     "source": "BleepingComputer",
@@ -54,20 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-in-60-days/",
     "date": "2026-08-17",
     "snippet": "Microsoft has reminded IT administrators that Windows Server 2022 is rapidly approaching its mainstream end date of October 2026, when it wi"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Philips and GE investigating Clop ransomware data theft claims",
-    "link": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
-    "date": "2026-08-17",
-    "snippet": "Tech giants General Electric (GE) and Philips have also confirmed they're investigating claims that the Clop ransomware gang breached their "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "French tax authority data breach affects 678,000 individuals",
-    "link": "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/",
-    "date": "2026-08-17",
-    "snippet": "The French Ministry of the Economy and Finance has disclosed a data breach after an attacker accessed the General Directorate of Public Fina"
   },
   {
     "source": "Krebs on Security",
