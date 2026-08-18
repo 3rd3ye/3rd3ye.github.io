@@ -1,38 +1,66 @@
 [
   {
     "source": "The Hacker News",
+    "title": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
+    "link": "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
+    "date": "2026-08-18",
+    "snippet": "Cybersecurity researchers have flagged a new typosquatting campaign targeting RubyGems users with a Windows-based information stealer. OpenS"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025",
+    "link": "https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html",
+    "date": "2026-08-18",
+    "snippet": "A single piece of infrastructure has been pulling records out of Salesforce and ServiceNow customer portals across multiple industries for m"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers",
+    "link": "https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html",
+    "date": "2026-08-18",
+    "snippet": "SafePal has disclosed that an authorization flaw in an order-tracking plug-in exposed the names, email addresses, shipping addresses, phone "
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE",
+    "link": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
+    "date": "2026-08-18",
+    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited Vulner"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft tests faster Windows File Explorer, new context menu",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-faster-windows-explorer-customizable-context-menu/",
+    "date": "2026-08-18",
+    "snippet": "Microsoft has started testing a faster File Explorer and a less cluttered and more customizable context menu in Windows 11 preview builds ro"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "CISA: Windows Task Host flaw now exploited by ransomware gangs",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/",
+    "date": "2026-08-18",
+    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a high-severity Win"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft confirms outage affecting search in Microsoft 365 apps",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-bug-behind-microsoft-365-search-issues/",
+    "date": "2026-08-18",
+    "snippet": "Microsoft says some users are experiencing issues searching in Microsoft 365 apps, including Outlook on the web, Outlook desktop, SharePoint"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft starts removing WMIC tool used by cybercriminals",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wmic-lolbin-tool-in-windows-11-beta-builds/",
+    "date": "2026-08-18",
+    "snippet": "Microsoft announced that it removed the Windows Management Instrumentation Command-line (WMIC) tool from Windows 11 24H2 and 25H2, as well a"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
     "link": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
     "date": "2026-08-17",
     "snippet": "GitLab has released security updates to address a critical vulnerability impacting its Community Edition (CE) and Enterprise Edition (EE) so"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection",
-    "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html",
-    "date": "2026-08-17",
-    "snippet": "Cybersecurity researchers at Wiz&nbsp;have disclosed a new GitHub Actions workflow injection vulnerability in Snowflake's public&nbsp;snowfl"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
-    "link": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
-    "date": "2026-08-17",
-    "snippet": "A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active installations, that could "
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
-    "link": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html",
-    "date": "2026-08-17",
-    "snippet": "Cybersecurity researchers have traced the continued evolution of the Cavern (aka Cav3rn) command-and-control (C2) framework used by Iranian "
-  },
-  {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
-    "link": "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
-    "date": "2026-08-17",
-    "snippet": "The expensive attacks are not always the clever ones. This week had plenty of proof. Exposed services got hit, old bugs found fresh use, bro"
   },
   {
     "source": "BleepingComputer",
@@ -40,34 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/",
     "date": "2026-08-17",
     "snippet": "A threat actor is selling employee databases allegedly stolen from the Microsoft Azure infrastructure of multiple Fortune 500 companies afte"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Pokémon Center data breach exposes customer info, cancels some orders",
-    "link": "https://www.bleepingcomputer.com/news/security/pokemon-center-data-breach-exposes-customer-info-cancels-some-orders/",
-    "date": "2026-08-17",
-    "snippet": "Pokémon Center is notifying customers in the United Kingdom and Germany that it suffered a third-party data breach after hackers stole custo"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft confirms GitHub is down worldwide",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-github-is-down-worldwide/",
-    "date": "2026-08-17",
-    "snippet": "GitHub is down for some users as a widespread outage is causing errors across the website, API, Actions, Pull Requests, and several other se"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Certighost and the Privilege Hiding in Your Certificate Authority",
-    "link": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
-    "date": "2026-08-17",
-    "snippet": "CVE-2026-54121 lets a standard domain user turn your Enterprise CA into a Domain Controller. The patch is the easy part. The lesson is stand"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Windows Server 2022 reaches end of mainstream support in 60 days",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-in-60-days/",
-    "date": "2026-08-17",
-    "snippet": "Microsoft has reminded IT administrators that Windows Server 2022 is rapidly approaching its mainstream end date of October 2026, when it wi"
   },
   {
     "source": "Krebs on Security",
