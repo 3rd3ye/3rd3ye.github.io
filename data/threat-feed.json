@@ -1,10 +1,17 @@
 [
   {
     "source": "The Hacker News",
-    "title": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
-    "link": "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
+    "title": "AI \"Mind Viruses\" Can Spread Between Agents Through Persistent Prompt Files",
+    "link": "https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html",
     "date": "2026-08-18",
-    "snippet": "Cybersecurity researchers have flagged a new typosquatting campaign targeting RubyGems users with a Windows-based information stealer. OpenS"
+    "snippet": "Security researchers at Anthropic and Switzerland's EPFL have demonstrated that self-propagating payloads can spread from one artificial int"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks",
+    "link": "https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html",
+    "date": "2026-08-18",
+    "snippet": "Cybersecurity researchers have disclosed details of a previously undocumented Python implant framework dubbed TWINLOOT. \"TWINLOOT is a modul"
   },
   {
     "source": "The Hacker News",
@@ -15,17 +22,31 @@
   },
   {
     "source": "The Hacker News",
+    "title": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
+    "link": "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
+    "date": "2026-08-18",
+    "snippet": "Cybersecurity researchers have flagged a new typosquatting campaign targeting RubyGems users with a Windows-based information stealer. OpenS"
+  },
+  {
+    "source": "The Hacker News",
     "title": "SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers",
     "link": "https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html",
     "date": "2026-08-18",
     "snippet": "SafePal has disclosed that an authorization flaw in an order-tracking plug-in exposed the names, email addresses, shipping addresses, phone "
   },
   {
-    "source": "The Hacker News",
-    "title": "CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE",
-    "link": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
+    "source": "BleepingComputer",
+    "title": "Clop created custom web shell for Windchill data theft attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
     "date": "2026-08-18",
-    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited Vulner"
+    "snippet": "A custom Java web shell likely linked to the Clop ransomware gang was designed specifically for PTC Windchill and FlexPLM servers, with buil"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Your Controls Block Known Attacks. What About the Behavior?",
+    "link": "https://www.bleepingcomputer.com/news/security/your-controls-block-known-attacks-what-about-the-behavior/",
+    "date": "2026-08-18",
+    "snippet": "Security controls can block a familiar attack method while missing quieter ways to achieve the same objective. Picus Security's Blue Report "
   },
   {
     "source": "BleepingComputer",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-bug-behind-microsoft-365-search-issues/",
     "date": "2026-08-18",
     "snippet": "Microsoft says some users are experiencing issues searching in Microsoft 365 apps, including Outlook on the web, Outlook desktop, SharePoint"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft starts removing WMIC tool used by cybercriminals",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wmic-lolbin-tool-in-windows-11-beta-builds/",
-    "date": "2026-08-18",
-    "snippet": "Microsoft announced that it removed the Windows Management Instrumentation Command-line (WMIC) tool from Windows 11 24H2 and 25H2, as well a"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
-    "link": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
-    "date": "2026-08-17",
-    "snippet": "GitLab has released security updates to address a critical vulnerability impacting its Community Edition (CE) and Enterprise Edition (EE) so"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Hacker claims 3.6 million Azure account records stolen from major companies",
-    "link": "https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/",
-    "date": "2026-08-17",
-    "snippet": "A threat actor is selling employee databases allegedly stolen from the Microsoft Azure infrastructure of multiple Fortune 500 companies afte"
   },
   {
     "source": "Krebs on Security",
