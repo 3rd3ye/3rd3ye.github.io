@@ -1,6 +1,27 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
+    "link": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
+    "date": "2026-08-18",
+    "snippet": "Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot Personal that it said could allow a single click on a crafted l"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets",
+    "link": "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html",
+    "date": "2026-08-18",
+    "snippet": "Two critical vulnerabilities impacting MLflow, an open-source artificial intelligence (AI) platform, and FUXA, an open-source, web-based SCA"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000",
+    "link": "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html",
+    "date": "2026-08-18",
+    "snippet": "A ransomware affiliate calling itself Ransom Busters has been spotted proactively sending emails to victim organizations and claims to delet"
+  },
+  {
+    "source": "The Hacker News",
     "title": "AI \"Mind Viruses\" Can Spread Between Agents Through Persistent Prompt Files",
     "link": "https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html",
     "date": "2026-08-18",
@@ -14,25 +35,11 @@
     "snippet": "Cybersecurity researchers have disclosed details of a previously undocumented Python implant framework dubbed TWINLOOT. \"TWINLOOT is a modul"
   },
   {
-    "source": "The Hacker News",
-    "title": "One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025",
-    "link": "https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html",
+    "source": "BleepingComputer",
+    "title": "Comcast turns your Xfinity WiFi into a home motion detector",
+    "link": "https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/",
     "date": "2026-08-18",
-    "snippet": "A single piece of infrastructure has been pulling records out of Salesforce and ServiceNow customer portals across multiple industries for m"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
-    "link": "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
-    "date": "2026-08-18",
-    "snippet": "Cybersecurity researchers have flagged a new typosquatting campaign targeting RubyGems users with a Windows-based information stealer. OpenS"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers",
-    "link": "https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html",
-    "date": "2026-08-18",
-    "snippet": "SafePal has disclosed that an authorization flaw in an order-tracking plug-in exposed the names, email addresses, shipping addresses, phone "
+    "snippet": "Comcast is promoting WiFi-based motion detection as a part of its new Xfinity Shield home protection platform, allowing routers and wireless"
   },
   {
     "source": "BleepingComputer",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/",
     "date": "2026-08-18",
     "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a high-severity Win"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft confirms outage affecting search in Microsoft 365 apps",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-bug-behind-microsoft-365-search-issues/",
-    "date": "2026-08-18",
-    "snippet": "Microsoft says some users are experiencing issues searching in Microsoft 365 apps, including Outlook on the web, Outlook desktop, SharePoint"
   },
   {
     "source": "Krebs on Security",
