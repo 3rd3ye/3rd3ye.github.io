@@ -1,5 +1,12 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
+    "link": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html",
+    "date": "2026-08-20",
+    "snippet": "Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, c"
+  },
+  {
     "source": "BleepingComputer",
     "title": "OpenAI confirms ChatGPT is down as logins and signups fail",
     "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-as-logins-and-signups-fail/",
@@ -33,13 +40,6 @@
     "link": "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html",
     "date": "2026-08-19",
     "snippet": "Cybersecurity researchers at Hunt.io have disclosed details of a campaign that they say compromised more than 14,530 Dahua devices between J"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Phishing 3.0: The Fight Moves to Agent Versus Agent",
-    "link": "https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html",
-    "date": "2026-08-19",
-    "snippet": "Most email defenses still do the job they did a decade ago. Scan the message, look for something malicious, block it. That worked when the d"
   },
   {
     "source": "BleepingComputer",
