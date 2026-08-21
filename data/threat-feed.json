@@ -1,6 +1,27 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
+    "link": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
+    "date": "2026-08-20",
+    "snippet": "The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account publi"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
+    "link": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
+    "date": "2026-08-20",
+    "snippet": "Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit and More",
+    "link": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
+    "date": "2026-08-20",
+    "snippet": "A lot of this week’s trouble starts with something trusted doing exactly what it was allowed to do. Signed drivers get turned against defens"
+  },
+  {
+    "source": "The Hacker News",
     "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
     "link": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
     "date": "2026-08-20",
@@ -12,27 +33,6 @@
     "link": "https://thehackernews.com/2026/08/new-cryptographic-context-injection.html",
     "date": "2026-08-20",
     "snippet": "Adversa AI has disclosed an attack technique that it says can cause xAI's Grok chatbot to send a user's name, approximate location, subscrip"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE",
-    "link": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
-    "date": "2026-08-20",
-    "snippet": "Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars a"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Servers",
-    "link": "https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html",
-    "date": "2026-08-20",
-    "snippet": "Citrix has released updates to address two security flaws impacting NetScaler ADC and NetScaler Gateway deployments, including a critical-se"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution",
-    "link": "https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html",
-    "date": "2026-08-20",
-    "snippet": "A now-patched security flaw impacting Zimbra Collaboration (ZCS) has come under active exploitation in the wild, according to the Polish Com"
   },
   {
     "source": "BleepingComputer",
