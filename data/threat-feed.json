@@ -1,38 +1,59 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Wazuh and AI For Enhanced SOC Workflows",
+    "link": "https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html",
+    "date": "2026-08-21",
+    "snippet": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and educati"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Cisco Patches Nine Crosswork and Secure Workload Flaws, Five Scoring CVSS 10.0",
+    "link": "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html",
+    "date": "2026-08-21",
+    "snippet": "Cisco has published another round of security updates for Crosswork platforms and Secure Workload Software as part of a continued comprehens"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "GitLab CVE-2026-19478 Comes Under Active Exploitation Within Days of Disclosure",
+    "link": "https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html",
+    "date": "2026-08-21",
+    "snippet": "A newly disclosed security flaw in GitLab has come under active exploitation within days of public disclosure, according to watchTowr. The v"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution",
+    "link": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
+    "date": "2026-08-21",
+    "snippet": "Microsoft on Thursday warned of a maximum-severity security flaw in Entra ID that it said has been exploited in the wild, but noted that no "
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft warns of max severity Entra ID flaw exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
+    "date": "2026-08-21",
+    "snippet": "Microsoft has patched a maximum-severity vulnerability in the Entra ID identity and access management (IAM) platform that has been exploited"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Hackers abuse FTP server banners to deliver new Windows malware",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware/",
+    "date": "2026-08-21",
+    "snippet": "Threat actors are abusing FTP banners to hide commands that deliver two previously undocumented remote access trojans named E4del and PINHOL"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "SickKids data breach exposes employee and job applicant info",
+    "link": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/",
+    "date": "2026-08-21",
+    "snippet": "Toronto's Hospital for Sick Children (SickKids) says a cybersecurity incident exposed the personal information of some current and former em"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
     "link": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
     "date": "2026-08-20",
     "snippet": "The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account publi"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
-    "link": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
-    "date": "2026-08-20",
-    "snippet": "Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More",
-    "link": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
-    "date": "2026-08-20",
-    "snippet": "A lot of this week’s trouble starts with something trusted doing exactly what it was allowed to do. Signed drivers get turned against defens"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
-    "link": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
-    "date": "2026-08-20",
-    "snippet": "The U.S. government on Wednesday warned of an \"active threat\" targeting critical infrastructure organizations in the country using artificia"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data",
-    "link": "https://thehackernews.com/2026/08/new-cryptographic-context-injection.html",
-    "date": "2026-08-20",
-    "snippet": "Adversa AI has disclosed an attack technique that it says can cause xAI's Grok chatbot to send a user's name, approximate location, subscrip"
   },
   {
     "source": "BleepingComputer",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
     "date": "2026-08-20",
     "snippet": "A critical vulnerability in the Elementor Pro WordPress plugin could allow attackers to upload executable files for remote code execution on"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "How MSPs can catch phishing attacks email filters miss",
-    "link": "https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss/",
-    "date": "2026-08-20",
-    "snippet": "AI is making phishing attacks more personalized, convincing, and difficult for traditional email filters to detect. Kaseya explains how MSPs"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Citrix urges admins to patch new NetScaler flaws as soon as possible",
-    "link": "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible/",
-    "date": "2026-08-20",
-    "snippet": "Citrix has warned customers to immediately secure their systems against two vulnerabilities affecting NetScaler Gateway secure remote access"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "CISA warns of hackers exploiting critical MLflow vulnerability",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/",
-    "date": "2026-08-20",
-    "snippet": "The Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that threat actors are now exploiting a critical vulnera"
   },
   {
     "source": "Krebs on Security",
