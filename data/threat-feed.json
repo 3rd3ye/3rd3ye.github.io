@@ -1,6 +1,20 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
+    "link": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
+    "date": "2026-08-21",
+    "snippet": "Check Point Research has disclosed a technique that uses Microsoft Defender's own legitimately signed boot-time remediation driver to perfor"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet",
+    "link": "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html",
+    "date": "2026-08-21",
+    "snippet": "Cybersecurity researchers have flagged a new malware family that's specifically designed to infect Android-based vehicle head unit firmware "
+  },
+  {
+    "source": "The Hacker News",
     "title": "Wazuh and AI For Enhanced SOC Workflows",
     "link": "https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html",
     "date": "2026-08-21",
@@ -21,53 +35,39 @@
     "snippet": "A newly disclosed security flaw in GitLab has come under active exploitation within days of public disclosure, according to watchTowr. The v"
   },
   {
-    "source": "The Hacker News",
-    "title": "Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution",
-    "link": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
+    "source": "BleepingComputer",
+    "title": "New SynkLoader malware pushed in Microsoft Teams phishing campaign",
+    "link": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/",
     "date": "2026-08-21",
-    "snippet": "Microsoft on Thursday warned of a maximum-severity security flaw in Entra ID that it said has been exploited in the wild, but noted that no "
+    "snippet": "A previously unknown malware family dubbed SynkLoader is being distributed in Microsoft Teams phishing campaigns to steal credentials via a "
   },
   {
     "source": "BleepingComputer",
-    "title": "Microsoft warns of max severity Entra ID flaw exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
+    "title": "Hundreds of leaked AWS keys give full control over corporate accounts",
+    "link": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/",
     "date": "2026-08-21",
-    "snippet": "Microsoft has patched a maximum-severity vulnerability in the Entra ID identity and access management (IAM) platform that has been exploited"
+    "snippet": "More than 9,300 Amazon Web Services (AWS) access keys publicly exposed between August 2022 and August 2026 are still active and valid. [...]"
   },
   {
     "source": "BleepingComputer",
-    "title": "Hackers abuse FTP server banners to deliver new Windows malware",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware/",
+    "title": "Microsoft blames Windows gaming issues on RGB lighting devices",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-windows-gaming-issues-on-rgb-lighting-devices/",
     "date": "2026-08-21",
-    "snippet": "Threat actors are abusing FTP banners to hide commands that deliver two previously undocumented remote access trojans named E4del and PINHOL"
+    "snippet": "Microsoft says ongoing issues causing games to crash or fail to launch after installing the August 2026 Windows updates may be caused by per"
   },
   {
     "source": "BleepingComputer",
-    "title": "SickKids data breach exposes employee and job applicant info",
-    "link": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/",
+    "title": "Is Online Privacy Possible? How Digital Identities Can Help",
+    "link": "https://www.bleepingcomputer.com/news/security/is-online-privacy-possible-how-digital-identities-can-help/",
     "date": "2026-08-21",
-    "snippet": "Toronto's Hospital for Sick Children (SickKids) says a cybersecurity incident exposed the personal information of some current and former em"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
-    "link": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
-    "date": "2026-08-20",
-    "snippet": "The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account publi"
+    "snippet": "Using the same email, phone number, payment method, and other identifiers makes it easier for data brokers and attackers to profile your act"
   },
   {
     "source": "BleepingComputer",
-    "title": "Hackers poison arrayref Rust crate to push infostealer malware",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/",
-    "date": "2026-08-20",
-    "snippet": "Hackers compromised the maintainer account behind the widely used Rust crate arrayref to introduce malware that executed on developers' syst"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Critical Elementor Pro bug exposes WordPress sites to RCE attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
-    "date": "2026-08-20",
-    "snippet": "A critical vulnerability in the Elementor Pro WordPress plugin could allow attackers to upload executable files for remote code execution on"
+    "title": "Microsoft rolls out Classic Outlook theme for New Outlook users",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-classic-outlook-theme-for-new-outlook-users/",
+    "date": "2026-08-21",
+    "snippet": "Microsoft has started rolling out a Classic Outlook theme for users of Outlook on the web and the New Outlook for Windows. [...]"
   },
   {
     "source": "Krebs on Security",
