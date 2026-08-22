@@ -1,6 +1,27 @@
 [
   {
     "source": "The Hacker News",
+    "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
+    "link": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
+    "date": "2026-08-22",
+    "snippet": "The U.S. Department of Justice (DoJ) announced on Friday that ByteDance-owned TikTok will pay $400 million to settle a 2024 lawsuit accusing"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Hackers infect Android car head units with proxy botnet malware",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/",
+    "date": "2026-08-22",
+    "snippet": "A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromi"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Named Pipes Under Attack: Securing Windows Interprocess Communication",
+    "link": "https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication/",
+    "date": "2026-08-22",
+    "snippet": "Windows named pipes provide fast interprocess communication, but weak access controls can expose privileged services to untrusted processes."
+  },
+  {
+    "source": "The Hacker News",
     "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
     "link": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
     "date": "2026-08-21",
@@ -28,13 +49,6 @@
     "snippet": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and educati"
   },
   {
-    "source": "The Hacker News",
-    "title": "Cisco Patches Nine Crosswork and Secure Workload Flaws, Five Scoring CVSS 10.0",
-    "link": "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html",
-    "date": "2026-08-21",
-    "snippet": "Cisco has published another round of security updates for Crosswork platforms and Secure Workload Software as part of a continued comprehens"
-  },
-  {
     "source": "BleepingComputer",
     "title": "New SynkLoader malware pushed in Microsoft Teams phishing campaign",
     "link": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/",
@@ -54,20 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-windows-gaming-issues-on-rgb-lighting-devices/",
     "date": "2026-08-21",
     "snippet": "Microsoft says ongoing issues causing games to crash or fail to launch after installing the August 2026 Windows updates may be caused by per"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Is Online Privacy Possible? How Digital Identities Can Help",
-    "link": "https://www.bleepingcomputer.com/news/security/is-online-privacy-possible-how-digital-identities-can-help/",
-    "date": "2026-08-21",
-    "snippet": "Using the same email, phone number, payment method, and other identifiers makes it easier for data brokers and attackers to profile your act"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft rolls out Classic Outlook theme for New Outlook users",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-classic-outlook-theme-for-new-outlook-users/",
-    "date": "2026-08-21",
-    "snippet": "Microsoft has started rolling out a Classic Outlook theme for users of Outlook on the web and the New Outlook for Windows. [...]"
   },
   {
     "source": "Krebs on Security",
