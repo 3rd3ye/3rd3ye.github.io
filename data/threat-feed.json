@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
+    "link": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
+    "date": "2026-08-21",
+    "snippet": "Cybersecurity researchers have discovered a set of trojanized npm packages that masquerade as working calendar and streak utilities but are "
+  },
+  {
+    "source": "The Hacker News",
     "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
     "link": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
     "date": "2026-08-21",
@@ -26,13 +33,6 @@
     "link": "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html",
     "date": "2026-08-21",
     "snippet": "Cisco has published another round of security updates for Crosswork platforms and Secure Workload Software as part of a continued comprehens"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "GitLab CVE-2026-19478 Comes Under Active Exploitation Within Days of Disclosure",
-    "link": "https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html",
-    "date": "2026-08-21",
-    "snippet": "A newly disclosed security flaw in GitLab has come under active exploitation within days of public disclosure, according to watchTowr. The v"
   },
   {
     "source": "BleepingComputer",
