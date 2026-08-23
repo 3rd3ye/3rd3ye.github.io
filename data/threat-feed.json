@@ -1,5 +1,12 @@
 [
   {
+    "source": "BleepingComputer",
+    "title": "ToxicPanda Android malware uses VPN permissions to block Google Play",
+    "link": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
+    "date": "2026-08-23",
+    "snippet": "The ToxicPanda Android malware has evolved with new malicious functionality, expanding its targeting to 349 applications and adding support "
+  },
+  {
     "source": "The Hacker News",
     "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
     "link": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/",
     "date": "2026-08-21",
     "snippet": "More than 9,300 Amazon Web Services (AWS) access keys publicly exposed between August 2022 and August 2026 are still active and valid. [...]"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft blames Windows gaming issues on RGB lighting devices",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-windows-gaming-issues-on-rgb-lighting-devices/",
-    "date": "2026-08-21",
-    "snippet": "Microsoft says ongoing issues causing games to crash or fail to launch after installing the August 2026 Windows updates may be caused by per"
   },
   {
     "source": "Krebs on Security",
