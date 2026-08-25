@@ -1,6 +1,34 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access",
+    "link": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
+    "date": "2026-08-25",
+    "snippet": "Bad actors are attempting to exploit two severe unauthenticated authentication bypasses in the Xecurify miniOrange SAML 2.0 Single Sign On p"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
+    "link": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
+    "date": "2026-08-25",
+    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a maximum-severity security flaw impacting Oracle HTTP Serv"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Hackers breached over 270 Zimbra servers in ongoing attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/",
+    "date": "2026-08-25",
+    "snippet": "Threat actors have already compromised over 270 Zimbra instances in remote code execution attacks targeting a high-severity Zimbra Collabora"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Police arrests dozens of suspects in global cybercrime crackdown",
+    "link": "https://www.bleepingcomputer.com/news/security/police-arrests-dozens-of-suspects-in-global-cybercrime-crackdown/",
+    "date": "2026-08-25",
+    "snippet": "Law enforcement agencies from 22 countries helped identify 263 suspects and arrested 58 individuals linked to cybercrime networks coordinate"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt",
     "link": "https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html",
     "date": "2026-08-24",
@@ -19,20 +47,6 @@
     "link": "https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html",
     "date": "2026-08-24",
     "snippet": "A package gets installed. A login prompt opens. A box sits exposed to the internet. Nothing looks unusual yet. That’s roughly the mood this "
-  },
-  {
-    "source": "The Hacker News",
-    "title": "WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords",
-    "link": "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html",
-    "date": "2026-08-24",
-    "snippet": "Cybersecurity researchers have flagged two new malware families called WordlistLoader and SynkLoader that's used to deliver next-stage paylo"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account",
-    "link": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html",
-    "date": "2026-08-24",
-    "snippet": "Red Hat and the Keycloak project have released patches to address a critical security flaw in the open-source identity and access management"
   },
   {
     "source": "BleepingComputer",
@@ -54,20 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/legal/tiktok-reaches-400m-settlement-with-us-over-coppa-violations/",
     "date": "2026-08-24",
     "snippet": "The U.S. Department of Justice announced a $400 million settlement with TikTok, ByteDance, and affiliated companies over allegations that th"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
-    "link": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
-    "date": "2026-08-24",
-    "snippet": "Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersona"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft Teams now lets admins block external bots from meetings",
-    "link": "https://www.bleepingcomputer.com/news/security/microsoft-teams-now-lets-admins-block-external-bots-from-meetings/",
-    "date": "2026-08-24",
-    "snippet": "Microsoft is rolling out a new Teams meeting protection policy that allows administrators to automatically block all identified external bot"
   },
   {
     "source": "Krebs on Security",
