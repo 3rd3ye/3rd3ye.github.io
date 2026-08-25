@@ -1,73 +1,73 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access",
-    "link": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
+    "title": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
+    "link": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html",
     "date": "2026-08-25",
-    "snippet": "Bad actors are attempting to exploit two severe unauthenticated authentication bypasses in the Xecurify miniOrange SAML 2.0 Single Sign On p"
+    "snippet": "Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take unauthenticated control of the"
   },
   {
     "source": "The Hacker News",
-    "title": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
-    "link": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
+    "title": "WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android",
+    "link": "https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html",
     "date": "2026-08-25",
-    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a maximum-severity security flaw impacting Oracle HTTP Serv"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Hackers breached over 270 Zimbra servers in ongoing attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/",
-    "date": "2026-08-25",
-    "snippet": "Threat actors have already compromised over 270 Zimbra instances in remote code execution attacks targeting a high-severity Zimbra Collabora"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Police arrests dozens of suspects in global cybercrime crackdown",
-    "link": "https://www.bleepingcomputer.com/news/security/police-arrests-dozens-of-suspects-in-global-cybercrime-crackdown/",
-    "date": "2026-08-25",
-    "snippet": "Law enforcement agencies from 22 countries helped identify 263 suspects and arrested 58 individuals linked to cybercrime networks coordinate"
+    "snippet": "Meta on Tuesday announced a set of WhatsApp account security features, including support for multiple passkeys to a single account to help u"
   },
   {
     "source": "The Hacker News",
-    "title": "Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt",
-    "link": "https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html",
-    "date": "2026-08-24",
-    "snippet": "If your developers are using AI coding tools, you are probably already seeing the upside: faster development, more code, and less time spent"
+    "title": "Marimo Notebook Flaw Could Run MCP Commands Before Cells Execute in Edit Mode",
+    "link": "https://thehackernews.com/2026/08/marimo-notebook-flaw-could-run-mcp.html",
+    "date": "2026-08-25",
+    "snippet": "Marimo has addressed a high-severity security flaw in its notebook software that allowed an attacker to execute an attacker-supplied Model C"
   },
   {
     "source": "The Hacker News",
-    "title": "Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning",
-    "link": "https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html",
-    "date": "2026-08-24",
-    "snippet": "Cybersecurity researchers have found that several websites are still actively distributing a malware family known as Weedhack to gamers by m"
+    "title": "Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows",
+    "link": "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html",
+    "date": "2026-08-25",
+    "snippet": "Thousands of companies have been affected by the Mirage2FA campaign from 2024 to 2026. The commercial phishing-as-a-service toolkit targets "
   },
   {
     "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More",
-    "link": "https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html",
-    "date": "2026-08-24",
-    "snippet": "A package gets installed. A login prompt opens. A box sits exposed to the internet. Nothing looks unusual yet. That’s roughly the mood this "
+    "title": "24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages",
+    "link": "https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html",
+    "date": "2026-08-25",
+    "snippet": "Cybersecurity researchers have disclosed details of a new campaign that uses a cluster of 24 npm packages as free phishing infrastructure fo"
   },
   {
     "source": "BleepingComputer",
-    "title": "Unpatched Calix flaw lets hackers bypass NAT to expose internal devices",
-    "link": "https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/",
-    "date": "2026-08-24",
-    "snippet": "An unpatched vulnerability in Calix GS7 XGS (GS5239XG) residential routers used by multiple U.S. broadband providers allows remote, unauthen"
+    "title": "Massive DDoS attack disrupts Norway’s government digital services",
+    "link": "https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/",
+    "date": "2026-08-25",
+    "snippet": "A large distributed denial-of-service (DDoS) attack has disrupted Norway's shared government digital infrastructure since Monday, affecting "
   },
   {
     "source": "BleepingComputer",
-    "title": "Hackers target WordPress sites in miniOrange auth bypass attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
-    "date": "2026-08-24",
-    "snippet": "Hackers are attempting to exploit two critical authentication bypass vulnerabilities in the miniOrange SAML 2.0 Single Sign On plugin for Wo"
+    "title": "Hospital operator Nutex Health says data stolen in cyberattack",
+    "link": "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/",
+    "date": "2026-08-25",
+    "snippet": "Healthcare and services provider Nutex is investigating a data breach incident where an unauthorized third party exfiltrated information fro"
   },
   {
     "source": "BleepingComputer",
-    "title": "TikTok reaches $400M settlement with US over COPPA violations",
-    "link": "https://www.bleepingcomputer.com/news/legal/tiktok-reaches-400m-settlement-with-us-over-coppa-violations/",
-    "date": "2026-08-24",
-    "snippet": "The U.S. Department of Justice announced a $400 million settlement with TikTok, ByteDance, and affiliated companies over allegations that th"
+    "title": "From Fake Workers to Account Recovery: The Growing Identity Verification Risk",
+    "link": "https://www.bleepingcomputer.com/news/security/from-fake-workers-to-account-recovery-the-growing-identity-verification-risk/",
+    "date": "2026-08-25",
+    "snippet": "Attackers are increasingly targeting the processes used to establish or recover identity rather than attacking the login itself. Specops exp"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft PowerToys adds Alt+Tab-style switching for an app's windows",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-alt-plustab-style-switching-for-an-apps-windows/",
+    "date": "2026-08-25",
+    "snippet": "Microsoft updated its Windows PowerToys toolset with a new utility dubbed \"Window Hopper\" that lets users switch between an app's windows mo"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "WhatsApp adds stronger two-step verification, multiple passkeys",
+    "link": "https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-verification-multiple-passkeys/",
+    "date": "2026-08-25",
+    "snippet": "WhatsApp has started rolling out several new account security features, including support for multiple passkeys and stronger two-step verifi"
   },
   {
     "source": "Krebs on Security",
