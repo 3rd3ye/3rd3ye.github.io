@@ -1,73 +1,73 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Imagine the SOC Without a Queue: From Alert Backlog to AI Hypothesis Engine",
-    "link": "https://thehackernews.com/2026/08/imagine-soc-without-queue-from-alert.html",
+    "title": "FBI Disrupts China-Linked QTFY Infrastructure Used to Steal Data From U.S. Organizations",
+    "link": "https://thehackernews.com/2026/08/fbi-disrupts-china-linked-qtfy.html",
     "date": "2026-08-26",
-    "snippet": "The SOC we've always known was built around a model that guarantees most of the alert queue will never receive analyst review. There's never"
+    "snippet": "The U.S. Department of Justice (DoJ) on Wednesday announced the disruption of two hacking platforms named QScan and QTRouter operated by Chi"
   },
   {
     "source": "The Hacker News",
-    "title": "Claude Opus 4.6 Bypasses Gym Booking Limit, Cancels Other Users' Reservations in Tests",
-    "link": "https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html",
+    "title": "Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler",
+    "link": "https://thehackernews.com/2026/08/nimbus-manticore-expands-toolset-with.html",
     "date": "2026-08-26",
-    "snippet": "Aikido Security has published research that recreates the Australian gym-booking incident in a synthetic environment, finding that Claude Op"
+    "snippet": "Cybersecurity researchers have discovered additional infrastructure and previously undocumented malware associated with Nimbus Manticore, an"
   },
   {
     "source": "The Hacker News",
-    "title": "OpenAI Bans Russian ChatGPT Accounts Used to Run Influence Operation",
-    "link": "https://thehackernews.com/2026/08/openai-bans-russian-chatgpt-accounts.html",
+    "title": "NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft 365 Sessions",
+    "link": "https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html",
     "date": "2026-08-26",
-    "snippet": "OpenAI on Tuesday said it banned a cluster of Russian ChatGPT accounts that used VPNs to bypass access restrictions and run an influence ope"
+    "snippet": "Cybersecurity researchers have disclosed details of a new adversary-in-the-middle (AitM) phishing toolkit called NovaCookies that's used as "
   },
   {
     "source": "The Hacker News",
-    "title": "INTERPOL Operation Jackal IV Arrests 58, Identifies 263 in Global Cyber Fraud Crackdown",
-    "link": "https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html",
+    "title": "CISA Red Team Compromised Two Critical Infrastructure Orgs, One Detected Nothing",
+    "link": "https://thehackernews.com/2026/08/cisa-red-team-compromised-two-critical.html",
     "date": "2026-08-26",
-    "snippet": "An eight-month INTERPOL operation targeting West African organized crime groups has led to arrests of 58 people and the identification of 26"
+    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has published the results of two red team assessments it conducted simultan"
   },
   {
     "source": "The Hacker News",
-    "title": "Newly SLEEPWALKER Backdoor Waits for One Crafted Packet, Then Runs Its Own Bytecode",
-    "link": "https://thehackernews.com/2026/08/newly-sleepwalker-backdoor-waits-for.html",
+    "title": "Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code",
+    "link": "https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html",
     "date": "2026-08-26",
-    "snippet": "An independent malware researcher has documented a previously unreported Windows backdoor, dubbed SLEEPWALKER, that stays inert in memory un"
+    "snippet": "The CERT Coordination Center (CERT/CC) has disclosed two unpatched vulnerabilities in Kaltura's HTML5 video player library that allow a remo"
   },
   {
     "source": "BleepingComputer",
-    "title": "Microsoft tests new privacy controls for Windows 11 desktop apps",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-privacy-controls-for-windows-11-desktop-apps/",
+    "title": "New GPUThor attack defeats NVIDIA ECC protection for root access",
+    "link": "https://www.bleepingcomputer.com/news/security/new-gputhor-attack-defeats-nvidia-ecc-protection-for-root-access/",
     "date": "2026-08-26",
-    "snippet": "Microsoft has begun testing new privacy controls that will let Windows 11 users choose which desktop applications can access their camera, m"
+    "snippet": "A newly disclosed Rowhammer attack called GPUThor can bypass error-correcting code (ECC) protections on NVIDIA GPUs, enabling denial-of-serv"
   },
   {
     "source": "BleepingComputer",
-    "title": "Hackers now exploit critical Gitea flaw in code injection attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-gitea-flaw-in-code-injection-attacks/",
+    "title": "Meta agrees to $18 billion settlement over teen social media harms",
+    "link": "https://www.bleepingcomputer.com/news/technology/meta-agrees-to-18-billion-settlement-over-teen-social-media-harms/",
     "date": "2026-08-26",
-    "snippet": "Attackers are now exploiting a critical-severity vulnerability in the Gitea self-hosted Git service, according to the U.S. Cybersecurity and"
+    "snippet": "Meta has reached a proposed settlement worth up to approximately $18 billion with a bipartisan coalition of 52 attorneys generals over alleg"
   },
   {
     "source": "BleepingComputer",
-    "title": "LACMA data breach last year exposed social security and medical data",
-    "link": "https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/",
-    "date": "2026-08-25",
-    "snippet": "The Los Angeles County Museum of Art (LACMA) has announced that a breach last year exposed customer and employee information. [...]"
+    "title": "Boston Scientific says cyberattack disrupted operations globally",
+    "link": "https://www.bleepingcomputer.com/news/security/boston-scientific-says-cyberattack-disrupted-operations-globally/",
+    "date": "2026-08-26",
+    "snippet": "Medical technology company Boston Scientific has been targeted in a cyberattack that disrupted some of its IT systems, causing operational d"
   },
   {
     "source": "BleepingComputer",
-    "title": "Hackers abuse npm mirrors to host phishing redirect pages",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/",
-    "date": "2026-08-25",
-    "snippet": "Threat actors are abusing npm and its mirrors to host malicious HTML pages that impersonate Cloudflare CAPTCHAs to redirect visitors to atta"
+    "title": "Hackers target Microsoft SharePoint RCE chain with PoC exploit",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-sharepoint-rce-chain-with-poc-exploit/",
+    "date": "2026-08-26",
+    "snippet": "Attackers are now targeting a chain of two Microsoft SharePoint vulnerabilities that can allow them to execute arbitrary code on unpatched s"
   },
   {
     "source": "BleepingComputer",
-    "title": "AnonyMousKIT PhaaS uses voice AI agents to phish iPhone passcodes",
-    "link": "https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/",
-    "date": "2026-08-25",
-    "snippet": "A newly uncovered phishing-as-a-service (PhaaS) platform called AnonyMousKIT automates the retrieval of codes used to unlock stolen Apple de"
+    "title": "FBI disrupts proxy network enabling Chinese espionage operations",
+    "link": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-proxy-network-enabling-chinese-espionage-operations/",
+    "date": "2026-08-26",
+    "snippet": "The FBI has disrupted infrastructure associated with a technical \"quartermaster\" that provided reconnaissance, proxy management, and operati"
   },
   {
     "source": "Krebs on Security",
