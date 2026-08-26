@@ -1,38 +1,52 @@
 [
   {
     "source": "The Hacker News",
-    "title": "U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches",
-    "link": "https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html",
-    "date": "2026-08-25",
-    "snippet": "The U.S. Department of the Treasury has announced fresh sanctions on Iranian cyber actors as part of what it called an \"unprecedented, whole"
+    "title": "Imagine the SOC Without a Queue: From Alert Backlog to AI Hypothesis Engine",
+    "link": "https://thehackernews.com/2026/08/imagine-soc-without-queue-from-alert.html",
+    "date": "2026-08-26",
+    "snippet": "The SOC we've always known was built around a model that guarantees most of the alert queue will never receive analyst review. There's never"
   },
   {
     "source": "The Hacker News",
-    "title": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
-    "link": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html",
-    "date": "2026-08-25",
-    "snippet": "Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take unauthenticated control of the"
+    "title": "Claude Opus 4.6 Bypasses Gym Booking Limit, Cancels Other Users' Reservations in Tests",
+    "link": "https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html",
+    "date": "2026-08-26",
+    "snippet": "Aikido Security has published research that recreates the Australian gym-booking incident in a synthetic environment, finding that Claude Op"
   },
   {
     "source": "The Hacker News",
-    "title": "WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android",
-    "link": "https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html",
-    "date": "2026-08-25",
-    "snippet": "Meta on Tuesday announced a set of WhatsApp account security features, including support for multiple passkeys to a single account to help u"
+    "title": "OpenAI Bans Russian ChatGPT Accounts Used to Run Influence Operation",
+    "link": "https://thehackernews.com/2026/08/openai-bans-russian-chatgpt-accounts.html",
+    "date": "2026-08-26",
+    "snippet": "OpenAI on Tuesday said it banned a cluster of Russian ChatGPT accounts that used VPNs to bypass access restrictions and run an influence ope"
   },
   {
     "source": "The Hacker News",
-    "title": "Marimo Notebook Flaw Could Run MCP Commands Before Cells Execute in Edit Mode",
-    "link": "https://thehackernews.com/2026/08/marimo-notebook-flaw-could-run-mcp.html",
-    "date": "2026-08-25",
-    "snippet": "Marimo has addressed a high-severity security flaw in its notebook software that allowed an attacker to execute an attacker-supplied Model C"
+    "title": "INTERPOL Operation Jackal IV Arrests 58, Identifies 263 in Global Cyber Fraud Crackdown",
+    "link": "https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html",
+    "date": "2026-08-26",
+    "snippet": "An eight-month INTERPOL operation targeting West African organized crime groups has led to arrests of 58 people and the identification of 26"
   },
   {
     "source": "The Hacker News",
-    "title": "Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows",
-    "link": "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html",
-    "date": "2026-08-25",
-    "snippet": "Thousands of companies have been affected by the Mirage2FA campaign from 2024 to 2026. The commercial phishing-as-a-service toolkit targets "
+    "title": "Newly SLEEPWALKER Backdoor Waits for One Crafted Packet, Then Runs Its Own Bytecode",
+    "link": "https://thehackernews.com/2026/08/newly-sleepwalker-backdoor-waits-for.html",
+    "date": "2026-08-26",
+    "snippet": "An independent malware researcher has documented a previously unreported Windows backdoor, dubbed SLEEPWALKER, that stays inert in memory un"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft tests new privacy controls for Windows 11 desktop apps",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-privacy-controls-for-windows-11-desktop-apps/",
+    "date": "2026-08-26",
+    "snippet": "Microsoft has begun testing new privacy controls that will let Windows 11 users choose which desktop applications can access their camera, m"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Hackers now exploit critical Gitea flaw in code injection attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-gitea-flaw-in-code-injection-attacks/",
+    "date": "2026-08-26",
+    "snippet": "Attackers are now exploiting a critical-severity vulnerability in the Gitea self-hosted Git service, according to the U.S. Cybersecurity and"
   },
   {
     "source": "BleepingComputer",
@@ -54,20 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/",
     "date": "2026-08-25",
     "snippet": "A newly uncovered phishing-as-a-service (PhaaS) platform called AnonyMousKIT automates the retrieval of codes used to unlock stolen Apple de"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Massive DDoS attack disrupts Norway’s government digital services",
-    "link": "https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/",
-    "date": "2026-08-25",
-    "snippet": "A large distributed denial-of-service (DDoS) attack has disrupted Norway's shared government digital infrastructure since Monday, affecting "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Hospital operator Nutex Health says data stolen in cyberattack",
-    "link": "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/",
-    "date": "2026-08-25",
-    "snippet": "Healthcare and services provider Nutex is investigating a data breach incident where an unauthorized third party exfiltrated information fro"
   },
   {
     "source": "Krebs on Security",
