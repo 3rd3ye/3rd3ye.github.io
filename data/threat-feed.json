@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches",
+    "link": "https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html",
+    "date": "2026-08-25",
+    "snippet": "The U.S. Department of the Treasury has announced fresh sanctions on Iranian cyber actors as part of what it called an \"unprecedented, whole"
+  },
+  {
+    "source": "The Hacker News",
     "title": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
     "link": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html",
     "date": "2026-08-25",
@@ -28,11 +35,25 @@
     "snippet": "Thousands of companies have been affected by the Mirage2FA campaign from 2024 to 2026. The commercial phishing-as-a-service toolkit targets "
   },
   {
-    "source": "The Hacker News",
-    "title": "24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages",
-    "link": "https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html",
+    "source": "BleepingComputer",
+    "title": "LACMA data breach last year exposed social security and medical data",
+    "link": "https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/",
     "date": "2026-08-25",
-    "snippet": "Cybersecurity researchers have disclosed details of a new campaign that uses a cluster of 24 npm packages as free phishing infrastructure fo"
+    "snippet": "The Los Angeles County Museum of Art (LACMA) has announced that a breach last year exposed customer and employee information. [...]"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Hackers abuse npm mirrors to host phishing redirect pages",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/",
+    "date": "2026-08-25",
+    "snippet": "Threat actors are abusing npm and its mirrors to host malicious HTML pages that impersonate Cloudflare CAPTCHAs to redirect visitors to atta"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "AnonyMousKIT PhaaS uses voice AI agents to phish iPhone passcodes",
+    "link": "https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/",
+    "date": "2026-08-25",
+    "snippet": "A newly uncovered phishing-as-a-service (PhaaS) platform called AnonyMousKIT automates the retrieval of codes used to unlock stolen Apple de"
   },
   {
     "source": "BleepingComputer",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/",
     "date": "2026-08-25",
     "snippet": "Healthcare and services provider Nutex is investigating a data breach incident where an unauthorized third party exfiltrated information fro"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "From Fake Workers to Account Recovery: The Growing Identity Verification Risk",
-    "link": "https://www.bleepingcomputer.com/news/security/from-fake-workers-to-account-recovery-the-growing-identity-verification-risk/",
-    "date": "2026-08-25",
-    "snippet": "Attackers are increasingly targeting the processes used to establish or recover identity rather than attacking the login itself. Specops exp"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft PowerToys adds Alt+Tab-style switching for an app's windows",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-alt-plustab-style-switching-for-an-apps-windows/",
-    "date": "2026-08-25",
-    "snippet": "Microsoft updated its Windows PowerToys toolset with a new utility dubbed \"Window Hopper\" that lets users switch between an app's windows mo"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "WhatsApp adds stronger two-step verification, multiple passkeys",
-    "link": "https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-verification-multiple-passkeys/",
-    "date": "2026-08-25",
-    "snippet": "WhatsApp has started rolling out several new account security features, including support for multiple passkeys and stronger two-step verifi"
   },
   {
     "source": "Krebs on Security",
