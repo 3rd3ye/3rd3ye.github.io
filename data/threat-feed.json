@@ -1,73 +1,80 @@
 [
   {
     "source": "The Hacker News",
-    "title": "FBI Disrupts China-Linked QTFY Infrastructure Used to Steal Data From U.S. Organizations",
-    "link": "https://thehackernews.com/2026/08/fbi-disrupts-china-linked-qtfy.html",
-    "date": "2026-08-26",
-    "snippet": "The U.S. Department of Justice (DoJ) on Wednesday announced the disruption of two hacking platforms named QScan and QTRouter operated by Chi"
+    "title": "Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE",
+    "link": "https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html",
+    "date": "2026-08-27",
+    "snippet": "Credit:&nbsp;Hacktron Vercel has released security patches for two critical-severity vulnerabilities in the Next.js web framework, both of w"
   },
   {
     "source": "The Hacker News",
-    "title": "Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler",
-    "link": "https://thehackernews.com/2026/08/nimbus-manticore-expands-toolset-with.html",
-    "date": "2026-08-26",
-    "snippet": "Cybersecurity researchers have discovered additional infrastructure and previously undocumented malware associated with Nimbus Manticore, an"
+    "title": "ThreatsDay: 296K IoT Botnet, 100+ Water Systems Targeted, SharePoint RCE Chain + 27 New Stories",
+    "link": "https://thehackernews.com/2026/08/threatsday-296k-iot-botnet-100-water.html",
+    "date": "2026-08-27",
+    "snippet": "A fake login page. A fake security scan. A fake productivity app. Apparently, pretending to be useful is still one of the easier ways into a"
   },
   {
     "source": "The Hacker News",
-    "title": "NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft 365 Sessions",
-    "link": "https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html",
-    "date": "2026-08-26",
-    "snippet": "Cybersecurity researchers have disclosed details of a new adversary-in-the-middle (AitM) phishing toolkit called NovaCookies that's used as "
+    "title": "Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers",
+    "link": "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html",
+    "date": "2026-08-27",
+    "snippet": "Cybersecurity researchers have disclosed details of a vulnerability in Amazon Kiro, an artificial intelligence (AI)-powered, agentic integra"
   },
   {
     "source": "The Hacker News",
-    "title": "CISA Red Team Compromised Two Critical Infrastructure Orgs, One Detected Nothing",
-    "link": "https://thehackernews.com/2026/08/cisa-red-team-compromised-two-critical.html",
-    "date": "2026-08-26",
-    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has published the results of two red team assessments it conducted simultan"
+    "title": "Learn How to Build Security Operations Ready for AI-Powered Attacks",
+    "link": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+    "date": "2026-08-27",
+    "snippet": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. A"
   },
   {
     "source": "The Hacker News",
-    "title": "Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code",
-    "link": "https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html",
-    "date": "2026-08-26",
-    "snippet": "The CERT Coordination Center (CERT/CC) has disclosed two unpatched vulnerabilities in Kaltura's HTML5 video player library that allow a remo"
+    "title": "Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks",
+    "link": "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html",
+    "date": "2026-08-27",
+    "snippet": "The Australian Federal Police (AFP) has charged two Western Australian men with a combined total of 14 offences over their alleged role in T"
   },
   {
     "source": "BleepingComputer",
-    "title": "Critical Avada WordPress theme flaw enables zero-click RCE",
-    "link": "https://www.bleepingcomputer.com/news/security/critical-avada-wordpress-theme-flaw-enables-zero-click-rce/",
-    "date": "2026-08-26",
-    "snippet": "A critical vulnerability chain in the popular Avada theme for WordPress can be exploited by an unauthenticated attacker to execute arbitrary"
+    "title": "PaperCut warns of NG, MF flaw exploited in zero-day attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/",
+    "date": "2026-08-27",
+    "snippet": "PaperCut is warning that hackers are actively exploiting a vulnerability in all versions of its PaperCut NG and PaperCut MF print management"
   },
   {
     "source": "BleepingComputer",
-    "title": "New GPUThor attack defeats NVIDIA ECC protection for root access",
-    "link": "https://www.bleepingcomputer.com/news/security/new-gputhor-attack-defeats-nvidia-ecc-protection-for-root-access/",
-    "date": "2026-08-26",
-    "snippet": "A newly disclosed Rowhammer attack called GPUThor can bypass error-correcting code (ECC) protections on NVIDIA GPUs, enabling denial-of-serv"
+    "title": "Manchester Airports Group says hackers stole travelers' data",
+    "link": "https://www.bleepingcomputer.com/news/security/manchester-airports-group-says-hackers-stole-travelers-data/",
+    "date": "2026-08-27",
+    "snippet": "The Manchester Airports Group (MAG) disclosed that hackers breached its systems and stole customer data, including Wi-Fi sign-ups from Manch"
   },
   {
     "source": "BleepingComputer",
-    "title": "Meta agrees to $18 billion settlement over teen social media harms",
-    "link": "https://www.bleepingcomputer.com/news/technology/meta-agrees-to-18-billion-settlement-over-teen-social-media-harms/",
-    "date": "2026-08-26",
-    "snippet": "Meta has reached a proposed settlement worth up to approximately $18 billion with a bipartisan coalition of 52 attorneys generals over alleg"
+    "title": "How Threat Research and MDR Help SMBs Build a Defensive Edge",
+    "link": "https://www.bleepingcomputer.com/news/security/how-threat-research-and-mdr-help-smbs-build-a-defensive-edge/",
+    "date": "2026-08-27",
+    "snippet": "Threat research gives security teams insight into how attackers operate, while MDR turns that intelligence into faster detection and respons"
   },
   {
     "source": "BleepingComputer",
-    "title": "Boston Scientific says cyberattack disrupted operations globally",
-    "link": "https://www.bleepingcomputer.com/news/security/boston-scientific-says-cyberattack-disrupted-operations-globally/",
-    "date": "2026-08-26",
-    "snippet": "Medical technology company Boston Scientific has been targeted in a cyberattack that disrupted some of its IT systems, causing operational d"
+    "title": "Android 17 adds ECH support to make web browsing harder to track",
+    "link": "https://www.bleepingcomputer.com/news/security/android-17-adds-ech-support-to-make-web-browsing-harder-to-track/",
+    "date": "2026-08-27",
+    "snippet": "Google is introducing new network security protections in Android 17 to strengthen connection privacy, address cellular vulnerabilities, and"
   },
   {
     "source": "BleepingComputer",
-    "title": "Hackers target Microsoft SharePoint RCE chain with PoC exploit",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-sharepoint-rce-chain-with-poc-exploit/",
-    "date": "2026-08-26",
-    "snippet": "Attackers are now targeting a chain of two Microsoft SharePoint vulnerabilities that can allow them to execute arbitrary code on unpatched s"
+    "title": "Australia arrests alleged TeamPCP hackers behind supply-chain attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/",
+    "date": "2026-08-27",
+    "snippet": "Australian authorities have arrested and charged two young men accused of being part of the TeamPCP hacking group linked to a string of far-"
+  },
+  {
+    "source": "Krebs on Security",
+    "title": "Two Alleged &#8216;TeamPCP&#8217; Hackers Arrested in Australia",
+    "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
+    "date": "2026-08-27",
+    "snippet": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for "
   },
   {
     "source": "Krebs on Security",
@@ -75,12 +82,5 @@
     "link": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
     "date": "2026-08-14",
     "snippet": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we"
-  },
-  {
-    "source": "Krebs on Security",
-    "title": "Microsoft Plugs Nearly 400 Security Holes",
-    "link": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
-    "date": "2026-08-11",
-    "snippet": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, in"
   }
 ]
