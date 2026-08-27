@@ -36,6 +36,13 @@
   },
   {
     "source": "BleepingComputer",
+    "title": "Critical Avada WordPress theme flaw enables zero-click RCE",
+    "link": "https://www.bleepingcomputer.com/news/security/critical-avada-wordpress-theme-flaw-enables-zero-click-rce/",
+    "date": "2026-08-26",
+    "snippet": "A critical vulnerability chain in the popular Avada theme for WordPress can be exploited by an unauthenticated attacker to execute arbitrary"
+  },
+  {
+    "source": "BleepingComputer",
     "title": "New GPUThor attack defeats NVIDIA ECC protection for root access",
     "link": "https://www.bleepingcomputer.com/news/security/new-gputhor-attack-defeats-nvidia-ecc-protection-for-root-access/",
     "date": "2026-08-26",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-sharepoint-rce-chain-with-poc-exploit/",
     "date": "2026-08-26",
     "snippet": "Attackers are now targeting a chain of two Microsoft SharePoint vulnerabilities that can allow them to execute arbitrary code on unpatched s"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "FBI disrupts proxy network enabling Chinese espionage operations",
-    "link": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-proxy-network-enabling-chinese-espionage-operations/",
-    "date": "2026-08-26",
-    "snippet": "The FBI has disrupted infrastructure associated with a technical \"quartermaster\" that provided reconnaissance, proxy management, and operati"
   },
   {
     "source": "Krebs on Security",
