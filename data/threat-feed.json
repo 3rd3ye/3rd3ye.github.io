@@ -1,73 +1,73 @@
 [
   {
     "source": "The Hacker News",
-    "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
-    "link": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
-    "date": "2026-08-27",
-    "snippet": "OpenAI on Wednesday revealed that reward hacking was a key driver behind the artificial intelligence (AI)-powered hack of Hugging Face last "
+    "title": "19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code",
+    "link": "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html",
+    "date": "2026-08-28",
+    "snippet": "Cybersecurity researchers have discovered a cluster of 18 Google Chrome and one Microsoft Edge extensions that were published over the last "
   },
   {
     "source": "The Hacker News",
-    "title": "Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE",
-    "link": "https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html",
-    "date": "2026-08-27",
-    "snippet": "Credit:&nbsp;Hacktron Vercel has released security patches for two critical-severity vulnerabilities in the Next.js web framework, both of w"
+    "title": "Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth",
+    "link": "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html",
+    "date": "2026-08-28",
+    "snippet": "Security researcher Olivier Laflamme has disclosed two independent root remote code execution (RCE) chains affecting the Unitree G1 EDU, inc"
   },
   {
     "source": "The Hacker News",
-    "title": "ThreatsDay: 296K IoT Botnet, 100+ Water Systems Targeted, SharePoint RCE Chain + 27 New Stories",
-    "link": "https://thehackernews.com/2026/08/threatsday-296k-iot-botnet-100-water.html",
-    "date": "2026-08-27",
-    "snippet": "A fake login page. A fake security scan. A fake productivity app. Apparently, pretending to be useful is still one of the easier ways into a"
+    "title": "Key Reasons Why Identity Fabric Matters in 2026",
+    "link": "https://thehackernews.com/2026/08/key-reasons-why-identity-fabric-matters.html",
+    "date": "2026-08-28",
+    "snippet": "An Identity Fabric knits fragmented identity systems into a coherent layer that observes how identities behave across applications, APIs, an"
   },
   {
     "source": "The Hacker News",
-    "title": "Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers",
-    "link": "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html",
-    "date": "2026-08-27",
-    "snippet": "Cybersecurity researchers have disclosed details of a vulnerability in Amazon Kiro, an artificial intelligence (AI)-powered, agentic integra"
+    "title": "Three CVSS 10.0 ServiceNow Flaws Could Let Unauthenticated Attackers Execute Code and SQL",
+    "link": "https://thehackernews.com/2026/08/three-cvss-100-servicenow-flaws-could.html",
+    "date": "2026-08-28",
+    "snippet": "ServiceNow has released patches for four security flaws impacting the ServiceNow AI Platform, three of them rated 10.0 on the CVSS scoring s"
   },
   {
     "source": "The Hacker News",
-    "title": "Learn How to Build Security Operations Ready for AI-Powered Attacks",
-    "link": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
-    "date": "2026-08-27",
-    "snippet": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. A"
+    "title": "China-Made ZBT Routers Ship With Two Implants Giving Unauthenticated Attackers Root Access",
+    "link": "https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html",
+    "date": "2026-08-28",
+    "snippet": "VulnCheck has disclosed two previously undocumented factory implants in firmware for routers built by Shenzhen Zhibotong Electronics (ZBT), "
   },
   {
     "source": "BleepingComputer",
-    "title": "Nearly 700 rogue AI agents coordinated in the Hugging Face attack",
-    "link": "https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/",
-    "date": "2026-08-27",
-    "snippet": "New details about the July attack on Hugging Face reveal that hundreds of AI agents driven by OpenAI's internal IM1 model coordinated the co"
+    "title": "68-year-old imprisoned after making $1.3 million by pirating IPTV services",
+    "link": "https://www.bleepingcomputer.com/news/security/68-year-old-imprisoned-after-making-13-million-by-pirating-iptv-services/",
+    "date": "2026-08-28",
+    "snippet": "A 68-year-old has been sentenced in the U.K. to more than six years in prison for operating an illegal IPTV (Internet Protocol Television) s"
   },
   {
     "source": "BleepingComputer",
-    "title": "PaperCut warns of NG, MF flaw exploited in zero-day attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/",
-    "date": "2026-08-27",
-    "snippet": "PaperCut is warning that hackers are actively exploiting a vulnerability in all versions of its PaperCut NG and PaperCut MF print management"
+    "title": "AI Is Accelerating Vulnerability Discovery. Can Defenders Keep Up?",
+    "link": "https://www.bleepingcomputer.com/news/security/ai-is-accelerating-vulnerability-discovery-can-defenders-keep-up/",
+    "date": "2026-08-28",
+    "snippet": "AI is accelerating vulnerability discovery, putting pressure on systems built to enrich, prioritize, and remediate flaws at a slower pace. A"
   },
   {
     "source": "BleepingComputer",
-    "title": "Manchester Airports Group says hackers stole travelers' data",
-    "link": "https://www.bleepingcomputer.com/news/security/manchester-airports-group-says-hackers-stole-travelers-data/",
-    "date": "2026-08-27",
-    "snippet": "The Manchester Airports Group (MAG) disclosed that hackers breached its systems and stole customer data, including Wi-Fi sign-ups from Manch"
+    "title": "Over 8,300 Gitea servers vulnerable to code execution attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks/",
+    "date": "2026-08-28",
+    "snippet": "Over 8,300 Internet-exposed Gitea instances are still unpatched against a critical security flaw exploited in ongoing remote code execution "
   },
   {
     "source": "BleepingComputer",
-    "title": "How Threat Research and MDR Help SMBs Build a Defensive Edge",
-    "link": "https://www.bleepingcomputer.com/news/security/how-threat-research-and-mdr-help-smbs-build-a-defensive-edge/",
-    "date": "2026-08-27",
-    "snippet": "Threat research gives security teams insight into how attackers operate, while MDR turns that intelligence into faster detection and respons"
+    "title": "Toy-making giant Hasbro disclose data breach affecting employees",
+    "link": "https://www.bleepingcomputer.com/news/security/toy-making-giant-hasbro-disclose-data-breach-affecting-employees/",
+    "date": "2026-08-28",
+    "snippet": "Hasbro, one of the world's largest toy and game companies, has disclosed that attackers have accessed the personal and financial information"
   },
   {
     "source": "BleepingComputer",
-    "title": "Android 17 adds ECH support to make web browsing harder to track",
-    "link": "https://www.bleepingcomputer.com/news/security/android-17-adds-ech-support-to-make-web-browsing-harder-to-track/",
-    "date": "2026-08-27",
-    "snippet": "Google is introducing new network security protections in Android 17 to strengthen connection privacy, address cellular vulnerabilities, and"
+    "title": "ServiceNow warns of three max severity security vulnerabilities",
+    "link": "https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/",
+    "date": "2026-08-28",
+    "snippet": "ServiceNow released security patches for three new maximum-severity AI Platform vulnerabilities that can be exploited in code injection, SQL"
   },
   {
     "source": "Krebs on Security",
