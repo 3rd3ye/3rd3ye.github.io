@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
+    "link": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
+    "date": "2026-08-27",
+    "snippet": "OpenAI on Wednesday revealed that reward hacking was a key driver behind the artificial intelligence (AI)-powered hack of Hugging Face last "
+  },
+  {
+    "source": "The Hacker News",
     "title": "Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE",
     "link": "https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html",
     "date": "2026-08-27",
@@ -28,11 +35,11 @@
     "snippet": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. A"
   },
   {
-    "source": "The Hacker News",
-    "title": "Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks",
-    "link": "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html",
+    "source": "BleepingComputer",
+    "title": "Nearly 700 rogue AI agents coordinated in the Hugging Face attack",
+    "link": "https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/",
     "date": "2026-08-27",
-    "snippet": "The Australian Federal Police (AFP) has charged two Western Australian men with a combined total of 14 offences over their alleged role in T"
+    "snippet": "New details about the July attack on Hugging Face reveal that hundreds of AI agents driven by OpenAI's internal IM1 model coordinated the co"
   },
   {
     "source": "BleepingComputer",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/android-17-adds-ech-support-to-make-web-browsing-harder-to-track/",
     "date": "2026-08-27",
     "snippet": "Google is introducing new network security protections in Android 17 to strengthen connection privacy, address cellular vulnerabilities, and"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Australia arrests alleged TeamPCP hackers behind supply-chain attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/",
-    "date": "2026-08-27",
-    "snippet": "Australian authorities have arrested and charged two young men accused of being part of the TeamPCP hacking group linked to a string of far-"
   },
   {
     "source": "Krebs on Security",
