@@ -1,5 +1,12 @@
 [
   {
+    "source": "BleepingComputer",
+    "title": "Brave browser adds email aliases to help users evade tracking",
+    "link": "https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/",
+    "date": "2026-08-29",
+    "snippet": "The latest version of the Brave browser, 1.94, introduces a feature called 'Email Aliases' that allows users to generate disposable email ad"
+  },
+  {
     "source": "The Hacker News",
     "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
     "link": "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/68-year-old-imprisoned-after-making-13-million-by-pirating-iptv-services/",
     "date": "2026-08-28",
     "snippet": "A 68-year-old has been sentenced in the U.K. to more than six years in prison for operating an illegal IPTV (Internet Protocol Television) s"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "AI Is Accelerating Vulnerability Discovery. Can Defenders Keep Up?",
-    "link": "https://www.bleepingcomputer.com/news/security/ai-is-accelerating-vulnerability-discovery-can-defenders-keep-up/",
-    "date": "2026-08-28",
-    "snippet": "AI is accelerating vulnerability discovery, putting pressure on systems built to enrich, prioritize, and remediate flaws at a slower pace. A"
   },
   {
     "source": "Krebs on Security",
