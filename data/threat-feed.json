@@ -7,6 +7,27 @@
     "snippet": "Microsoft has disclosed details of a new ClickFix variant, dubbed TerminalFix, that aims to trick users into running a malicious command in "
   },
   {
+    "source": "BleepingComputer",
+    "title": "FulcrumSec claims Manchester Airports hack, theft of 86 GB of data",
+    "link": "https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/",
+    "date": "2026-08-30",
+    "snippet": "FulcrumSec claims it stole 86 GB of data from Manchester Airports Group. BleepingComputer validated one traveller's record, while samples re"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Anthropic warns infostealer malware is hijacking Claude sessions to drain usage",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/",
+    "date": "2026-08-30",
+    "snippet": "Anthropic is warning some Claude users that infostealer malware on their PCs has stolen active Claude login sessions, allowing attackers to "
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Chrome Web Store extensions caught stealing crypto, browser data",
+    "link": "https://www.bleepingcomputer.com/news/security/chrome-web-store-extensions-caught-stealing-crypto-browser-data/",
+    "date": "2026-08-30",
+    "snippet": "Multiple extensions for Google Chrome and Microsoft Edge delivered a malware framework that deployed modules to steal cryptocurrency, sensit"
+  },
+  {
     "source": "The Hacker News",
     "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
     "link": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
@@ -47,27 +68,6 @@
     "link": "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
     "date": "2026-08-28",
     "snippet": "Malicious actors are exploiting a newly patched security flaw in PaperCut NG and MF to execute arbitrary code on susceptible instances, as t"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "McKesson discloses breach after ShinyHunters claims patient data theft",
-    "link": "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/",
-    "date": "2026-08-28",
-    "snippet": "Healthcare and pharmaceutical distribution giant McKesson has disclosed a cybersecurity incident involving unauthorized access to third-part"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "PaperCut releases second emergency patch for exploited flaws",
-    "link": "https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/",
-    "date": "2026-08-28",
-    "snippet": "PaperCut has released a second emergency security update for two actively exploited vulnerabilities in its PaperCut NG and MF print manageme"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "GiveWP WordPress donation plugin flaw lets hackers execute server commands",
-    "link": "https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/",
-    "date": "2026-08-28",
-    "snippet": "A maximum-severity vulnerability in the GiveWP plugin for WordPress allows an unauthenticated attacker to execute arbitrary commands on the "
   },
   {
     "source": "Krebs on Security",
