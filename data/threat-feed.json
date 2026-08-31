@@ -1,6 +1,41 @@
 [
   {
     "source": "The Hacker News",
+    "title": "China-Linked Fire Ant Hijacks Cisco Routers to Steal Credentials and Blind Security Logs",
+    "link": "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html",
+    "date": "2026-08-31",
+    "snippet": "A China-nexus cyber espionage actor tracked as Fire Ant has expanded a long-running campaign beyond VMware hypervisors to compromise Cisco I"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "DoJ Corrects China Hacking Claim, Says U.S. Agencies Were Targets, Not Victims",
+    "link": "https://thehackernews.com/2026/08/doj-corrects-china-hacking-claim-says.html",
+    "date": "2026-08-31",
+    "snippet": "The U.S. Department of Justice (DoJ) on Friday corrected a previously issued press statement that several of its agencies were victims of at"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft says Windows 11 KB5120998 update resets mouse settings",
+    "link": "https://www.bleepingcomputer.com/news/security/microsoft-says-windows-11-kb5120998-update-resets-mouse-settings/",
+    "date": "2026-08-31",
+    "snippet": "Microsoft has confirmed that mouse settings are being reverted on Windows 11 systems after installing the KB5120998 August 2026 non-security"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Nigerians extradited to US for sextortion, deaths of two teens",
+    "link": "https://www.bleepingcomputer.com/news/security/nigerians-charged-US-over-sextortion-deaths-of-us-teens/",
+    "date": "2026-08-31",
+    "snippet": "Two Nigerian men extradited to the U.S. on Thursday have been charged with involvement in sextortion schemes that resulted in the deaths of "
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft asks users to ignore 'Antivirus is turned off' errors",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-users-to-ignore-antivirus-is-turned-off-errors/",
+    "date": "2026-08-31",
+    "snippet": "Microsoft asked customers this week to ignore alerts that Defender Antivirus has been turned off after installing the latest Defender update"
+  },
+  {
+    "source": "The Hacker News",
     "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor",
     "link": "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
     "date": "2026-08-30",
@@ -21,13 +56,6 @@
     "snippet": "Anthropic is warning some Claude users that infostealer malware on their PCs has stolen active Claude login sessions, allowing attackers to "
   },
   {
-    "source": "BleepingComputer",
-    "title": "Chrome Web Store extensions caught stealing crypto, browser data",
-    "link": "https://www.bleepingcomputer.com/news/security/chrome-web-store-extensions-caught-stealing-crypto-browser-data/",
-    "date": "2026-08-30",
-    "snippet": "Multiple extensions for Google Chrome and Microsoft Edge delivered a malware framework that deployed modules to steal cryptocurrency, sensit"
-  },
-  {
     "source": "The Hacker News",
     "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
     "link": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
@@ -35,39 +63,11 @@
     "snippet": "Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, P"
   },
   {
-    "source": "BleepingComputer",
-    "title": "Anthropic is cutting Claude Code's current weekly limits by 17%",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/",
-    "date": "2026-08-29",
-    "snippet": "Anthropic is permanently increasing Claude Code's standard weekly usage limits by 25% for Pro, Max, Team, and seat-based Enterprise plans, b"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Brave browser adds email aliases to help users evade tracking",
-    "link": "https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/",
-    "date": "2026-08-29",
-    "snippet": "The latest version of the Brave browser, 1.94, introduces a feature called 'Email Aliases' that allows users to generate disposable email ad"
-  },
-  {
     "source": "The Hacker News",
     "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
     "link": "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html",
     "date": "2026-08-28",
     "snippet": "Berlin's state government has confirmed that it is the target of an extortion attempt following the August compromise of the city's state ad"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
-    "link": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html",
-    "date": "2026-08-28",
-    "snippet": "Cosmos Labs has warned that a critical balance-handling flaw in the shared Cosmos EVM module was exploited to drain funds from six blockchai"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication",
-    "link": "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
-    "date": "2026-08-28",
-    "snippet": "Malicious actors are exploiting a newly patched security flaw in PaperCut NG and MF to execute arbitrary code on susceptible instances, as t"
   },
   {
     "source": "Krebs on Security",
