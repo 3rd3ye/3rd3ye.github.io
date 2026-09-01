@@ -1,6 +1,27 @@
 [
   {
     "source": "The Hacker News",
+    "title": "13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds",
+    "link": "https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html",
+    "date": "2026-09-01",
+    "snippet": "Cybersecurity researchers have identified a set of 13 malicious Composer theme packages on Packagist that are designed to inject JavaScript "
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests",
+    "link": "https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html",
+    "date": "2026-09-01",
+    "snippet": "The Iranian Nimbus Manticore hacking group has been attributed to two previously undocumented malware families that highlight the continued "
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
+    "link": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
+    "date": "2026-09-01",
+    "snippet": "The most common way into a company last year was to ask. A web page tells the visitor to prove they are not a robot. While they read the ins"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
     "link": "https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html",
     "date": "2026-09-01",
@@ -14,11 +35,32 @@
     "snippet": "Cybersecurity researchers have disclosed a new technique dubbed GuardBreaker that's been put to use by a Russia-aligned threat actor known a"
   },
   {
-    "source": "The Hacker News",
-    "title": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
-    "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html",
+    "source": "BleepingComputer",
+    "title": "Hackers push malicious Virtualizor update in BGP hijacking attack",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-push-malicious-virtualizor-update-in-bgp-hijacking-attack/",
     "date": "2026-09-01",
-    "snippet": "Threat actors are exploiting two critical flaws impacting Langflow and Ruby on Rails, according to new findings from VulnCheck. The vulnerab"
+    "snippet": "Hackers delivered malicious updates to the Virtualizor VPS management software after hijacking BGP routing for its update infrastructure and"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Novocure data breach affects more than 1,400 cancer patients",
+    "link": "https://www.bleepingcomputer.com/news/security/novocure-data-breach-affects-more-than-1-400-cancer-patients/",
+    "date": "2026-09-01",
+    "snippet": "Healthtech company Novocure says the data of an undisclosed number of employees and more than 1,400 U.S. cancer patients has been exposed in"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Why Even the Best Edge Security Still Misses High-Risk Sessions",
+    "link": "https://www.bleepingcomputer.com/news/security/why-even-the-best-edge-security-still-misses-high-risk-sessions/",
+    "date": "2026-09-01",
+    "snippet": "Attackers can hide behind residential proxies, VPNs, and other infrastructure that makes malicious sessions appear legitimate to existing ed"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Nearly 22,000 Microsoft Exchange servers vulnerable to hijack attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks/",
+    "date": "2026-09-01",
+    "snippet": "Nearly 22,000 Microsoft Exchange servers exposed online remain unpatched against a high-severity authentication bypass vulnerability that al"
   },
   {
     "source": "BleepingComputer",
@@ -26,48 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/five-venezuelans-plead-guilty-to-atm-jackpotting-attacks-in-us/",
     "date": "2026-09-01",
     "snippet": "Five Venezuelan nationals pleaded guilty to attempting to empty automated teller machines (ATMs) using malware in a series of ATM jackpottin"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Recently patched PaperCut zero-days used in data theft attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/recently-patched-papercut-zero-days-used-in-data-theft-attacks/",
-    "date": "2026-09-01",
-    "snippet": "Two security vulnerabilities in the PaperCut NG and MF print management software, patched last week after being exploited as zero-days, are "
-  },
-  {
-    "source": "The Hacker News",
-    "title": "North Korean Job Fraud Expands Beyond IT Into Healthcare and Sales",
-    "link": "https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html",
-    "date": "2026-08-31",
-    "snippet": "Threat actors with ties to the Democratic People's Republic of Korea (aka DPRK or North Korea) have been observed seeking job opportunities "
-  },
-  {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors and More",
-    "link": "https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html",
-    "date": "2026-08-31",
-    "snippet": "The boring parts caused most of the trouble. A router shipped ready to listen. A fake check turned the user into the installer. Trusted syst"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Cronos blockchain restarts after $74 million Tectonic exploit",
-    "link": "https://www.bleepingcomputer.com/news/security/cronos-blockchain-restarts-after-74-million-tectonic-exploit/",
-    "date": "2026-08-31",
-    "snippet": "The Cronos blockchain network has resumed trading activity after a price-manipulation attack on the Tectonic cryptocurrency lending platform"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft warns of TerminalFix attacks deploying reverse tunnels",
-    "link": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-terminalfix-attacks-deploying-reverse-tunnels/",
-    "date": "2026-08-31",
-    "snippet": "A new ClickFix variant dubbed TerminalFix uses fake Cloudflare CAPTCHA prompts on compromised websites to trick victims into running malicio"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Massive Microsoft 365 outage causes auth issues, service failures",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-failures-auth-issues/",
-    "date": "2026-08-31",
-    "snippet": "Microsoft is investigating a widespread service issue causing authentication issues, email delays and failures, and various other issues for"
   },
   {
     "source": "Krebs on Security",
