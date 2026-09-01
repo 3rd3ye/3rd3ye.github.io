@@ -1,6 +1,41 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
+    "link": "https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html",
+    "date": "2026-09-01",
+    "snippet": "METR (short for Model Evaluation and Threat Research and pronounced \"Meter\"), a research non-profit that evaluates frontier artificial intel"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis",
+    "link": "https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html",
+    "date": "2026-09-01",
+    "snippet": "Cybersecurity researchers have disclosed a new technique dubbed GuardBreaker that's been put to use by a Russia-aligned threat actor known a"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html",
+    "date": "2026-09-01",
+    "snippet": "Threat actors are exploiting two critical flaws impacting Langflow and Ruby on Rails, according to new findings from VulnCheck. The vulnerab"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Five Venezuelans plead guilty to ATM jackpotting attacks in US",
+    "link": "https://www.bleepingcomputer.com/news/security/five-venezuelans-plead-guilty-to-atm-jackpotting-attacks-in-us/",
+    "date": "2026-09-01",
+    "snippet": "Five Venezuelan nationals pleaded guilty to attempting to empty automated teller machines (ATMs) using malware in a series of ATM jackpottin"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Recently patched PaperCut zero-days used in data theft attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/recently-patched-papercut-zero-days-used-in-data-theft-attacks/",
+    "date": "2026-09-01",
+    "snippet": "Two security vulnerabilities in the PaperCut NG and MF print management software, patched last week after being exploited as zero-days, are "
+  },
+  {
+    "source": "The Hacker News",
     "title": "North Korean Job Fraud Expands Beyond IT Into Healthcare and Sales",
     "link": "https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html",
     "date": "2026-08-31",
@@ -12,27 +47,6 @@
     "link": "https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html",
     "date": "2026-08-31",
     "snippet": "The boring parts caused most of the trouble. A router shipped ready to listen. A fake check turned the user into the installer. Trusted syst"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions",
-    "link": "https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html",
-    "date": "2026-08-31",
-    "snippet": "The threat actor known as Silver Fox has been observed distributing the ValleyRAT backdoor disguised as a signed Chinese adware application,"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets",
-    "link": "https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html",
-    "date": "2026-08-31",
-    "snippet": "Threat actors associated with Aurora (aka Aur0ra) ransomware have been observed using SpaceX's artificial intelligence (AI)-powered coding a"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance",
-    "link": "https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html",
-    "date": "2026-08-31",
-    "snippet": "Claude Code reads files, runs shell commands, invokes MCP tools, and acts through the credentials available on a developer’s machine. Anthro"
   },
   {
     "source": "BleepingComputer",
@@ -50,24 +64,10 @@
   },
   {
     "source": "BleepingComputer",
-    "title": "Microsoft Exchange Online outage causes email failures, auth issues",
+    "title": "Massive Microsoft 365 outage causes auth issues, service failures",
     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-failures-auth-issues/",
     "date": "2026-08-31",
     "snippet": "Microsoft is investigating a widespread service issue causing authentication issues, email delays and failures, and various other issues for"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "OpenAI confirms ChatGPT outage as users report errors",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-outage-as-users-report-errors/",
-    "date": "2026-08-31",
-    "snippet": "ChatGPT Work is experiencing a partial outage, and users across multiple subscription plans may be unable to start or continue tasks. [...]"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Chinese Fire Ant hackers turn Cisco routers into spying platforms",
-    "link": "https://www.bleepingcomputer.com/news/security/chinese-fire-ant-hackers-turn-cisco-routers-into-spying-platforms/",
-    "date": "2026-08-31",
-    "snippet": "The researchers discovered Fire Ant's new tactic after finding an active GRE (Generic Routing Encapsulation) tunnel interface on a Cisco IOS"
   },
   {
     "source": "Krebs on Security",
