@@ -1,38 +1,59 @@
 [
   {
     "source": "The Hacker News",
-    "title": "GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends",
-    "link": "https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html",
+    "title": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
+    "link": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
     "date": "2026-09-02",
-    "snippet": "Two vulnerabilities in GeoNetwork can be chained to achieve unauthenticated remote code execution (RCE) on the open-source geospatial metada"
+    "snippet": "Manifold Security has disclosed eight security flaws across seven command-line AI coding agents in which a repository's own Git configuratio"
   },
   {
     "source": "The Hacker News",
-    "title": "Extradited Russian Hacker Faces Charges Over Excel Malware Campaign That Infected Thousands",
-    "link": "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html",
+    "title": "Malicious Apache Modules Hijack Brazilian Government Site Traffic to Push Betting Pages",
+    "link": "https://thehackernews.com/2026/09/malicious-apache-modules-hijack.html",
     "date": "2026-09-02",
-    "snippet": "The U.S. Department of Justice (DoJ) has charged a Russian national, extradited from Cyprus on August 28, with using roughly 255 fake accoun"
+    "snippet": "A Chinese-speaking cybercrime cluster known as Gambling Goblin has been observed installing malicious Apache modules on compromised web serv"
   },
   {
     "source": "The Hacker News",
-    "title": "Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another",
-    "link": "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html",
+    "title": "BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access",
+    "link": "https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html",
     "date": "2026-09-02",
-    "snippet": "Forescout Research - Vedere Labs said it used Anthropic's Claude to port a working pre-authentication remote code execution (RCE) exploit fr"
+    "snippet": "Virtualizor said hackers used a Border Gateway Protocol (BGP) hijack to divert Softaculous traffic. The hackers then used the diverted updat"
   },
   {
     "source": "The Hacker News",
-    "title": "Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials",
-    "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html",
+    "title": "Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control",
+    "link": "https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html",
     "date": "2026-09-02",
-    "snippet": "Threat actors are exploiting a severe security vulnerability in Sangoma Switchvox, an enterprise VoIP platform, that could allow unauthentic"
+    "snippet": "Cybersecurity researchers have disclosed details of a new Android banking trojan called StreamRat that was promoted to Spanish-speaking user"
   },
   {
     "source": "The Hacker News",
-    "title": "Authorities Turn Sality's P2P Network Against Itself, Cutting Off New Malware Payloads",
-    "link": "https://thehackernews.com/2026/09/authorities-turn-salitys-p2p-network.html",
+    "title": "How to Secure Enterprise AI: From Adoption to Incident Readiness",
+    "link": "https://thehackernews.com/2026/09/how-to-secure-enterprise-ai-from.html",
     "date": "2026-09-02",
-    "snippet": "The U.S. Department of Justice (DoJ) on Tuesday announced the takedown of a long-standing peer-to-peer (P2P) botnet known as Sality as part "
+    "snippet": "The debate about whether AI delivers business value is over. The challenge now is implementing it at scale and securely across every functio"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Ransomware protection for MSPs: A 6-point checklist for faster recovery",
+    "link": "https://www.bleepingcomputer.com/news/security/ransomware-protection-for-msps-a-6-point-checklist-for-faster-recovery/",
+    "date": "2026-09-02",
+    "snippet": "Ransomware resilience requires more than backups or endpoint detection alone. Acronis outlines six capabilities MSPs should test across clie"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Dropbox accounts breached through Lenovo email verification flaw",
+    "link": "https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/",
+    "date": "2026-09-02",
+    "snippet": "Dropbox is warning some users that an unauthorized party accessed their accounts by exploiting a flaw in Lenovo's email verification process"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft Defender flags legitimate Google search links as malicious",
+    "link": "https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/",
+    "date": "2026-09-02",
+    "snippet": "Microsoft is investigating an issue causing the Defender for Office 365 security software to mistakenly block access to legitimate Google se"
   },
   {
     "source": "BleepingComputer",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/",
     "date": "2026-09-02",
     "snippet": "International law enforcement agencies and private partners have seized Sality malware infrastructure in a joint action aiming to disrupt an"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "SonicWall warns of actively exploited SMA1000 zero-day flaws",
-    "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/",
-    "date": "2026-09-02",
-    "snippet": "SonicWall warned customers that threat actors are chaining two new SMA1000 zero-day vulnerabilities in remote code execution attacks. [...]"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Hackers abuse Faronics Deploy admin tool to install ScreenConnect",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-faronics-deploy-admin-tool-to-install-screenconnect/",
-    "date": "2026-09-01",
-    "snippet": "Phishing actors are abusing the legitimate Faronics Deploy endpoint-management platform to gain remote administrative control over victim co"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Aesto Health says data breach affects over 9.5 million patients",
-    "link": "https://www.bleepingcomputer.com/news/security/aesto-health-says-data-breach-affects-over-95-million-patients/",
-    "date": "2026-09-01",
-    "snippet": "Aesto LLC, operating as Aesto Health, disclosed that a data breach discovered recently affects more than 9.5 million individuals. [...]"
   },
   {
     "source": "Krebs on Security",
