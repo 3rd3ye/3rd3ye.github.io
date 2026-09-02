@@ -1,38 +1,59 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure",
-    "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html",
-    "date": "2026-09-01",
-    "snippet": "Threat actors are exploiting a newly patched critical security flaw impacting JFrog Artifactory merely days after public disclosure, accordi"
+    "title": "GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends",
+    "link": "https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html",
+    "date": "2026-09-02",
+    "snippet": "Two vulnerabilities in GeoNetwork can be chained to achieve unauthenticated remote code execution (RCE) on the open-source geospatial metada"
   },
   {
     "source": "The Hacker News",
-    "title": "Breeze Comet Executes Hundreds of Fraudulent Transactions via Brazilian Payment Systems",
-    "link": "https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html",
-    "date": "2026-09-01",
-    "snippet": "Brazilian financial services, retail, and e-commerce organizations have become the target of a financially motivated threat actor dubbed Bre"
+    "title": "Extradited Russian Hacker Faces Charges Over Excel Malware Campaign That Infected Thousands",
+    "link": "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html",
+    "date": "2026-09-02",
+    "snippet": "The U.S. Department of Justice (DoJ) has charged a Russian national, extradited from Cyprus on August 28, with using roughly 255 fake accoun"
   },
   {
     "source": "The Hacker News",
-    "title": "13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds",
-    "link": "https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html",
-    "date": "2026-09-01",
-    "snippet": "Cybersecurity researchers have identified a set of 13 malicious Composer theme packages on Packagist that are designed to inject JavaScript "
+    "title": "Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another",
+    "link": "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html",
+    "date": "2026-09-02",
+    "snippet": "Forescout Research - Vedere Labs said it used Anthropic's Claude to port a working pre-authentication remote code execution (RCE) exploit fr"
   },
   {
     "source": "The Hacker News",
-    "title": "Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests",
-    "link": "https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html",
-    "date": "2026-09-01",
-    "snippet": "The Iranian Nimbus Manticore hacking group has been attributed to two previously undocumented malware families that highlight the continued "
+    "title": "Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials",
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html",
+    "date": "2026-09-02",
+    "snippet": "Threat actors are exploiting a severe security vulnerability in Sangoma Switchvox, an enterprise VoIP platform, that could allow unauthentic"
   },
   {
     "source": "The Hacker News",
-    "title": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
-    "link": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
-    "date": "2026-09-01",
-    "snippet": "The most common way into a company last year was to ask. A web page tells the visitor to prove they are not a robot. While they read the ins"
+    "title": "Authorities Turn Sality's P2P Network Against Itself, Cutting Off New Malware Payloads",
+    "link": "https://thehackernews.com/2026/09/authorities-turn-salitys-p2p-network.html",
+    "date": "2026-09-02",
+    "snippet": "The U.S. Department of Justice (DoJ) on Tuesday announced the takedown of a long-standing peer-to-peer (P2P) botnet known as Sality as part "
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "US charges Russian for infecting 80,000 freelancers with malware",
+    "link": "https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/",
+    "date": "2026-09-02",
+    "snippet": "A California federal grand jury has indicted a Russian national for his role in a phishing campaign that infected thousands of freelancers w"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Sality botnet infrastructure dismantled in joint global takedown",
+    "link": "https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/",
+    "date": "2026-09-02",
+    "snippet": "International law enforcement agencies and private partners have seized Sality malware infrastructure in a joint action aiming to disrupt an"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "SonicWall warns of actively exploited SMA1000 zero-day flaws",
+    "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/",
+    "date": "2026-09-02",
+    "snippet": "SonicWall warned customers that threat actors are chaining two new SMA1000 zero-day vulnerabilities in remote code execution attacks. [...]"
   },
   {
     "source": "BleepingComputer",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/aesto-health-says-data-breach-affects-over-95-million-patients/",
     "date": "2026-09-01",
     "snippet": "Aesto LLC, operating as Aesto Health, disclosed that a data breach discovered recently affects more than 9.5 million individuals. [...]"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Critical Langflow flaw exploited to steal OpenAI and AWS keys",
-    "link": "https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/",
-    "date": "2026-09-01",
-    "snippet": "Threat actors are exploiting an unauthenticated remote code execution vulnerability (CVE-2026-0768) in Langflow, an open-source framework fo"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Hackers push malicious Virtualizor update in BGP hijacking attack",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-push-malicious-virtualizor-update-in-bgp-hijacking-attack/",
-    "date": "2026-09-01",
-    "snippet": "Hackers delivered malicious updates to the Virtualizor VPS management software after hijacking BGP routing for its update infrastructure and"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Novocure data breach affects more than 1,400 cancer patients",
-    "link": "https://www.bleepingcomputer.com/news/security/novocure-data-breach-affects-more-than-1-400-cancer-patients/",
-    "date": "2026-09-01",
-    "snippet": "Healthtech company Novocure says the data of an undisclosed number of employees and more than 1,400 U.S. cancer patients has been exposed in"
   },
   {
     "source": "Krebs on Security",
