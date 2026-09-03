@@ -36,6 +36,13 @@
   },
   {
     "source": "BleepingComputer",
+    "title": "Hackers exploit Sangoma Switchvox flaw to deploy reverse shells",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/",
+    "date": "2026-09-02",
+    "snippet": "Attackers are actively exploiting CVE-2026-9586, an unauthenticated SQL injection vulnerability in the Sangoma Switchvox VoIP platform that "
+  },
+  {
+    "source": "BleepingComputer",
     "title": "WordPress backup plugin flaw exposes millions of sites to takeover attacks",
     "link": "https://www.bleepingcomputer.com/news/security/wordpress-backup-plugin-flaw-exposes-millions-of-sites-to-takeover-attacks/",
     "date": "2026-09-02",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/",
     "date": "2026-09-02",
     "snippet": "Dropbox is warning some users that an unauthorized party accessed their accounts by exploiting a flaw in Lenovo's email verification process"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft Defender flags legitimate Google search links as malicious",
-    "link": "https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/",
-    "date": "2026-09-02",
-    "snippet": "Microsoft is investigating an issue causing the Defender for Office 365 security software to mistakenly block access to legitimate Google se"
   },
   {
     "source": "Krebs on Security",
