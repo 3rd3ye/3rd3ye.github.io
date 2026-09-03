@@ -1,6 +1,34 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member's iPhone",
+    "link": "https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html",
+    "date": "2026-09-03",
+    "snippet": "The iPhone belonging to a member of Serbia's student protest movement was infected with NSO Group's Pegasus spyware, according to new findin"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Researcher Releases FalconFlank PoC Showing Privilege Escalation in CrowdStrike Falcon",
+    "link": "https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html",
+    "date": "2026-09-03",
+    "snippet": "The security researcher known as Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has dropped a new zero-day dub"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CISA Adds Seven Exploited Flaws as Attackers Deploy Reverse Shells and Crypto Miners",
+    "link": "https://thehackernews.com/2026/09/cisa-adds-seven-exploited-flaws-as.html",
+    "date": "2026-09-03",
+    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added seven security flaws to its Known Exploited Vulnerabilit"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft Teams, Outlook fail to launch on ARM-based Windows PCs",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-outlook-fail-to-launch-on-arm-based-windows-pcs/",
+    "date": "2026-09-03",
+    "snippet": "Microsoft is working to fix a known issue that causes crashes and launch failures for Microsoft Teams and New Outlook users after installing"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
     "link": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
     "date": "2026-09-02",
@@ -12,27 +40,6 @@
     "link": "https://thehackernews.com/2026/09/fake-software-installers-disable.html",
     "date": "2026-09-02",
     "snippet": "An active malware campaign is using bogus software-download websites to impersonate trusted vendors and distribute malicious installers. \"Th"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
-    "link": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
-    "date": "2026-09-02",
-    "snippet": "Manifold Security has disclosed eight security flaws across seven command-line AI coding agents in which a repository's own Git configuratio"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Malicious Apache Modules Hijack Brazilian Government Site Traffic to Push Betting Pages",
-    "link": "https://thehackernews.com/2026/09/malicious-apache-modules-hijack.html",
-    "date": "2026-09-02",
-    "snippet": "A Chinese-speaking cybercrime cluster known as Gambling Goblin has been observed installing malicious Apache modules on compromised web serv"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access",
-    "link": "https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html",
-    "date": "2026-09-02",
-    "snippet": "Virtualizor said hackers used a Border Gateway Protocol (BGP) hijack to divert Softaculous traffic. The hackers then used the diverted updat"
   },
   {
     "source": "BleepingComputer",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/ransomware-protection-for-msps-a-6-point-checklist-for-faster-recovery/",
     "date": "2026-09-02",
     "snippet": "Ransomware resilience requires more than backups or endpoint detection alone. Acronis outlines six capabilities MSPs should test across clie"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Dropbox accounts breached through Lenovo email verification flaw",
-    "link": "https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/",
-    "date": "2026-09-02",
-    "snippet": "Dropbox is warning some users that an unauthorized party accessed their accounts by exploiting a flaw in Lenovo's email verification process"
   },
   {
     "source": "Krebs on Security",
