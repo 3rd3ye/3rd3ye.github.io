@@ -1,38 +1,59 @@
 [
   {
     "source": "The Hacker News",
+    "title": "ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories",
+    "link": "https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html",
+    "date": "2026-09-03",
+    "snippet": "The worst part is how normal these attacks look. A call from IT. A shared file. A trusted app. A simple request to click “Allow.” Why break "
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root",
+    "link": "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html",
+    "date": "2026-09-03",
+    "snippet": "Cisco has released patches to address a critical security flaw affecting 10 Silicon One-based Nexus 9000 switches that could allow an unauth"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory",
+    "link": "https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html",
+    "date": "2026-09-03",
+    "snippet": "Cybersecurity researchers have disclosed details of a sophisticated Python-based Windows malware framework called BraZetsu that fuels an und"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data",
+    "link": "https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html",
+    "date": "2026-09-03",
+    "snippet": "Thomson Reuters disclosed on Wednesday that an unauthorized party obtained files from C-Track, the court case management platform sold by it"
+  },
+  {
+    "source": "The Hacker News",
     "title": "US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries",
     "link": "https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html",
     "date": "2026-09-03",
     "snippet": "An RMM phishing campaign initially associated with Canadian targeting due to its use of Canada Revenue Agency (CRA) tax forms as lures has t"
   },
   {
-    "source": "The Hacker News",
-    "title": "Attackers Turn Trusted Node.js Runtime Into Malware Delivery Tool in Targeted Attacks",
-    "link": "https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html",
+    "source": "BleepingComputer",
+    "title": "Coder's registry infrastructure compromised to push malicious modules",
+    "link": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/",
     "date": "2026-09-03",
-    "snippet": "Threat actors are leveraging the trusted Node.js JavaScript runtime in multiple cyber attacks as a way to deploy malicious payloads. Accordi"
+    "snippet": "Attackers compromised Coder's Cloudflare infrastructure and added unauthorized registry servers that delivered malicious Terraform modules c"
   },
   {
-    "source": "The Hacker News",
-    "title": "Shai-Hulud's Reach Just Grew to 469 Credential Locations. Here's What That Means",
-    "link": "https://thehackernews.com/2026/09/shai-huluds-reach-just-grew-to-469.html",
+    "source": "BleepingComputer",
+    "title": "HPE patches critical ArubaOS-CX remote code execution flaw",
+    "link": "https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw/",
     "date": "2026-09-03",
-    "snippet": "In early August, GitGuardian researchers found that a recent Shai-Hulud infostealer worm variant had evolved to scan for credentials across "
+    "snippet": "Hewlett Packard Enterprise (HPE) has patched a critical vulnerability in the ArubaOS-CX network operating system that could lead to remote c"
   },
   {
-    "source": "The Hacker News",
-    "title": "Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member's iPhone",
-    "link": "https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html",
+    "source": "BleepingComputer",
+    "title": "Microsoft: KB5120998 mouse reset bug affects only non-English PCs",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5120998-mouse-reset-bug-affects-only-non-english-pcs/",
     "date": "2026-09-03",
-    "snippet": "The iPhone belonging to a member of Serbia's student protest movement was infected with NSO Group's Pegasus spyware, according to new findin"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Researcher Releases FalconFlank PoC Showing Privilege Escalation in CrowdStrike Falcon",
-    "link": "https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html",
-    "date": "2026-09-03",
-    "snippet": "The security researcher known as Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has dropped a new zero-day dub"
+    "snippet": "Microsoft says a known issue that reverts mouse settings after installing the KB5120998 August 2026 preview update affects only non-English "
   },
   {
     "source": "BleepingComputer",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-multiple-models-affected/",
     "date": "2026-09-03",
     "snippet": "Claude is experiencing an outage, with users encountering elevated errors when sending requests to multiple Anthropic AI models. [...]"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Critical Elementor Pro flaw exploited to take over WordPress sites",
-    "link": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites/",
-    "date": "2026-09-03",
-    "snippet": "A recently patched critical vulnerability (CVE-2026-32475) in the Elementor Pro plugin for WordPress is being exploited in attacks that deli"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Your Employee’s Password Appeared in an Infostealer Log. Now What?",
-    "link": "https://www.bleepingcomputer.com/news/security/your-employees-password-appeared-in-an-infostealer-log-now-what/",
-    "date": "2026-09-03",
-    "snippet": "Infostealers can expose far more than passwords, including authenticated sessions that may let attackers bypass MFA. Flare explains how defe"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft says KB5120998 Windows update resets desktop settings",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-kb5120998-windows-update-resets-desktop-settings/",
-    "date": "2026-09-03",
-    "snippet": "Microsoft has confirmed that desktop settings are lost or reset on some Windows devices after installing the KB5120998 August 2026 preview u"
   },
   {
     "source": "Krebs on Security",
