@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
+    "link": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
+    "date": "2026-09-04",
+    "snippet": "A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean orga"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
     "link": "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
     "date": "2026-09-04",
@@ -28,46 +35,39 @@
     "snippet": "OpenAI on Thursday officially unveiled GPT‑6 Astra, which it described as the \"world's most intelligent and aligned model.\" The development "
   },
   {
-    "source": "The Hacker News",
-    "title": "ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories",
-    "link": "https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html",
-    "date": "2026-09-03",
-    "snippet": "The worst part is how normal these attacks look. A call from IT. A shared file. A trusted app. A simple request to click “Allow.” Why break "
+    "source": "BleepingComputer",
+    "title": "Microsoft says some users can’t open the Teams desktop client",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client/",
+    "date": "2026-09-04",
+    "snippet": "Microsoft is working to resolve a known issue that causes delays or blocks some users from opening the Microsoft Teams desktop client on Win"
   },
   {
     "source": "BleepingComputer",
-    "title": "French hospital fined €500,000 after breach exposes data of 727,000",
-    "link": "https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000/",
-    "date": "2026-09-03",
-    "snippet": "France's data protection authority (CNIL) has fined Hôpital privé de la Loire €500,000 ($580,000) for failing to adequately protect patients"
+    "title": "39 New Methods That Compromise Passkey Authentication",
+    "link": "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/",
+    "date": "2026-09-04",
+    "snippet": "Passkeys eliminate many password-based attacks, but researchers have documented 39 methods for compromising authentication built around them"
   },
   {
     "source": "BleepingComputer",
-    "title": "Coder's registry infrastructure compromised to push malicious modules",
-    "link": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/",
-    "date": "2026-09-03",
-    "snippet": "Attackers compromised Coder's Cloudflare infrastructure and added unauthorized registry servers that delivered malicious Terraform modules c"
+    "title": "New CrowdStrike 'FalconFlank' zero-day grants SYSTEM privileges",
+    "link": "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/",
+    "date": "2026-09-04",
+    "snippet": "An anonymous security researcher who uses the \"Nightmare Eclipse\" handle released a CrowdStrike Falcon zero-day exploit named \"FalconFlank\" "
   },
   {
     "source": "BleepingComputer",
-    "title": "HPE patches critical ArubaOS-CX remote code execution flaw",
-    "link": "https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw/",
-    "date": "2026-09-03",
-    "snippet": "Hewlett Packard Enterprise (HPE) has patched a critical vulnerability in the ArubaOS-CX network operating system that could lead to remote c"
+    "title": "Exchange Online outage causes email delays, 'Server busy' errors",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/exchange-online-outage-causes-email-delays-server-busy-errors/",
+    "date": "2026-09-04",
+    "snippet": "Microsoft is working to resolve an ongoing Exchange Online outage that is delaying email sent to and received from external domains. [...]"
   },
   {
     "source": "BleepingComputer",
-    "title": "Microsoft: KB5120998 mouse reset bug affects only non-English PCs",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5120998-mouse-reset-bug-affects-only-non-english-pcs/",
-    "date": "2026-09-03",
-    "snippet": "Microsoft says a known issue that reverts mouse settings after installing the KB5120998 August 2026 preview update affects only non-English "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "OpenAI confirms ChatGPT is down ahead of 'Astra' model launch",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-ahead-of-astra-model-launch/",
-    "date": "2026-09-03",
-    "snippet": "ChatGPT and Codex are experiencing a major outage, with users reporting errors across nearly every major ChatGPT feature. [...]"
+    "title": "Google warns of new Chrome zero-day flaw exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/",
+    "date": "2026-09-04",
+    "snippet": "Google has updated the Chrome browser to address an actively exploited high-severity zero-day flaw in the V8 engine and 11 other vulnerabili"
   },
   {
     "source": "Krebs on Security",
