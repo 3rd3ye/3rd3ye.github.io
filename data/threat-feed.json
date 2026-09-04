@@ -1,6 +1,20 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
+    "link": "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
+    "date": "2026-09-04",
+    "snippet": "Microsoft is alerting of a \"high-volume phishing campaign\" that's using invisible Unicode tag characters to bypass email filters. \"Instead o"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution",
+    "link": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
+    "date": "2026-09-04",
+    "snippet": "PostgreSQL has released updates to address a security flaw that allows an account with the REPLICATION attribute to run arbitrary code as th"
+  },
+  {
+    "source": "The Hacker News",
     "title": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
     "link": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
     "date": "2026-09-04",
@@ -21,18 +35,18 @@
     "snippet": "Plex is urging users to update their instances to the latest version following the release of an update that patches multiple security flaws"
   },
   {
-    "source": "The Hacker News",
-    "title": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day",
-    "link": "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
+    "source": "BleepingComputer",
+    "title": "IDScan sued over alleged data breach affecting 153 million drivers",
+    "link": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/",
     "date": "2026-09-04",
-    "snippet": "Google on Thursday released security updates to patch 12 vulnerabilities, including one that has come under active exploitation in the wild."
+    "snippet": "Multiple lawsuits have been filed against identity verification company IDScan after hackers allegedly breached the service and offered to s"
   },
   {
-    "source": "The Hacker News",
-    "title": "GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests",
-    "link": "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html",
+    "source": "BleepingComputer",
+    "title": "Critical Citrix NetScaler auth bypass now leveraged in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
     "date": "2026-09-04",
-    "snippet": "OpenAI on Thursday officially unveiled GPT‑6 Astra, which it described as the \"world's most intelligent and aligned model.\" The development "
+    "snippet": "Attackers have begun targeting a critical-severity Citrix NetScaler auth bypass flaw (CVE-2026-19490) in the wild, according to vulnerabilit"
   },
   {
     "source": "BleepingComputer",
@@ -54,20 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/",
     "date": "2026-09-04",
     "snippet": "An anonymous security researcher who uses the \"Nightmare Eclipse\" handle released a CrowdStrike Falcon zero-day exploit named \"FalconFlank\" "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Exchange Online outage causes email delays, 'Server busy' errors",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/exchange-online-outage-causes-email-delays-server-busy-errors/",
-    "date": "2026-09-04",
-    "snippet": "Microsoft is working to resolve an ongoing Exchange Online outage that is delaying email sent to and received from external domains. [...]"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Google warns of new Chrome zero-day flaw exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/",
-    "date": "2026-09-04",
-    "snippet": "Google has updated the Chrome browser to address an actively exploited high-severity zero-day flaw in the V8 engine and 11 other vulnerabili"
   },
   {
     "source": "Krebs on Security",
