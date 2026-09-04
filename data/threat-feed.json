@@ -36,6 +36,13 @@
   },
   {
     "source": "BleepingComputer",
+    "title": "French hospital fined €500,000 after breach exposes data of 727,000",
+    "link": "https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000/",
+    "date": "2026-09-03",
+    "snippet": "France's data protection authority (CNIL) has fined Hôpital privé de la Loire €500,000 ($580,000) for failing to adequately protect patients"
+  },
+  {
+    "source": "BleepingComputer",
     "title": "Coder's registry infrastructure compromised to push malicious modules",
     "link": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/",
     "date": "2026-09-03",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-ahead-of-astra-model-launch/",
     "date": "2026-09-03",
     "snippet": "ChatGPT and Codex are experiencing a major outage, with users reporting errors across nearly every major ChatGPT feature. [...]"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Anthropic confirms Claude is down, multiple models affected",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-multiple-models-affected/",
-    "date": "2026-09-03",
-    "snippet": "Claude is experiencing an outage, with users encountering elevated errors when sending requests to multiple Anthropic AI models. [...]"
   },
   {
     "source": "Krebs on Security",
