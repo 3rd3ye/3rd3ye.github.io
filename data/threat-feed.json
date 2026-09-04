@@ -1,38 +1,38 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
+    "link": "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
+    "date": "2026-09-04",
+    "snippet": "Threat actors are exploiting two critical security flaws in WordPress plugins Super Forms and Elementor Pro, according to findings from Word"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Plex Urges Immediate Updates After Patching Multiple Undisclosed Security Flaws",
+    "link": "https://thehackernews.com/2026/09/plex-urges-immediate-updates-after.html",
+    "date": "2026-09-04",
+    "snippet": "Plex is urging users to update their instances to the latest version following the release of an update that patches multiple security flaws"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day",
+    "link": "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
+    "date": "2026-09-04",
+    "snippet": "Google on Thursday released security updates to patch 12 vulnerabilities, including one that has come under active exploitation in the wild."
+  },
+  {
+    "source": "The Hacker News",
+    "title": "GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests",
+    "link": "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html",
+    "date": "2026-09-04",
+    "snippet": "OpenAI on Thursday officially unveiled GPT‑6 Astra, which it described as the \"world's most intelligent and aligned model.\" The development "
+  },
+  {
+    "source": "The Hacker News",
     "title": "ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories",
     "link": "https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html",
     "date": "2026-09-03",
     "snippet": "The worst part is how normal these attacks look. A call from IT. A shared file. A trusted app. A simple request to click “Allow.” Why break "
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root",
-    "link": "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html",
-    "date": "2026-09-03",
-    "snippet": "Cisco has released patches to address a critical security flaw affecting 10 Silicon One-based Nexus 9000 switches that could allow an unauth"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory",
-    "link": "https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html",
-    "date": "2026-09-03",
-    "snippet": "Cybersecurity researchers have disclosed details of a sophisticated Python-based Windows malware framework called BraZetsu that fuels an und"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data",
-    "link": "https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html",
-    "date": "2026-09-03",
-    "snippet": "Thomson Reuters disclosed on Wednesday that an unauthorized party obtained files from C-Track, the court case management platform sold by it"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries",
-    "link": "https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html",
-    "date": "2026-09-03",
-    "snippet": "An RMM phishing campaign initially associated with Canadian targeting due to its use of Canada Revenue Agency (CRA) tax forms as lures has t"
   },
   {
     "source": "BleepingComputer",
