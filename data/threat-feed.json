@@ -1,6 +1,20 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
+    "link": "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
+    "date": "2026-09-05",
+    "snippet": "A group of AI safety researchers says a fleet of autonomous agents that identified themselves as OpenAI systems left about 18,000 posts on a"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html",
+    "date": "2026-09-05",
+    "snippet": "Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in "
+  },
+  {
+    "source": "The Hacker News",
     "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
     "link": "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
     "date": "2026-09-04",
@@ -19,20 +33,6 @@
     "link": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
     "date": "2026-09-04",
     "snippet": "A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean orga"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
-    "link": "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
-    "date": "2026-09-04",
-    "snippet": "Threat actors are exploiting two critical security flaws in WordPress plugins Super Forms and Elementor Pro, according to findings from Word"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Plex Urges Immediate Updates After Patching Multiple Undisclosed Security Flaws",
-    "link": "https://thehackernews.com/2026/09/plex-urges-immediate-updates-after.html",
-    "date": "2026-09-04",
-    "snippet": "Plex is urging users to update their instances to the latest version following the release of an update that patches multiple security flaws"
   },
   {
     "source": "BleepingComputer",
