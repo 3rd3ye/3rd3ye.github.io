@@ -14,6 +14,13 @@
     "snippet": "Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in "
   },
   {
+    "source": "BleepingComputer",
+    "title": "OpenAI admits it didn't disclose rogue AI wiki hijacking incident",
+    "link": "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/",
+    "date": "2026-09-05",
+    "snippet": "OpenAI admits it did not disclose an incident where autonomous AI agents hijacked a German wiki, created 18,000 posts, shared answers, and b"
+  },
+  {
     "source": "The Hacker News",
     "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
     "link": "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/",
     "date": "2026-09-04",
     "snippet": "Passkeys eliminate many password-based attacks, but researchers have documented 39 methods for compromising authentication built around them"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "New CrowdStrike 'FalconFlank' zero-day grants SYSTEM privileges",
-    "link": "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/",
-    "date": "2026-09-04",
-    "snippet": "An anonymous security researcher who uses the \"Nightmare Eclipse\" handle released a CrowdStrike Falcon zero-day exploit named \"FalconFlank\" "
   },
   {
     "source": "Krebs on Security",
