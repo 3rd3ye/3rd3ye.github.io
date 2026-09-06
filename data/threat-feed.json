@@ -14,6 +14,13 @@
     "snippet": "Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer"
   },
   {
+    "source": "BleepingComputer",
+    "title": "Attackers conceal phishing lures using invisible Unicode characters",
+    "link": "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/",
+    "date": "2026-09-06",
+    "snippet": "Threat actors have adopted the ASCII smuggling technique in phishing campaigns, using invisible Unicode characters to evade email security f"
+  },
+  {
     "source": "The Hacker News",
     "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
     "link": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
     "date": "2026-09-04",
     "snippet": "Attackers have begun targeting a critical-severity Citrix NetScaler auth bypass flaw (CVE-2026-19490) in the wild, according to vulnerabilit"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft says some users can’t open the Teams desktop client",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client/",
-    "date": "2026-09-04",
-    "snippet": "Microsoft is working to resolve a known issue that causes delays or blocks some users from opening the Microsoft Teams desktop client on Win"
   },
   {
     "source": "Krebs on Security",
