@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
+    "link": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html",
+    "date": "2026-09-07",
+    "snippet": "Cybersecurity researchers have disclosed details of a complex Chromium-based post-exploitation toolkit called PEEP that masquerades as a boo"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks",
     "link": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
     "date": "2026-09-07",
@@ -28,11 +35,11 @@
     "snippet": "Cybersecurity researchers have disclosed details of worm-like activity that abuses ConnectWise ScreenConnect to distribute a malicious Visua"
   },
   {
-    "source": "The Hacker News",
-    "title": "Telerik UI Padding-Oracle Bug Chained to Unauthenticated RCE — Public Exploit Released",
-    "link": "https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html",
+    "source": "BleepingComputer",
+    "title": "Magento StyleSmuggler zero-day exploited to deploy Linux backdoor",
+    "link": "https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/",
     "date": "2026-09-07",
-    "snippet": "A TantoSec proof-of-concept turns an AES-CBC \"padding oracle\" in Telerik UI for ASP.NET AJAX into unauthenticated remote code execution — bu"
+    "snippet": "A zero-day vulnerability dubbed \"StyleSmuggler\" affecting all versions of Magento and Adobe Commerce is being exploited in attacks to deploy"
   },
   {
     "source": "BleepingComputer",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-can-now-connect-to-your-personal-apps-to-mimic-writing-style/",
     "date": "2026-09-07",
     "snippet": "OpenAI appears to be testing a new \"Writing Style\" feature for ChatGPT that can learn how you write by looking at examples from your connect"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Hackers exploit new MikroTik RouterOS flaws to hijack routers",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/",
-    "date": "2026-09-07",
-    "snippet": "Hackers are exploiting a chain of two recently disclosed vulnerabilities in MikroTik routers to take control of devices with SSH services ex"
   },
   {
     "source": "Krebs on Security",
