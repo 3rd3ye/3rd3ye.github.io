@@ -1,5 +1,47 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw",
+    "link": "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html",
+    "date": "2026-09-07",
+    "snippet": "Every on-premises N-central build below 2026.3.1.14 — including servers updated to Hotfix 3 a day earlier — needs Hotfix 4. N-able's inciden"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "JSCeal Malware Can Bypass Google Authentication Using Stolen Session Cookies",
+    "link": "https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html",
+    "date": "2026-09-07",
+    "snippet": "Cybersecurity researchers have unpacked JSCeal, a sophisticated compiled V8 JavaScript (JSC) malware with credential harvesting, surveillanc"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "ChatGPT can now connect to your personal apps to mimic writing style",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-can-now-connect-to-your-personal-apps-to-mimic-writing-style/",
+    "date": "2026-09-07",
+    "snippet": "OpenAI appears to be testing a new \"Writing Style\" feature for ChatGPT that can learn how you write by looking at examples from your connect"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Hackers exploit new MikroTik RouterOS flaws to hijack routers",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/",
+    "date": "2026-09-07",
+    "snippet": "Hackers are exploiting a chain of two recently disclosed vulnerabilities in MikroTik routers to take control of devices with SSH services ex"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "ConnectWise warns of new ScreenConnect flaw without patch",
+    "link": "https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch/",
+    "date": "2026-09-07",
+    "snippet": "ConnectWise has shared temporary mitigation measures for a new ScreenConnect Remote Access vulnerability that it plans to patch later this w"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "N-able patches max severity N-central flaw amid ongoing attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/",
+    "date": "2026-09-07",
+    "snippet": "N-able has released an emergency hotfix for a maximum-severity remote code execution (RCE) flaw affecting its N-central remote monitoring an"
+  },
+  {
     "source": "BleepingComputer",
     "title": "ChatGPT Astra is now rolling out to $20 Plus subscription",
     "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-astra-is-now-rolling-out-to-20-plus-subscription/",
@@ -21,53 +63,11 @@
     "snippet": "Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer"
   },
   {
-    "source": "BleepingComputer",
-    "title": "Attackers conceal phishing lures using invisible Unicode characters",
-    "link": "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/",
-    "date": "2026-09-06",
-    "snippet": "Threat actors have adopted the ASCII smuggling technique in phishing campaigns, using invisible Unicode characters to evade email security f"
-  },
-  {
     "source": "The Hacker News",
     "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
     "link": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
     "date": "2026-09-05",
     "snippet": "Attackers are exploiting a new unpatched vulnerability in Magento Open Source and Adobe Commerce that lets them run malicious code on an onl"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
-    "link": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
-    "date": "2026-09-05",
-    "snippet": "JetBrains is urging Cadence users to revoke and rotate all credentials following a security incident last month in which unidentified threat"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code",
-    "link": "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html",
-    "date": "2026-09-05",
-    "snippet": "Broadcom has released security updates for two security flaws impacting VMware Workstation and Fusion, including one critical bug that could"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain",
-    "link": "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/",
-    "date": "2026-09-05",
-    "snippet": "A massive cybercriminal operation is leveraging thousands of compromised small-business websites to deliver ClickFix payloads stored in smar"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "OpenAI admits it didn't disclose rogue AI wiki hijacking incident",
-    "link": "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/",
-    "date": "2026-09-05",
-    "snippet": "OpenAI admits it did not disclose an incident where autonomous AI agents hijacked a German wiki, created 18,000 posts, shared answers, and b"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "IDScan sued over alleged data breach affecting 153 million drivers",
-    "link": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/",
-    "date": "2026-09-04",
-    "snippet": "Multiple lawsuits have been filed against identity verification company IDScan after hackers allegedly breached the service and offered to s"
   },
   {
     "source": "Krebs on Security",
