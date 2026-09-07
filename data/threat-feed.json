@@ -1,17 +1,59 @@
 [
   {
     "source": "The Hacker News",
-    "title": "N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw",
-    "link": "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html",
+    "title": "Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks",
+    "link": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
     "date": "2026-09-07",
-    "snippet": "Every on-premises N-central build below 2026.3.1.14 — including servers updated to Hotfix 3 a day earlier — needs Hotfix 4. N-able's inciden"
+    "snippet": "Threat hunters have disclosed details of a widespread data theft and extortion threat cluster that's targeting Microsoft 365 and other softw"
   },
   {
     "source": "The Hacker News",
-    "title": "JSCeal Malware Can Bypass Google Authentication Using Stolen Session Cookies",
-    "link": "https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html",
+    "title": "⚡ Weekly Recap: Chrome 0-Day, Router Hijacks, Coder Supply Chain Attack and More",
+    "link": "https://thehackernews.com/2026/09/weekly-recap-chrome-0-day-router.html",
     "date": "2026-09-07",
-    "snippet": "Cybersecurity researchers have unpacked JSCeal, a sophisticated compiled V8 JavaScript (JSC) malware with credential harvesting, surveillanc"
+    "snippet": "Turning off email images should at least stop the pictures. This week, attackers had a workaround: a scannable QR code built out of text. It"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Your Cloud Security Checklist Doesn't Work the Way You Think It Does",
+    "link": "https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html",
+    "date": "2026-09-07",
+    "snippet": "If managing security across multiple cloud providers wasn't hard enough, each one fails in a different way. For the 2026 Cloud Security Inde"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts",
+    "link": "https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html",
+    "date": "2026-09-07",
+    "snippet": "Cybersecurity researchers have disclosed details of worm-like activity that abuses ConnectWise ScreenConnect to distribute a malicious Visua"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Telerik UI Padding-Oracle Bug Chained to Unauthenticated RCE — Public Exploit Released",
+    "link": "https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html",
+    "date": "2026-09-07",
+    "snippet": "A TantoSec proof-of-concept turns an AES-CBC \"padding oracle\" in Telerik UI for ASP.NET AJAX into unauthenticated remote code execution — bu"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "BigBear Microsoft 365 phishing service bypassed MFA at 258 organizations",
+    "link": "https://www.bleepingcomputer.com/news/security/bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-organizations/",
+    "date": "2026-09-07",
+    "snippet": "A phishing-as-a-service framework called BigBear 2.0 has been used to bypass multi-factor authentication at 258 organizations and steal more"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Mathspace discloses data breach affecting over 1 million people",
+    "link": "https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/",
+    "date": "2026-09-07",
+    "snippet": "Online maths learning platform Mathspace disclosed over the weekend that attackers stole data from more than 1 million students, staff, and "
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Trezor data breach impact now reaches 81,000 customers",
+    "link": "https://www.bleepingcomputer.com/news/security/trezor-data-breach-impact-now-reaches-81-000-customers/",
+    "date": "2026-09-07",
+    "snippet": "Cryptocurrency hardware wallet maker Trezor says an August data breach at its shipping and logistics provider, ShipMonk, affects an addition"
   },
   {
     "source": "BleepingComputer",
@@ -26,48 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/",
     "date": "2026-09-07",
     "snippet": "Hackers are exploiting a chain of two recently disclosed vulnerabilities in MikroTik routers to take control of devices with SSH services ex"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "ConnectWise warns of new ScreenConnect flaw without patch",
-    "link": "https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch/",
-    "date": "2026-09-07",
-    "snippet": "ConnectWise has shared temporary mitigation measures for a new ScreenConnect Remote Access vulnerability that it plans to patch later this w"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "N-able patches max severity N-central flaw amid ongoing attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/",
-    "date": "2026-09-07",
-    "snippet": "N-able has released an emergency hotfix for a maximum-severity remote code execution (RCE) flaw affecting its N-central remote monitoring an"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "ChatGPT Astra is now rolling out to $20 Plus subscription",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-astra-is-now-rolling-out-to-20-plus-subscription/",
-    "date": "2026-09-07",
-    "snippet": "OpenAI is now rolling out ChatGPT Astra, its most powerful model to date, to those with a $20 Plus subscription, but there's no word on when"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
-    "link": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
-    "date": "2026-09-06",
-    "snippet": "Attackers are exploiting MikroTik routers with their Secure Shell (SSH) remote-access service, which is reachable from the internet, to gain"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner",
-    "link": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
-    "date": "2026-09-06",
-    "snippet": "Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
-    "link": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
-    "date": "2026-09-05",
-    "snippet": "Attackers are exploiting a new unpatched vulnerability in Magento Open Source and Adobe Commerce that lets them run malicious code on an onl"
   },
   {
     "source": "Krebs on Security",
