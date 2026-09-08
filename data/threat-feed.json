@@ -1,6 +1,34 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell",
+    "link": "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html",
+    "date": "2026-09-08",
+    "snippet": "Adobe on Monday released security patches to address a maximum-severity flaw impacting Adobe Commerce and Magento Open Source that has come "
+  },
+  {
+    "source": "The Hacker News",
+    "title": "BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support Scams",
+    "link": "https://thehackernews.com/2026/09/bengalseo-poisons-bing-search-results.html",
+    "date": "2026-09-08",
+    "snippet": "Cybersecurity researchers have disclosed details of a sprawling search engine optimization (SEO) poisoning campaign that paves the way for m"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Grindr to Pay £26 Million to Settle U.K. Claims Over HIV Status Data Sharing",
+    "link": "https://thehackernews.com/2026/09/grindr-to-pay-26-million-to-settle-uk.html",
+    "date": "2026-09-08",
+    "snippet": "Online dating app Grindr has opted to pay £26 million ($35.1 million) to settle a lawsuit in the U.K. over allegations that it shared users'"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "220 million traveler records exposed in Vietnam-linked APIS leak",
+    "link": "https://www.bleepingcomputer.com/news/security/220-million-traveler-records-exposed-in-vietnam-linked-apis-leak/",
+    "date": "2026-09-08",
+    "snippet": "Exclusive: An exposed Advance Passenger Information System (APIS) database held 220 million passenger and crew records containing names, pas"
+  },
+  {
+    "source": "The Hacker News",
     "title": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
     "link": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html",
     "date": "2026-09-07",
@@ -12,27 +40,6 @@
     "link": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
     "date": "2026-09-07",
     "snippet": "Threat hunters have disclosed details of a widespread data theft and extortion threat cluster that's targeting Microsoft 365 and other softw"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: Chrome 0-Day, Router Hijacks, Coder Supply Chain Attack and More",
-    "link": "https://thehackernews.com/2026/09/weekly-recap-chrome-0-day-router.html",
-    "date": "2026-09-07",
-    "snippet": "Turning off email images should at least stop the pictures. This week, attackers had a workaround: a scannable QR code built out of text. It"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Your Cloud Security Checklist Doesn't Work the Way You Think It Does",
-    "link": "https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html",
-    "date": "2026-09-07",
-    "snippet": "If managing security across multiple cloud providers wasn't hard enough, each one fails in a different way. For the 2026 Cloud Security Inde"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts",
-    "link": "https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html",
-    "date": "2026-09-07",
-    "snippet": "Cybersecurity researchers have disclosed details of worm-like activity that abuses ConnectWise ScreenConnect to distribute a malicious Visua"
   },
   {
     "source": "BleepingComputer",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/trezor-data-breach-impact-now-reaches-81-000-customers/",
     "date": "2026-09-07",
     "snippet": "Cryptocurrency hardware wallet maker Trezor says an August data breach at its shipping and logistics provider, ShipMonk, affects an addition"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "ChatGPT can now connect to your personal apps to mimic writing style",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-can-now-connect-to-your-personal-apps-to-mimic-writing-style/",
-    "date": "2026-09-07",
-    "snippet": "OpenAI appears to be testing a new \"Writing Style\" feature for ChatGPT that can learn how you write by looking at examples from your connect"
   },
   {
     "source": "Krebs on Security",
