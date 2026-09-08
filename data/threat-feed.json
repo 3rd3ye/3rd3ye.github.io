@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution",
+    "link": "https://thehackernews.com/2026/09/slim-spider-steals-crypto-custody.html",
+    "date": "2026-09-08",
+    "snippet": "A previously undocumented financially motivated threat actor has been linked to attacks targeting Brazilian financial institutions since at "
+  },
+  {
+    "source": "The Hacker News",
     "title": "Liquid Hackers Return 3,400 Bitcoin Taken via Elements Bug, Still Holding $47M in BTC",
     "link": "https://thehackernews.com/2026/09/liquid-hackers-return-3400-bitcoin.html",
     "date": "2026-09-08",
@@ -28,46 +35,39 @@
     "snippet": "Researchers at the security firm Calif have built a worm that takes over a WeChat account via an incoming call and&nbsp;demonstrated it spre"
   },
   {
-    "source": "The Hacker News",
-    "title": "What It Took to Reach 1 Billion Build Manifests",
-    "link": "https://thehackernews.com/2026/09/what-it-took-to-reach-1-billion-build.html",
+    "source": "BleepingComputer",
+    "title": "The EU CRA's Real Question: What Shipped, and When Did You Know?",
+    "link": "https://www.bleepingcomputer.com/news/security/the-eu-cras-real-question-what-shipped-and-when-did-you-know/",
     "date": "2026-09-08",
-    "snippet": "In the last six months, Chainguard doubled its output from 500 million to more than 1 billion container build manifests. We also surpassed 3"
+    "snippet": "The EU Cyber Resilience Act's vulnerability reporting requirements take effect September 11, giving software vendors as little as 24 hours t"
   },
   {
     "source": "BleepingComputer",
-    "title": "August updates trigger 0xc0000409 errors on Windows Server 2016",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/august-updates-trigger-0xc0000409-errors-on-windows-server-2016/",
+    "title": "Hackers breach F5 BIG-IP APM devices to deploy Linux rootkit",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-f5-big-ip-apm-devices-to-deploy-linux-rootkit/",
     "date": "2026-09-08",
-    "snippet": "Microsoft says the August 2026 security update may trigger 0xc0000409 errors on Windows Server 2016 systems where the Compatibility Appraise"
+    "snippet": "A Linux rootkit targeting devices in F5 BIG-IP APM environments can intercept PHP file loading and inject a fileless web shell directly into"
   },
   {
     "source": "BleepingComputer",
-    "title": "SAP warns of maximum severity 'OVERPASS' kernel vulnerability",
-    "link": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-overpass-kernel-vulnerability/",
+    "title": "Microsoft releases Windows 10 KB5122878 extended security update",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5122878-extended-security-update/",
     "date": "2026-09-08",
-    "snippet": "SAP has addressed 20 vulnerabilities across multiple products in its September 2026 security updates, including a maximum-severity memory co"
+    "snippet": "Microsoft has released the Windows 10 KB5122878 extended security update, which includes this month's record-breaking September 2026 Patch T"
   },
   {
     "source": "BleepingComputer",
-    "title": "OpenAI says GPT-6 Astra can find zero-days, but is also harder to monitor",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-6-astra-can-find-zero-days-but-is-also-harder-to-monitor/",
+    "title": "Microsoft September 2026 Patch Tuesday fixes 966 flaws, 2 zero-days",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-patch-tuesday-fixes-966-flaws-2-zero-days/",
     "date": "2026-09-08",
-    "snippet": "OpenAI confirmed that GPT-6 Astra is the first model it has broadly deployed to reach the \"Critical level\" for cybersecurity capabilities. ["
+    "snippet": "Today is Microsoft's September 2026 Patch Tuesday, with security updates released for a record-breaking 966 flaws, including two actively ex"
   },
   {
     "source": "BleepingComputer",
-    "title": "Adobe fixes critical Magento zero-day exploited to backdoor servers",
-    "link": "https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers/",
+    "title": "Windows 11 cumulative updates KB5124008 &amp; KB5122880 released",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-cumulative-updates-kb5124008-and-kb5122880-released/",
     "date": "2026-09-08",
-    "snippet": "Adobe has released an emergency fix for CVE-2026-75650, an actively exploited max-severity zero-day vulnerability dubbed StyleSmuggler, that"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Webinar: The forgotten Google Workspace access that can lead to a breach",
-    "link": "https://www.bleepingcomputer.com/news/security/webinar-the-forgotten-google-workspace-access-that-can-lead-to-a-breach/",
-    "date": "2026-09-08",
-    "snippet": "Third-party applications connected to Google Workspace can retain access long after their original purpose is forgotten. This webinar examin"
+    "snippet": "Microsoft has released Windows 11 KB5124008 and KB5122880 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities"
   },
   {
     "source": "Krebs on Security",
