@@ -1,6 +1,20 @@
 [
   {
     "source": "The Hacker News",
+    "title": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto",
+    "link": "https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html",
+    "date": "2026-09-09",
+    "snippet": "The U.S. Department of Justice (DoJ) on Wednesday announced coordinated actions aimed at an illicit online marketplace called Xinbi Guarante"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
+    "link": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
+    "date": "2026-09-09",
+    "snippet": "Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that c"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
     "link": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
     "date": "2026-09-09",
@@ -21,18 +35,18 @@
     "snippet": "A flaw in DeepSeek Harness, DeepSeek's open-source tool for running AI coding agents on a developer's machine, let a sandboxed agent turn of"
   },
   {
-    "source": "The Hacker News",
-    "title": "Alby Hub Critical Flaw Could Let Attackers Take Over Internet-Exposed Bitcoin Wallets",
-    "link": "https://thehackernews.com/2026/09/alby-hub-critical-flaw-could-let.html",
+    "source": "BleepingComputer",
+    "title": "US says Chinese firms extracted billions of tokens from frontier AI models",
+    "link": "https://www.bleepingcomputer.com/news/security/us-says-chinese-firms-extracted-billions-of-tokens-from-frontier-ai-models/",
     "date": "2026-09-09",
-    "snippet": "Bitcoin wallet company Alby has&nbsp;warned of a critical flaw&nbsp;in Alby Hub that could have let an attacker take over a wallet and send "
+    "snippet": "U.S. cybersecurity and intelligence agencies say that six Chinese AI companies conducted industrial-scale distillation attacks on American f"
   },
   {
-    "source": "The Hacker News",
-    "title": "U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok",
-    "link": "https://thehackernews.com/2026/09/us-agencies-accuse-china-ai-firms-of.html",
+    "source": "BleepingComputer",
+    "title": "Veradigm warns of patient data breach after ransomware gang claims attack",
+    "link": "https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/",
     "date": "2026-09-09",
-    "snippet": "U.S. cybersecurity and intelligence agencies have accused China-based artificial intelligence (AI) companies of conducting \"systematic extra"
+    "snippet": "Healthcare technology company Veradigm disclosed a data breach after a cybersecurity incident at one of its third-party vendors exposed pati"
   },
   {
     "source": "BleepingComputer",
@@ -54,20 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/man-gets-15-years-in-prison-for-cyberstalking-and-sextortion/",
     "date": "2026-09-09",
     "snippet": "An Ohio man was sentenced to 15 years in prison for multiple cybercrimes, including sextortion and cyberstalking of numerous victims using A"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "New Microsoft Defender 'ShieldCrash' zero-day grants SYSTEM access",
-    "link": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access/",
-    "date": "2026-09-09",
-    "snippet": "An anonymous security researcher known as Nightmare Eclipse has released a new Microsoft Defender zero-day exploit named \"ShieldCrash\" right"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Google warns of new Chrome zero-day bug exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/",
-    "date": "2026-09-09",
-    "snippet": "Google has patched 230 vulnerabilities on Tuesday, including another actively exploited Chrome zero-day bug, the seventh such vulnerability "
   },
   {
     "source": "Krebs on Security",
