@@ -1,5 +1,12 @@
 [
   {
+    "source": "BleepingComputer",
+    "title": "Microsoft adds age-awareness APIs that can tell if users are children, teens, or adults",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-age-awareness-apis-that-can-tell-if-users-are-children-teens-or-adults/",
+    "date": "2026-09-09",
+    "snippet": "Microsoft is adding new age-awareness APIs to Windows 11 that will allow apps to determine whether someone is a child, teenager, or adult wi"
+  },
+  {
     "source": "The Hacker News",
     "title": "Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution",
     "link": "https://thehackernews.com/2026/09/slim-spider-steals-crypto-custody.html",
@@ -36,6 +43,13 @@
   },
   {
     "source": "BleepingComputer",
+    "title": "DoppelCart fraud network uses 119,000 fake shops to steal credit cards",
+    "link": "https://www.bleepingcomputer.com/news/security/doppelcart-fraud-network-uses-119-000-fake-shops-to-steal-credit-cards/",
+    "date": "2026-09-08",
+    "snippet": "A massive operation dubbed \"DoppelCart\" uses more than 119,000 domains to run a network of fake e-shops that steal payment card details. [.."
+  },
+  {
+    "source": "BleepingComputer",
     "title": "The EU CRA's Real Question: What Shipped, and When Did You Know?",
     "link": "https://www.bleepingcomputer.com/news/security/the-eu-cras-real-question-what-shipped-and-when-did-you-know/",
     "date": "2026-09-08",
@@ -56,18 +70,11 @@
     "snippet": "Microsoft has released the Windows 10 KB5122878 extended security update, which includes this month's record-breaking September 2026 Patch T"
   },
   {
-    "source": "BleepingComputer",
-    "title": "Microsoft September 2026 Patch Tuesday fixes 966 flaws, 2 zero-days",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-patch-tuesday-fixes-966-flaws-2-zero-days/",
+    "source": "Krebs on Security",
+    "title": "Microsoft Plugs Nearly 1,000 Security Holes",
+    "link": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
     "date": "2026-09-08",
-    "snippet": "Today is Microsoft's September 2026 Patch Tuesday, with security updates released for a record-breaking 966 flaws, including two actively ex"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Windows 11 cumulative updates KB5124008 &amp; KB5122880 released",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-cumulative-updates-kb5124008-and-kb5122880-released/",
-    "date": "2026-09-08",
-    "snippet": "Microsoft has released Windows 11 KB5124008 and KB5122880 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities"
+    "snippet": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its big"
   },
   {
     "source": "Krebs on Security",
@@ -75,12 +82,5 @@
     "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
     "date": "2026-09-01",
     "snippet": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from peop"
-  },
-  {
-    "source": "Krebs on Security",
-    "title": "Two Alleged &#8216;TeamPCP&#8217; Hackers Arrested in Australia",
-    "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
-    "date": "2026-08-27",
-    "snippet": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for "
   }
 ]
