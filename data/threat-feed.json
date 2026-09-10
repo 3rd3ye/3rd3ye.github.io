@@ -1,6 +1,41 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example \"sk-1234\" Admin Key",
+    "link": "https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html",
+    "date": "2026-09-10",
+    "snippet": "Nearly one in ten of the internet-facing LiteLLM servers that&nbsp;Wiz Research&nbsp;scanned in February accepted&nbsp;sk-1234, the example "
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
+    "link": "https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html",
+    "date": "2026-09-10",
+    "snippet": "Anthropic on Wednesday disclosed a fourth incident in which its artificial intelligence (AI) model broke into real third-party systems, mark"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "CISA: WatchGuard RCE flaw now exploited in ransomware attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/",
+    "date": "2026-09-10",
+    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a critical WatchGua"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft fixes bug that wiped Windows desktop settings",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-wiped-windows-desktop-settings/",
+    "date": "2026-09-10",
+    "snippet": "Microsoft says the September 2026 Patch Tuesday updates fix a known issue causing desktop settings to be lost or reset on some Windows devic"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Trezor warns users of email provider breach, phishing attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/trezor-warns-users-of-email-provider-breach-phishing-attacks/",
+    "date": "2026-09-10",
+    "snippet": "Trezor warned customers on Wednesday that threat actors who breached its third-party email provider are targeting them in phishing attacks. "
+  },
+  {
+    "source": "The Hacker News",
     "title": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto",
     "link": "https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html",
     "date": "2026-09-09",
@@ -21,20 +56,6 @@
     "snippet": "Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create \"stolen keys\" that grant illi"
   },
   {
-    "source": "The Hacker News",
-    "title": "Webinar: Learn How to Answer “Are We Exposed?” Faster After a New CVE",
-    "link": "https://thehackernews.com/2026/09/webinar-learn-how-to-answer-are-we.html",
-    "date": "2026-09-09",
-    "snippet": "A major vulnerability is disclosed. The alert lands immediately. Then comes the harder question: Are we actually exposed? For many security "
-  },
-  {
-    "source": "The Hacker News",
-    "title": "DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without Approval",
-    "link": "https://thehackernews.com/2026/09/deepseek-harness-flaw-let-ai-agents.html",
-    "date": "2026-09-09",
-    "snippet": "A flaw in DeepSeek Harness, DeepSeek's open-source tool for running AI coding agents on a developer's machine, let a sandboxed agent turn of"
-  },
-  {
     "source": "BleepingComputer",
     "title": "Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks",
     "link": "https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/",
     "date": "2026-09-09",
     "snippet": "Healthcare company AdaptHealth has confirmed that data of 4.1 million people was exposed in a cyberattack discovered in July that was attrib"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Skullcandy Dime 3 earbuds expose users to Bluetooth hijacking",
-    "link": "https://www.bleepingcomputer.com/news/security/skullcandy-dime-3-earbuds-expose-users-to-bluetooth-hijacking/",
-    "date": "2026-09-09",
-    "snippet": "The Carnegie Mellon University CERT Coordination Center (CERT/CC) is warning that Skullcandy Dime 3 wireless earbuds accept Bluetooth pairin"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "US says Chinese firms extracted billions of tokens from frontier AI models",
-    "link": "https://www.bleepingcomputer.com/news/security/us-says-chinese-firms-extracted-billions-of-tokens-from-frontier-ai-models/",
-    "date": "2026-09-09",
-    "snippet": "U.S. cybersecurity and intelligence agencies say that six Chinese AI companies conducted industrial-scale distillation attacks on American f"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Veradigm warns of patient data breach after ransomware gang claims attack",
-    "link": "https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/",
-    "date": "2026-09-09",
-    "snippet": "Healthcare technology company Veradigm disclosed a data breach after a cybersecurity incident at one of its third-party vendors exposed pati"
   },
   {
     "source": "Krebs on Security",
