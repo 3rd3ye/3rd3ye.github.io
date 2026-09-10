@@ -1,17 +1,66 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example \"sk-1234\" Admin Key",
-    "link": "https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html",
+    "title": "Google Play Early Access Abused to Push Thousands of Deceptive Android Apps",
+    "link": "https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html",
     "date": "2026-09-10",
-    "snippet": "Nearly one in ten of the internet-facing LiteLLM servers that&nbsp;Wiz Research&nbsp;scanned in February accepted&nbsp;sk-1234, the example "
+    "snippet": "Bad actors are misusing Google Play's Early Access program to push deceptive apps that claim to offer money, rewards, casino winnings, and p"
   },
   {
     "source": "The Hacker News",
-    "title": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
-    "link": "https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html",
+    "title": "Check Point Discloses Two 9.8-Rated VPN Certificate Flaws Enabling Unauthenticated RCE",
+    "link": "https://thehackernews.com/2026/09/check-point-discloses-two-98-rated-vpn.html",
     "date": "2026-09-10",
-    "snippet": "Anthropic on Wednesday disclosed a fourth incident in which its artificial intelligence (AI) model broke into real third-party systems, mark"
+    "snippet": "Check Point has patched two critical vulnerabilities in the way its firewall and management products handle VPN certificates. The company sa"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances",
+    "link": "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html",
+    "date": "2026-09-10",
+    "snippet": "A suspected Russian-speaking cyber actor has been attributed to the use of artificial intelligence (AI) to devise exploits targeting a recen"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks",
+    "link": "https://thehackernews.com/2026/09/gigabud-creates-android-work-profiles.html",
+    "date": "2026-09-10",
+    "snippet": "The Gigabud banking trojan now installs a second Android app that creates a work profile on an infected phone and drops a tampered banking a"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
+    "link": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
+    "date": "2026-09-10",
+    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added three flaws, each impacting Cisco, Citrix, and Fortinet,"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "IDScan confirms breach tied to 153 million stolen driver’s licenses",
+    "link": "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/",
+    "date": "2026-09-10",
+    "snippet": "Identity verification company IDScan has confirmed that hackers accessed customer data stored in its cloud platform, days after reports link"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws",
+    "link": "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/",
+    "date": "2026-09-10",
+    "snippet": "Multiple cyber-espionage groups deployed an exploit kit dubbed \"BlueMoon\" that leveraged zero-day vulnerabilities in Microsoft Windows and G"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "The Top 4 Threats We Found by Investigating Every Alert for a Quarter",
+    "link": "https://www.bleepingcomputer.com/news/security/the-top-4-threats-we-found-by-investigating-every-alert-for-a-quarter/",
+    "date": "2026-09-10",
+    "snippet": "Identity was the target in roughly half of all confirmed malicious activity. Prophet Security breaks down the four main attack patterns seen"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft says September updates fix mouse settings reset issues",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-resolves-mouse-settings-reset-bug-windows-11-update/",
+    "date": "2026-09-10",
+    "snippet": "Microsoft has fixed a known issue that wiped mouse settings on some Windows 11 systems after installing the KB5120998 August 2026 preview up"
   },
   {
     "source": "BleepingComputer",
@@ -19,55 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/",
     "date": "2026-09-10",
     "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a critical WatchGua"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft fixes bug that wiped Windows desktop settings",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-wiped-windows-desktop-settings/",
-    "date": "2026-09-10",
-    "snippet": "Microsoft says the September 2026 Patch Tuesday updates fix a known issue causing desktop settings to be lost or reset on some Windows devic"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Trezor warns users of email provider breach, phishing attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/trezor-warns-users-of-email-provider-breach-phishing-attacks/",
-    "date": "2026-09-10",
-    "snippet": "Trezor warned customers on Wednesday that threat actors who breached its third-party email provider are targeting them in phishing attacks. "
-  },
-  {
-    "source": "The Hacker News",
-    "title": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto",
-    "link": "https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html",
-    "date": "2026-09-09",
-    "snippet": "The U.S. Department of Justice (DoJ) on Wednesday announced coordinated actions aimed at an illicit online marketplace called Xinbi Guarante"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
-    "link": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
-    "date": "2026-09-09",
-    "snippet": "Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that c"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
-    "link": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
-    "date": "2026-09-09",
-    "snippet": "Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create \"stolen keys\" that grant illi"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/",
-    "date": "2026-09-09",
-    "snippet": "Cisco has confirmed that a maximum-severity authentication bypass vulnerability tracked as CVE-2026-20079 in its Secure Firewall Management "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "AdaptHealth confirms 4.1 million people exposed in July cyberattack",
-    "link": "https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/",
-    "date": "2026-09-09",
-    "snippet": "Healthcare company AdaptHealth has confirmed that data of 4.1 million people was exposed in a cyberattack discovered in July that was attrib"
   },
   {
     "source": "Krebs on Security",
