@@ -36,6 +36,27 @@
   },
   {
     "source": "BleepingComputer",
+    "title": "Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/",
+    "date": "2026-09-09",
+    "snippet": "Cisco has confirmed that a maximum-severity authentication bypass vulnerability tracked as CVE-2026-20079 in its Secure Firewall Management "
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "AdaptHealth confirms 4.1 million people exposed in July cyberattack",
+    "link": "https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/",
+    "date": "2026-09-09",
+    "snippet": "Healthcare company AdaptHealth has confirmed that data of 4.1 million people was exposed in a cyberattack discovered in July that was attrib"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Skullcandy Dime 3 earbuds expose users to Bluetooth hijacking",
+    "link": "https://www.bleepingcomputer.com/news/security/skullcandy-dime-3-earbuds-expose-users-to-bluetooth-hijacking/",
+    "date": "2026-09-09",
+    "snippet": "The Carnegie Mellon University CERT Coordination Center (CERT/CC) is warning that Skullcandy Dime 3 wireless earbuds accept Bluetooth pairin"
+  },
+  {
+    "source": "BleepingComputer",
     "title": "US says Chinese firms extracted billions of tokens from frontier AI models",
     "link": "https://www.bleepingcomputer.com/news/security/us-says-chinese-firms-extracted-billions-of-tokens-from-frontier-ai-models/",
     "date": "2026-09-09",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/",
     "date": "2026-09-09",
     "snippet": "Healthcare technology company Veradigm disclosed a data breach after a cybersecurity incident at one of its third-party vendors exposed pati"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "MFA's Weakest Link: Account Recovery Is the New Attack Path",
-    "link": "https://www.bleepingcomputer.com/news/security/mfas-weakest-link-account-recovery-is-the-new-attack-path/",
-    "date": "2026-09-09",
-    "snippet": "MFA makes account takeover harder, but attackers are increasingly targeting the recovery processes used to reset passwords and authenticatio"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Over 36,000 exposed Plex servers vulnerable to recent flaws",
-    "link": "https://www.bleepingcomputer.com/news/security/over-36-000-plex-servers-unpatched-against-recently-disclosed-flaws/",
-    "date": "2026-09-09",
-    "snippet": "Over 36,000 Plex Media servers exposed online remain unpatched against multiple security vulnerabilities and are vulnerable to attacks. [..."
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Man gets 15 years for extorting women with AI-generated porn videos",
-    "link": "https://www.bleepingcomputer.com/news/security/man-gets-15-years-in-prison-for-cyberstalking-and-sextortion/",
-    "date": "2026-09-09",
-    "snippet": "An Ohio man was sentenced to 15 years in prison for multiple cybercrimes, including sextortion and cyberstalking of numerous victims using A"
   },
   {
     "source": "Krebs on Security",
