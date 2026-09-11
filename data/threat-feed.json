@@ -1,6 +1,20 @@
 [
   {
     "source": "The Hacker News",
+    "title": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
+    "link": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
+    "date": "2026-09-11",
+    "snippet": "GitLab has released patches to address multiple flaws, including a maximum-severity security vulnerability that has witnessed in-the-wild pr"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
+    "link": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
+    "date": "2026-09-11",
+    "snippet": "Anthropic on Thursday said it identified and disrupted industrial-scale illicit distillation attacks against Claude from seven labs based in"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
     "link": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
     "date": "2026-09-11",
@@ -21,18 +35,25 @@
     "snippet": "Security teams have become exceptionally talented at finding vulnerabilities. Now, it’s time to turn our attention to optimizing the process"
   },
   {
-    "source": "The Hacker News",
-    "title": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
-    "link": "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html",
+    "source": "BleepingComputer",
+    "title": "Florida confirms DMV database breached via stolen police account",
+    "link": "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/",
     "date": "2026-09-11",
-    "snippet": "Attackers have chained two flaws in JFrog Artifactory, the repository that software build pipelines pull from, to take administrator control"
+    "snippet": "The Florida Department of Highway Safety and Motor Vehicles (FLHSMV) has confirmed that its DAVID driver database suffered a data breach, sa"
   },
   {
-    "source": "The Hacker News",
-    "title": "China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor",
-    "link": "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html",
+    "source": "BleepingComputer",
+    "title": "Passkey-themed phishing attacks lead to Microsoft 365 data theft",
+    "link": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
     "date": "2026-09-11",
-    "snippet": "A China-linked hacking group exploited a flaw in Sogou Input Method, one of the most widely used tools for typing Chinese characters on Wind"
+    "snippet": "Microsoft says threat actors linked to ShinyHunters, Helix, and other extortion gangs are using passkey and single sign-on-themed social eng"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Artifactory flaws chained in attacks deploying backdoor malware",
+    "link": "https://www.bleepingcomputer.com/news/security/artifactory-flaws-chained-in-attacks-deploying-backdoor-malware/",
+    "date": "2026-09-11",
+    "snippet": "Threat actors are exploiting critical and high-severity vulnerabilities in JFrog Artifactory to bypass authentication, gain administrative p"
   },
   {
     "source": "BleepingComputer",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/",
     "date": "2026-09-11",
     "snippet": "GitLab urged users on Thursday to patch their servers immediately against a maximum-severity path traversal vulnerability tracked as CVE-202"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft fixes Teams, Outlook launch failures on ARM Windows PCs",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-outlook-launch-failures-on-arm-windows-pcs/",
-    "date": "2026-09-11",
-    "snippet": "Microsoft has fixed a bug that prevented Teams and Outlook from launching on ARM-based Windows devices after installing updates released sin"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Trezor: 347,000 users targeted in phishing attacks after Brevo breach",
-    "link": "https://www.bleepingcomputer.com/news/security/trezor-347-000-users-targeted-in-phishing-attacks-after-brevo-breach/",
-    "date": "2026-09-11",
-    "snippet": "Trezor has revealed that phishing attacks against its customers earlier this week targeted 347,000 email addresses and affected 2,500 users "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Conti ransomware gang member sentenced to 4 years in prison",
-    "link": "https://www.bleepingcomputer.com/news/security/conti-ransomware-gang-member-sentenced-to-four-years-in-prison/",
-    "date": "2026-09-11",
-    "snippet": "A Ukrainian national has been sentenced to four years in prison for his role in Conti ransomware attacks between 2021 and 2022. [...]"
   },
   {
     "source": "Krebs on Security",
