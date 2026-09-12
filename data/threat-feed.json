@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
+    "link": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
+    "date": "2026-09-12",
+    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise Scre"
+  },
+  {
+    "source": "The Hacker News",
     "title": "When the Whole Company Adopts AI: What It Does to Your SOC",
     "link": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
     "date": "2026-09-12",
@@ -33,13 +40,6 @@
     "link": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
     "date": "2026-09-11",
     "snippet": "Anthropic on Thursday said it identified and disrupted industrial-scale illicit distillation attacks against Claude from seven labs based in"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
-    "link": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
-    "date": "2026-09-11",
-    "snippet": "Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, pr"
   },
   {
     "source": "BleepingComputer",
