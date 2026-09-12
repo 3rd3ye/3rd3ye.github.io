@@ -1,6 +1,27 @@
 [
   {
     "source": "The Hacker News",
+    "title": "When the Whole Company Adopts AI: What It Does to Your SOC",
+    "link": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
+    "date": "2026-09-12",
+    "snippet": "Over the past year, we watched a new class of alert appear in enterprise security operations centers and grow faster than anything else in t"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
+    "link": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
+    "date": "2026-09-12",
+    "snippet": "The \"major malicious attack\" that targeted RubyGems in May 2026 was the work of a swarm of OpenAI agents, according to a new report publishe"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent",
+    "link": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
+    "date": "2026-09-12",
+    "snippet": "The Dutch Nationaal Cyber Security Centrum (NCSC) is warning of imminent exploitation of two critical flaws in Check Point VPN tracked as CV"
+  },
+  {
+    "source": "The Hacker News",
     "title": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
     "link": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
     "date": "2026-09-11",
@@ -19,20 +40,6 @@
     "link": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
     "date": "2026-09-11",
     "snippet": "Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, pr"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
-    "link": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
-    "date": "2026-09-11",
-    "snippet": "Anthropic on Thursday revealed it disrupted a campaign mounted by a Russian state-sponsored threat actor that abused Claude for developing a"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Your Critical Vulnerabilities Might Not Be Your Biggest Risk",
-    "link": "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html",
-    "date": "2026-09-11",
-    "snippet": "Security teams have become exceptionally talented at finding vulnerabilities. Now, it’s time to turn our attention to optimizing the process"
   },
   {
     "source": "BleepingComputer",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/artifactory-flaws-chained-in-attacks-deploying-backdoor-malware/",
     "date": "2026-09-11",
     "snippet": "Threat actors are exploiting critical and high-severity vulnerabilities in JFrog Artifactory to bypass authentication, gain administrative p"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
-    "link": "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/",
-    "date": "2026-09-11",
-    "snippet": "Threat actors are abusing trusted AI platforms to host malicious content, poison search results, and trick users into installing malware. Hu"
   },
   {
     "source": "Krebs on Security",
