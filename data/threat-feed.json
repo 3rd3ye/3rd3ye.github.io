@@ -7,6 +7,13 @@
     "snippet": "Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast finan"
   },
   {
+    "source": "BleepingComputer",
+    "title": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
+    "date": "2026-09-13",
+    "snippet": "Threat actors linked to a China-aligned espionage group are exploiting a critical vulnerability (CVE-2026-51990) in Tencent's Sogou Input Me"
+  },
+  {
     "source": "The Hacker News",
     "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
     "link": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
     "date": "2026-09-11",
     "snippet": "Microsoft says threat actors linked to ShinyHunters, Helix, and other extortion gangs are using passkey and single sign-on-themed social eng"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Artifactory flaws chained in attacks deploying backdoor malware",
-    "link": "https://www.bleepingcomputer.com/news/security/artifactory-flaws-chained-in-attacks-deploying-backdoor-malware/",
-    "date": "2026-09-11",
-    "snippet": "Threat actors are exploiting critical and high-severity vulnerabilities in JFrog Artifactory to bypass authentication, gain administrative p"
   },
   {
     "source": "Krebs on Security",
