@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
+    "link": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
+    "date": "2026-09-13",
+    "snippet": "Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast finan"
+  },
+  {
+    "source": "The Hacker News",
     "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
     "link": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
     "date": "2026-09-12",
@@ -33,13 +40,6 @@
     "link": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
     "date": "2026-09-11",
     "snippet": "GitLab has released patches to address multiple flaws, including a maximum-severity security vulnerability that has witnessed in-the-wild pr"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
-    "link": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
-    "date": "2026-09-11",
-    "snippet": "Anthropic on Thursday said it identified and disrupted industrial-scale illicit distillation attacks against Claude from seven labs based in"
   },
   {
     "source": "BleepingComputer",
