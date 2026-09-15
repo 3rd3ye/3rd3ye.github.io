@@ -1,6 +1,48 @@
 [
   {
     "source": "The Hacker News",
+    "title": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
+    "link": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html",
+    "date": "2026-09-15",
+    "snippet": "A critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting serv"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
+    "link": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
+    "date": "2026-09-15",
+    "snippet": "Cisco has warned that a new critical vulnerability impacting AsyncOS Software for Cisco Secure Email Gateway has come under active exploitat"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE",
+    "link": "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html",
+    "date": "2026-09-15",
+    "snippet": "A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and M"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Suspected Black Axe gang leaders face cybercrime charges in the US",
+    "link": "https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited-to-us-face-cybercrime-charges/",
+    "date": "2026-09-15",
+    "snippet": "Five alleged leaders of the Black Axe cybercrime syndicate, known for its involvement in global-scale cyber-enabled financial fraud, have be"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft confirms KB5002914 Excel update breaks copy and paste",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-kb5002914-security-update-breaks-excel-copy-and-paste/",
+    "date": "2026-09-15",
+    "snippet": "Microsoft has confirmed that copy and paste may silently fail for some Excel users after installing the September 2026 KB5002914 security up"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Cisco patches Secure Email Gateway zero-day exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/",
+    "date": "2026-09-15",
+    "snippet": "Cisco warned customers to patch a critical Secure Email Gateway zero-day security flaw that threat actors have been exploiting in attacks. ["
+  },
+  {
+    "source": "The Hacker News",
     "title": "New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing",
     "link": "https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html",
     "date": "2026-09-14",
@@ -12,27 +54,6 @@
     "link": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
     "date": "2026-09-14",
     "snippet": "An attacker was operating inside the network of 3BB, one of Thailand's largest broadband providers, and maintained remote control of interna"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports",
-    "link": "https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html",
-    "date": "2026-09-14",
-    "snippet": "A flaw in Telegram Desktop let a bot's message plant hidden JavaScript inside chats that users exported to HTML files, security researchers "
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries",
-    "link": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html",
-    "date": "2026-09-14",
-    "snippet": "A suspected Chinese threat actor tracked as Red Heron has been attributed to the rapid exploitation of a recently disclosed security vulnera"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "WordPress Adds Automated Plugin Reviews to Block High-Risk Updates Before Distribution",
-    "link": "https://thehackernews.com/2026/09/wordpress-adds-automated-plugin-reviews.html",
-    "date": "2026-09-14",
-    "snippet": "WordPress has announced it's launching an automated security review for every release of a plugin before it's distributed through the WordPr"
   },
   {
     "source": "BleepingComputer",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/japans-digital-agency-says-vpn-flaw-exposed-246-000-personnel-records/",
     "date": "2026-09-14",
     "snippet": "Japan's Digital Agency has discovered a data breach that may have exposed around 246,000 record rows containing personal information of gove"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Homebrew 7.0.0 gets built-in GUI, better security controls",
-    "link": "https://www.bleepingcomputer.com/news/security/homebrew-700-gets-built-in-gui-better-security-controls/",
-    "date": "2026-09-14",
-    "snippet": "Homebrew package manager version 7.0.0 has been released with a built-in vulnerability scanner, stronger security controls, and the full rel"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Twitch extension with 30K installs exposes users’ OAuth tokens",
-    "link": "https://www.bleepingcomputer.com/news/security/twitch-extension-with-30k-installs-exposes-users-oauth-tokens/",
-    "date": "2026-09-14",
-    "snippet": "A browser extension called Twitch Enhanced Viewer | JeetBot, available in the official Chrome and Firefox stores, sends users' Twitch OAuth "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Hackers hijack HBO Max Reddit account to push malware in ClickFix ads",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hbo-max-reddit-account-to-push-malware-in-clickfix-ads/",
-    "date": "2026-09-14",
-    "snippet": "Hackers compromised HBO Max's official Reddit account and used it to push malicious ads that launched ClickFix attacks to infect Windows and"
   },
   {
     "source": "Krebs on Security",
