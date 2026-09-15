@@ -1,6 +1,20 @@
 [
   {
     "source": "The Hacker News",
+    "title": "KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens",
+    "link": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
+    "date": "2026-09-15",
+    "snippet": "Cybersecurity researchers have shed light on a previously undocumented Brazilian banking malware operation that delivers a toolkit called KR"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
+    "link": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
+    "date": "2026-09-15",
+    "snippet": "Cybersecurity agencies in the United States, the United Kingdom, and the Netherlands have detailed a Windows malware that they say Iran's in"
+  },
+  {
+    "source": "The Hacker News",
     "title": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems",
     "link": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
     "date": "2026-09-15",
@@ -21,18 +35,18 @@
     "snippet": "Introduction Security teams have gotten pretty good at testing against what can hurt them. Can this EDR agent catch this payload? Will my or"
   },
   {
-    "source": "The Hacker News",
-    "title": "Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers",
-    "link": "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html",
+    "source": "BleepingComputer",
+    "title": "Malcious Admin Menu Editor Pro plugin backdoors 1,500 WordPress sites",
+    "link": "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/",
     "date": "2026-09-15",
-    "snippet": "Cybersecurity researchers have disclosed details of a mass-scanning campaign that has targeted Vite deployments siphon sensitive data. The f"
+    "snippet": "Malicious versions of the Admin Menu Editor Pro plugin for WordPress have been distributed to more than 200 customers after a threat actor c"
   },
   {
-    "source": "The Hacker News",
-    "title": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
-    "link": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html",
+    "source": "BleepingComputer",
+    "title": "CenterPoint Energy confirms customer data stolen in cyberattack",
+    "link": "https://www.bleepingcomputer.com/news/security/centerpoint-energy-confirms-customer-data-stolen-in-cyberattack/",
     "date": "2026-09-15",
-    "snippet": "A critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting serv"
+    "snippet": "CenterPoint Energy disclosed a breach compromising some customers' personal information after an attacker leaked data allegedly stolen from "
   },
   {
     "source": "BleepingComputer",
@@ -54,20 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era/",
     "date": "2026-09-15",
     "snippet": "AI is shrinking the time between vulnerability disclosure and exploitation, leaving defenders less time to wait for patches or public exploi"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "CISA: Critical VMware RCE flaw now exploited by ransomware gangs",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/",
-    "date": "2026-09-15",
-    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned security teams that ransomware gangs have now joined ongoing attacks"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Suspected Black Axe gang leaders face cybercrime charges in the US",
-    "link": "https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited-to-us-face-cybercrime-charges/",
-    "date": "2026-09-15",
-    "snippet": "Five alleged leaders of the Black Axe cybercrime syndicate, known for its involvement in global-scale cyber-enabled financial fraud, have be"
   },
   {
     "source": "Krebs on Security",
