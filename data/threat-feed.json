@@ -1,24 +1,66 @@
 [
   {
     "source": "The Hacker News",
+    "title": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems",
+    "link": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
+    "date": "2026-09-15",
+    "snippet": "Cybersecurity researchers have disclosed details of a multi-platform campaign that uses the Message Queueing Telemetry Transport (MQTT) prot"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds",
+    "link": "https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html",
+    "date": "2026-09-15",
+    "snippet": "With artificial intelligence (AI) shrinking the window between vulnerability discovery and exploitation and lowering the barrier to entry fo"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point",
+    "link": "https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html",
+    "date": "2026-09-15",
+    "snippet": "Introduction Security teams have gotten pretty good at testing against what can hurt them. Can this EDR agent catch this payload? Will my or"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers",
+    "link": "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html",
+    "date": "2026-09-15",
+    "snippet": "Cybersecurity researchers have disclosed details of a mass-scanning campaign that has targeted Vite deployments siphon sensitive data. The f"
+  },
+  {
+    "source": "The Hacker News",
     "title": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
     "link": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html",
     "date": "2026-09-15",
     "snippet": "A critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting serv"
   },
   {
-    "source": "The Hacker News",
-    "title": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
-    "link": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
+    "source": "BleepingComputer",
+    "title": "BambooToken malware controls Windows and Linux systems via MQTT",
+    "link": "https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt/",
     "date": "2026-09-15",
-    "snippet": "Cisco has warned that a new critical vulnerability impacting AsyncOS Software for Cisco Secure Email Gateway has come under active exploitat"
+    "snippet": "A previously unknown malware framework called BambooToken, active since at least 2023, is now using the Message Queuing Telemetry Transport "
   },
   {
-    "source": "The Hacker News",
-    "title": "China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE",
-    "link": "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html",
+    "source": "BleepingComputer",
+    "title": "Hackers target WordPress sites via third-party WooCommerce plugin",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin/",
     "date": "2026-09-15",
-    "snippet": "A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and M"
+    "snippet": "Hackers are actively exploiting a critical vulnerability in the WooCommerce Wholesale Lead Capture premium plugin for WordPress to upload a "
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "What Zero-Day Response Should Be in the Post-Mythos Era",
+    "link": "https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era/",
+    "date": "2026-09-15",
+    "snippet": "AI is shrinking the time between vulnerability disclosure and exploitation, leaving defenders less time to wait for patches or public exploi"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "CISA: Critical VMware RCE flaw now exploited by ransomware gangs",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/",
+    "date": "2026-09-15",
+    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned security teams that ransomware gangs have now joined ongoing attacks"
   },
   {
     "source": "BleepingComputer",
@@ -26,48 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited-to-us-face-cybercrime-charges/",
     "date": "2026-09-15",
     "snippet": "Five alleged leaders of the Black Axe cybercrime syndicate, known for its involvement in global-scale cyber-enabled financial fraud, have be"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft confirms KB5002914 Excel update breaks copy and paste",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-kb5002914-security-update-breaks-excel-copy-and-paste/",
-    "date": "2026-09-15",
-    "snippet": "Microsoft has confirmed that copy and paste may silently fail for some Excel users after installing the September 2026 KB5002914 security up"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Cisco patches Secure Email Gateway zero-day exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/",
-    "date": "2026-09-15",
-    "snippet": "Cisco warned customers to patch a critical Secure Email Gateway zero-day security flaw that threat actors have been exploiting in attacks. ["
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing",
-    "link": "https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html",
-    "date": "2026-09-14",
-    "snippet": "Researchers have disclosed a new hardware attack, called DDRop, that breaks the memory protection in Intel and AMD confidential computing by"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials",
-    "link": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
-    "date": "2026-09-14",
-    "snippet": "An attacker was operating inside the network of 3BB, one of Thailand's largest broadband providers, and maintained remote control of interna"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft releases emergency Windows updates to fix RDS failures",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-windows-updates-to-fix-rds-failures/",
-    "date": "2026-09-14",
-    "snippet": "Microsoft has released emergency out-of-band Windows updates to fix Remote Desktop Services failures caused by this month's security updates"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Japan's Digital Agency says VPN flaw exposed 246,000 personnel records",
-    "link": "https://www.bleepingcomputer.com/news/security/japans-digital-agency-says-vpn-flaw-exposed-246-000-personnel-records/",
-    "date": "2026-09-14",
-    "snippet": "Japan's Digital Agency has discovered a data breach that may have exposed around 246,000 record rows containing personal information of gove"
   },
   {
     "source": "Krebs on Security",
