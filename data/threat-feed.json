@@ -1,17 +1,66 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
-    "link": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
+    "title": "Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories",
+    "link": "https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html",
     "date": "2026-09-16",
-    "snippet": "Threat actors are exploiting a critical security flaw in WooCommerce Wholesale Lead Capture, a premium WordPress plugin that has more than 6"
+    "snippet": "Mandiant says an attacker hijacked an active AI coding-assistant session at an unnamed software-as-a-service provider and later spread&nbsp;"
   },
   {
     "source": "The Hacker News",
-    "title": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
-    "link": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
+    "title": "Parallels Desktop Flaw Lets Non-Admin Mac Users Gain Root, but Intel Macs Can't Install Fix",
+    "link": "https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html",
     "date": "2026-09-16",
-    "snippet": "A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr. The vulne"
+    "snippet": "Parallels Desktop for Mac has a flaw that lets an ordinary local account run code as root, the highest level of access on a Mac, software co"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security",
+    "link": "https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html",
+    "date": "2026-09-16",
+    "snippet": "N0va is targeting organizations across North America and Europe with phishing campaigns that impersonate trusted services and abuse legitima"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation",
+    "link": "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
+    "date": "2026-09-16",
+    "snippet": "Google has disclosed that a high-severity security flaw in its Pixel Cellular Modem has come under exploitation in the wild. The vulnerabili"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Threat Intelligence Alone Won't Close the Exploitation Gap",
+    "link": "https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html",
+    "date": "2026-09-16",
+    "snippet": "A leaked credential shows up in a criminal marketplace, or a vulnerability gets a disclosure advisory, and either one can be weaponized agai"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "The true cost of a ransomware attack, with and without BCDR",
+    "link": "https://www.bleepingcomputer.com/news/security/the-true-cost-of-a-ransomware-attack-with-and-without-bcdr/",
+    "date": "2026-09-16",
+    "snippet": "The ransom itself can be only a fraction of the total cost of a ransomware attack, with downtime, recovery, remediation, and legal obligatio"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft says Copilot buttons still missing in classic Outlook",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-missing-outlook-copilot-buttons/",
+    "date": "2026-09-16",
+    "snippet": "Microsoft says it's still investigating a known issue that causes the Copilot and Copilot Chat buttons in Classic Outlook to disappear for s"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Webinar: What happens in the first hours of a Google Workspace breach",
+    "link": "https://www.bleepingcomputer.com/news/security/webinar-what-happens-in-the-first-hours-of-a-google-workspace-breach/",
+    "date": "2026-09-16",
+    "snippet": "The first hours after discovering a Google Workspace breach can determine how an incident unfolds. This webinar examines real-world breaches"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Critical ScreenConnect flaw now actively exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-screenconnect-flaw/",
+    "date": "2026-09-16",
+    "snippet": "Attackers now exploit a critical-severity ConnectWise ScreenConnect vulnerability in the wild, according to the U.S. Cybersecurity and Infra"
   },
   {
     "source": "BleepingComputer",
@@ -19,55 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-next-month/",
     "date": "2026-09-16",
     "snippet": "Microsoft has reminded customers that Windows Server 2022 will reach the end of mainstream support next month and enter extended support unt"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Google fixes actively exploited Android zero-day on Pixel devices",
-    "link": "https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/",
-    "date": "2026-09-16",
-    "snippet": "Google has released the September 2026 security patches to address 110 vulnerabilities affecting its Pixel devices, including one zero-day f"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens",
-    "link": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
-    "date": "2026-09-15",
-    "snippet": "Cybersecurity researchers have shed light on a previously undocumented Brazilian banking malware operation that delivers a toolkit called KR"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
-    "link": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
-    "date": "2026-09-15",
-    "snippet": "Cybersecurity agencies in the United States, the United Kingdom, and the Netherlands have detailed a Windows malware that they say Iran's in"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems",
-    "link": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
-    "date": "2026-09-15",
-    "snippet": "Cybersecurity researchers have disclosed details of a multi-platform campaign that uses the Message Queueing Telemetry Transport (MQTT) prot"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Acronis warns of actively exploited flaw in its cPanel backup plugin",
-    "link": "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/",
-    "date": "2026-09-15",
-    "snippet": "Acronis disclosed a high-severity Linux local privilege escalation vulnerability in its backup plugin for cPanel, WebHost Manager (WHM), and"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Malcious Admin Menu Editor Pro plugin backdoors 1,500 WordPress sites",
-    "link": "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/",
-    "date": "2026-09-15",
-    "snippet": "Malicious versions of the Admin Menu Editor Pro plugin for WordPress have been distributed to more than 200 customers after a threat actor c"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "CenterPoint Energy confirms customer data stolen in cyberattack",
-    "link": "https://www.bleepingcomputer.com/news/security/centerpoint-energy-confirms-customer-data-stolen-in-cyberattack/",
-    "date": "2026-09-15",
-    "snippet": "CenterPoint Energy disclosed a breach compromising some customers' personal information after an attacker leaked data allegedly stolen from "
   },
   {
     "source": "Krebs on Security",
