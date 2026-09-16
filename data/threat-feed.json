@@ -36,6 +36,13 @@
   },
   {
     "source": "BleepingComputer",
+    "title": "Acronis warns of actively exploited flaw in its cPanel backup plugin",
+    "link": "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/",
+    "date": "2026-09-15",
+    "snippet": "Acronis disclosed a high-severity Linux local privilege escalation vulnerability in its backup plugin for cPanel, WebHost Manager (WHM), and"
+  },
+  {
+    "source": "BleepingComputer",
     "title": "Malcious Admin Menu Editor Pro plugin backdoors 1,500 WordPress sites",
     "link": "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/",
     "date": "2026-09-15",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin/",
     "date": "2026-09-15",
     "snippet": "Hackers are actively exploiting a critical vulnerability in the WooCommerce Wholesale Lead Capture premium plugin for WordPress to upload a "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "What Zero-Day Response Should Be in the Post-Mythos Era",
-    "link": "https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era/",
-    "date": "2026-09-15",
-    "snippet": "AI is shrinking the time between vulnerability disclosure and exploitation, leaving defenders less time to wait for patches or public exploi"
   },
   {
     "source": "Krebs on Security",
