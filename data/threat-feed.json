@@ -1,38 +1,52 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
-    "link": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
-    "date": "2026-09-17",
-    "snippet": "Every release of the Unbound DNS resolver before 1.26.1 has a critical heap overflow in its DNSSEC validator, maintainer NLnet Labs said in "
+    "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
+    "link": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
+    "date": "2026-09-18",
+    "snippet": "A financially motivated threat actor has been linked to the development and distribution of a JavaScript (JS)-based information stealer know"
   },
   {
     "source": "The Hacker News",
-    "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
-    "link": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
-    "date": "2026-09-17",
-    "snippet": "A new CVE drops. Your scanner finds it. The severity score looks ugly. But that still does not answer the question that matters: Can it actu"
+    "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
+    "link": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
+    "date": "2026-09-18",
+    "snippet": "Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and f"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "New Check Point flaw lets hackers execute code with root privileges",
+    "link": "https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root/",
+    "date": "2026-09-18",
+    "snippet": "Check Point Software has released security updates to address a critical vulnerability that can let attackers execute code with root privile"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft fixes broken copy and paste for Excel 2016 users",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-copy-and-paste-for-excel-2016-users/",
+    "date": "2026-09-18",
+    "snippet": "Microsoft has fixed a known issue that causes copy-and-paste failures for some Excel users after installing the September 2026 KB5002914 sec"
   },
   {
     "source": "The Hacker News",
-    "title": "CISO's Expert Guide to Agentic Pentesting for Websites",
-    "link": "https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html",
+    "title": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
+    "link": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
     "date": "2026-09-17",
-    "snippet": "Attackers now weaponize new vulnerabilities in about five days (Mandiant, part of Google Cloud). The median organization takes 43 days to pa"
+    "snippet": "A critical vulnerability in Check Point's Security Management and Log Servers could allow an attacker without login credentials to run code "
   },
   {
     "source": "The Hacker News",
-    "title": "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
-    "link": "https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html",
+    "title": "ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories",
+    "link": "https://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html",
     "date": "2026-09-17",
-    "snippet": "The China-aligned state-sponsored threat actor known as FamousSparrow has been observed deploying a previously unreported backdoor called Sp"
+    "snippet": "Attackers keep finding new keys. The funny part is that defenders keep inventing where to store them. This week, those keys sit in AI tools,"
   },
   {
     "source": "The Hacker News",
-    "title": "OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads",
-    "link": "https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html",
+    "title": "Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files",
+    "link": "https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html",
     "date": "2026-09-17",
-    "snippet": "OpenAI on Wednesday disclosed six new instances of \"unexpected or concerning model behavior\" that took place over the past six months, while"
+    "snippet": "Malicious code running inside a Docker Sandboxes virtual machine on macOS could escape the project directory shared into it and read or chan"
   },
   {
     "source": "BleepingComputer",
@@ -54,20 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites/",
     "date": "2026-09-17",
     "snippet": "Brevo confirmed that attackers stole a Cloudflare API key and used it to inject malicious ClickFix scripts into its websites and JavaScript "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "What Recent AI-Powered Attacks Mean for Your Identity Security",
-    "link": "https://www.bleepingcomputer.com/news/security/what-recent-ai-powered-attacks-mean-for-your-identity-security/",
-    "date": "2026-09-17",
-    "snippet": "AI is making credential theft faster and easier to scale, giving attackers more opportunities to abuse valid identities. Specops explains wh"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Windows 11 24H2 Home and Pro reach end of support in October",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-october/",
-    "date": "2026-09-17",
-    "snippet": "Microsoft reminded customers this week that devices running Windows 11 24H2 Home and Pro editions will stop receiving updates next month. [."
   },
   {
     "source": "Krebs on Security",
