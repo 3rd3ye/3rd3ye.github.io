@@ -36,6 +36,13 @@
   },
   {
     "source": "BleepingComputer",
+    "title": "New RatHat Android malware uses AI to automate device control",
+    "link": "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/",
+    "date": "2026-09-17",
+    "snippet": "A new Android malware called RatHat has been discovered, targeting users with an AI-powered subsystem that helps operators remotely navigate"
+  },
+  {
+    "source": "BleepingComputer",
     "title": "OpenAI details more cases of AI agents taking unauthorized actions",
     "link": "https://www.bleepingcomputer.com/news/security/openai-details-more-cases-of-ai-agents-taking-unauthorized-actions/",
     "date": "2026-09-17",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-october/",
     "date": "2026-09-17",
     "snippet": "Microsoft reminded customers this week that devices running Windows 11 24H2 Home and Pro editions will stop receiving updates next month. [."
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "US takes down NightmareStresser DDoS-for-hire platform",
-    "link": "https://www.bleepingcomputer.com/news/security/fbi-seizes-nightmarestresser-service-linked-to-thousands-of-ddos-attacks/",
-    "date": "2026-09-17",
-    "snippet": "The U.S. Federal Bureau of Investigation (FBI) seized the domains used by NightmareStresser, one of the world's longest-running distributed "
   },
   {
     "source": "Krebs on Security",
