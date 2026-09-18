@@ -1,6 +1,20 @@
 [
   {
     "source": "The Hacker News",
+    "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
+    "link": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
+    "date": "2026-09-18",
+    "snippet": "WordPress today released patches to fix a new set of vulnerabilities in its core software, one of which could allow a crafted web link, open"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
+    "link": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
+    "date": "2026-09-18",
+    "snippet": "The Pakistan-aligned threat group tracked as Transparent Tribe (aka APT36 and Earth Karkaddan) has been attributed to a fresh set of cyber a"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
     "link": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
     "date": "2026-09-18",
@@ -21,18 +35,11 @@
     "snippet": "A flaw in four widely used AI coding agents lets someone who controls a plugin's code repository swap the plugin an agent installs for a mal"
   },
   {
-    "source": "The Hacker News",
-    "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
-    "link": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
+    "source": "BleepingComputer",
+    "title": "Gyazo server flaw exploited to steal 23.6 million user records",
+    "link": "https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/",
     "date": "2026-09-18",
-    "snippet": "Cybersecurity researchers have discovered a cluster of 13 npm packages that have been found to deliver a previously undocumented JavaScript "
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
-    "link": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
-    "date": "2026-09-18",
-    "snippet": "A financially motivated threat actor has been linked to the development and distribution of a JavaScript (JS)-based information stealer know"
+    "snippet": "The Gyazo image-sharing platform has confirmed it suffered a data breach after hackers exploited a server vulnerability that allowed them to"
   },
   {
     "source": "BleepingComputer",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/webinar-which-google-workspace-security-controls-actually-matter/",
     "date": "2026-09-18",
     "snippet": "Fast-growing companies face countless recommendations for securing Google Workspace, but not every control provides the same value. This web"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft fixes bug behind ‘Defender Antivirus is turned off’ alerts",
-    "link": "https://www.bleepingcomputer.com/news/security/microsoft-fixes-bug-behind-defender-antivirus-is-turned-off-alerts/",
-    "date": "2026-09-18",
-    "snippet": "Microsoft has resolved a known issue that causes incorrect alerts warning that Defender Antivirus was turned off after installing recent upd"
   },
   {
     "source": "Krebs on Security",
