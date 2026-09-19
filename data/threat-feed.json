@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root",
+    "link": "https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html",
+    "date": "2026-09-18",
+    "snippet": "A security researcher has released working exploit code for four Linux kernel flaws that each let a local user gain root, the highest level "
+  },
+  {
+    "source": "The Hacker News",
     "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
     "link": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
     "date": "2026-09-18",
@@ -26,13 +33,6 @@
     "link": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
     "date": "2026-09-18",
     "snippet": "In July 2025, someone registered a domain that used to belong to a content delivery network.&nbsp; The CDN had been wound down years earlier"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
-    "link": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
-    "date": "2026-09-18",
-    "snippet": "A flaw in four widely used AI coding agents lets someone who controls a plugin's code repository swap the plugin an agent installs for a mal"
   },
   {
     "source": "BleepingComputer",
