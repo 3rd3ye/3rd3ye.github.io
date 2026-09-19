@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
+    "link": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
+    "date": "2026-09-19",
+    "snippet": "Three researchers at the security firm&nbsp;Hacktron&nbsp;used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Co"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
     "link": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
     "date": "2026-09-19",
@@ -12,13 +19,6 @@
     "link": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
     "date": "2026-09-19",
     "snippet": "Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently r"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
-    "link": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
-    "date": "2026-09-19",
-    "snippet": "Three researchers at the security firm&nbsp;Hacktron&nbsp;used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Co"
   },
   {
     "source": "The Hacker News",
@@ -57,8 +57,8 @@
   },
   {
     "source": "BleepingComputer",
-    "title": "Calling viral AI actress Tilly Norwood? Agree to a face scan first",
-    "link": "https://www.bleepingcomputer.com/news/security/calling-viral-ai-actress-tilly-norwood-agree-to-a-face-scan-first/",
+    "title": "Viral AI actress' hotline face-scans every caller, watches their mood",
+    "link": "https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/",
     "date": "2026-09-19",
     "snippet": "AI actress Tilly Norwood went viral after glitching into Chinese on Piers Morgan Uncensored last night. Her \"Talking Tilly\" video call servi"
   },
