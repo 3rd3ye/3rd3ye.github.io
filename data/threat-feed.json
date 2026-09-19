@@ -1,38 +1,38 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
+    "link": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
+    "date": "2026-09-19",
+    "snippet": "A critical vulnerability impacting Orkes Conductor is being actively exploited in the wild, according to Fortinet. The vulnerability in ques"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
+    "link": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
+    "date": "2026-09-19",
+    "snippet": "Google's Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories",
+    "link": "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
+    "date": "2026-09-19",
+    "snippet": "An attacker copied about 170 of CrowdSec's private GitHub repositories on May 22 using the account of an employee who had just left, CrowdSe"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
+    "link": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
+    "date": "2026-09-19",
+    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added three security flaws impacting the Linux kernel to its Know"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root",
     "link": "https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html",
     "date": "2026-09-18",
     "snippet": "A security researcher has released working exploit code for four Linux kernel flaws that each let a local user gain root, the highest level "
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
-    "link": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
-    "date": "2026-09-18",
-    "snippet": "WordPress today released patches to fix a new set of vulnerabilities in its core software, one of which could allow a crafted web link, open"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
-    "link": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
-    "date": "2026-09-18",
-    "snippet": "The Pakistan-aligned threat group tracked as Transparent Tribe (aka APT36 and Earth Karkaddan) has been attributed to a fresh set of cyber a"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
-    "link": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
-    "date": "2026-09-18",
-    "snippet": "Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalatio"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.",
-    "link": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
-    "date": "2026-09-18",
-    "snippet": "In July 2025, someone registered a domain that used to belong to a content delivery network.&nbsp; The CDN had been wound down years earlier"
   },
   {
     "source": "BleepingComputer",
