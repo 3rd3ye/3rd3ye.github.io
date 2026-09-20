@@ -1,5 +1,19 @@
 [
   {
+    "source": "BleepingComputer",
+    "title": "Malicious npm packages evade install-script defenses at runtime",
+    "link": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
+    "date": "2026-09-20",
+    "snippet": "An ongoing npm malware campaign involving the 'indexed-btree' package shows how threat actors bypass supply chain defenses by hiding malicio"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Researchers escape OpenAI Codex sandbox to run commands on host",
+    "link": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/",
+    "date": "2026-09-20",
+    "snippet": "Researchers escaped OpenAI's Codex sandbox two ways, one running commands on a developer's machine from its most locked-down mode. OpenAI ha"
+  },
+  {
     "source": "The Hacker News",
     "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
     "link": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
@@ -54,20 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/",
     "date": "2026-09-19",
     "snippet": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stea"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Viral AI actress' hotline face-scans every caller, watches their mood",
-    "link": "https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/",
-    "date": "2026-09-19",
-    "snippet": "AI actress Tilly Norwood went viral after glitching into Chinese on Piers Morgan Uncensored last night. Her \"Talking Tilly\" video call servi"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Gyazo server flaw exploited to steal 23.6 million user records",
-    "link": "https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/",
-    "date": "2026-09-18",
-    "snippet": "The Gyazo image-sharing platform has confirmed it suffered a data breach after hackers exploited a server vulnerability that allowed them to"
   },
   {
     "source": "Krebs on Security",
