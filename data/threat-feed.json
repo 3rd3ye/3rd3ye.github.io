@@ -1,5 +1,19 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
+    "link": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
+    "date": "2026-09-21",
+    "snippet": "Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript. \"ChainS"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
+    "link": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
+    "date": "2026-09-21",
+    "snippet": "The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based \"much smaller organization\" in the"
+  },
+  {
     "source": "BleepingComputer",
     "title": "Malicious npm packages evade install-script defenses at runtime",
     "link": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
@@ -33,20 +47,6 @@
     "link": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
     "date": "2026-09-19",
     "snippet": "Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently r"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
-    "link": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
-    "date": "2026-09-19",
-    "snippet": "SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, cou"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
-    "link": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
-    "date": "2026-09-19",
-    "snippet": "A critical vulnerability impacting Orkes Conductor is being actively exploited in the wild, according to Fortinet. The vulnerability in ques"
   },
   {
     "source": "BleepingComputer",
