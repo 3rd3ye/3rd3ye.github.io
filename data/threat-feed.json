@@ -1,6 +1,20 @@
 [
   {
     "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
+    "link": "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
+    "date": "2026-09-21",
+    "snippet": "A browser. A plugin. A package. A login screen. Normal stuff. That is basically the problem this week. The trouble keeps showing up inside t"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data",
+    "link": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
+    "date": "2026-09-21",
+    "snippet": "Cybersecurity researchers have disclosed details of a new campaign dubbed TASK#STOMP that delivers a PowerShell backdoor designed to harvest"
+  },
+  {
+    "source": "The Hacker News",
     "title": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
     "link": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
     "date": "2026-09-21",
@@ -15,17 +29,38 @@
   },
   {
     "source": "BleepingComputer",
-    "title": "Malicious npm packages evade install-script defenses at runtime",
-    "link": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
-    "date": "2026-09-20",
-    "snippet": "An ongoing npm malware campaign involving the 'indexed-btree' package shows how threat actors bypass supply chain defenses by hiding malicio"
+    "title": "Google fined €403 million over location data privacy violations",
+    "link": "https://www.bleepingcomputer.com/news/security/google-fined-403-million-over-location-data-privacy-violations/",
+    "date": "2026-09-21",
+    "snippet": "Ireland's Data Protection Commission (DPC) has fined Google €403 million ($463M) for multiple GDPR violations related to processing users' l"
   },
   {
     "source": "BleepingComputer",
-    "title": "Researchers escape OpenAI Codex sandbox to run commands on host",
-    "link": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/",
-    "date": "2026-09-20",
-    "snippet": "Researchers escaped OpenAI's Codex sandbox two ways, one running commands on a developer's machine from its most locked-down mode. OpenAI ha"
+    "title": "Microsoft fixes broken Excel copy and paste for all Office users",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-excel-copy-and-paste-for-all-office-users/",
+    "date": "2026-09-21",
+    "snippet": "Microsoft has fixed a known issue that causes copy-and-paste failures for Excel users after installing the September 2026 security updates. "
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "FBI's CJIS v6.1: What Security Teams Need to Know.",
+    "link": "https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know/",
+    "date": "2026-09-21",
+    "snippet": "The FBI's CJIS Security Policy v6.1 strengthens requirements around encryption and vulnerability scanning while continuing the shift toward "
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft reminds admins to migrate Entra ID users to passkeys",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-migrate-entra-id-users-to-passkeys/",
+    "date": "2026-09-21",
+    "snippet": "Microsoft has reminded admins to migrate Entra ID users to phishing-resistant authentication methods to avoid sign-in disruptions after it r"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft: September updates break File History backup feature",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-file-history-backup-feature/",
+    "date": "2026-09-21",
+    "snippet": "Microsoft warned that the built-in File History backup feature in Windows may stop working on some systems after installing the September 20"
   },
   {
     "source": "The Hacker News",
@@ -33,41 +68,6 @@
     "link": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
     "date": "2026-09-19",
     "snippet": "Three researchers at the security firm&nbsp;Hacktron&nbsp;used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Co"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
-    "link": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
-    "date": "2026-09-19",
-    "snippet": "A new CVE drops. Your scanner finds it. The severity score looks ugly. But that still does not answer the question that matters: Can it actu"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Identity Visibility in 2026: The Foundation of Identity Security",
-    "link": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
-    "date": "2026-09-19",
-    "snippet": "Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently r"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "BragJack attacks hijack AI browser agents through malicious extensions",
-    "link": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/",
-    "date": "2026-09-19",
-    "snippet": "BragJack, a proof-of-concept attack from Forever Security's Gal Weizman, hijacks the AI assistants in Chrome, Edge, Opera Neon, Perplexity C"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "North Korean WaterPlum hackers infected 30,000 devices worldwide",
-    "link": "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/",
-    "date": "2026-09-19",
-    "snippet": "A joint law enforcement advisory warns that the North Korean hacking group WaterPlum compromised at least 30,000 devices worldwide from Dece"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "ShinyHunters hacks Clop leak site, threatens to extort ransomware gang",
-    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/",
-    "date": "2026-09-19",
-    "snippet": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stea"
   },
   {
     "source": "Krebs on Security",
