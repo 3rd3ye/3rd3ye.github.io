@@ -1,38 +1,52 @@
 [
   {
     "source": "The Hacker News",
+    "title": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
+    "link": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
+    "date": "2026-09-22",
+    "snippet": "The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their st"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
+    "link": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
+    "date": "2026-09-22",
+    "snippet": "Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security re"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
+    "link": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
+    "date": "2026-09-22",
+    "snippet": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
+    "link": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
+    "date": "2026-09-22",
+    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series s"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "New Windows Defender zero-day blocks Microsoft antivirus updates",
+    "link": "https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/",
+    "date": "2026-09-22",
+    "snippet": "Over the weekend, security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) released another Microsoft Defender zero-day explo"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "CISA orders feds to patch Zyxel flaw exploited for data theft",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/",
+    "date": "2026-09-22",
+    "snippet": "​Attackers are now actively exploiting a high-severity vulnerability in Zyxel GS1900 series switches, according to the U.S. Cybersecurity an"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
     "link": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
     "date": "2026-09-21",
     "snippet": "A fake LastPass Authenticator installer offered on GitHub installs a Windows kernel driver that shuts off antivirus and other security softw"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto",
-    "link": "https://thehackernews.com/2026/09/contagious-interview-campaign.html",
-    "date": "2026-09-21",
-    "snippet": "The North Korean threat actors behind the Contagious Interview campaign have compromised at least 30,000 devices located in more than 100 co"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Fined €403 Million Over GDPR Violations Tied to Location Data",
-    "link": "https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html",
-    "date": "2026-09-21",
-    "snippet": "Google has been&nbsp;fined €403 million&nbsp;for breaking the EU's data protection law, the GDPR, in the way three of its features handled p"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
-    "link": "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
-    "date": "2026-09-21",
-    "snippet": "A browser. A plugin. A package. A login screen. Normal stuff. That is basically the problem this week. The trouble keeps showing up inside t"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data",
-    "link": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
-    "date": "2026-09-21",
-    "snippet": "Cybersecurity researchers have disclosed details of a new campaign dubbed TASK#STOMP that delivers a PowerShell backdoor designed to harvest"
   },
   {
     "source": "BleepingComputer",
@@ -54,20 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/",
     "date": "2026-09-21",
     "snippet": "Technical details and a proof-of-concept exploit have been published for a new WordPress cross-site request forgery (CSRF) vulnerability dub"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft to retire Microsoft 365 Companion apps in December",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-retire-microsoft-365-companion-apps-in-december/",
-    "date": "2026-09-21",
-    "snippet": "Microsoft will retire the Calendar, People, and Files Microsoft 365 companion apps on December 16 and has asked admins to remove them from m"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Google fined €403 million over location data privacy violations",
-    "link": "https://www.bleepingcomputer.com/news/security/google-fined-403-million-over-location-data-privacy-violations/",
-    "date": "2026-09-21",
-    "snippet": "Ireland's Data Protection Commission (DPC) has fined Google €403 million ($463M) for multiple GDPR violations related to processing users' l"
   },
   {
     "source": "Krebs on Security",
