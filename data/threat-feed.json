@@ -1,31 +1,59 @@
 [
   {
     "source": "The Hacker News",
-    "title": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
-    "link": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
+    "title": "AI Agents Are Rewriting the Rules of Lateral Movement",
+    "link": "https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html",
     "date": "2026-09-22",
-    "snippet": "The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their st"
+    "snippet": "Security teams have spent decades asking whether an identity has too much access. AI agents raise a harder question: how can we determine wh"
   },
   {
     "source": "The Hacker News",
-    "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
-    "link": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
+    "title": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups",
+    "link": "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
     "date": "2026-09-22",
-    "snippet": "Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security re"
+    "snippet": "Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-"
   },
   {
     "source": "The Hacker News",
-    "title": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
-    "link": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
+    "title": "DORA Year Two: Can Your SOC Actually See the Attack?",
+    "link": "https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html",
     "date": "2026-09-22",
-    "snippet": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator"
+    "snippet": "When the Digital Operational Resilience Act (DORA) became enforceable across the European Union in January 2025, it triggered an administrat"
   },
   {
     "source": "The Hacker News",
-    "title": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
-    "link": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
+    "title": "New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory",
+    "link": "https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html",
     "date": "2026-09-22",
-    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series s"
+    "snippet": "A new flaw in the Linux kernel's KVM virtualization code for ARM64 processors can leave a freed piece of host memory exposed to a guest virt"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
+    "link": "https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html",
+    "date": "2026-09-22",
+    "snippet": "A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authentic"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "EvilTokens PhaaS disrupted after compromising 12,000 Microsoft accounts",
+    "link": "https://www.bleepingcomputer.com/news/security/eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts/",
+    "date": "2026-09-22",
+    "snippet": "The EvilTokens platform that compromised more than 12,000 Microsoft accounts at over 10,000 organizations has been disrupted in an effort le"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Webinar tomorrow: Inside real-world Google Workspace breaches",
+    "link": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches/",
+    "date": "2026-09-22",
+    "snippet": "Tomorrow's webinar examines real Google Workspace breaches involving social engineering and malicious OAuth applications, from initial acces"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "D-Link warns of max severity zero-day bug in DIR-822A routers",
+    "link": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers/",
+    "date": "2026-09-22",
+    "snippet": "D-Link warned customers of a maximum-severity vulnerability (CVE-2026-86296) with public proof-of-concept (PoC) exploit code and no patch, a"
   },
   {
     "source": "BleepingComputer",
@@ -40,34 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/",
     "date": "2026-09-22",
     "snippet": "​Attackers are now actively exploiting a high-severity vulnerability in Zyxel GS1900 series switches, according to the U.S. Cybersecurity an"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
-    "link": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
-    "date": "2026-09-21",
-    "snippet": "A fake LastPass Authenticator installer offered on GitHub installs a Windows kernel driver that shuts off antivirus and other security softw"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "BigCommerce alerts merchants of data breach linked to Ribon apps",
-    "link": "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/",
-    "date": "2026-09-21",
-    "snippet": "Ecommerce platform BigCommerce has alerted multiple merchants to data breaches after attackers compromised credentials for third-party Ribon"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "CISA alerts of active exploitation of three Linux kernel flaws",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
-    "date": "2026-09-21",
-    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that hackers are exploiting three Linux kernel vulnerabilities, "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "WordPress Click2Shell flaw lets hackers execute PHP on the server",
-    "link": "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/",
-    "date": "2026-09-21",
-    "snippet": "Technical details and a proof-of-concept exploit have been published for a new WordPress cross-site request forgery (CSRF) vulnerability dub"
   },
   {
     "source": "Krebs on Security",
