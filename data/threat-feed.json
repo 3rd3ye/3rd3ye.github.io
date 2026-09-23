@@ -1,38 +1,52 @@
 [
   {
     "source": "The Hacker News",
+    "title": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers",
+    "link": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html",
+    "date": "2026-09-23",
+    "snippet": "Attackers are exploiting a critical flaw in F5 BIG-IP Access Policy Manager (APM) that lets them run code on a BIG-IP system without logging"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
+    "link": "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html",
+    "date": "2026-09-23",
+    "snippet": "A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain a"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input",
+    "link": "https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html",
+    "date": "2026-09-23",
+    "snippet": "A new security vulnerability in Next.js could allow attackers to run code on a server via&nbsp;ImageResponse, the feature that generates Ope"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants",
+    "link": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
+    "date": "2026-09-23",
+    "snippet": "The cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data "
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Ryuk ransomware member sentenced to 24 months in prison",
+    "link": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/",
+    "date": "2026-09-23",
+    "snippet": "An Armenian man was sentenced to 24 months in prison and 3 years of supervised release for hacking U.S. companies and encrypting their syste"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
+    "date": "2026-09-23",
+    "snippet": "F5 has released security updates to address a critical BIG-IP APM zero-day vulnerability being exploited in remote code execution attacks. ["
+  },
+  {
+    "source": "The Hacker News",
     "title": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
     "link": "https://thehackernews.com/2026/09/check-point-warns-of-management-server.html",
     "date": "2026-09-22",
     "snippet": "Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23,&nbsp;"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers",
-    "link": "https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html",
-    "date": "2026-09-22",
-    "snippet": "WordPress has fixed a critical flaw in its core software that lets an attacker with no account make a site load a PHP file from outside its "
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials",
-    "link": "https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html",
-    "date": "2026-09-22",
-    "snippet": "Cybersecurity researchers have disclosed details of a malicious npm package named \"tw-pkgprobe-7731\" that masquerades as a security tool tar"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
-    "link": "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
-    "date": "2026-09-22",
-    "snippet": "Microsoft on Tuesday announced the takedown of the EvilTokens device code phishing service that it said used artificial intelligence (AI) \"a"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
-    "link": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
-    "date": "2026-09-22",
-    "snippet": "A critical vulnerability in&nbsp;Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenti"
   },
   {
     "source": "BleepingComputer",
@@ -54,20 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/",
     "date": "2026-09-22",
     "snippet": "A Chinese-speaking threat actor has been exploiting vulnerabilities in ZyXEL GS1900 Smart Managed Switches and WordPress to steal sensitive "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach",
-    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/",
-    "date": "2026-09-22",
-    "snippet": "The ShinyHunters extortion gang claims it breached FBI systems using a new Oracle PeopleSoft zero-day vulnerability, gaining access to inter"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "New ClosedQuorum Windows malware uses AI for attack decisions",
-    "link": "https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/",
-    "date": "2026-09-22",
-    "snippet": "A new Windows malware named ClosedQuorum uses Google Gemini, DeepSeek, Qwen, and Mistral AI models to autonomously determine the actions to "
   },
   {
     "source": "Krebs on Security",
