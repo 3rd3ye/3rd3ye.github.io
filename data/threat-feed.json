@@ -1,6 +1,27 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
+    "link": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
+    "date": "2026-09-23",
+    "snippet": "Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
+    "link": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
+    "date": "2026-09-23",
+    "snippet": "The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab comm"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
+    "link": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
+    "date": "2026-09-23",
+    "snippet": "Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers withou"
+  },
+  {
+    "source": "The Hacker News",
     "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
     "link": "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
     "date": "2026-09-23",
@@ -14,25 +35,25 @@
     "snippet": "Unknown threat actors have managed to compromise two legitimate MemTensor packages across the npm and Python Package Index (PyPI) repositori"
   },
   {
-    "source": "The Hacker News",
-    "title": "New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control",
-    "link": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html",
+    "source": "BleepingComputer",
+    "title": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
+    "link": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
     "date": "2026-09-23",
-    "snippet": "A flaw in cPanel's&nbsp;CalDAV and CardDAV service&nbsp;lets anyone with a cPanel hosting account run code as root and take \"full control of"
+    "snippet": "Cybersecurity company Check Point has confirmed active exploitation of CVE-2026-85102, a pre-authentication remote code execution (RCE) vuln"
   },
   {
-    "source": "The Hacker News",
-    "title": "545 Hackers Tested It First. Now XRanges for AI Scores Your Security Agent",
-    "link": "https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html",
+    "source": "BleepingComputer",
+    "title": "Hackers start exploiting critical WordPress flaw for code execution",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
     "date": "2026-09-23",
-    "snippet": "Autonomous security agents are getting good at finding bugs. Nobody has a good way to measure how good. Point one at a realistic target and "
+    "snippet": "Threat actors have moved from probing WordPress sites vulnerable to CVE-2026-87902 to exploiting the flaw to write files to disk that execut"
   },
   {
-    "source": "The Hacker News",
-    "title": "Anthropic and OpenAI Models Still Attempt Restricted Actions in Safety Tests",
-    "link": "https://thehackernews.com/2026/09/anthropic-and-openai-models-still.html",
+    "source": "BleepingComputer",
+    "title": "Malicious AI agents steal 600K credit cards, infect 100+ sites with skimmers",
+    "link": "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/",
     "date": "2026-09-23",
-    "snippet": "Anthropic and OpenAI on Tuesday announced new models, with both artificial intelligence (AI) companies noting that they are continuing to in"
+    "snippet": "A financially motivated threat actor is using open-source AI agent frameworks to attack hundreds of online retailers at scale, stealing more"
   },
   {
     "source": "BleepingComputer",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/",
     "date": "2026-09-23",
     "snippet": "A Kubernetes user with limited permissions can potentially gain control of an entire Google Cloud organization by exploiting the authority g"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Arista patches actively exploited VeloCloud Orchestrator zero-day",
-    "link": "https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/",
-    "date": "2026-09-23",
-    "snippet": "Arista Networks has released security patches for a zero-day flaw that is being actively exploited and affects VeloCloud Orchestrator (VCO) "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft: September Windows updates break Always On VPN connections",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-windows-updates-break-always-on-vpn-connections/",
-    "date": "2026-09-23",
-    "snippet": "Microsoft warned that the September 2026 security updates may also break Always On VPN connections on some Windows 11 systems. [...]"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Ryuk ransomware member sentenced to 24 months in prison",
-    "link": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/",
-    "date": "2026-09-23",
-    "snippet": "An Armenian man was sentenced to 24 months in prison and 3 years of supervised release for hacking U.S. companies and encrypting their syste"
   },
   {
     "source": "Krebs on Security",
