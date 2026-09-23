@@ -36,7 +36,21 @@
   },
   {
     "source": "BleepingComputer",
-    "title": "Chinese hackers exploit multiple technologies to steal govt data",
+    "title": "Rogue external MFA providers can steal passwords during logins",
+    "link": "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/",
+    "date": "2026-09-22",
+    "snippet": "Security researchers developed an attack that lets hackers with privileged access register a rogue external MFA provider that steals users' "
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Sweden fines Miljödata $183,000 over breach affecting 2.2 million",
+    "link": "https://www.bleepingcomputer.com/news/security/sweden-fines-milj-data-183-000-over-breach-affecting-22-million/",
+    "date": "2026-09-22",
+    "snippet": "Sweden's data privacy regulator, IMY, has imposed a $183,000 (SEK 1.8 million) fine on IT systems provider Miljödata for inadequate security"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Chinese hackers exploit WordPress, Zyxel flaws to steal govt data",
     "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/",
     "date": "2026-09-22",
     "snippet": "A Chinese-speaking threat actor has been exploiting vulnerabilities in ZyXEL GS1900 Smart Managed Switches and WordPress to steal sensitive "
@@ -54,20 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/",
     "date": "2026-09-22",
     "snippet": "A new Windows malware named ClosedQuorum uses Google Gemini, DeepSeek, Qwen, and Mistral AI models to autonomously determine the actions to "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Reducing shadow IT visibility gaps with Wazuh",
-    "link": "https://www.bleepingcomputer.com/news/security/reducing-shadow-it-visibility-gaps-with-wazuh/",
-    "date": "2026-09-22",
-    "snippet": "Shadow IT can leave security teams unaware of unmanaged endpoints, unauthorized software, and other assets that fall outside existing monito"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Check Point warns of Management Server zero-day exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-management-server-zero-day-exploited-in-attacks/",
-    "date": "2026-09-22",
-    "snippet": "Check Point Software released emergency hotfixes to address a critical Security Management Server vulnerability that could let attackers run"
   },
   {
     "source": "Krebs on Security",
