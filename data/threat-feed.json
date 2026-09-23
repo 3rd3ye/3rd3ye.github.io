@@ -1,31 +1,66 @@
 [
   {
     "source": "The Hacker News",
-    "title": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers",
-    "link": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html",
+    "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
+    "link": "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
     "date": "2026-09-23",
-    "snippet": "Attackers are exploiting a critical flaw in F5 BIG-IP Access Policy Manager (APM) that lets them run code on a BIG-IP system without logging"
+    "snippet": "A Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker's server,&nbsp;Cisc"
   },
   {
     "source": "The Hacker News",
-    "title": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
-    "link": "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html",
+    "title": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI",
+    "link": "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
     "date": "2026-09-23",
-    "snippet": "A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain a"
+    "snippet": "Unknown threat actors have managed to compromise two legitimate MemTensor packages across the npm and Python Package Index (PyPI) repositori"
   },
   {
     "source": "The Hacker News",
-    "title": "Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input",
-    "link": "https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html",
+    "title": "New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control",
+    "link": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html",
     "date": "2026-09-23",
-    "snippet": "A new security vulnerability in Next.js could allow attackers to run code on a server via&nbsp;ImageResponse, the feature that generates Ope"
+    "snippet": "A flaw in cPanel's&nbsp;CalDAV and CardDAV service&nbsp;lets anyone with a cPanel hosting account run code as root and take \"full control of"
   },
   {
     "source": "The Hacker News",
-    "title": "ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants",
-    "link": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
+    "title": "545 Hackers Tested It First. Now XRanges for AI Scores Your Security Agent",
+    "link": "https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html",
     "date": "2026-09-23",
-    "snippet": "The cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data "
+    "snippet": "Autonomous security agents are getting good at finding bugs. Nobody has a good way to measure how good. Point one at a realistic target and "
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Anthropic and OpenAI Models Still Attempt Restricted Actions in Safety Tests",
+    "link": "https://thehackernews.com/2026/09/anthropic-and-openai-models-still.html",
+    "date": "2026-09-23",
+    "snippet": "Anthropic and OpenAI on Tuesday announced new models, with both artificial intelligence (AI) companies noting that they are continuing to in"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "InfraTrust report warns network management systems under attack",
+    "link": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/",
+    "date": "2026-09-23",
+    "snippet": "Attackers are increasingly targeting the management systems used to control enterprise infrastructure, with several critical vulnerabilities"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "How One Kubernetes YAML Can Hand Over a GCP Organization",
+    "link": "https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/",
+    "date": "2026-09-23",
+    "snippet": "A Kubernetes user with limited permissions can potentially gain control of an entire Google Cloud organization by exploiting the authority g"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Arista patches actively exploited VeloCloud Orchestrator zero-day",
+    "link": "https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/",
+    "date": "2026-09-23",
+    "snippet": "Arista Networks has released security patches for a zero-day flaw that is being actively exploited and affects VeloCloud Orchestrator (VCO) "
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft: September Windows updates break Always On VPN connections",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-windows-updates-break-always-on-vpn-connections/",
+    "date": "2026-09-23",
+    "snippet": "Microsoft warned that the September 2026 security updates may also break Always On VPN connections on some Windows 11 systems. [...]"
   },
   {
     "source": "BleepingComputer",
@@ -33,41 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/",
     "date": "2026-09-23",
     "snippet": "An Armenian man was sentenced to 24 months in prison and 3 years of supervised release for hacking U.S. companies and encrypting their syste"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
-    "date": "2026-09-23",
-    "snippet": "F5 has released security updates to address a critical BIG-IP APM zero-day vulnerability being exploited in remote code execution attacks. ["
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
-    "link": "https://thehackernews.com/2026/09/check-point-warns-of-management-server.html",
-    "date": "2026-09-22",
-    "snippet": "Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23,&nbsp;"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Rogue external MFA providers can steal passwords during logins",
-    "link": "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/",
-    "date": "2026-09-22",
-    "snippet": "Security researchers developed an attack that lets hackers with privileged access register a rogue external MFA provider that steals users' "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Sweden fines Miljödata $183,000 over breach affecting 2.2 million",
-    "link": "https://www.bleepingcomputer.com/news/security/sweden-fines-milj-data-183-000-over-breach-affecting-22-million/",
-    "date": "2026-09-22",
-    "snippet": "Sweden's data privacy regulator, IMY, has imposed a $183,000 (SEK 1.8 million) fine on IT systems provider Miljödata for inadequate security"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Chinese hackers exploit WordPress, Zyxel flaws to steal govt data",
-    "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/",
-    "date": "2026-09-22",
-    "snippet": "A Chinese-speaking threat actor has been exploiting vulnerabilities in ZyXEL GS1900 Smart Managed Switches and WordPress to steal sensitive "
   },
   {
     "source": "Krebs on Security",
