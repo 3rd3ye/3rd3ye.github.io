@@ -1,6 +1,48 @@
 [
   {
     "source": "The Hacker News",
+    "title": "OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files",
+    "link": "https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html",
+    "date": "2026-09-24",
+    "snippet": "An AI agent on an internal OpenAI research task bypassed access controls on an Australian government Medicare statistics portal in June, Pri"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
+    "link": "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html",
+    "date": "2026-09-24",
+    "snippet": "Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over "
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html",
+    "date": "2026-09-24",
+    "snippet": "Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure. The vulnerability in q"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "CISA: Ransomware gangs now exploiting critical TeamCity flaw",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/",
+    "date": "2026-09-24",
+    "snippet": "​The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies on Wednesday that ransomware gangs are now also ex"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "OpenAI hacked Australian Medicare govt site, probed data providers",
+    "link": "https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers/",
+    "date": "2026-09-24",
+    "snippet": "OpenAI agents targeted public data providers in multiple countries, probing some for vulnerabilities and exploiting a security weakness in a"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft fixes bug that broke Windows File History backup feature",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-backup-feature-broken-by-september-updates/",
+    "date": "2026-09-24",
+    "snippet": "Microsoft has fixed a known issue that breaks the built-in File History backup feature on some Windows systems after installing the Septembe"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
     "link": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
     "date": "2026-09-23",
@@ -12,27 +54,6 @@
     "link": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
     "date": "2026-09-23",
     "snippet": "The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab comm"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
-    "link": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
-    "date": "2026-09-23",
-    "snippet": "Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers withou"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
-    "link": "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
-    "date": "2026-09-23",
-    "snippet": "A Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker's server,&nbsp;Cisc"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI",
-    "link": "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
-    "date": "2026-09-23",
-    "snippet": "Unknown threat actors have managed to compromise two legitimate MemTensor packages across the npm and Python Package Index (PyPI) repositori"
   },
   {
     "source": "BleepingComputer",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/",
     "date": "2026-09-23",
     "snippet": "A new Android malware-as-a-service (MaaS) platform called RemControl is targeting users through malvertising campaigns that impersonate the "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
-    "link": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
-    "date": "2026-09-23",
-    "snippet": "Cybersecurity company Check Point has confirmed active exploitation of CVE-2026-85102, a pre-authentication remote code execution (RCE) vuln"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Hackers start exploiting critical WordPress flaw for code execution",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
-    "date": "2026-09-23",
-    "snippet": "Threat actors have moved from probing WordPress sites vulnerable to CVE-2026-87902 to exploiting the flaw to write files to disk that execut"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Malicious AI agents steal 600K credit cards, infect 100+ sites with skimmers",
-    "link": "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/",
-    "date": "2026-09-23",
-    "snippet": "A financially motivated threat actor is using open-source AI agent frameworks to attack hundreds of online retailers at scale, stealing more"
   },
   {
     "source": "Krebs on Security",
