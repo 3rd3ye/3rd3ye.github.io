@@ -1,6 +1,41 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
+    "link": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
+    "date": "2026-09-25",
+    "snippet": "The Canadian Centre for Cyber Security has warned that a now-patched Roundcube Webmail vulnerability is being actively exploited in the wild"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data",
+    "link": "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html",
+    "date": "2026-09-25",
+    "snippet": "A flaw in Cloudflare Containers let a paying customer read data that other customers' containers had left behind on the same server, Cloudfl"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
+    "link": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
+    "date": "2026-09-25",
+    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Co"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft: Recent Windows updates cause desktop loading issues",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-desktop-loading-issues/",
+    "date": "2026-09-25",
+    "snippet": "Microsoft has confirmed that some users may experience desktop loading issues, including black screens, after installing the August 2026 pre"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Hackers steal $351.6 million in Bitget crypto exchange hack",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-steal-3516-million-in-bitget-crypto-exchange-hack/",
+    "date": "2026-09-25",
+    "snippet": "​Cryptocurrency exchange Bitget disclosed today that suspected North Korean hackers have stolen $351.6 million from its hot and warm wallets"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
     "link": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
     "date": "2026-09-24",
@@ -12,27 +47,6 @@
     "link": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
     "date": "2026-09-24",
     "snippet": "This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link yo"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content",
-    "link": "https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html",
-    "date": "2026-09-24",
-    "snippet": "The \"third-party[.]com\" domain, commonly used as a documentation placeholder, has been observed serving a ClickFix lure to Windows browsers "
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
-    "link": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
-    "date": "2026-09-24",
-    "snippet": "An active ClickFix campaign has been observed compromising legitimate Ukrainian business websites to inject bogus Cloudflare verification pa"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Corp MDM Spyware Targets Logistics Firms, Steals New SMS and Redirects Calls",
-    "link": "https://thehackernews.com/2026/09/corp-mdm-spyware-targets-logistics.html",
-    "date": "2026-09-24",
-    "snippet": "The logistics sector has become the target of a new malicious cyber campaign that distributes an Android spyware codenamed Corp MDM. Accordi"
   },
   {
     "source": "BleepingComputer",
@@ -54,20 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/exposed-gitlab-project-email-addresses-let-attackers-push-code/",
     "date": "2026-09-24",
     "snippet": "Private GitLab email addresses that allow developers to push issues or tasks to a project are being deliberately exposed in READMEs, contrib"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "FedRAMP VDR &amp; VER: Daily Scans Are Only the Beginning",
-    "link": "https://www.bleepingcomputer.com/news/security/fedramp-vdr-and-ver-daily-scans-are-only-the-beginning/",
-    "date": "2026-09-24",
-    "snippet": "FedRAMP's new VDR and VER requirements make vulnerability management more continuous, with faster scanning, tighter remediation deadlines, a"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Hackers now exploit critical Roundcube flaw in code injection attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/critical-roundcube-flaw-now-actively-exploited-in-code-injection-attacks/",
-    "date": "2026-09-24",
-    "snippet": "A high-severity Roundcube Webmail vulnerability patched in May is now being actively exploited in attacks, according to the Canadian Centre "
   },
   {
     "source": "Krebs on Security",
