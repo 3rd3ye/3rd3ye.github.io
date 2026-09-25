@@ -36,6 +36,20 @@
   },
   {
     "source": "BleepingComputer",
+    "title": "Elementor WordPress flaw lets attackers create admin accounts",
+    "link": "https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/",
+    "date": "2026-09-25",
+    "snippet": "A cross-site request forgery (CSRF) vulnerability in the Elementor plugin for WordPress could allow an unauthenticated attacker to create ad"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "CISA warns of Sharepoint, WSO2, Adobe Commerce flaws exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/",
+    "date": "2026-09-25",
+    "snippet": "The Cybersecurity and Infrastructure Security Agency (CISA) warns that hackers are exploiting a critical authentication bypass vulnerability"
+  },
+  {
+    "source": "BleepingComputer",
     "title": "Anthropic rolls out up to $250 in free Claude Code credits, but only for cloud sessions",
     "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-up-to-250-in-free-claude-code-credits-but-only-for-cloud-sessions/",
     "date": "2026-09-25",
@@ -54,20 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/with-the-rise-of-ai-agents-soc-2-should-adapt-or-risk-irrelevance/",
     "date": "2026-09-25",
     "snippet": "AI agents can operate through human credentials and take actions that existing SOC 2 controls may not distinguish from human activity. Token"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft plans to deprecate Windows Deployment Services",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-windows-deployment-services-after-windows-server-2025/",
-    "date": "2026-09-25",
-    "snippet": "Microsoft announced it will deprecate the Windows Deployment Services (WDS) server role starting with the next Windows Server release. [...]"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Rydox marketplace admin pleads guilty, faces 22 years in prison",
-    "link": "https://www.bleepingcomputer.com/news/security/rydox-marketplace-admin-pleads-guilty-faces-22-years-in-prison/",
-    "date": "2026-09-25",
-    "snippet": "A Kosovar national has pleaded guilty to operating Rydox, a large illegal online marketplace that sold stolen personal information, login cr"
   },
   {
     "source": "Krebs on Security",
