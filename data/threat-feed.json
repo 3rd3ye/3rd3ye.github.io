@@ -1,6 +1,27 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
+    "link": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
+    "date": "2026-09-26",
+    "snippet": "Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an una"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
+    "link": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
+    "date": "2026-09-26",
+    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikro"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
+    "link": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
+    "date": "2026-09-26",
+    "snippet": "Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend aft"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware",
     "link": "https://thehackernews.com/2026/09/compromised-github-actions-came-back.html",
     "date": "2026-09-25",
@@ -12,27 +33,6 @@
     "link": "https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html",
     "date": "2026-09-25",
     "snippet": "Cybersecurity researchers have flagged a new version of PamStealer that ensures that the main payload can only be recovered using a server-s"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "The SOC Doesn't Need to Start Over with Every Alert",
-    "link": "https://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html",
-    "date": "2026-09-25",
-    "snippet": "Security leaders keep debating whether AI will produce an entirely new class of cyberattack. The nearer change is quieter and already visibl"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise",
-    "link": "https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html",
-    "date": "2026-09-25",
-    "snippet": "Cryptocurrency exchange Bitget said suspected North Korean threat actors have stolen $351.6 million from its hot and warm wallets.&nbsp; \"At"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
-    "link": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
-    "date": "2026-09-25",
-    "snippet": "The Canadian Centre for Cyber Security has warned that a now-patched Roundcube Webmail vulnerability is being actively exploited in the wild"
   },
   {
     "source": "BleepingComputer",
