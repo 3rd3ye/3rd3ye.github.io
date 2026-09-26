@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
+    "link": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
+    "date": "2026-09-26",
+    "snippet": "The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part o"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
     "link": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
     "date": "2026-09-26",
@@ -28,11 +35,25 @@
     "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikro"
   },
   {
-    "source": "The Hacker News",
-    "title": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
-    "link": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
+    "source": "BleepingComputer",
+    "title": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
     "date": "2026-09-26",
-    "snippet": "Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend aft"
+    "snippet": "The ShinyHunters extortion gang is using a URL-encoding trick to bypass web application firewall rules that mitigate the Oracle PeopleSoft C"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Claude Opus 5.5 uses 95% fewer em dashes, but its answers are getting longer",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-opus-55-uses-95-percent-fewer-em-dashes-but-its-answers-are-getting-longer/",
+    "date": "2026-09-26",
+    "snippet": "Anthropic's Claude Opus 5.5 appears to be changing how it writes, with new analysis showing fewer obvious AI writing patterns, shorter sente"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft pauses KB5002907 update after Office license deactivations",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/",
+    "date": "2026-09-26",
+    "snippet": "Microsoft has paused the rollout of the KB5002907 Microsoft 365 update after users report that it deactivated, or in some cases completely r"
   },
   {
     "source": "BleepingComputer",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
     "date": "2026-09-26",
     "snippet": "OpenAI says its AI agents uploaded user-provided images to third-party image-hosting services while carrying out research and evaluation tas"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
-    "date": "2026-09-25",
-    "snippet": "Secure file-sharing software company Kiteworks is urging customers worldwide to temporarily shut down their servers on Saturday for a six-ho"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
-    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
-    "date": "2026-09-25",
-    "snippet": "The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Elementor WordPress flaw lets attackers create admin accounts",
-    "link": "https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/",
-    "date": "2026-09-25",
-    "snippet": "A cross-site request forgery (CSRF) vulnerability in the Elementor plugin for WordPress could allow an unauthenticated attacker to create ad"
   },
   {
     "source": "Krebs on Security",
