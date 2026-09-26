@@ -36,6 +36,20 @@
   },
   {
     "source": "BleepingComputer",
+    "title": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
+    "date": "2026-09-25",
+    "snippet": "Secure file-sharing software company Kiteworks is urging customers worldwide to temporarily shut down their servers on Saturday for a six-ho"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
+    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
+    "date": "2026-09-25",
+    "snippet": "The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced "
+  },
+  {
+    "source": "BleepingComputer",
     "title": "Elementor WordPress flaw lets attackers create admin accounts",
     "link": "https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/",
     "date": "2026-09-25",
@@ -56,18 +70,11 @@
     "snippet": "Anthropic now allows you to run Claude Code via cloud sessions without signing up for the research preview, and it's offering up to $250 in "
   },
   {
-    "source": "BleepingComputer",
-    "title": "OpenAI is preparing a $500 ChatGPT Pro Max plan with faster Codex",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-a-500-chatgpt-pro-max-plan-with-faster-codex/",
+    "source": "Krebs on Security",
+    "title": "U.S. Soldier Gets 70 Months in Prison for AT&#038;T, Verizon Extortions",
+    "link": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
     "date": "2026-09-25",
-    "snippet": "OpenAI appears to be preparing a new ChatGPT Pro Max subscription that could cost $500 per month, but it's unclear when it'll begin rolling "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "With the Rise of AI Agents, SOC 2 Should Adapt or Risk Irrelevance",
-    "link": "https://www.bleepingcomputer.com/news/security/with-the-rise-of-ai-agents-soc-2-should-adapt-or-risk-irrelevance/",
-    "date": "2026-09-25",
-    "snippet": "AI agents can operate through human credentials and take actions that existing SOC 2 controls may not distinguish from human activity. Token"
+    "snippet": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for "
   },
   {
     "source": "Krebs on Security",
@@ -75,12 +82,5 @@
     "link": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
     "date": "2026-09-16",
     "snippet": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of "
-  },
-  {
-    "source": "Krebs on Security",
-    "title": "Microsoft Plugs Nearly 1,000 Security Holes",
-    "link": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
-    "date": "2026-09-08",
-    "snippet": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its big"
   }
 ]
