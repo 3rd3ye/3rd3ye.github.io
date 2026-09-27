@@ -7,6 +7,20 @@
     "snippet": "Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are bei"
   },
   {
+    "source": "BleepingComputer",
+    "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
+    "link": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
+    "date": "2026-09-27",
+    "snippet": "Cloudflare has fixed a vulnerability in Containers and Sandboxes that allowed customers with a Workers Paid account to recover residual data"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
+    "date": "2026-09-27",
+    "snippet": "Anthropic has just announced a new Claude Marketplace, and it brings all AI-related tools into one place, including plugins, connectors, age"
+  },
+  {
     "source": "The Hacker News",
     "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
     "link": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
@@ -54,20 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/",
     "date": "2026-09-26",
     "snippet": "Microsoft has paused the rollout of the KB5002907 Microsoft 365 update after users report that it deactivated, or in some cases completely r"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "GitHub Actions re-enabled with Mini Shai-Hulud payload still active",
-    "link": "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
-    "date": "2026-09-26",
-    "snippet": "Two third-party GitHub Actions previously compromised in a Mini Shai-Hulud campaign were re-enabled by their maintainer and remained accessi"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "OpenAI's AI agents accidentally uploaded user-provided images to third-party sites",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
-    "date": "2026-09-26",
-    "snippet": "OpenAI says its AI agents uploaded user-provided images to third-party image-hosting services while carrying out research and evaluation tas"
   },
   {
     "source": "Krebs on Security",
