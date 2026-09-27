@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
+    "link": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
+    "date": "2026-09-27",
+    "snippet": "Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are bei"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
     "link": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
     "date": "2026-09-26",
@@ -26,13 +33,6 @@
     "link": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
     "date": "2026-09-26",
     "snippet": "Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an una"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
-    "link": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
-    "date": "2026-09-26",
-    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikro"
   },
   {
     "source": "BleepingComputer",
