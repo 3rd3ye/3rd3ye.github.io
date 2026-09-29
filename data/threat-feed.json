@@ -1,10 +1,24 @@
 [
   {
     "source": "The Hacker News",
+    "title": "French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks",
+    "link": "https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html",
+    "date": "2026-09-29",
+    "snippet": "An attacker used stolen passwords of staff at France's tax administration to take tax data on hundreds of thousands of taxpayers and busines"
+  },
+  {
+    "source": "The Hacker News",
     "title": "New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses",
     "link": "https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html",
     "date": "2026-09-29",
     "snippet": "A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affect"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Russia's Star Blizzard Targets 100+ Organizations With Fake Event Invites to Deliver Backdoor",
+    "link": "https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html",
+    "date": "2026-09-29",
+    "snippet": "Russian state hackers known as Star Blizzard have been using fake event invitations to trick people into installing a backdoor on their Wind"
   },
   {
     "source": "The Hacker News",
@@ -21,53 +35,39 @@
     "snippet": "Cybersecurity researchers have identified a cluster of 101 npm packages that are used to trap developers into a WhatsApp group subscriber ca"
   },
   {
-    "source": "The Hacker News",
-    "title": "Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation",
-    "link": "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html",
+    "source": "BleepingComputer",
+    "title": "Signal adds encypted local backup support to iOS, desktop apps",
+    "link": "https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps/",
     "date": "2026-09-29",
-    "snippet": "Dutch authorities have confirmed that they arrested a 24-year-old man from Amsterdam in connection with the ShinyHunters group. \"It is true "
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
-    "link": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
-    "date": "2026-09-29",
-    "snippet": "A malicious MCP server could trick an application built on the official&nbsp;MCP Python SDK&nbsp;into handing over the OAuth credentials it "
+    "snippet": "Signal, the secure messaging app, released version 8.30, completing the rollout of its secure backups feature across all supported operating"
   },
   {
     "source": "BleepingComputer",
-    "title": "New Spectre v2 attack variant leaks Linux root password hash in minutes",
-    "link": "https://www.bleepingcomputer.com/news/security/new-spectre-v2-attack-variant-leaks-linux-root-password-hash-in-minutes/",
+    "title": "Custom ChatGPTs push ClickFix attacks to deploy RAT malware",
+    "link": "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/",
     "date": "2026-09-29",
-    "snippet": "A new Branch Target Reuse (BTR) attack has been devised that can recover root password hashes on Intel computers running Linux in 3-5 minute"
+    "snippet": "Custom variants of OpenAI's ChatGPT promoted in sponsored Google results are directing unsuspecting users to malicious sites that use ClickF"
   },
   {
     "source": "BleepingComputer",
-    "title": "Automated AI agent used to breach cybersecurity nonprofit DIVD",
-    "link": "https://www.bleepingcomputer.com/news/security/automated-ai-agent-used-to-breach-cybersecurity-nonprofit-divd/",
+    "title": "FBI tells ShinyHunters members to turn themselves in after recent arrest",
+    "link": "https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/",
     "date": "2026-09-29",
-    "snippet": "The Dutch Institute for Vulnerability Disclosure (DIVD) suffered an AI-driven cyberattack that the organization described as \"loud and very,"
+    "snippet": "The FBI is warning members of the ShinyHunters extortion group to turn themselves in after Dutch police arrested a man the bureau described "
   },
   {
     "source": "BleepingComputer",
-    "title": "Catch threats before they escalate with real-time Identity Telemetry",
-    "link": "https://www.bleepingcomputer.com/news/security/catch-threats-before-they-escalate-with-real-time-identity-telemetry/",
+    "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
     "date": "2026-09-29",
-    "snippet": "Identity governance helps control who should have access, but periodic reviews alone may not reveal attacks as they happen. tenfold Software"
+    "snippet": "Cybersecurity firms say attackers exploited the Citrix NetScaler CVE-2026-88772 zero-day to deploy custom web shells and tunneling malware, "
   },
   {
     "source": "BleepingComputer",
-    "title": "Vietnamese man charged in $16 million 'pig butchering' crypto scam",
-    "link": "https://www.bleepingcomputer.com/news/security/vietnamese-man-charged-in-16-million-pig-butchering-crypto-scam/",
+    "title": "Former US Air Force members sent to prison over BEC attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/former-us-air-force-members-sent-to-prison-over-bec-attacks/",
     "date": "2026-09-29",
-    "snippet": "A Vietnamese national was charged with money laundering for his role in a massive \"pig butchering\" scam, which defrauded a victim out of $16"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Kiteworks patches critical flaw, brings customer systems online",
-    "link": "https://www.bleepingcomputer.com/news/security/kiteworks-lifts-shutdown-warning-after-patching-critical-flaw/",
-    "date": "2026-09-29",
-    "snippet": "American tech company Kiteworks has lifted a precautionary advisory asking customers to shut down systems after patching a critical vulnerab"
+    "snippet": "Two former members of the United States Air Force were sentenced to a combined 189 months in federal prison for their roles in a multi-year "
   },
   {
     "source": "Krebs on Security",
