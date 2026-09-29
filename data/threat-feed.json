@@ -1,6 +1,27 @@
 [
   {
     "source": "The Hacker News",
+    "title": "New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses",
+    "link": "https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html",
+    "date": "2026-09-29",
+    "snippet": "A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affect"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Kiteworks Fixes Critical Flaw Found During Nine-Hour Precautionary Shutdown",
+    "link": "https://thehackernews.com/2026/09/kiteworks-fixes-critical-flaw-found.html",
+    "date": "2026-09-29",
+    "snippet": "Kiteworks on Monday said it worked with federal intelligence authorities over the weekend as it identified and addressed a critical security"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "101 Malicious npm Packages Add Developers' WhatsApp Accounts to Groups Without Consent",
+    "link": "https://thehackernews.com/2026/09/101-malicious-npm-packages-add.html",
+    "date": "2026-09-29",
+    "snippet": "Cybersecurity researchers have identified a cluster of 101 npm packages that are used to trap developers into a WhatsApp group subscriber ca"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation",
     "link": "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html",
     "date": "2026-09-29",
@@ -14,18 +35,25 @@
     "snippet": "A malicious MCP server could trick an application built on the official&nbsp;MCP Python SDK&nbsp;into handing over the OAuth credentials it "
   },
   {
-    "source": "The Hacker News",
-    "title": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions",
-    "link": "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html",
+    "source": "BleepingComputer",
+    "title": "New Spectre v2 attack variant leaks Linux root password hash in minutes",
+    "link": "https://www.bleepingcomputer.com/news/security/new-spectre-v2-attack-variant-leaks-linux-root-password-hash-in-minutes/",
     "date": "2026-09-29",
-    "snippet": "OpenAI on Monday shelved plans to release GPT-6.1 Astra, a next-generation artificial intelligence (AI) model that was planned for an Octobe"
+    "snippet": "A new Branch Target Reuse (BTR) attack has been devised that can recover root password hashes on Intel computers running Linux in 3-5 minute"
   },
   {
-    "source": "The Hacker News",
-    "title": "OpenAI Pauses Tool Use After Agent Bypasses Internet Controls to Reach External Chatbot",
-    "link": "https://thehackernews.com/2026/09/openai-pauses-tool-use-after-agent.html",
+    "source": "BleepingComputer",
+    "title": "Automated AI agent used to breach cybersecurity nonprofit DIVD",
+    "link": "https://www.bleepingcomputer.com/news/security/automated-ai-agent-used-to-breach-cybersecurity-nonprofit-divd/",
     "date": "2026-09-29",
-    "snippet": "OpenAI said it has made the decision to pause training of its most powerful models after one of its agents during reinforcement learning (RL"
+    "snippet": "The Dutch Institute for Vulnerability Disclosure (DIVD) suffered an AI-driven cyberattack that the organization described as \"loud and very,"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Catch threats before they escalate with real-time Identity Telemetry",
+    "link": "https://www.bleepingcomputer.com/news/security/catch-threats-before-they-escalate-with-real-time-identity-telemetry/",
+    "date": "2026-09-29",
+    "snippet": "Identity governance helps control who should have access, but periodic reviews alone may not reveal attacks as they happen. tenfold Software"
   },
   {
     "source": "BleepingComputer",
@@ -40,34 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/kiteworks-lifts-shutdown-warning-after-patching-critical-flaw/",
     "date": "2026-09-29",
     "snippet": "American tech company Kiteworks has lifted a precautionary advisory asking customers to shut down systems after patching a critical vulnerab"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Apple patches CoreGraphics zero-day flaw exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/",
-    "date": "2026-09-29",
-    "snippet": "Apple released security updates to fix a zero-day vulnerability exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [..."
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
-    "link": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
-    "date": "2026-09-28",
-    "snippet": "Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploi"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Japan's Keio confirms ransomware attack disrupted business systems",
-    "link": "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/",
-    "date": "2026-09-28",
-    "snippet": "Keio Corporation (Keio), a major private railway operator in Japan, said its network was hit by a ransomware attack over the weekend, disrup"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Times Car confirms data breach affecting 6.6 million user accounts",
-    "link": "https://www.bleepingcomputer.com/news/security/times-car-confirms-data-breach-affecting-66-million-user-accounts/",
-    "date": "2026-09-28",
-    "snippet": "Japanese car-sharing service Times Car has confirmed that approximately 6.6 million user accounts were compromised in a cyberattack disclose"
   },
   {
     "source": "Krebs on Security",
