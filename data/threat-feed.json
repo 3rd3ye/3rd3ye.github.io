@@ -1,5 +1,12 @@
 [
   {
+    "source": "BleepingComputer",
+    "title": "Microsoft is rolling out Linux container support to WSL",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/",
+    "date": "2026-09-30",
+    "snippet": "Microsoft is taking Windows Subsystem for Linux beyond just running Linux distributions, as WSL Containers is now generally available. [...]"
+  },
+  {
     "source": "The Hacker News",
     "title": "French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks",
     "link": "https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
     "date": "2026-09-29",
     "snippet": "Cybersecurity firms say attackers exploited the Citrix NetScaler CVE-2026-88772 zero-day to deploy custom web shells and tunneling malware, "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Former US Air Force members sent to prison over BEC attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/former-us-air-force-members-sent-to-prison-over-bec-attacks/",
-    "date": "2026-09-29",
-    "snippet": "Two former members of the United States Air Force were sentenced to a combined 189 months in federal prison for their roles in a multi-year "
   },
   {
     "source": "Krebs on Security",
