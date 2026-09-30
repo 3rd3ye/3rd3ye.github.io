@@ -1,5 +1,33 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "Attackers Exploit NetScaler Flaw for Root Access, Deploy WHIPSHOT and SLAPSHOT",
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html",
+    "date": "2026-09-30",
+    "snippet": "Unknown threat actors have been observed exploiting a newly patched security flaw in Citrix NetScaler ADC and NetScaler Gateway appliances t"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "OpenSSL Fixes High-Severity DTLS Flaw That Can Leak Heap Memory Unencrypted",
+    "link": "https://thehackernews.com/2026/09/openssl-fixes-high-severity-dtls-flaw.html",
+    "date": "2026-09-30",
+    "snippet": "A High-severity OpenSSL flaw can leak heap memory to the other side of a DTLS connection or crash the program,&nbsp;OpenSSL said&nbsp;on Sep"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
+    "link": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
+    "date": "2026-09-30",
+    "snippet": "Cybersecurity researchers have disclosed technical details of a recently patched critical security flaw in Citrix NetScaler ADC and Gateway "
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Bitget hacked via zero-day in third-party security products",
+    "link": "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/",
+    "date": "2026-09-30",
+    "snippet": "Cryptocurrency exchange Bitget revealed today that attackers who stole $387.5 million last week breached its systems after exploiting a zero"
+  },
+  {
     "source": "BleepingComputer",
     "title": "Microsoft is rolling out Linux container support to WSL",
     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/",
@@ -21,27 +49,6 @@
     "snippet": "A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affect"
   },
   {
-    "source": "The Hacker News",
-    "title": "Russia's Star Blizzard Targets 100+ Organizations With Fake Event Invites to Deliver Backdoor",
-    "link": "https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html",
-    "date": "2026-09-29",
-    "snippet": "Russian state hackers known as Star Blizzard have been using fake event invitations to trick people into installing a backdoor on their Wind"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Kiteworks Fixes Critical Flaw Found During Nine-Hour Precautionary Shutdown",
-    "link": "https://thehackernews.com/2026/09/kiteworks-fixes-critical-flaw-found.html",
-    "date": "2026-09-29",
-    "snippet": "Kiteworks on Monday said it worked with federal intelligence authorities over the weekend as it identified and addressed a critical security"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "101 Malicious npm Packages Add Developers' WhatsApp Accounts to Groups Without Consent",
-    "link": "https://thehackernews.com/2026/09/101-malicious-npm-packages-add.html",
-    "date": "2026-09-29",
-    "snippet": "Cybersecurity researchers have identified a cluster of 101 npm packages that are used to trap developers into a WhatsApp group subscriber ca"
-  },
-  {
     "source": "BleepingComputer",
     "title": "Signal adds encypted local backup support to iOS, desktop apps",
     "link": "https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps/",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/",
     "date": "2026-09-29",
     "snippet": "The FBI is warning members of the ShinyHunters extortion group to turn themselves in after Dutch police arrested a man the bureau described "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
-    "date": "2026-09-29",
-    "snippet": "Cybersecurity firms say attackers exploited the Citrix NetScaler CVE-2026-88772 zero-day to deploy custom web shells and tunneling malware, "
   },
   {
     "source": "Krebs on Security",
