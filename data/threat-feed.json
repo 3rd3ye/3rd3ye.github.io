@@ -1,73 +1,73 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
+    "link": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
+    "date": "2026-10-01",
+    "snippet": "Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of steali"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
+    "link": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
+    "date": "2026-10-01",
+    "snippet": "This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path whe"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
+    "link": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
+    "date": "2026-10-01",
+    "snippet": "Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensur"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "How Financial Services Companies Can Modernize Their Software Supply Chain",
+    "link": "https://thehackernews.com/2026/10/how-financial-services-companies-can.html",
+    "date": "2026-10-01",
+    "snippet": "Every security leader at a bank, insurer, or asset manager has had a version of this conversation: Security wants to eliminate a class of vu"
+  },
+  {
+    "source": "The Hacker News",
     "title": "OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates",
     "link": "https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html",
     "date": "2026-10-01",
     "snippet": "OpenAI on Wednesday said it identified and disrupted a coordinated distillation campaign that was designed to illicitly extract protected re"
   },
   {
-    "source": "The Hacker News",
-    "title": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
-    "link": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
+    "source": "BleepingComputer",
+    "title": "Autonomous AI agents tried to hack US, Canadian government websites",
+    "link": "https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites/",
     "date": "2026-10-01",
-    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Ca"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version",
-    "link": "https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html",
-    "date": "2026-10-01",
-    "snippet": "Google on Wednesday announced its latest frontier artificial intelligence (AI) model, Gemini 4 Argon, that it said is being rolled out to a "
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path",
-    "link": "https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html",
-    "date": "2026-10-01",
-    "snippet": "Security researchers have published the first public proof-of-concept for CVE-2026-86950, an Apple CoreGraphics flaw Apple says may have bee"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft",
-    "link": "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html",
-    "date": "2026-10-01",
-    "snippet": "Cryptocurrency exchange Bitget on Wednesday confirmed that attackers who stole $387.5 million last week exploited a zero-day flaw in third-p"
+    "snippet": "Autonomous AI agents using aggressive strategies attempted to hack U.S. and Canadian government websites to find school and divorce statisti"
   },
   {
     "source": "BleepingComputer",
-    "title": "Microsoft enables Windows settings backup by default for orgs",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-enables-windows-settings-backup-by-default-for-orgs/",
+    "title": "Microsoft says threat actors are ahead in the early AI race",
+    "link": "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race/",
     "date": "2026-10-01",
-    "snippet": "Microsoft announced that Windows settings backup and restore is now enabled by default on all Microsoft Entra-joined or Microsoft Entra hybr"
+    "snippet": "Microsoft says cyberattackers are currently benefiting from artificial intelligence faster than defenders, allowing threat actors to speed u"
   },
   {
     "source": "BleepingComputer",
-    "title": "Hackers stole Pentagon personnel records of over 3 million people",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-pentagon-human-resources-management-system-steal-data-of-nearly-3-million-people/",
+    "title": "Police dismantle KillSec ransomware gang allegedly led by 16-year-old",
+    "link": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/",
     "date": "2026-10-01",
-    "snippet": "The Pentagon's Defense Manpower Data Center (DMDC) is notifying millions of military service members that hackers stole their data after bre"
+    "snippet": "An international law enforcement operation dubbed \"Operation KillSwitch\" seized the KillSec ransomware gang's data leak site and servers, le"
   },
   {
     "source": "BleepingComputer",
-    "title": "Metamask discloses security incident affecting its infrastructure",
-    "link": "https://www.bleepingcomputer.com/news/security/metamask-discloses-security-incident-affecting-its-infrastructure/",
+    "title": "The Day-One Hole in Zero Trust Architecture",
+    "link": "https://www.bleepingcomputer.com/news/security/the-day-one-hole-in-zero-trust-architecture/",
     "date": "2026-10-01",
-    "snippet": "On Thursday, cryptocurrency wallet provider MetaMask has disclosed an ongoing infrastructure security incident affecting some of its infrast"
+    "snippet": "Zero Trust can verify users once they are established, but onboarding creates a gap where organizations must decide who to trust before stro"
   },
   {
     "source": "BleepingComputer",
-    "title": "Russian state hackers use new RedFlick technique to push malware",
-    "link": "https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/",
-    "date": "2026-09-30",
-    "snippet": "The Russian state actor Star Blizzard has been using a new malware installation tactic dubbed \"RedFlick\" to deploy its signature CosmicPulse"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "DIVD says Zammad zero-days enabled AI-driven network breach",
-    "link": "https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/",
-    "date": "2026-09-30",
-    "snippet": "The Dutch Institute for Vulnerability Disclosure (DIVD) says that the breach of its network was possible by exploiting a chain of two zero-d"
+    "title": "Kiteworks patches max severity code injection vulnerability",
+    "link": "https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/",
+    "date": "2026-10-01",
+    "snippet": "Secure file-sharing software company Kiteworks has released security updates to address 126 vulnerabilities, including a max-severity flaw a"
   },
   {
     "source": "Krebs on Security",
