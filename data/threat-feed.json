@@ -1,6 +1,20 @@
 [
   {
     "source": "The Hacker News",
+    "title": "OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling",
+    "link": "https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html",
+    "date": "2026-10-02",
+    "snippet": "OpenAI has parted ways with three members of its safety team after they leaked private information in violation of company policies, The Wal"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Why CISOs Struggle to Answer the Board's Three Hardest Questions, and How to Fix the Report",
+    "link": "https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html",
+    "date": "2026-10-02",
+    "snippet": "The quarterly board meeting is two weeks out. The security team is pulling exports from the identity provider, the cloud posture tool, the v"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools",
     "link": "https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html",
     "date": "2026-10-02",
@@ -15,6 +29,34 @@
   },
   {
     "source": "BleepingComputer",
+    "title": "GitLab warns of critical RCE vulnerability in AI Gateway service",
+    "link": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/",
+    "date": "2026-10-02",
+    "snippet": "GitLab warned customers today to immediately patch a critical AI Gateway vulnerability that could let attackers run arbitrary commands on vu"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "US sanctions Tren de Aragua gang members in ATM hacks crackdown",
+    "link": "https://www.bleepingcomputer.com/news/security/us-sanctions-tren-de-aragua-members-in-atm-jackpotting-crackdown/",
+    "date": "2026-10-02",
+    "snippet": "The U.S. Treasury Department has sanctioned eight members of the Venezuelan gang Tren de Aragua (TdA) for their role in the theft of million"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "The EDR blind spot: 3 ways browser attacks evade endpoint telemetry",
+    "link": "https://www.bleepingcomputer.com/news/security/the-edr-blind-spot-3-ways-browser-attacks-evade-endpoint-telemetry/",
+    "date": "2026-10-02",
+    "snippet": "Browser-based attacks can steal sessions, abuse extensions, or manipulate users without creating the endpoint artifacts EDR is designed to d"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Dell asks admins to patch max severity CSM flaws as soon as possible",
+    "link": "https://www.bleepingcomputer.com/news/security/new-max-severity-dell-csm-flaws-give-hackers-admin-privileges/",
+    "date": "2026-10-02",
+    "snippet": "Dell has patched two maximum severity vulnerabilities in the Container Storage Modules (CSM) that connect Dell enterprise storage arrays to "
+  },
+  {
+    "source": "BleepingComputer",
     "title": "Microsoft’s X account hacked in crypto pump-and-dump scheme",
     "link": "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/",
     "date": "2026-10-02",
@@ -26,48 +68,6 @@
     "link": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
     "date": "2026-10-01",
     "snippet": "Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of steali"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
-    "link": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
-    "date": "2026-10-01",
-    "snippet": "This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path whe"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
-    "link": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
-    "date": "2026-10-01",
-    "snippet": "Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensur"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
-    "date": "2026-10-01",
-    "snippet": "Fortinet is warning customers of a critical FortiMail vulnerability, tracked as CVE-2026-104286, that is being actively exploited in zero-da"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Autonomous AI agents tried to hack US, Canadian government websites",
-    "link": "https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites/",
-    "date": "2026-10-01",
-    "snippet": "Autonomous AI agents using aggressive strategies attempted to hack U.S. and Canadian government websites to find school and divorce statisti"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft says threat actors are ahead in the early AI race",
-    "link": "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race/",
-    "date": "2026-10-01",
-    "snippet": "Microsoft says cyberattackers are currently benefiting from artificial intelligence faster than defenders, allowing threat actors to speed u"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Police dismantle KillSec ransomware gang allegedly led by 16-year-old",
-    "link": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/",
-    "date": "2026-10-01",
-    "snippet": "An international law enforcement operation dubbed \"Operation KillSwitch\" seized the KillSec ransomware gang's data leak site and servers, le"
   },
   {
     "source": "Krebs on Security",
