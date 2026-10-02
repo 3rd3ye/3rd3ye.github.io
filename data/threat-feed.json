@@ -1,6 +1,27 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools",
+    "link": "https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html",
+    "date": "2026-10-02",
+    "snippet": "Google has announced a new security measure that limits access to Android's accessibility services to verified applications classified as Ac"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
+    "link": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
+    "date": "2026-10-02",
+    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added a critical security flaw impacting Fortinet FortiMail t"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft’s X account hacked in crypto pump-and-dump scheme",
+    "link": "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/",
+    "date": "2026-10-02",
+    "snippet": "On Thursday, unknown attackers hijacked the official Microsoft account on X, which has over 13 million followers, in what appeared to be a p"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
     "link": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
     "date": "2026-10-01",
@@ -19,20 +40,6 @@
     "link": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
     "date": "2026-10-01",
     "snippet": "Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensur"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "How Financial Services Companies Can Modernize Their Software Supply Chain",
-    "link": "https://thehackernews.com/2026/10/how-financial-services-companies-can.html",
-    "date": "2026-10-01",
-    "snippet": "Every security leader at a bank, insurer, or asset manager has had a version of this conversation: Security wants to eliminate a class of vu"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates",
-    "link": "https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html",
-    "date": "2026-10-01",
-    "snippet": "OpenAI on Wednesday said it identified and disrupted a coordinated distillation campaign that was designed to illicitly extract protected re"
   },
   {
     "source": "BleepingComputer",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/",
     "date": "2026-10-01",
     "snippet": "An international law enforcement operation dubbed \"Operation KillSwitch\" seized the KillSec ransomware gang's data leak site and servers, le"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "The Day-One Hole in Zero Trust Architecture",
-    "link": "https://www.bleepingcomputer.com/news/security/the-day-one-hole-in-zero-trust-architecture/",
-    "date": "2026-10-01",
-    "snippet": "Zero Trust can verify users once they are established, but onboarding creates a gap where organizations must decide who to trust before stro"
   },
   {
     "source": "Krebs on Security",
