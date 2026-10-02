@@ -1,6 +1,27 @@
 [
   {
     "source": "The Hacker News",
+    "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
+    "link": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
+    "date": "2026-10-02",
+    "snippet": "A critical flaw in GitLab's AI Gateway could let a logged-in user with Duo Agent Platform access run commands on the gateway under certain c"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign",
+    "link": "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html",
+    "date": "2026-10-02",
+    "snippet": "Government and policy organizations across Asia have become the target of a new campaign orchestrated by a China-nexus threat actor. The act"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
+    "link": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html",
+    "date": "2026-10-02",
+    "snippet": "Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploit"
+  },
+  {
+    "source": "The Hacker News",
     "title": "OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling",
     "link": "https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html",
     "date": "2026-10-02",
@@ -14,18 +35,18 @@
     "snippet": "The quarterly board meeting is two weeks out. The security team is pulling exports from the identity provider, the cloud posture tool, the v"
   },
   {
-    "source": "The Hacker News",
-    "title": "Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools",
-    "link": "https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html",
+    "source": "BleepingComputer",
+    "title": "Frontline Education breach exposes school district employee data",
+    "link": "https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees/",
     "date": "2026-10-02",
-    "snippet": "Google has announced a new security measure that limits access to Android's accessibility services to verified applications classified as Ac"
+    "snippet": "Frontline Education is notifying school districts of a data breach after attackers exploited a vulnerability in third-party software to gain"
   },
   {
-    "source": "The Hacker News",
-    "title": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
-    "link": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
+    "source": "BleepingComputer",
+    "title": "Warlock ransomware breach SharePoint in water, telecom operator attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/",
     "date": "2026-10-02",
-    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added a critical security flaw impacting Fortinet FortiMail t"
+    "snippet": "The China-linked ransomware group Warlock targeted a water utility, a telecom provider, a regional government body, and a university by expl"
   },
   {
     "source": "BleepingComputer",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/the-edr-blind-spot-3-ways-browser-attacks-evade-endpoint-telemetry/",
     "date": "2026-10-02",
     "snippet": "Browser-based attacks can steal sessions, abuse extensions, or manipulate users without creating the endpoint artifacts EDR is designed to d"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Dell asks admins to patch max severity CSM flaws as soon as possible",
-    "link": "https://www.bleepingcomputer.com/news/security/new-max-severity-dell-csm-flaws-give-hackers-admin-privileges/",
-    "date": "2026-10-02",
-    "snippet": "Dell has patched two maximum severity vulnerabilities in the Container Storage Modules (CSM) that connect Dell enterprise storage arrays to "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft’s X account hacked in crypto pump-and-dump scheme",
-    "link": "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/",
-    "date": "2026-10-02",
-    "snippet": "On Thursday, unknown attackers hijacked the official Microsoft account on X, which has over 13 million followers, in what appeared to be a p"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
-    "link": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
-    "date": "2026-10-01",
-    "snippet": "Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of steali"
   },
   {
     "source": "Krebs on Security",
