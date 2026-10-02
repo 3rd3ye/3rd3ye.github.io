@@ -36,6 +36,13 @@
   },
   {
     "source": "BleepingComputer",
+    "title": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
+    "date": "2026-10-01",
+    "snippet": "Fortinet is warning customers of a critical FortiMail vulnerability, tracked as CVE-2026-104286, that is being actively exploited in zero-da"
+  },
+  {
+    "source": "BleepingComputer",
     "title": "Autonomous AI agents tried to hack US, Canadian government websites",
     "link": "https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites/",
     "date": "2026-10-01",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/the-day-one-hole-in-zero-trust-architecture/",
     "date": "2026-10-01",
     "snippet": "Zero Trust can verify users once they are established, but onboarding creates a gap where organizations must decide who to trust before stro"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Kiteworks patches max severity code injection vulnerability",
-    "link": "https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/",
-    "date": "2026-10-01",
-    "snippet": "Secure file-sharing software company Kiteworks has released security updates to address 126 vulnerabilities, including a max-severity flaw a"
   },
   {
     "source": "Krebs on Security",
