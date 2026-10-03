@@ -1,6 +1,34 @@
 [
   {
     "source": "The Hacker News",
+    "title": "MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics",
+    "link": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html",
+    "date": "2026-10-03",
+    "snippet": "The U.K.'s domestic intelligence and security agency has warned that more than 100 academics have helped China boost its intelligence gather"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
+    "link": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
+    "date": "2026-10-03",
+    "snippet": "The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both "
+  },
+  {
+    "source": "The Hacker News",
+    "title": "The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations",
+    "link": "https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html",
+    "date": "2026-10-03",
+    "snippet": "Featuring: Cybersecurity is being reshaped by the expansion of cloud infrastructure, AI, distributed systems, and increasingly complex digit"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Danish university DTU breach exposes data of up to 200,000 people",
+    "link": "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/",
+    "date": "2026-10-03",
+    "snippet": "The Technical University of Denmark (DTU) says information belonging to up to 200,000 users may have been exposed after hackers accessed its"
+  },
+  {
+    "source": "The Hacker News",
     "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
     "link": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
     "date": "2026-10-02",
@@ -12,27 +40,6 @@
     "link": "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html",
     "date": "2026-10-02",
     "snippet": "Government and policy organizations across Asia have become the target of a new campaign orchestrated by a China-nexus threat actor. The act"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
-    "link": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html",
-    "date": "2026-10-02",
-    "snippet": "Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploit"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling",
-    "link": "https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html",
-    "date": "2026-10-02",
-    "snippet": "OpenAI has parted ways with three members of its safety team after they leaked private information in violation of company policies, The Wal"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Why CISOs Struggle to Answer the Board's Three Hardest Questions, and How to Fix the Report",
-    "link": "https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html",
-    "date": "2026-10-02",
-    "snippet": "The quarterly board meeting is two weeks out. The security team is pulling exports from the identity provider, the cloud posture tool, the v"
   },
   {
     "source": "BleepingComputer",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/us-sanctions-tren-de-aragua-members-in-atm-jackpotting-crackdown/",
     "date": "2026-10-02",
     "snippet": "The U.S. Treasury Department has sanctioned eight members of the Venezuelan gang Tren de Aragua (TdA) for their role in the theft of million"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "The EDR blind spot: 3 ways browser attacks evade endpoint telemetry",
-    "link": "https://www.bleepingcomputer.com/news/security/the-edr-blind-spot-3-ways-browser-attacks-evade-endpoint-telemetry/",
-    "date": "2026-10-02",
-    "snippet": "Browser-based attacks can steal sessions, abuse extensions, or manipulate users without creating the endpoint artifacts EDR is designed to d"
   },
   {
     "source": "Krebs on Security",
