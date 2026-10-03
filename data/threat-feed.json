@@ -22,6 +22,13 @@
   },
   {
     "source": "BleepingComputer",
+    "title": "ShinyHunters hacker reportedly detained in Jordan, aiding FBI",
+    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/",
+    "date": "2026-10-03",
+    "snippet": "A suspected ShinyHunters hacking group member known online as \"Rey\" has reportedly been detained in Jordan and is cooperating with the FBI t"
+  },
+  {
+    "source": "BleepingComputer",
     "title": "Danish university DTU breach exposes data of up to 200,000 people",
     "link": "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/",
     "date": "2026-10-03",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/",
     "date": "2026-10-02",
     "snippet": "GitLab warned customers today to immediately patch a critical AI Gateway vulnerability that could let attackers run arbitrary commands on vu"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "US sanctions Tren de Aragua gang members in ATM hacks crackdown",
-    "link": "https://www.bleepingcomputer.com/news/security/us-sanctions-tren-de-aragua-members-in-atm-jackpotting-crackdown/",
-    "date": "2026-10-02",
-    "snippet": "The U.S. Treasury Department has sanctioned eight members of the Venezuelan gang Tren de Aragua (TdA) for their role in the theft of million"
   },
   {
     "source": "Krebs on Security",
