@@ -22,6 +22,13 @@
   },
   {
     "source": "BleepingComputer",
+    "title": "Google Gemini could soon get full access to your Mac’s files, apps and the web",
+    "link": "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/",
+    "date": "2026-10-03",
+    "snippet": "Google's Gemini could soon access any file on your macOS device, open apps, browse the web, and perform actions without asking for permissio"
+  },
+  {
+    "source": "BleepingComputer",
     "title": "ShinyHunters hacker reportedly detained in Jordan, aiding FBI",
     "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/",
     "date": "2026-10-03",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/",
     "date": "2026-10-02",
     "snippet": "The China-linked ransomware group Warlock targeted a water utility, a telecom provider, a regional government body, and a university by expl"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "GitLab warns of critical RCE vulnerability in AI Gateway service",
-    "link": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/",
-    "date": "2026-10-02",
-    "snippet": "GitLab warned customers today to immediately patch a critical AI Gateway vulnerability that could let attackers run arbitrary commands on vu"
   },
   {
     "source": "Krebs on Security",
