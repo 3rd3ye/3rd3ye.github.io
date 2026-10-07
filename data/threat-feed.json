@@ -1,38 +1,59 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
-    "link": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
-    "date": "2026-10-06",
-    "snippet": "Cybersecurity researchers have disclosed details of a \"human-operated phishing platform\" that impersonates advertising products for artifici"
+    "title": "The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow",
+    "link": "https://thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html",
+    "date": "2026-10-07",
+    "snippet": "The 2026 findings are not just a year-over-year shift. They mark the latest point in a five-year arc where resilience, AI governance, human "
   },
   {
     "source": "The Hacker News",
-    "title": "Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan",
-    "link": "https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html",
-    "date": "2026-10-06",
-    "snippet": "Linux backdoors targeting telecom and network appliances in South Korea and Taiwan have been disguising their traffic as email services and "
+    "title": "FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials",
+    "link": "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html",
+    "date": "2026-10-07",
+    "snippet": "The U.S. Federal Bureau of Investigation (FBI) and Secret Service (USSS) on Tuesday warned that the FortiBleed credential harvesting campaig"
   },
   {
     "source": "The Hacker News",
-    "title": "LibreOffice and OpenOffice Flaws Let Malicious Spreadsheets Run Code Without Macro Warnings",
-    "link": "https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html",
-    "date": "2026-10-06",
-    "snippet": "A malicious spreadsheet can make LibreOffice and Apache OpenOffice run an attacker's code as soon as the file is opened, security researcher"
+    "title": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details",
+    "link": "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html",
+    "date": "2026-10-07",
+    "snippet": "Threat actors have begun to exploit a newly disclosed critical security flaw impacting Atlassian Data Center products that could allow acces"
   },
   {
     "source": "The Hacker News",
-    "title": "Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies",
-    "link": "https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html",
-    "date": "2026-10-06",
-    "snippet": "The Wikimedia Foundation, which hosts Wikipedia, has confirmed that it has discovered activity by rogue OpenAI agents on its platforms, incl"
+    "title": "What Is Agentic Pentesting? What It Proves, and Where It Stops.",
+    "link": "https://thehackernews.com/2026/10/what-is-agentic-pentesting-what-it.html",
+    "date": "2026-10-07",
+    "snippet": "If you’re evaluating an agentic pentesting solution right now, you’ve probably heard the same pitch more than once: point it at a target, an"
   },
   {
     "source": "The Hacker News",
-    "title": "Welcome to the Jungle: What We Found Inside 15,465 Public MCP Servers",
-    "link": "https://thehackernews.com/2026/10/welcome-to-jungle-what-we-found-inside.html",
-    "date": "2026-10-06",
-    "snippet": "In 2024, MCP (Model Context Protocol) set out to become the USB-C of AI: one standard for connecting models, agents, and IDEs to tools and d"
+    "title": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws",
+    "link": "https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html",
+    "date": "2026-10-07",
+    "snippet": "Anthropic on Tuesday said it's expanding a program that allows vetted cybersecurity professionals to test its advanced artificial intelligen"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "SonicWall warns of max severity SSRF flaw in SMA1000 gateways",
+    "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateways/",
+    "date": "2026-10-07",
+    "snippet": "SonicWall has released hotfixes to address a maximum-severity server-side request forgery (SSRF) flaw in SMA1000 series appliances. [...]"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Musician sent to prison for $10 million streaming fraud using AI bots",
+    "link": "https://www.bleepingcomputer.com/news/security/musician-gets-18-months-in-prison-for-10-million-streaming-fraud-using-ai-bots/",
+    "date": "2026-10-07",
+    "snippet": "A North Carolina musician was sentenced to 18 months in prison for collecting more than $10 million in royalties from Spotify, Apple Music, "
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Advantest confirms personal information stolen in ransomware attack",
+    "link": "https://www.bleepingcomputer.com/news/security/advantest-confirms-personal-information-stolen-in-ransomware-attack/",
+    "date": "2026-10-07",
+    "snippet": "Advantest Corporation is notifying affected individuals that a ransomware attack earlier this year exposed their personally identifiable dat"
   },
   {
     "source": "BleepingComputer",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland/",
     "date": "2026-10-06",
     "snippet": "On the first day of the Pwn2Own Ireland 2026 competition, security researchers hacked the Samsung Galaxy S26 twice and earned $388,500 after"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Atlassian warns of critical file-access flaw in Jira, Confluence",
-    "link": "https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence/",
-    "date": "2026-10-06",
-    "snippet": "Atlassian is warning customers of a critical vulnerability, tracked as CVE-2026-21589, that can be exploited for arbitrary file-access in mu"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "ASOS confirms data breach after “HACKED” in-app notifications",
-    "link": "https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/",
-    "date": "2026-10-06",
-    "snippet": "UK fashion retailer ASOS confirmed a data breach Tuesday after hackers sent unauthorized push notifications through its mobile app while cla"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes",
-    "link": "https://www.bleepingcomputer.com/news/security/fake-chatgpt-gemini-sites-steal-advertising-accounts-mfa-codes/",
-    "date": "2026-10-06",
-    "snippet": "A new campaign targeting ad account managers uses fake ChatGPT, Gemini, Claude, and Perplexity sites that steal login credentials and multi-"
   },
   {
     "source": "Krebs on Security",
