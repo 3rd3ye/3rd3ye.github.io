@@ -1,38 +1,66 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains",
-    "link": "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
-    "date": "2026-10-07",
-    "snippet": "Attackers compromised three country-code top-level domains (ccTLDs) and obtained unauthorized HTTPS certificates for several Google domains,"
+    "title": "Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia",
+    "link": "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html",
+    "date": "2026-10-08",
+    "snippet": "Phishing kits are no longer limited to copying a familiar login page and waiting for a victim to enter credentials. Attackers are increasing"
   },
   {
     "source": "The Hacker News",
-    "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
-    "link": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
-    "date": "2026-10-07",
-    "snippet": "Cybersecurity researchers have disclosed details of a long-running npm supply chain malware campaign that pushes information stealers and re"
+    "title": "16 Malicious Firefox Extensions Pose as Rabby and OKX Wallets to Steal Recovery Phrases",
+    "link": "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html",
+    "date": "2026-10-08",
+    "snippet": "Cybersecurity researchers have discovered a cluster of 16 malicious Mozilla Firefox extensions that are capable of stealing cryptocurrency w"
   },
   {
     "source": "The Hacker News",
-    "title": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
-    "link": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
-    "date": "2026-10-07",
-    "snippet": "SonicWall has released hotfixes for four flaws in its SMA1000 appliances, the gateways that give remote workers access to a company's networ"
+    "title": "U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks",
+    "link": "https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html",
+    "date": "2026-10-08",
+    "snippet": "The U.S. State Department is offering up to $10 million for information leading to the identification or location of Zhang Yu, a Chinese nat"
   },
   {
     "source": "The Hacker News",
-    "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
-    "link": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
-    "date": "2026-10-07",
-    "snippet": "A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker r"
+    "title": "MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data",
+    "link": "https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html",
+    "date": "2026-10-08",
+    "snippet": "The U.S. Department of Justice (DoJ) on Wednesday announced charges against a 50-year-old U.S. and Israeli national for allegedly defrauding"
   },
   {
     "source": "The Hacker News",
-    "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
-    "link": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
-    "date": "2026-10-07",
-    "snippet": "Cybersecurity researchers are calling attention to a new malware family that has been observed targeting exposed artificial intelligence (AI"
+    "title": "Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm",
+    "link": "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html",
+    "date": "2026-10-08",
+    "snippet": "The npm package known as \"tensorlake,\" a TypeScript software development kit (SDK) for Tensorlake applications, sandboxes, and cloud service"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft Teams to get support for third-party deepfake detection tools",
+    "link": "https://www.bleepingcomputer.com/news/security/microsoft-teams-to-add-third-party-deepfake-detection-impersonation-protection/",
+    "date": "2026-10-08",
+    "snippet": "Microsoft will soon introduce support for third-party deepfake detection solutions and impersonation protection in Teams meetings. [...]"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "ASOS links data breach to social engineering attack, credential theft",
+    "link": "https://www.bleepingcomputer.com/news/security/asos-links-data-breach-to-social-engineering-attack-credential-theft/",
+    "date": "2026-10-08",
+    "snippet": "ASOS is sending updates to affected customers about the cybersecurity incident it suffered earlier this week, confirming that hackers access"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Owner of Empire cybercrime market gets 40 years in prison",
+    "link": "https://www.bleepingcomputer.com/news/security/owner-of-empire-cybercrime-market-gets-40-years-in-prison/",
+    "date": "2026-10-08",
+    "snippet": "The co-creator of Empire Market, one of the largest dark web marketplaces before its shutdown, has been sentenced to 40 years in prison for "
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Samsung Galaxy S26 hacked three more times at Pwn2Own Ireland",
+    "link": "https://www.bleepingcomputer.com/news/security/samsung-galaxy-s26-hacked-three-more-times-at-pwn2own-ireland/",
+    "date": "2026-10-08",
+    "snippet": "​​​On the second day of Pwn2Own Ireland 2026, security researchers collected $232,500 in cash awards after exploiting 45 unique zero-day vul"
   },
   {
     "source": "BleepingComputer",
@@ -40,34 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
     "date": "2026-10-07",
     "snippet": "The owner of ransomware remediation company MonsterCloud has been charged with allegedly defrauding ransomware victims by secretly paying th"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "FBI: Ongoing FortiBleed attacks lock out FortiGate VPN admins",
-    "link": "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/",
-    "date": "2026-10-07",
-    "snippet": "The FBI is warning that FortiBleed attacks are still ongoing, targeting exposed Fortinet FortiGate firewalls and SSL VPN gateways and lockin"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Hackers hijack Google domains after breaching ccTLD registries",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries/",
-    "date": "2026-10-07",
-    "snippet": "Hackers obtained unauthorized HTTPS certificates for several Google domains and hijacked domains in the country-code top-level domains (ccTL"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft Outlook to block MSIX attachments starting November",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outlook-to-block-msix-attachments-used-in-attacks/",
-    "date": "2026-10-07",
-    "snippet": "Microsoft announced that it will add .msix and .msixbundle attachments to the list of blocked attachments in Outlook Web and the new Outlook"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "PoeLLM malware infects exposed AI servers in cryptomining attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/",
-    "date": "2026-10-07",
-    "snippet": "A cryptomining campaign targeting exposed AI services is using PoeLLM malware to turn compromised servers into scanners and exploit launchpa"
   },
   {
     "source": "Krebs on Security",
