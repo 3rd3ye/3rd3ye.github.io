@@ -1,5 +1,19 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
+    "link": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
+    "date": "2026-10-10",
+    "snippet": "In environments studied for the 2026 State of Agent Security Report, roughly 1,280 third-party products now embed AI. About 282 of them sit "
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
+    "link": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
+    "date": "2026-10-10",
+    "snippet": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in "
+  },
+  {
     "source": "Krebs on Security",
     "title": "FBI Arrests Founder of Ransomware Negotiation Firm",
     "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
@@ -26,20 +40,6 @@
     "link": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
     "date": "2026-10-09",
     "snippet": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. \"Compa"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "TP-Link Sued by Four More U.S. States Over Router Security and China Ties",
-    "link": "https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html",
-    "date": "2026-10-09",
-    "snippet": "Four more U.S. states sued router maker TP-Link Systems on October 6, bringing the total to five, with &nbsp;Texas filing a suit in February"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access",
-    "link": "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html",
-    "date": "2026-10-09",
-    "snippet": "Security researchers have&nbsp;published a full working exploit&nbsp;for a pre-authentication remote code execution flaw in AnyDesk Linux th"
   },
   {
     "source": "BleepingComputer",
