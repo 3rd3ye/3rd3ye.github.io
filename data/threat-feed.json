@@ -14,8 +14,29 @@
     "snippet": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in "
   },
   {
+    "source": "BleepingComputer",
+    "title": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
+    "link": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
+    "date": "2026-10-10",
+    "snippet": "Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multi"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
+    "link": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
+    "date": "2026-10-10",
+    "snippet": "The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetr"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
+    "link": "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
+    "date": "2026-10-10",
+    "snippet": "Traditional attack surface management helps organizations discover exposed assets, but visibility alone is not enough to address threats. Cr"
+  },
+  {
     "source": "Krebs on Security",
-    "title": "FBI Arrests Founder of Ransomware Negotiation Firm",
+    "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
     "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
     "date": "2026-10-10",
     "snippet": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection wit"
@@ -54,27 +75,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
     "date": "2026-10-09",
     "snippet": "Threat actors are exploiting one critical and one medium-severity vulnerability still unpatched in the AhsayCBS backup management platform t"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "FBI arrests another suspected ShinyHunters hacker after agency breach",
-    "link": "https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/",
-    "date": "2026-10-09",
-    "snippet": "The FBI has arrested another suspected member of the ShinyHunters extortion group believed to be involved in the recent breach of FBI system"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Germany arrests alleged core Qilin ransomware member after extradition",
-    "link": "https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition/",
-    "date": "2026-10-09",
-    "snippet": "Germany has arrested a Russian national suspected of being a leading member of the Qilin ransomware group following extradition from Japan e"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "How to keep AI agents within their permissions",
-    "link": "https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions/",
-    "date": "2026-10-09",
-    "snippet": "AI agents can use valid credentials to perform actions beyond their assigned permissions, creating risks that traditional access controls ma"
   },
   {
     "source": "Krebs on Security",
