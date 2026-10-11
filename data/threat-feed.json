@@ -7,6 +7,13 @@
     "snippet": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. \"Compa"
   },
   {
+    "source": "BleepingComputer",
+    "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
+    "link": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
+    "date": "2026-10-11",
+    "snippet": "Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed m"
+  },
+  {
     "source": "The Hacker News",
     "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
     "link": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
@@ -68,13 +75,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
     "date": "2026-10-09",
     "snippet": "Hackers are abusing legitimate Bing search-result redirects as click URLs in Google search ads to direct users to fake Claude installers tha"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Unpatched AhsayCBS flaws exploited to deploy webshells, mine crypto",
-    "link": "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
-    "date": "2026-10-09",
-    "snippet": "Threat actors are exploiting one critical and one medium-severity vulnerability still unpatched in the AhsayCBS backup management platform t"
   },
   {
     "source": "Krebs on Security",
