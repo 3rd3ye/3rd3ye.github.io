@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
+    "link": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
+    "date": "2026-10-12",
+    "snippet": "Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testi"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
     "link": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html",
     "date": "2026-10-12",
@@ -28,46 +35,39 @@
     "snippet": "A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to"
   },
   {
-    "source": "The Hacker News",
-    "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
-    "link": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
+    "source": "BleepingComputer",
+    "title": "Norway fines Microsoft ad firm $9.6 million over Grindr data sharing",
+    "link": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
     "date": "2026-10-12",
-    "snippet": "Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting W"
+    "snippet": "Norway's Data Protection Authority (Datatilsynet) has fined Microsoft-owned advertising company Xandr NOK 92 million ($9.6M) for unlawfully "
   },
   {
     "source": "BleepingComputer",
-    "title": "GitLab warns of max severity code execution vulnerability",
-    "link": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
+    "title": "Yandex confirms service outage as users lose access to cloud files",
+    "link": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
     "date": "2026-10-12",
-    "snippet": "GitLab warned users today to immediately patch a maximum-severity vulnerability in the CI/CD Regular Expression Compiler that could let remo"
+    "snippet": "Russian cloud services provider Yandex announced that drone attacks damaged three of its data centers, forcing it to shut down two facilitie"
   },
   {
     "source": "BleepingComputer",
-    "title": "Microsoft: Windows 11 23H2 reaches end of support in 30 days",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-23h2-reaches-end-of-support-in-30-days/",
+    "title": "Anthropic takes risky AI tests offline after models breach govt sites",
+    "link": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
     "date": "2026-10-12",
-    "snippet": "Microsoft has reminded customers that systems running Windows 11 23H2 Enterprise, Education, and IoT Enterprise editions will stop receiving"
+    "snippet": "Anthropic announced that its internal AI models undergoing \"high-risk and cybersecurity evaluations\" no longer have internet access followin"
   },
   {
     "source": "BleepingComputer",
-    "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
-    "link": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
-    "date": "2026-10-11",
-    "snippet": "Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed m"
+    "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
+    "link": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+    "date": "2026-10-12",
+    "snippet": "Ledger has confirmed that some of its devices distributed through Southeast Asian reseller CryptoBilis were compromised with a hardware impl"
   },
   {
     "source": "BleepingComputer",
-    "title": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
-    "link": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
-    "date": "2026-10-10",
-    "snippet": "Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multi"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
-    "link": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
-    "date": "2026-10-10",
-    "snippet": "The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetr"
+    "title": "Cyberattack shuts down refrigerators at French supermarkets",
+    "link": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
+    "date": "2026-10-12",
+    "snippet": "Attackers remotely defrosted refrigerators at multiple French supermarket chains overnight in a cyberattack that reportedly targeted Danfoss"
   },
   {
     "source": "Krebs on Security",
