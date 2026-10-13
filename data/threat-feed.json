@@ -1,73 +1,73 @@
 [
   {
     "source": "The Hacker News",
-    "title": "LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network",
-    "link": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html",
+    "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
+    "link": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
     "date": "2026-10-13",
-    "snippet": "Three vulnerabilities in LG's webOS can be chained to give an attacker on the same local network root access to certain smart TVs without a "
+    "snippet": "Small artificial intelligence (AI) models may be months away from developing capabilities to self-replicate on IoT devices like smart ovens "
   },
   {
     "source": "The Hacker News",
-    "title": "Product Walkthrough: Bitdefender AI Visibility and Control",
-    "link": "https://thehackernews.com/2026/10/product-walkthrough-bitdefender-ai.html",
+    "title": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another",
+    "link": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html",
     "date": "2026-10-13",
-    "snippet": "A user opens a browser tab, pastes data into a chat assistant, and nothing is installed. A developer adds a coding&nbsp;assistant as an edit"
+    "snippet": "A flaw in Docker Hub, the registry where container images are published and downloaded, let one user push, pull, or delete images as another"
   },
   {
     "source": "The Hacker News",
-    "title": "Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers",
-    "link": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
+    "title": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
+    "link": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
     "date": "2026-10-13",
-    "snippet": "Attackers took remote control of fridges and freezers at hundreds of French supermarkets on the night of October 11 and warmed them, forcing"
+    "snippet": "An attacker chained three zero-day flaws in Ivanti Connect Secure, a VPN appliance, to run commands as root without logging in, security fir"
   },
   {
     "source": "The Hacker News",
-    "title": "Two Critical MarkLogic Flaws Could Give Delegated Managers Persistent Admin Control",
-    "link": "https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html",
+    "title": "SAP Discloses Critical CVSS 10 Flaw in Cloud SDK for Python Allowing OAuth2 Credential Theft",
+    "link": "https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html",
     "date": "2026-10-13",
-    "snippet": "Two of 31 newly disclosed flaws in Progress Software's&nbsp;MarkLogic Server&nbsp;database could let an account given only some management p"
+    "snippet": "A flaw in SAP's&nbsp;Cloud SDK for Python&nbsp;can send an application's OAuth2 client credentials to a server an attacker controls, SAP sai"
   },
   {
     "source": "The Hacker News",
-    "title": "GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code",
-    "link": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
+    "title": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking",
+    "link": "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
     "date": "2026-10-13",
-    "snippet": "GitLab has released patches for a maximum-severity security flaw impacting its Community Edition (CE) and Enterprise Edition (EE) software t"
+    "snippet": "GitHub has taken the step of expiring unvalidated npm trusted publishing configurations 48 hours after creation after researchers found that"
   },
   {
     "source": "BleepingComputer",
-    "title": "Norway fines Microsoft ad firm $9.6 million over Grindr data sharing",
-    "link": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
-    "date": "2026-10-12",
-    "snippet": "Norway's Data Protection Authority (Datatilsynet) has fined Microsoft-owned advertising company Xandr NOK 92 million ($9.6M) for unlawfully "
+    "title": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
+    "link": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
+    "date": "2026-10-13",
+    "snippet": "A critical heap buffer overflow vulnerability (CVE-2026-39919) in the Ghostscript interpreter and rendering engine could allow remote code e"
   },
   {
     "source": "BleepingComputer",
-    "title": "Yandex confirms service outage as users lose access to cloud files",
-    "link": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
-    "date": "2026-10-12",
-    "snippet": "Russian cloud services provider Yandex announced that drone attacks damaged three of its data centers, forcing it to shut down two facilitie"
+    "title": "Anthropic warns self-replicating AI could spread to your smart devices",
+    "link": "https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/",
+    "date": "2026-10-13",
+    "snippet": "Anthropic is warning that small AI models could soon be able to self-replicate across consumer IoT devices, from Android TV boxes to smart o"
   },
   {
     "source": "BleepingComputer",
-    "title": "Anthropic takes risky AI tests offline after models breach govt sites",
-    "link": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
-    "date": "2026-10-12",
-    "snippet": "Anthropic announced that its internal AI models undergoing \"high-risk and cybersecurity evaluations\" no longer have internet access followin"
+    "title": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
+    "date": "2026-10-13",
+    "snippet": "Today is Microsoft's October 2026 Patch Tuesday, with security updates addressing a record-breaking 1,411 flaws, including one actively expl"
   },
   {
     "source": "BleepingComputer",
-    "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
-    "link": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
-    "date": "2026-10-12",
-    "snippet": "Ledger has confirmed that some of its devices distributed through Southeast Asian reseller CryptoBilis were compromised with a hardware impl"
+    "title": "Microsoft releases Windows 10 KB5126657 extended security update",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5126657-extended-security-update/",
+    "date": "2026-10-13",
+    "snippet": "Microsoft released the Windows 10 KB5126657 extended security update, which includes this month's record-breaking October 2026 Patch Tuesday"
   },
   {
     "source": "BleepingComputer",
-    "title": "Cyberattack shuts down refrigerators at French supermarkets",
-    "link": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
-    "date": "2026-10-12",
-    "snippet": "Attackers remotely defrosted refrigerators at multiple French supermarket chains overnight in a cyberattack that reportedly targeted Danfoss"
+    "title": "Microsoft: Windows 11 24H2 Home and Pro reached end of support",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-home-and-pro-reached-end-of-support/",
+    "date": "2026-10-13",
+    "snippet": "Microsoft announced today that devices running Windows 11 24H2 Home and Pro editions have reached the end of support and will no longer rece"
   },
   {
     "source": "Krebs on Security",
