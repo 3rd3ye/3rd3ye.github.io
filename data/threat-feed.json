@@ -1,38 +1,38 @@
 [
   {
     "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
-    "link": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
-    "date": "2026-10-12",
-    "snippet": "Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testi"
+    "title": "LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network",
+    "link": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html",
+    "date": "2026-10-13",
+    "snippet": "Three vulnerabilities in LG's webOS can be chained to give an attacker on the same local network root access to certain smart TVs without a "
   },
   {
     "source": "The Hacker News",
-    "title": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
-    "link": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html",
-    "date": "2026-10-12",
-    "snippet": "The personal AI agents rollout is going about as smoothly as expected: Amazon now blocks Meta's Muse because it doesn't identify itself as a"
+    "title": "Product Walkthrough: Bitdefender AI Visibility and Control",
+    "link": "https://thehackernews.com/2026/10/product-walkthrough-bitdefender-ai.html",
+    "date": "2026-10-13",
+    "snippet": "A user opens a browser tab, pastes data into a chat assistant, and nothing is installed. A developer adds a coding&nbsp;assistant as an edit"
   },
   {
     "source": "The Hacker News",
-    "title": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
-    "link": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
-    "date": "2026-10-12",
-    "snippet": "Cryptocurrency hardware maker Ledger has temporarily paused sales of its products via CryptoBilis following reports of stolen funds linked t"
+    "title": "Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers",
+    "link": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
+    "date": "2026-10-13",
+    "snippet": "Attackers took remote control of fridges and freezers at hundreds of French supermarkets on the night of October 11 and warmed them, forcing"
   },
   {
     "source": "The Hacker News",
-    "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
-    "link": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
-    "date": "2026-10-12",
-    "snippet": "Threat actors have been observed exploiting a recently disclosed critical security flaw in SonicWall Secure Mobile Access (SMA) 1000 applian"
+    "title": "Two Critical MarkLogic Flaws Could Give Delegated Managers Persistent Admin Control",
+    "link": "https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html",
+    "date": "2026-10-13",
+    "snippet": "Two of 31 newly disclosed flaws in Progress Software's&nbsp;MarkLogic Server&nbsp;database could let an account given only some management p"
   },
   {
     "source": "The Hacker News",
-    "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
-    "link": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
-    "date": "2026-10-12",
-    "snippet": "A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to"
+    "title": "GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code",
+    "link": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
+    "date": "2026-10-13",
+    "snippet": "GitLab has released patches for a maximum-severity security flaw impacting its Community Edition (CE) and Enterprise Edition (EE) software t"
   },
   {
     "source": "BleepingComputer",
