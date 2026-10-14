@@ -1,38 +1,45 @@
 [
   {
     "source": "The Hacker News",
+    "title": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host",
+    "link": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html",
+    "date": "2026-10-14",
+    "snippet": "A flaw in Linux's vhost subsystem lets a local user read and write kernel memory at will and become root across nearly a decade of kernel ve"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave",
+    "link": "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html",
+    "date": "2026-10-14",
+    "snippet": "Security researchers ran their own code inside a protected part of Windows that is meant to stay sealed off even when the rest of the comput"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug",
+    "link": "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html",
+    "date": "2026-10-14",
+    "snippet": "Microsoft on Tuesday shattered its own Patch Tuesday record by shipping patches for a whopping 1,413 vulnerabilities, including one that it "
+  },
+  {
+    "source": "The Hacker News",
+    "title": "OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room",
+    "link": "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html",
+    "date": "2026-10-14",
+    "snippet": "A Saudi National and employee of OpenAI has been arrested for allegedly planting a hidden recording device in an executive conference room a"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft: Recent Windows updates may trigger Remote Desktop failures",
+    "link": "https://www.bleepingcomputer.com/news/security/microsoft-recent-windows-updates-may-trigger-remote-desktop-failures/",
+    "date": "2026-10-14",
+    "snippet": "Microsoft has confirmed that non-admin users may be unable to connect to devices via Remote Desktop after installing recent Windows updates "
+  },
+  {
+    "source": "The Hacker News",
     "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
     "link": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
     "date": "2026-10-13",
     "snippet": "Small artificial intelligence (AI) models may be months away from developing capabilities to self-replicate on IoT devices like smart ovens "
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another",
-    "link": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html",
-    "date": "2026-10-13",
-    "snippet": "A flaw in Docker Hub, the registry where container images are published and downloaded, let one user push, pull, or delete images as another"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
-    "link": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
-    "date": "2026-10-13",
-    "snippet": "An attacker chained three zero-day flaws in Ivanti Connect Secure, a VPN appliance, to run commands as root without logging in, security fir"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "SAP Discloses Critical CVSS 10 Flaw in Cloud SDK for Python Allowing OAuth2 Credential Theft",
-    "link": "https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html",
-    "date": "2026-10-13",
-    "snippet": "A flaw in SAP's&nbsp;Cloud SDK for Python&nbsp;can send an application's OAuth2 client credentials to a server an attacker controls, SAP sai"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking",
-    "link": "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
-    "date": "2026-10-13",
-    "snippet": "GitHub has taken the step of expiring unvalidated npm trusted publishing configurations 48 hours after creation after researchers found that"
   },
   {
     "source": "BleepingComputer",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
     "date": "2026-10-13",
     "snippet": "Today is Microsoft's October 2026 Patch Tuesday, with security updates addressing a record-breaking 1,411 flaws, including one actively expl"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft releases Windows 10 KB5126657 extended security update",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5126657-extended-security-update/",
-    "date": "2026-10-13",
-    "snippet": "Microsoft released the Windows 10 KB5126657 extended security update, which includes this month's record-breaking October 2026 Patch Tuesday"
   },
   {
     "source": "Krebs on Security",
