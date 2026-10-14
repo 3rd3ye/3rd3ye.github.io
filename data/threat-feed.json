@@ -36,6 +36,13 @@
   },
   {
     "source": "BleepingComputer",
+    "title": "OpenAI engineer arrested for allegedly planting spy device in office",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office/",
+    "date": "2026-10-13",
+    "snippet": "A Saudi OpenAI engineer has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's "
+  },
+  {
+    "source": "BleepingComputer",
     "title": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
     "link": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
     "date": "2026-10-13",
@@ -63,11 +70,11 @@
     "snippet": "Microsoft released the Windows 10 KB5126657 extended security update, which includes this month's record-breaking October 2026 Patch Tuesday"
   },
   {
-    "source": "BleepingComputer",
-    "title": "Microsoft: Windows 11 24H2 Home and Pro reached end of support",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-home-and-pro-reached-end-of-support/",
+    "source": "Krebs on Security",
+    "title": "Microsoft Patches More Than 1,400 Security Flaws",
+    "link": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
     "date": "2026-10-13",
-    "snippet": "Microsoft announced today that devices running Windows 11 24H2 Home and Pro editions have reached the end of support and will no longer rece"
+    "snippet": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's "
   },
   {
     "source": "Krebs on Security",
@@ -75,12 +82,5 @@
     "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
     "date": "2026-10-10",
     "snippet": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection wit"
-  },
-  {
-    "source": "Krebs on Security",
-    "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
-    "link": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
-    "date": "2026-10-07",
-    "snippet": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reporte"
   }
 ]
