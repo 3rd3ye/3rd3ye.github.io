@@ -1,38 +1,66 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
+    "link": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+    "date": "2026-10-15",
+    "snippet": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A r"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
+    "link": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
+    "date": "2026-10-15",
+    "snippet": "Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits rig"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
+    "link": "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html",
+    "date": "2026-10-15",
+    "snippet": "Candiru, an Israeli maker of spyware sold to governments, infected devices at the news network Al Jazeera through ordinary online ads, in at"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks",
+    "link": "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html",
+    "date": "2026-10-15",
+    "snippet": "The threat actor known as Silent Lynx has been attributed to a fresh set of attacks targeting government organizations across the Commonweal"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
     "link": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
     "date": "2026-10-15",
     "snippet": "A long-running Traffic Distribution System (TDS) known as Help TDS to a Russian-language affiliate program called Hotejka, which appears to "
   },
   {
-    "source": "The Hacker News",
-    "title": "NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks",
-    "link": "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
+    "source": "BleepingComputer",
+    "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
     "date": "2026-10-15",
-    "snippet": "NGINX released&nbsp;versions 1.30.6 and 1.31.7&nbsp;on October 14 to fix five vulnerabilities, one of them present in every release since Ma"
+    "snippet": "Threat actors are exploiting a critical command execution flaw, now tracked as CVE-2026-110447, in the Collabora Online - Built-in CODE Serv"
   },
   {
-    "source": "The Hacker News",
-    "title": "Next.js Ships Out-of-Band Patch for Two Critical RCE Flaws in Caching and SVG Processing",
-    "link": "https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html",
+    "source": "BleepingComputer",
+    "title": "Android gets AI defenses against messaging scams, fake calls",
+    "link": "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/",
     "date": "2026-10-15",
-    "snippet": "Next.js released an&nbsp;out-of-band security update&nbsp;on October 14 that fixes two critical flaws allowing unauthenticated remote code e"
+    "snippet": "Google announced new AI-powered defenses against scam messages and call-forwarding abuse on Android, currently rolling out to eligible devic"
   },
   {
-    "source": "The Hacker News",
-    "title": "Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules",
-    "link": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
+    "source": "BleepingComputer",
+    "title": "Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/",
     "date": "2026-10-15",
-    "snippet": "Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on O"
+    "snippet": "A proxyjacking campaign has impacted devices in 34 countries, monetizing victims' internet connections through a commercial residential prox"
   },
   {
-    "source": "The Hacker News",
-    "title": "Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early",
-    "link": "https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html",
+    "source": "BleepingComputer",
+    "title": "Fake Arch Linux packages push malware with root privileges",
+    "link": "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/",
     "date": "2026-10-15",
-    "snippet": "Attackers are impersonating popular AI products to distribute malware, steal browser sessions, and compromise business accounts. ANY.RUN lin"
+    "snippet": "A threat actor uploaded malicious packages to the Arch User Repository (AUR) that impersonated two popular helper tools, yay and paru. [...]"
   },
   {
     "source": "BleepingComputer",
@@ -40,34 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/is-ai-pentesting-as-good-as-a-human-pentester/",
     "date": "2026-10-15",
     "snippet": "AI pentesting can uncover vulnerabilities missed by human testers, but it also has limitations in consistency, risk assessment, and understa"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft: Windows Server 2022 reached end of mainstream support",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2022-reached-end-of-mainstream-support/",
-    "date": "2026-10-15",
-    "snippet": "Microsoft announced that Windows Server 2022 has reached the end of mainstream support and will remain in extended support until October 203"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Police arrests 95 suspects in international CSAM crackdown action",
-    "link": "https://www.bleepingcomputer.com/news/security/police-arrests-95-suspects-in-child-sexual-abuse-material-crackdown/",
-    "date": "2026-10-15",
-    "snippet": "Law enforcement authorities from 17 countries in Latin America and Europe have arrested 95 suspects in an INTERPOL-coordinated operation tar"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft fixes bug causing Windows black screens, Explorer crashes",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-windows-black-screens-explorer-crashes/",
-    "date": "2026-10-15",
-    "snippet": "Microsoft has resolved a known issue that was causing black screens, desktop loading issues, and Explorer crashes after installing Windows 1"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "UK Legal Aid Agency: Hackers stole records dating back to 1978",
-    "link": "https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/",
-    "date": "2026-10-15",
-    "snippet": "The Legal Aid Agency (LAA), an executive agency of the UK's Ministry of Justice that manages the country's Public Defender Service, says att"
   },
   {
     "source": "Krebs on Security",
