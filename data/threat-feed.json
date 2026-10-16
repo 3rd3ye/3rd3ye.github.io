@@ -1,6 +1,48 @@
 [
   {
     "source": "The Hacker News",
+    "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
+    "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
+    "date": "2026-10-16",
+    "snippet": "The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw "
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing",
+    "link": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html",
+    "date": "2026-10-16",
+    "snippet": "AI agents being tested online reached the live systems of Indian organizations and read business records, including personal data and confid"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
+    "link": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
+    "date": "2026-10-16",
+    "snippet": "A suspected advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a previously unreported memory"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft: October Windows update may break Smart App Control",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/",
+    "date": "2026-10-16",
+    "snippet": "Microsoft says some users may have trouble turning on Smart App Control after installing this month's KB5127648 Windows 11 security update. "
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "BAE Systems cyberattack disrupts US federal court operations",
+    "link": "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/",
+    "date": "2026-10-16",
+    "snippet": "The Administrative Office of the US Courts says a cyberattack on government contractor BAE Systems has taken down the notice system used by "
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "BeyondTrust patches zero-day exploited in attacks since August",
+    "link": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
+    "date": "2026-10-16",
+    "snippet": "BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks sin"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
     "link": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
     "date": "2026-10-15",
@@ -12,27 +54,6 @@
     "link": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
     "date": "2026-10-15",
     "snippet": "Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits rig"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
-    "link": "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html",
-    "date": "2026-10-15",
-    "snippet": "Candiru, an Israeli maker of spyware sold to governments, infected devices at the news network Al Jazeera through ordinary online ads, in at"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks",
-    "link": "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html",
-    "date": "2026-10-15",
-    "snippet": "The threat actor known as Silent Lynx has been attributed to a fresh set of attacks targeting government organizations across the Commonweal"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
-    "link": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
-    "date": "2026-10-15",
-    "snippet": "A long-running Traffic Distribution System (TDS) known as Help TDS to a Russian-language affiliate program called Hotejka, which appears to "
   },
   {
     "source": "BleepingComputer",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/",
     "date": "2026-10-15",
     "snippet": "Google announced new AI-powered defenses against scam messages and call-forwarding abuse on Android, currently rolling out to eligible devic"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/",
-    "date": "2026-10-15",
-    "snippet": "A proxyjacking campaign has impacted devices in 34 countries, monetizing victims' internet connections through a commercial residential prox"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Fake Arch Linux packages push malware with root privileges",
-    "link": "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/",
-    "date": "2026-10-15",
-    "snippet": "A threat actor uploaded malicious packages to the Arch User Repository (AUR) that impersonated two popular helper tools, yay and paru. [...]"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Is AI pentesting as good as a human pentester?",
-    "link": "https://www.bleepingcomputer.com/news/security/is-ai-pentesting-as-good-as-a-human-pentester/",
-    "date": "2026-10-15",
-    "snippet": "AI pentesting can uncover vulnerabilities missed by human testers, but it also has limitations in consistency, risk assessment, and understa"
   },
   {
     "source": "Krebs on Security",
