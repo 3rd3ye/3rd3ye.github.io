@@ -14,6 +14,20 @@
     "snippet": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Micr"
   },
   {
+    "source": "BleepingComputer",
+    "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+    "date": "2026-10-17",
+    "snippet": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application ide"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
+    "link": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+    "date": "2026-10-17",
+    "snippet": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported versio"
+  },
+  {
     "source": "The Hacker News",
     "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
     "link": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
@@ -54,20 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/",
     "date": "2026-10-16",
     "snippet": "Employees using personal ChatGPT accounts at work can expose sensitive company data, even when their organization provides an approved Enter"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Burger King Japan data breach exposes 11 million customer records",
-    "link": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
-    "date": "2026-10-16",
-    "snippet": "Burger King Japan, the Japanese subsidiary of global fast-food giant Burger King, disclosed a major data breach after attackers accessed a s"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft: October Windows update may break Smart App Control",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/",
-    "date": "2026-10-16",
-    "snippet": "Microsoft says some users may have trouble turning on Smart App Control after installing this month's KB5127648 Windows 11 security update. "
   },
   {
     "source": "Krebs on Security",
