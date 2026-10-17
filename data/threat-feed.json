@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
+    "link": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+    "date": "2026-10-17",
+    "snippet": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign "
+  },
+  {
+    "source": "The Hacker News",
     "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
     "link": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
     "date": "2026-10-17",
@@ -26,13 +33,6 @@
     "link": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
     "date": "2026-10-16",
     "snippet": "Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individual"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
-    "link": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
-    "date": "2026-10-16",
-    "snippet": "OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case "
   },
   {
     "source": "BleepingComputer",
