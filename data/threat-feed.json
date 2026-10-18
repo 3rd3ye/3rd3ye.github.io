@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
+    "link": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+    "date": "2026-10-18",
+    "snippet": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in "
+  },
+  {
+    "source": "The Hacker News",
     "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
     "link": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
     "date": "2026-10-17",
@@ -40,13 +47,6 @@
     "link": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
     "date": "2026-10-16",
     "snippet": "Attackers repeatedly changed the files that AOMEI Backupper fetches from the vendor's own update servers, in windows of five to ten minutes "
-  },
-  {
-    "source": "The Hacker News",
-    "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
-    "link": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
-    "date": "2026-10-16",
-    "snippet": "Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individual"
   },
   {
     "source": "BleepingComputer",
