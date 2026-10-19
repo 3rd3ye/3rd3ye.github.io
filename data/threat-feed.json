@@ -1,6 +1,27 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
+    "link": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
+    "date": "2026-10-19",
+    "snippet": "A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the networ"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
+    "link": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
+    "date": "2026-10-19",
+    "snippet": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users "
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
+    "date": "2026-10-19",
+    "snippet": "Microsoft has confirmed that this month's Windows Server security updates are causing OWA sign-in and mail delivery issues on some Exchange "
+  },
+  {
+    "source": "The Hacker News",
     "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
     "link": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
     "date": "2026-10-18",
@@ -42,32 +63,11 @@
     "snippet": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported versio"
   },
   {
-    "source": "The Hacker News",
-    "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
-    "link": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
-    "date": "2026-10-16",
-    "snippet": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a sep"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
-    "link": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
-    "date": "2026-10-16",
-    "snippet": "Attackers repeatedly changed the files that AOMEI Backupper fetches from the vendor's own update servers, in windows of five to ten minutes "
-  },
-  {
     "source": "BleepingComputer",
     "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
     "link": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
     "date": "2026-10-16",
     "snippet": "Researchers warn that hackers could soon exploit a maximum-severity vulnerability (CVE-2026-103849) affecting Magento and Adobe Commerce, po"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Targeted ads installed Candiru spyware in zero-click attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
-    "date": "2026-10-16",
-    "snippet": "Candiru spyware was delivered to devices at Al Jazeera Media Network via targeted online advertisements in a zero-click attack that required"
   },
   {
     "source": "Krebs on Security",
