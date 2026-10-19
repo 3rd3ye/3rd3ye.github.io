@@ -1,73 +1,80 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
-    "link": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
+    "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
+    "link": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
     "date": "2026-10-19",
-    "snippet": "A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the networ"
+    "snippet": "Copies of Rank Math PRO, the paid version of the Rank Math SEO plugin for WordPress, that were downloaded from rankmath.com or delivered as "
   },
   {
     "source": "The Hacker News",
-    "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
-    "link": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
+    "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
+    "link": "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
     "date": "2026-10-19",
-    "snippet": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users "
+    "snippet": "The worst problems don't always come with a warning. Sometimes they arrive through a service everyone trusts, a device someone bought, or a "
   },
   {
-    "source": "BleepingComputer",
-    "title": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
+    "source": "The Hacker News",
+    "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
+    "link": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
     "date": "2026-10-19",
-    "snippet": "Microsoft has confirmed that this month's Windows Server security updates are causing OWA sign-in and mail delivery issues on some Exchange "
+    "snippet": "The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromise"
   },
   {
     "source": "The Hacker News",
-    "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
-    "link": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
-    "date": "2026-10-18",
-    "snippet": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
-    "date": "2026-10-18",
-    "snippet": "Attackers are targeting an OS command injection vulnerability in SiteGuard Server Edition that lets them execute commands as root or SYSTEM "
+    "title": "From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software",
+    "link": "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html",
+    "date": "2026-10-19",
+    "snippet": "In Salesforce Agentforce, the recommended way to make an agent respond to events is a Flow: a record is created or a case is updated, and th"
   },
   {
     "source": "The Hacker News",
-    "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
-    "link": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
-    "date": "2026-10-17",
-    "snippet": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign "
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
-    "link": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
-    "date": "2026-10-17",
-    "snippet": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Micr"
+    "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
+    "link": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
+    "date": "2026-10-19",
+    "snippet": "A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packag"
   },
   {
     "source": "BleepingComputer",
-    "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
-    "date": "2026-10-17",
-    "snippet": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application ide"
+    "title": "OpenCode hack exposes API keys amid AI distillation attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
+    "date": "2026-10-19",
+    "snippet": "The open-source AI coding project OpenCode has notified a small number of users that API keys they used with external providers were exposed"
   },
   {
     "source": "BleepingComputer",
-    "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
-    "link": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
-    "date": "2026-10-17",
-    "snippet": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported versio"
+    "title": "Microsoft fixes game, app crashes caused by recent Windows update",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-game-app-crashes-caused-by-windows-kb5124010-preview-update/",
+    "date": "2026-10-19",
+    "snippet": "Microsoft has resolved a bug that caused games and apps using AC-3 (Dolby Digital) audio decoding to crash after installing the September 20"
   },
   {
     "source": "BleepingComputer",
-    "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
-    "link": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
-    "date": "2026-10-16",
-    "snippet": "Researchers warn that hackers could soon exploit a maximum-severity vulnerability (CVE-2026-103849) affecting Magento and Adobe Commerce, po"
+    "title": "Inside the Underground Market for Know Your Client Services",
+    "link": "https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/",
+    "date": "2026-10-19",
+    "snippet": "Cybercriminals are selling forged identity documents, deepfake videos, and live verification services to help buyers bypass Know Your Client"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "F5 releases out-of-band patches for critical NGINX vulnerabilities",
+    "link": "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/",
+    "date": "2026-10-19",
+    "snippet": "F5 has released out-of-band security patches to address multiple NGINX web server flaws, including three critical-severity vulnerabilities t"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft fixes classic Outlook bug that hid Copilot buttons",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/",
+    "date": "2026-10-19",
+    "snippet": "Microsoft has fixed a known issue that removed the Copilot Chat and Copilot buttons in the classic Outlook desktop mail client for some Wind"
+  },
+  {
+    "source": "Krebs on Security",
+    "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
+    "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+    "date": "2026-10-19",
+    "snippet": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified ex"
   },
   {
     "source": "Krebs on Security",
@@ -75,12 +82,5 @@
     "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
     "date": "2026-10-14",
     "snippet": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major"
-  },
-  {
-    "source": "Krebs on Security",
-    "title": "Microsoft Patches More Than 1,400 Security Flaws",
-    "link": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
-    "date": "2026-10-13",
-    "snippet": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's "
   }
 ]
