@@ -1,73 +1,73 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
-    "link": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
+    "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
+    "link": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
     "date": "2026-10-20",
-    "snippet": "An attacker used a contributor's GitHub account to replace the download archives on five existing releases of OVHcloud's command-line tool o"
+    "snippet": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security resea"
   },
   {
     "source": "The Hacker News",
-    "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
-    "link": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
+    "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
+    "link": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
     "date": "2026-10-20",
-    "snippet": "Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks."
+    "snippet": "The iPhone of Vladan Đokić, rector of the University of Belgrade and a prominent supporter of Serbia's student protest movement, was infecte"
   },
   {
     "source": "The Hacker News",
-    "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
-    "link": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
+    "title": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
+    "link": "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",
     "date": "2026-10-20",
-    "snippet": "A U.S. court on Monday granted the U.S. government's request to detain a former OpenAI engineer accused of planting a recording device in an"
+    "snippet": "WhatsApp's help pages carried hidden instructions for its support chatbot that told it not to recommend a data protection authority or regul"
   },
   {
     "source": "The Hacker News",
-    "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
-    "link": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html",
+    "title": "What Security Teams Can Do To Tame Wild Code",
+    "link": "https://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html",
     "date": "2026-10-20",
-    "snippet": "Cybersecurity researchers have disclosed details of a ClickFix delivery platform called ROMULUS that's being used to distribute malware such"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Revolut outage disrupts online banking operations worldwide",
-    "link": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/",
-    "date": "2026-10-20",
-    "snippet": "Fintech company Revolut is working to resolve a massive outage that disrupted most of its services worldwide earlier today. [...]"
+    "snippet": "A sales manager builds an AI-assisted workflow to route leads. It connects to customer records, summarizes inbound requests, and posts updat"
   },
   {
     "source": "The Hacker News",
-    "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
-    "link": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
-    "date": "2026-10-19",
-    "snippet": "Threat actors have begun to exploit a chain of vulnerabilities in Plex Media Server to deploy cryptocurrency miners and reverse proxy softwa"
+    "title": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
+    "link": "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html",
+    "date": "2026-10-20",
+    "snippet": "Go 1.27.3 and Go 1.26.10, released on October 20, make Go's certificate verifier reject any certificate chain that passes through one of&nbs"
   },
   {
     "source": "BleepingComputer",
-    "title": "Nikkei discloses third data breach in a month, 1.8M records exposed",
-    "link": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
-    "date": "2026-10-19",
-    "snippet": "Nikkei Inc. disclosed a new data breach, the third in about a month, that exposed 1.83 million personal information records. [...]"
+    "title": "DHS bans DeepSeek products across US federal civilian agencies",
+    "link": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
+    "date": "2026-10-20",
+    "snippet": "The U.S. Department of Homeland Security (DHS) is ordering federal civilian agencies to stop using DeepSeek products and remove them from go"
   },
   {
     "source": "BleepingComputer",
-    "title": "WordPress SEO plugin Rank Math compromised to backdoor websites",
-    "link": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
-    "date": "2026-10-19",
-    "snippet": "Some downloads of the Rank Math PRO WordPress plugin from the vendor's official website carried malware that planted hidden backdoors in a s"
+    "title": "CJIS v6.1 Compliance: 5 Practical Priorities for Agencies",
+    "link": "https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/",
+    "date": "2026-10-20",
+    "snippet": "CJIS v6.1 requires agencies to maintain strong authentication, account security, and audit controls while demonstrating ongoing compliance. "
   },
   {
     "source": "BleepingComputer",
-    "title": "Hackers hijack AOMEI update servers to secretly spread malware",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/",
-    "date": "2026-10-19",
-    "snippet": "Hackers reportedly compromised AOMEI's servers to distribute malware through a built-in promotional feature in its backup software, briefly "
+    "title": "Hacker gets 8 years for stealing $3.3 million from taxpayers",
+    "link": "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/",
+    "date": "2026-10-20",
+    "snippet": "A Nigerian national was sentenced to eight years in prison for his involvement in a series of spearphishing attacks targeting US tax prepara"
   },
   {
     "source": "BleepingComputer",
-    "title": "Bullhorn takes staffing platform offline to contain cyberattack",
-    "link": "https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/",
-    "date": "2026-10-19",
-    "snippet": "Staffing software company Bullhorn has disabled access to its platform to contain a cyberattack that caused a system-wide outage. [...]"
+    "title": "Windows Server 2025 gets support for quick machine recovery",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2025-gets-support-for-quick-machine-recovery/",
+    "date": "2026-10-20",
+    "snippet": "Microsoft announced that IT administrators can now use quick machine recovery on Windows Server 2025 after installing the October 2026 secur"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
+    "link": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
+    "date": "2026-10-20",
+    "snippet": "French cloud and hosting provider OVHcloud is warning users that attackers compromised its open-source command-line interface (CLI) tool to "
   },
   {
     "source": "Krebs on Security",
