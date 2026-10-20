@@ -1,38 +1,45 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
+    "link": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
+    "date": "2026-10-20",
+    "snippet": "An attacker used a contributor's GitHub account to replace the download archives on five existing releases of OVHcloud's command-line tool o"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
+    "link": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
+    "date": "2026-10-20",
+    "snippet": "Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks."
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
+    "link": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
+    "date": "2026-10-20",
+    "snippet": "A U.S. court on Monday granted the U.S. government's request to detain a former OpenAI engineer accused of planting a recording device in an"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
+    "link": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html",
+    "date": "2026-10-20",
+    "snippet": "Cybersecurity researchers have disclosed details of a ClickFix delivery platform called ROMULUS that's being used to distribute malware such"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Revolut outage disrupts online banking operations worldwide",
+    "link": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/",
+    "date": "2026-10-20",
+    "snippet": "Fintech company Revolut is working to resolve a massive outage that disrupted most of its services worldwide earlier today. [...]"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
     "link": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
     "date": "2026-10-19",
     "snippet": "Threat actors have begun to exploit a chain of vulnerabilities in Plex Media Server to deploy cryptocurrency miners and reverse proxy softwa"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
-    "link": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
-    "date": "2026-10-19",
-    "snippet": "Copies of Rank Math PRO, the paid version of the Rank Math SEO plugin for WordPress, that were downloaded from rankmath.com or delivered as "
-  },
-  {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
-    "link": "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
-    "date": "2026-10-19",
-    "snippet": "The worst problems don't always come with a warning. Sometimes they arrive through a service everyone trusts, a device someone bought, or a "
-  },
-  {
-    "source": "The Hacker News",
-    "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
-    "link": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
-    "date": "2026-10-19",
-    "snippet": "The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromise"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software",
-    "link": "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html",
-    "date": "2026-10-19",
-    "snippet": "In Salesforce Agentforce, the recommended way to make an agent respond to events is a Flow: a record is created or a case is updated, and th"
   },
   {
     "source": "BleepingComputer",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/",
     "date": "2026-10-19",
     "snippet": "Staffing software company Bullhorn has disabled access to its platform to contain a cyberattack that caused a system-wide outage. [...]"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "OpenCode hack exposes API keys amid AI distillation attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
-    "date": "2026-10-19",
-    "snippet": "The open-source AI coding project OpenCode has notified a small number of users that API keys they used with external providers were exposed"
   },
   {
     "source": "Krebs on Security",
