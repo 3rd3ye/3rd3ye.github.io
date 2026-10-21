@@ -1,5 +1,54 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
+    "link": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
+    "date": "2026-10-21",
+    "snippet": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and f"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
+    "link": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html",
+    "date": "2026-10-21",
+    "snippet": "Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCen"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
+    "link": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
+    "date": "2026-10-21",
+    "snippet": "U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products "
+  },
+  {
+    "source": "The Hacker News",
+    "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
+    "link": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
+    "date": "2026-10-21",
+    "snippet": "State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
+    "link": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
+    "date": "2026-10-21",
+    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilitie"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft says October updates didn’t actually fix VPN issues",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/",
+    "date": "2026-10-21",
+    "snippet": "Microsoft says it mistakenly flagged a bug causing Always On VPN connection issues as fixed in the October 2026 Windows 11 cumulative update"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
+    "date": "2026-10-21",
+    "snippet": "The Cybersecurity and Infrastructure Security Agency (CISA) says the SafePay ransomware gang has breached over 600 critical infrastructure o"
+  },
+  {
     "source": "BleepingComputer",
     "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
     "link": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
@@ -14,60 +63,11 @@
     "snippet": "Certificate authority eMudhra revoked eight compromised intermediate certificates after researchers found their private keys were so weak th"
   },
   {
-    "source": "The Hacker News",
-    "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
-    "link": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
-    "date": "2026-10-20",
-    "snippet": "The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised,&nbsp;Mozilla&nbsp;and&nbsp;Google's "
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
-    "link": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
-    "date": "2026-10-20",
-    "snippet": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet Fo"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
-    "link": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
-    "date": "2026-10-20",
-    "snippet": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting&nbsp; PAN-OS and Pris"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
-    "link": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
-    "date": "2026-10-20",
-    "snippet": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security resea"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
-    "link": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
-    "date": "2026-10-20",
-    "snippet": "The iPhone of Vladan Đokić, rector of the University of Belgrade and a prominent supporter of Serbia's student protest movement, was infecte"
-  },
-  {
     "source": "BleepingComputer",
     "title": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
     "link": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
     "date": "2026-10-20",
     "snippet": "The PHP security team is warning administrators to prepare for emergency security updates tomorrow to address two critical vulnerabilities, "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Zeabur shutting down after second security breach in two months",
-    "link": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
-    "date": "2026-10-20",
-    "snippet": "Development platform Zeabur has disclosed details of a cybersecurity incident in which an attacker used leaked internal credentials stored i"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "OpenAI says GPT-6.1 Sol is dramatically better at migrating legacy code",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/",
-    "date": "2026-10-20",
-    "snippet": "OpenAI confirmed that its newer models are much better at writing and migrating software in older programming languages. [...]"
   },
   {
     "source": "Krebs on Security",
