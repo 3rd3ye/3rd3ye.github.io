@@ -1,38 +1,59 @@
 [
   {
     "source": "The Hacker News",
-    "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
-    "link": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
+    "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
+    "link": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
     "date": "2026-10-21",
-    "snippet": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and f"
+    "snippet": "PHP has released emergency updates that fix two critical flaws in the language itself, letting an attacker without an account run code on a "
   },
   {
     "source": "The Hacker News",
-    "title": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
-    "link": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html",
+    "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
+    "link": "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
     "date": "2026-10-21",
-    "snippet": "Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCen"
+    "snippet": "Google on Tuesday said it's rolling out improved safeguards in its Chrome browser to secure users against ClickFix attacks when Enhanced Pro"
   },
   {
     "source": "The Hacker News",
-    "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
-    "link": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
+    "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
+    "link": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
     "date": "2026-10-21",
-    "snippet": "U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products "
+    "snippet": "Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that h"
   },
   {
     "source": "The Hacker News",
-    "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
-    "link": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
+    "title": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
+    "link": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
     "date": "2026-10-21",
-    "snippet": "State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the"
+    "snippet": "Generative AI has changed what a malicious email looks like. Messages that once gave themselves away through clumsy wording, generic pretext"
   },
   {
     "source": "The Hacker News",
-    "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
-    "link": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
+    "title": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
+    "link": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
     "date": "2026-10-21",
-    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilitie"
+    "snippet": "You cannot fully block the two critical PHP flaws called PHP2Shell before today's fix, and the one setting being passed around as a workarou"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "PHP ships emergency patches for critical PHP2Shell flaws",
+    "link": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
+    "date": "2026-10-21",
+    "snippet": "The PHP security team released emergency security patches for two critical remote code execution (RCE) vulnerabilities (CVE-2026-109618 and "
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "ClickFix has never been bigger, and AI tools are its most convincing lure yet",
+    "link": "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/",
+    "date": "2026-10-21",
+    "snippet": "ClickFix attacks are surging as cybercriminals use fake AI installers, malicious search results, and trusted chatbot platforms to trick user"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft PowerToys adds CursorHide, Button Lock mouse tools",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/",
+    "date": "2026-10-21",
+    "snippet": "Microsoft has released PowerToys 0.102, with two new mouse utilities, new command-line tools, and Command Palette improvements. [...]"
   },
   {
     "source": "BleepingComputer",
@@ -49,25 +70,11 @@
     "snippet": "The Cybersecurity and Infrastructure Security Agency (CISA) says the SafePay ransomware gang has breached over 600 critical infrastructure o"
   },
   {
-    "source": "BleepingComputer",
-    "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
-    "link": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
+    "source": "Krebs on Security",
+    "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
+    "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
     "date": "2026-10-21",
-    "snippet": "A threat actor breached TeamUpdraft's website, a developer of popular WordPress backup and security plugins, potentially compromising Updraf"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
-    "link": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
-    "date": "2026-10-21",
-    "snippet": "Certificate authority eMudhra revoked eight compromised intermediate certificates after researchers found their private keys were so weak th"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
-    "link": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
-    "date": "2026-10-20",
-    "snippet": "The PHP security team is warning administrators to prepare for emergency security updates tomorrow to address two critical vulnerabilities, "
+    "snippet": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core s"
   },
   {
     "source": "Krebs on Security",
@@ -75,12 +82,5 @@
     "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
     "date": "2026-10-19",
     "snippet": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified ex"
-  },
-  {
-    "source": "Krebs on Security",
-    "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
-    "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
-    "date": "2026-10-14",
-    "snippet": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major"
   }
 ]
