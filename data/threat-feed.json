@@ -1,6 +1,27 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
+    "link": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
+    "date": "2026-10-21",
+    "snippet": "GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects ev"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
+    "link": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+    "date": "2026-10-21",
+    "snippet": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a "
+  },
+  {
+    "source": "The Hacker News",
+    "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
+    "link": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
+    "date": "2026-10-21",
+    "snippet": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and one GPT-6 Astra weakened misalignment monitoring"
+  },
+  {
+    "source": "The Hacker News",
     "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
     "link": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
     "date": "2026-10-21",
@@ -14,25 +35,25 @@
     "snippet": "Google on Tuesday said it's rolling out improved safeguards in its Chrome browser to secure users against ClickFix attacks when Enhanced Pro"
   },
   {
-    "source": "The Hacker News",
-    "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
-    "link": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
+    "source": "BleepingComputer",
+    "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
+    "link": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
     "date": "2026-10-21",
-    "snippet": "Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that h"
+    "snippet": "North Korean hackers are using a post-quantum cryptographic mechanism to secure malicious payload delivery in new operations that combine ol"
   },
   {
-    "source": "The Hacker News",
-    "title": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
-    "link": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
+    "source": "BleepingComputer",
+    "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
     "date": "2026-10-21",
-    "snippet": "Generative AI has changed what a malicious email looks like. Messages that once gave themselves away through clumsy wording, generic pretext"
+    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are actively exploiting four vulnerabilities in P"
   },
   {
-    "source": "The Hacker News",
-    "title": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
-    "link": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
+    "source": "BleepingComputer",
+    "title": "OpenAI agents disabled safety monitoring, one lied about it",
+    "link": "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/",
     "date": "2026-10-21",
-    "snippet": "You cannot fully block the two critical PHP flaws called PHP2Shell before today's fix, and the one setting being passed around as a workarou"
+    "snippet": "OpenAI agents powered by the GPT-6.1 Sol and GPT-6 Astra models weakened misalignment monitoring during two internal tasks, interpreting cod"
   },
   {
     "source": "BleepingComputer",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/",
     "date": "2026-10-21",
     "snippet": "ClickFix attacks are surging as cybercriminals use fake AI installers, malicious search results, and trusted chatbot platforms to trick user"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft PowerToys adds CursorHide, Button Lock mouse tools",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/",
-    "date": "2026-10-21",
-    "snippet": "Microsoft has released PowerToys 0.102, with two new mouse utilities, new command-line tools, and Command Palette improvements. [...]"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft says October updates didn’t actually fix VPN issues",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/",
-    "date": "2026-10-21",
-    "snippet": "Microsoft says it mistakenly flagged a bug causing Always On VPN connection issues as fixed in the October 2026 Windows 11 cumulative update"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
-    "date": "2026-10-21",
-    "snippet": "The Cybersecurity and Infrastructure Security Agency (CISA) says the SafePay ransomware gang has breached over 600 critical infrastructure o"
   },
   {
     "source": "Krebs on Security",
