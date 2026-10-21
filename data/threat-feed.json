@@ -1,5 +1,19 @@
 [
   {
+    "source": "BleepingComputer",
+    "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
+    "link": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
+    "date": "2026-10-21",
+    "snippet": "A threat actor breached TeamUpdraft's website, a developer of popular WordPress backup and security plugins, potentially compromising Updraf"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
+    "link": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
+    "date": "2026-10-21",
+    "snippet": "Certificate authority eMudhra revoked eight compromised intermediate certificates after researchers found their private keys were so weak th"
+  },
+  {
     "source": "The Hacker News",
     "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
     "link": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
@@ -54,20 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/",
     "date": "2026-10-20",
     "snippet": "OpenAI confirmed that its newer models are much better at writing and migrating software in older programming languages. [...]"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "DHS bans DeepSeek products across US federal civilian agencies",
-    "link": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
-    "date": "2026-10-20",
-    "snippet": "The U.S. Department of Homeland Security (DHS) is ordering federal civilian agencies to stop using DeepSeek products and remove them from go"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "CJIS v6.1 Compliance: 5 Practical Priorities for Agencies",
-    "link": "https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/",
-    "date": "2026-10-20",
-    "snippet": "CJIS v6.1 requires agencies to maintain strong authentication, account security, and audit controls while demonstrating ongoing compliance. "
   },
   {
     "source": "Krebs on Security",
