@@ -1,38 +1,45 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
-    "link": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
-    "date": "2026-10-21",
-    "snippet": "GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects ev"
+    "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
+    "link": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+    "date": "2026-10-22",
+    "snippet": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Py"
   },
   {
     "source": "The Hacker News",
-    "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
-    "link": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
-    "date": "2026-10-21",
-    "snippet": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a "
+    "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
+    "link": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+    "date": "2026-10-22",
+    "snippet": "Node.js released&nbsp;security updates&nbsp;on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The m"
   },
   {
     "source": "The Hacker News",
-    "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
-    "link": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
-    "date": "2026-10-21",
-    "snippet": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and one GPT-6 Astra weakened misalignment monitoring"
+    "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
+    "link": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
+    "date": "2026-10-22",
+    "snippet": "A remote attacker who has not logged in can crash many HTTP/3 web servers with a single connection, security firm FoxIO&nbsp;disclosed, rele"
   },
   {
     "source": "The Hacker News",
-    "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
-    "link": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
-    "date": "2026-10-21",
-    "snippet": "PHP has released emergency updates that fix two critical flaws in the language itself, letting an attacker without an account run code on a "
+    "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
+    "link": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
+    "date": "2026-10-22",
+    "snippet": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on Octob"
   },
   {
     "source": "The Hacker News",
-    "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
-    "link": "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
-    "date": "2026-10-21",
-    "snippet": "Google on Tuesday said it's rolling out improved safeguards in its Chrome browser to secure users against ClickFix attacks when Enhanced Pro"
+    "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
+    "link": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
+    "date": "2026-10-22",
+    "snippet": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the Con"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
+    "link": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/",
+    "date": "2026-10-22",
+    "snippet": "Law enforcement agencies have disrupted nearly 11,000 cybercriminal networks and arrested more than 1,400 people in Operation Serengeti III,"
   },
   {
     "source": "BleepingComputer",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
     "date": "2026-10-21",
     "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are actively exploiting four vulnerabilities in P"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "OpenAI agents disabled safety monitoring, one lied about it",
-    "link": "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/",
-    "date": "2026-10-21",
-    "snippet": "OpenAI agents powered by the GPT-6.1 Sol and GPT-6 Astra models weakened misalignment monitoring during two internal tasks, interpreting cod"
   },
   {
     "source": "Krebs on Security",
