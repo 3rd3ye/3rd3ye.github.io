@@ -36,6 +36,20 @@
   },
   {
     "source": "BleepingComputer",
+    "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
+    "link": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
+    "date": "2026-10-21",
+    "snippet": "Chrome is getting new scam protections that use Gemini to detect deceptive websites and warn users when they copy suspicious commands from C"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
+    "link": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
+    "date": "2026-10-21",
+    "snippet": "Hackers compromised the infrastructure of Onamae Desktop Cloud, a popular provider of VPS services in Japan, and installed malware on up to "
+  },
+  {
+    "source": "BleepingComputer",
     "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
     "link": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
     "date": "2026-10-21",
@@ -54,20 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/",
     "date": "2026-10-21",
     "snippet": "OpenAI agents powered by the GPT-6.1 Sol and GPT-6 Astra models weakened misalignment monitoring during two internal tasks, interpreting cod"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "PHP ships emergency patches for critical PHP2Shell flaws",
-    "link": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
-    "date": "2026-10-21",
-    "snippet": "The PHP security team released emergency security patches for two critical remote code execution (RCE) vulnerabilities (CVE-2026-109618 and "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "ClickFix has never been bigger, and AI tools are its most convincing lure yet",
-    "link": "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/",
-    "date": "2026-10-21",
-    "snippet": "ClickFix attacks are surging as cybercriminals use fake AI installers, malicious search results, and trusted chatbot platforms to trick user"
   },
   {
     "source": "Krebs on Security",
