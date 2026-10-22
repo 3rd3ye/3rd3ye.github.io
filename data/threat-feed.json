@@ -1,38 +1,66 @@
 [
   {
     "source": "The Hacker News",
+    "title": "INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global Crackdown",
+    "link": "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html",
+    "date": "2026-10-22",
+    "snippet": "INTERPOL on Thursday announced that a coordinated law enforcement action has disrupted 10,909 malicious networks and recovered more than $10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
+    "link": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+    "date": "2026-10-22",
+    "snippet": "Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can acces"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
+    "link": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
+    "date": "2026-10-22",
+    "snippet": "Platform-as-a-Service (PaaS) provider Railway on Wednesday disclosed \"anomalous activity\" related to systems that store customer environment"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
+    "link": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
+    "date": "2026-10-22",
+    "snippet": "A flaw in the OpenCode AI coding agent allowed a malicious or hijacked MCP server to run code on a developer's Windows or WSL machine when t"
+  },
+  {
+    "source": "The Hacker News",
     "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
     "link": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
     "date": "2026-10-22",
     "snippet": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Py"
   },
   {
-    "source": "The Hacker News",
-    "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
-    "link": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+    "source": "BleepingComputer",
+    "title": "Microsoft shares how to fix broken Exchange Online EWS apps",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
     "date": "2026-10-22",
-    "snippet": "Node.js released&nbsp;security updates&nbsp;on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The m"
+    "snippet": "Microsoft says IT admins can re-enable the retired Exchange Web Services (EWS) API in Exchange Online to fix EWS apps that have stopped work"
   },
   {
-    "source": "The Hacker News",
-    "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
-    "link": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
+    "source": "BleepingComputer",
+    "title": "Machine speed attacks require machine speed detection and response",
+    "link": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
     "date": "2026-10-22",
-    "snippet": "A remote attacker who has not logged in can crash many HTTP/3 web servers with a single connection, security firm FoxIO&nbsp;disclosed, rele"
+    "snippet": "Attackers can steal credentials and begin exfiltrating data within minutes, often before security teams can respond. Exaforce examines real-"
   },
   {
-    "source": "The Hacker News",
-    "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
-    "link": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
+    "source": "BleepingComputer",
+    "title": "Amazon says PHP2Shell exploitation began 4 days before patches",
+    "link": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
     "date": "2026-10-22",
-    "snippet": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on Octob"
+    "snippet": "Security researchers at Amazon Threat Intelligence say attackers began targeting the PHP2Shell flaws four days before security patches were "
   },
   {
-    "source": "The Hacker News",
-    "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
-    "link": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
+    "source": "BleepingComputer",
+    "title": "GitLab warns of new max severity code execution vulnerability",
+    "link": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
     "date": "2026-10-22",
-    "snippet": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the Con"
+    "snippet": "GitLab has released security patches for a maximum-severity Regular Expression Compiler flaw that can let remote attackers run arbitrary cod"
   },
   {
     "source": "BleepingComputer",
@@ -40,34 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/",
     "date": "2026-10-22",
     "snippet": "Law enforcement agencies have disrupted nearly 11,000 cybercriminal networks and arrested more than 1,400 people in Operation Serengeti III,"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
-    "link": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
-    "date": "2026-10-21",
-    "snippet": "Chrome is getting new scam protections that use Gemini to detect deceptive websites and warn users when they copy suspicious commands from C"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
-    "link": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
-    "date": "2026-10-21",
-    "snippet": "Hackers compromised the infrastructure of Onamae Desktop Cloud, a popular provider of VPS services in Japan, and installed malware on up to "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
-    "link": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
-    "date": "2026-10-21",
-    "snippet": "North Korean hackers are using a post-quantum cryptographic mechanism to secure malicious payload delivery in new operations that combine ol"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
-    "date": "2026-10-21",
-    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are actively exploiting four vulnerabilities in P"
   },
   {
     "source": "Krebs on Security",
