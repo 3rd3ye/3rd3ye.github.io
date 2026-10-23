@@ -1,6 +1,27 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
+    "link": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+    "date": "2026-10-23",
+    "snippet": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet F"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
+    "link": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+    "date": "2026-10-23",
+    "snippet": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2She"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+    "link": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
+    "date": "2026-10-23",
+    "snippet": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a "
+  },
+  {
+    "source": "The Hacker News",
     "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
     "link": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
     "date": "2026-10-23",
@@ -14,25 +35,25 @@
     "snippet": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva ha"
   },
   {
-    "source": "The Hacker News",
-    "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
-    "link": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
+    "source": "BleepingComputer",
+    "title": "PHP shares mitigation for new RCE vulnerability with no patch",
+    "link": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
     "date": "2026-10-23",
-    "snippet": "AI agents paying for API calls with the&nbsp;x402 SDKs&nbsp;could sign a payment for their full balance of a supported token if a malicious "
+    "snippet": "The PHP security team has shared mitigation measures for a new remote code execution vulnerability that affects systems with non-default con"
   },
   {
-    "source": "The Hacker News",
-    "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
-    "link": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+    "source": "BleepingComputer",
+    "title": "You gave your AI agent access, but who is giving it orders?",
+    "link": "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
     "date": "2026-10-23",
-    "snippet": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems"
+    "snippet": "AI agents can be manipulated through malicious emails, websites, and plugins into executing commands, stealing data, or deleting files using"
   },
   {
-    "source": "The Hacker News",
-    "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
-    "link": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
-    "date": "2026-10-22",
-    "snippet": "Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can acces"
+    "source": "BleepingComputer",
+    "title": "HPE patches eight max severity RCE and auth bypass AOS flaws",
+    "link": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
+    "date": "2026-10-23",
+    "snippet": "Hewlett Packard Enterprise (HPE) released security updates to patch 72 vulnerabilities in the Aruba Operating System (ArubaOS), including ei"
   },
   {
     "source": "BleepingComputer",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
     "date": "2026-10-22",
     "snippet": "Japanese gaming giant Capcom has confirmed that hackers breached its membership service, CAPCOM ID, exposing more than 11.7 million customer"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
-    "link": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
-    "date": "2026-10-22",
-    "snippet": "Hackers compromised the LiteLLM project's PyPI package and published malicious Docker images with a payload that steals credentials, secrets"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
-    "date": "2026-10-22",
-    "snippet": "Arista Networks released security updates to patch an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator (VCO) On-Pr"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft shares how to fix broken Exchange Online EWS apps",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
-    "date": "2026-10-22",
-    "snippet": "Microsoft says IT admins can re-enable the retired Exchange Web Services (EWS) API in Exchange Online to fix EWS apps that have stopped work"
   },
   {
     "source": "Krebs on Security",
