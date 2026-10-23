@@ -36,6 +36,13 @@
   },
   {
     "source": "BleepingComputer",
+    "title": "Railway warns devs to rotate secrets after potential breach",
+    "link": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
+    "date": "2026-10-22",
+    "snippet": "Cloud platform Railway published an urgent warning to users after detecting suspicious activity on its systems that store customer environme"
+  },
+  {
+    "source": "BleepingComputer",
     "title": "Capcom confirms data breach affecting 11.7 million accounts",
     "link": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
     "date": "2026-10-22",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
     "date": "2026-10-22",
     "snippet": "Microsoft says IT admins can re-enable the retired Exchange Web Services (EWS) API in Exchange Online to fix EWS apps that have stopped work"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Machine speed attacks require machine speed detection and response",
-    "link": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
-    "date": "2026-10-22",
-    "snippet": "Attackers can steal credentials and begin exfiltrating data within minutes, often before security teams can respond. Exaforce examines real-"
   },
   {
     "source": "Krebs on Security",
