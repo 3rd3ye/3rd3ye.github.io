@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+    "link": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+    "date": "2026-10-24",
+    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in COD"
+  },
+  {
+    "source": "The Hacker News",
     "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
     "link": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
     "date": "2026-10-23",
@@ -26,13 +33,6 @@
     "link": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
     "date": "2026-10-23",
     "snippet": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet F"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
-    "link": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
-    "date": "2026-10-23",
-    "snippet": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2She"
   },
   {
     "source": "BleepingComputer",
