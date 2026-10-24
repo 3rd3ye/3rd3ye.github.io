@@ -36,6 +36,13 @@
   },
   {
     "source": "BleepingComputer",
+    "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+    "date": "2026-10-23",
+    "snippet": "Researchers remotely disabled a vulnerable updater in the abandoned Time4Popcorn app, a fork of the Popcorn Time BitTorrent client, closing "
+  },
+  {
+    "source": "BleepingComputer",
     "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
     "date": "2026-10-23",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
     "date": "2026-10-23",
     "snippet": "The PHP security team has shared mitigation measures for a new remote code execution vulnerability that affects systems with non-default con"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "You gave your AI agent access, but who is giving it orders?",
-    "link": "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
-    "date": "2026-10-23",
-    "snippet": "AI agents can be manipulated through malicious emails, websites, and plugins into executing commands, stealing data, or deleting files using"
   },
   {
     "source": "Krebs on Security",
