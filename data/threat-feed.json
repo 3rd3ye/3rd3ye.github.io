@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+    "link": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+    "date": "2026-10-25",
+    "snippet": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) traini"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
     "link": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
     "date": "2026-10-24",
@@ -26,13 +33,6 @@
     "link": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
     "date": "2026-10-24",
     "snippet": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
-    "link": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
-    "date": "2026-10-24",
-    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in COD"
   },
   {
     "source": "BleepingComputer",
