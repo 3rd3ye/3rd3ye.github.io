@@ -1,24 +1,52 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
-    "link": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
-    "date": "2026-10-25",
-    "snippet": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researc"
+    "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
+    "link": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
+    "date": "2026-10-26",
+    "snippet": "Every SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed. Network data, like t"
   },
   {
     "source": "The Hacker News",
-    "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
-    "link": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
-    "date": "2026-10-25",
-    "snippet": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of "
+    "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
+    "link": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+    "date": "2026-10-26",
+    "snippet": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two a"
   },
   {
     "source": "The Hacker News",
-    "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
-    "link": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
-    "date": "2026-10-25",
-    "snippet": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) traini"
+    "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+    "link": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
+    "date": "2026-10-26",
+    "snippet": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay "
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
+    "link": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
+    "date": "2026-10-26",
+    "snippet": "An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
+    "link": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+    "date": "2026-10-26",
+    "snippet": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm pac"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
+    "link": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
+    "date": "2026-10-26",
+    "snippet": "Kali Linux has released version 2026.3, its third release this year, featuring six new hacking tools, desktop environment improvements, refr"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
+    "link": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
+    "date": "2026-10-26",
+    "snippet": "Two critical RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619), collectively tracked as PHP2Shell, have been successfully exploited "
   },
   {
     "source": "BleepingComputer",
@@ -26,20 +54,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
     "date": "2026-10-25",
     "snippet": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into install"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
-    "link": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
-    "date": "2026-10-24",
-    "snippet": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python&nbs"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
-    "link": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
-    "date": "2026-10-24",
-    "snippet": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimatel"
   },
   {
     "source": "BleepingComputer",
@@ -54,20 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
     "date": "2026-10-23",
     "snippet": "Researchers remotely disabled a vulnerable updater in the abandoned Time4Popcorn app, a fork of the Popcorn Time BitTorrent client, closing "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
-    "date": "2026-10-23",
-    "snippet": "Microsoft has announced plans to add AI-powered phishing detection to Teams messages starting in early November 2026. [...]"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft: Windows Server 2016 reaches end of support in January",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
-    "date": "2026-10-23",
-    "snippet": "Microsoft says Windows Server 2016 will stop receiving security updates after it reaches the end of support in January 2027. [...]"
   },
   {
     "source": "Krebs on Security",
