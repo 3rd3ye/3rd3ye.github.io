@@ -1,38 +1,59 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
+    "link": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
+    "date": "2026-10-27",
+    "snippet": "A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in A"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
+    "link": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
+    "date": "2026-10-27",
+    "snippet": "OpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning "
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
+    "link": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
+    "date": "2026-10-27",
+    "snippet": "The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance sy"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+    "link": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+    "date": "2026-10-27",
+    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell f"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Apple backports CoreGraphics zero-day patches to older iPhones",
+    "link": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
+    "date": "2026-10-27",
+    "snippet": "​Apple has backported security patches released last month to older iPhones and iPads, addressing a zero-day bug exploited in \"extremely sop"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Energy giant ENGIE discloses data breach affecting customers",
+    "link": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
+    "date": "2026-10-27",
+    "snippet": "French energy giant ENGIE, one of the world's largest power and natural gas providers, confirmed that attackers stole customer data after br"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
+    "date": "2026-10-27",
+    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added the PHP2Shell vulnerabilities to its catalog of actively exploite"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
     "link": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
     "date": "2026-10-26",
     "snippet": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
-    "link": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
-    "date": "2026-10-26",
-    "snippet": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that "
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
-    "link": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
-    "date": "2026-10-26",
-    "snippet": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in whi"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
-    "link": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
-    "date": "2026-10-26",
-    "snippet": "This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are "
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
-    "link": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
-    "date": "2026-10-26",
-    "snippet": "Two critical flaws in&nbsp;Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module"
   },
   {
     "source": "BleepingComputer",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
     "date": "2026-10-26",
     "snippet": "South Korean police identified seven suspects linked to a cybercrime operation that breached more than 90 organizations in the country, with"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
-    "date": "2026-10-26",
-    "snippet": "OpenAI has launched GPT-6.1 Terra, a new model focused on computer use, visual reasoning, coding, and everyday work, while costing significa"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "DreamHost forces password resets in ongoing \"incident\"",
-    "link": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
-    "date": "2026-10-26",
-    "snippet": "DreamHost has forced password resets for email and FTP/SFTP users following an incident that disrupted connections to the File Manager inter"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
-    "link": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
-    "date": "2026-10-26",
-    "snippet": "A critical flaw dubbed 'HTTP2Shell' in Brotli, the C decoder library built into Node.js, could allow attackers to corrupt memory and access "
   },
   {
     "source": "Krebs on Security",
