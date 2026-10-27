@@ -1,31 +1,59 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
-    "link": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
+    "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
+    "link": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
     "date": "2026-10-27",
-    "snippet": "A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in A"
+    "snippet": "The GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but never turned revocation checking on, s"
   },
   {
     "source": "The Hacker News",
-    "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
-    "link": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
+    "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+    "link": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
     "date": "2026-10-27",
-    "snippet": "OpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning "
+    "snippet": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices. The vuln"
   },
   {
     "source": "The Hacker News",
-    "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
-    "link": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
+    "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
+    "link": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
     "date": "2026-10-27",
-    "snippet": "The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance sy"
+    "snippet": "Microsoft has fixed a flaw in its Authenticator app for Android that let a malicious app with no permissions pose as a trusted Microsoft app"
   },
   {
     "source": "The Hacker News",
-    "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
-    "link": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+    "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
+    "link": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
     "date": "2026-10-27",
-    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell f"
+    "snippet": "An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company sa"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
+    "link": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
+    "date": "2026-10-27",
+    "snippet": "Fake login pages are nothing new, but generative AI is making them easier to build and more convincing. Attackers can recreate familiar logi"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
+    "link": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
+    "date": "2026-10-27",
+    "snippet": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party ve"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
+    "link": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
+    "date": "2026-10-27",
+    "snippet": "The Tailscale security team is working to patch almost a dozen security vulnerabilities that could be exploited to steal credentials, crash "
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
+    "link": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
+    "date": "2026-10-27",
+    "snippet": "Attackers are increasingly abusing legitimate IT tools, Microsoft 365 sessions, and everyday workflows to compromise businesses without trig"
   },
   {
     "source": "BleepingComputer",
@@ -40,34 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
     "date": "2026-10-27",
     "snippet": "French energy giant ENGIE, one of the world's largest power and natural gas providers, confirmed that attackers stole customer data after br"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
-    "date": "2026-10-27",
-    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added the PHP2Shell vulnerabilities to its catalog of actively exploite"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
-    "link": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
-    "date": "2026-10-26",
-    "snippet": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "University of Copenhagen data breach exposes data of 525,000 people",
-    "link": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
-    "date": "2026-10-26",
-    "snippet": "The University of Copenhagen in Denmark confirmed that hackers accessed one of its test environments containing personal data belonging to 5"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
-    "link": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
-    "date": "2026-10-26",
-    "snippet": "South Korean police identified seven suspects linked to a cybercrime operation that breached more than 90 organizations in the country, with"
   },
   {
     "source": "Krebs on Security",
