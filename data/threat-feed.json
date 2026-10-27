@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
+    "link": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
+    "date": "2026-10-27",
+    "snippet": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (A"
+  },
+  {
+    "source": "The Hacker News",
     "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
     "link": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
     "date": "2026-10-27",
@@ -28,11 +35,18 @@
     "snippet": "An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company sa"
   },
   {
-    "source": "The Hacker News",
-    "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
-    "link": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
+    "source": "BleepingComputer",
+    "title": "Hackers hijack Convertr analytics script to steal payment card data",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
     "date": "2026-10-27",
-    "snippet": "Fake login pages are nothing new, but generative AI is making them easier to build and more convincing. Attackers can recreate familiar logi"
+    "snippet": "A credit card skimming group reportedly compromised a shared analytics script used by e-commerce platform Convertr to steal shoppers' paymen"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
+    "date": "2026-10-27",
+    "snippet": "Microsoft has released out-of-band (OOB) Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority k"
   },
   {
     "source": "BleepingComputer",
@@ -54,20 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
     "date": "2026-10-27",
     "snippet": "Attackers are increasingly abusing legitimate IT tools, Microsoft 365 sessions, and everyday workflows to compromise businesses without trig"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Apple backports CoreGraphics zero-day patches to older iPhones",
-    "link": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
-    "date": "2026-10-27",
-    "snippet": "​Apple has backported security patches released last month to older iPhones and iPads, addressing a zero-day bug exploited in \"extremely sop"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Energy giant ENGIE discloses data breach affecting customers",
-    "link": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
-    "date": "2026-10-27",
-    "snippet": "French energy giant ENGIE, one of the world's largest power and natural gas providers, confirmed that attackers stole customer data after br"
   },
   {
     "source": "Krebs on Security",
