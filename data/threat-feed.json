@@ -1,73 +1,73 @@
 [
   {
     "source": "The Hacker News",
+    "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
+    "link": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
+    "date": "2026-10-28",
+    "snippet": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a sus"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
+    "link": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
+    "date": "2026-10-28",
+    "snippet": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intell"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers",
+    "link": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
+    "date": "2026-10-28",
+    "snippet": "A critical 16-year-old flaw in EDK II, the open-source code that most hardware makers use to build UEFI firmware, can allow an attacker to r"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Wazuh and AI for Enhanced SOC Workflows",
+    "link": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html",
+    "date": "2026-10-28",
+    "snippet": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and educati"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
     "link": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
     "date": "2026-10-28",
     "snippet": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in "
   },
   {
-    "source": "The Hacker News",
-    "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
-    "link": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
+    "source": "BleepingComputer",
+    "title": "Sony ISP subsidiary data breach exposes 2.5 million customer records",
+    "link": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/",
     "date": "2026-10-28",
-    "snippet": "Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
-    "link": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
-    "date": "2026-10-28",
-    "snippet": "An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering",
-    "link": "https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html",
-    "date": "2026-10-28",
-    "snippet": "The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a domain associated with a bulletproof hosting provider (BPH) named"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
-    "link": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
-    "date": "2026-10-28",
-    "snippet": "Japan's GMO Internet Group is&nbsp;offering up to $1 million in total&nbsp;for tips that help catch the attackers who breached its Onamae.co"
+    "snippet": "Sony Network Communications has confirmed a data breach that compromised approximately 2.5 million records containing current and former cus"
   },
   {
     "source": "BleepingComputer",
-    "title": "CISA warns of hackers now exploiting critical Node2Shell flaw",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
+    "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
+    "link": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
     "date": "2026-10-28",
-    "snippet": "On Tuesday, the US Cybersecurity and Infrastructure Security Agency (CISA) confirmed that hackers have begun exploiting a critical Brotli vu"
+    "snippet": "Chinese state-sponsored hacking group Volt Typhoon has been using a framework that relies on rotating chains of connected devices compromise"
   },
   {
     "source": "BleepingComputer",
-    "title": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
-    "link": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/",
+    "title": "Microsoft urges Entra ID admins to migrate users to passkeys",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/",
     "date": "2026-10-28",
-    "snippet": "A Ukrainian national was sentenced to 70 months in prison for his role in ransomware attacks targeting hospitals, government entities, and h"
+    "snippet": "Microsoft again asked Entra ID administrators to migrate users to phishing-resistant methods to avoid sign-in disruptions before it retires "
   },
   {
     "source": "BleepingComputer",
-    "title": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
-    "link": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
-    "date": "2026-10-27",
-    "snippet": "The GMO Group has urged customers to disconnect their systems from the internet and shut down computers after a threat actor who breached th"
+    "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
+    "link": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
+    "date": "2026-10-28",
+    "snippet": "Attackers are actively exploiting vulnerabilities across critical network infrastructure, and PHP flaws known as \"PHP2Shell\" put the web man"
   },
   {
     "source": "BleepingComputer",
-    "title": "OpenAI's GPT-6.1 Terra is safer overall, but shows more destructive-action flags in tests",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/",
-    "date": "2026-10-27",
-    "snippet": "OpenAI confirmed GPT-6.1 Terra is safer overall than some of its older models, but its safety testing also found other problems. [...]"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "UNM Health ransomware attack disrupts patient care, surgeries",
-    "link": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
-    "date": "2026-10-27",
-    "snippet": "The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academ"
+    "title": "Even after PHP2Shell, blast radius matters more than a CVSS score",
+    "link": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
+    "date": "2026-10-28",
+    "snippet": "PHP2Shell shows how quickly attackers can exploit critical vulnerabilities, often before organizations have time to patch. Token Security ex"
   },
   {
     "source": "Krebs on Security",
