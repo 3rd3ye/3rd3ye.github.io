@@ -1,38 +1,52 @@
 [
   {
     "source": "The Hacker News",
-    "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
-    "link": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
-    "date": "2026-10-27",
-    "snippet": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (A"
+    "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
+    "link": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
+    "date": "2026-10-28",
+    "snippet": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in "
   },
   {
     "source": "The Hacker News",
-    "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
-    "link": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
-    "date": "2026-10-27",
-    "snippet": "The GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but never turned revocation checking on, s"
+    "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
+    "link": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
+    "date": "2026-10-28",
+    "snippet": "Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate"
   },
   {
     "source": "The Hacker News",
-    "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
-    "link": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
-    "date": "2026-10-27",
-    "snippet": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices. The vuln"
+    "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
+    "link": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
+    "date": "2026-10-28",
+    "snippet": "An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-"
   },
   {
     "source": "The Hacker News",
-    "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
-    "link": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
-    "date": "2026-10-27",
-    "snippet": "Microsoft has fixed a flaw in its Authenticator app for Android that let a malicious app with no permissions pose as a trusted Microsoft app"
+    "title": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering",
+    "link": "https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html",
+    "date": "2026-10-28",
+    "snippet": "The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a domain associated with a bulletproof hosting provider (BPH) named"
   },
   {
     "source": "The Hacker News",
-    "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
-    "link": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
-    "date": "2026-10-27",
-    "snippet": "An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company sa"
+    "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
+    "link": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
+    "date": "2026-10-28",
+    "snippet": "Japan's GMO Internet Group is&nbsp;offering up to $1 million in total&nbsp;for tips that help catch the attackers who breached its Onamae.co"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "CISA warns of hackers now exploiting critical Node2Shell flaw",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
+    "date": "2026-10-28",
+    "snippet": "On Tuesday, the US Cybersecurity and Infrastructure Security Agency (CISA) confirmed that hackers have begun exploiting a critical Brotli vu"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
+    "link": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/",
+    "date": "2026-10-28",
+    "snippet": "A Ukrainian national was sentenced to 70 months in prison for his role in ransomware attacks targeting hospitals, government entities, and h"
   },
   {
     "source": "BleepingComputer",
@@ -54,20 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
     "date": "2026-10-27",
     "snippet": "The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academ"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Hackers hijack Convertr analytics script to steal payment card data",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
-    "date": "2026-10-27",
-    "snippet": "A credit card skimming group reportedly compromised a shared analytics script used by e-commerce platform Convertr to steal shoppers' paymen"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
-    "date": "2026-10-27",
-    "snippet": "Microsoft has released out-of-band (OOB) Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority k"
   },
   {
     "source": "Krebs on Security",
