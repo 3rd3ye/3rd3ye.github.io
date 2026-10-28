@@ -1,6 +1,27 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+    "link": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+    "date": "2026-10-28",
+    "snippet": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
+    "link": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
+    "date": "2026-10-28",
+    "snippet": "Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android's usual confirmation scr"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
+    "link": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
+    "date": "2026-10-28",
+    "snippet": "A chain of logic flaws, with no memory corruption, can turn a malicious web page into code running on a Windows computer outside Microsoft E"
+  },
+  {
+    "source": "The Hacker News",
     "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
     "link": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
     "date": "2026-10-28",
@@ -14,25 +35,18 @@
     "snippet": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intell"
   },
   {
-    "source": "The Hacker News",
-    "title": "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers",
-    "link": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
+    "source": "BleepingComputer",
+    "title": "Police seize Virtualine bulletproof service tied to ransowmare, cybercrime",
+    "link": "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime/",
     "date": "2026-10-28",
-    "snippet": "A critical 16-year-old flaw in EDK II, the open-source code that most hardware makers use to build UEFI firmware, can allow an attacker to r"
+    "snippet": "U.S. law enforcement has seized the primary domain of Virtualine, a bulletproof hosting service advertised on cybercrime forums for facilita"
   },
   {
-    "source": "The Hacker News",
-    "title": "Wazuh and AI for Enhanced SOC Workflows",
-    "link": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html",
+    "source": "BleepingComputer",
+    "title": "Discord to let search engines index public server messages",
+    "link": "https://www.bleepingcomputer.com/news/security/discord-to-let-search-engines-index-public-server-messages/",
     "date": "2026-10-28",
-    "snippet": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and educati"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
-    "link": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
-    "date": "2026-10-28",
-    "snippet": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in "
+    "snippet": "Discord will allow search engines to index discussions in Discoverable Servers and make them accessible on the web to users outside the plat"
   },
   {
     "source": "BleepingComputer",
@@ -54,20 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/",
     "date": "2026-10-28",
     "snippet": "Microsoft again asked Entra ID administrators to migrate users to phishing-resistant methods to avoid sign-in disruptions before it retires "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
-    "link": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
-    "date": "2026-10-28",
-    "snippet": "Attackers are actively exploiting vulnerabilities across critical network infrastructure, and PHP flaws known as \"PHP2Shell\" put the web man"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Even after PHP2Shell, blast radius matters more than a CVSS score",
-    "link": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
-    "date": "2026-10-28",
-    "snippet": "PHP2Shell shows how quickly attackers can exploit critical vulnerabilities, often before organizations have time to patch. Token Security ex"
   },
   {
     "source": "Krebs on Security",
