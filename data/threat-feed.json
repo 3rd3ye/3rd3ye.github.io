@@ -1,38 +1,45 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
-    "link": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
-    "date": "2026-10-28",
-    "snippet": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train"
+    "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+    "link": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+    "date": "2026-10-29",
+    "snippet": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure"
   },
   {
     "source": "The Hacker News",
-    "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
-    "link": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
-    "date": "2026-10-28",
-    "snippet": "Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android's usual confirmation scr"
+    "title": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
+    "link": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
+    "date": "2026-10-29",
+    "snippet": "GitHub has announced that it's introducing a new package firewall as a preview to block installation of suspicious npm packages during insta"
   },
   {
     "source": "The Hacker News",
-    "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
-    "link": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
-    "date": "2026-10-28",
-    "snippet": "A chain of logic flaws, with no memory corruption, can turn a malicious web page into code running on a Windows computer outside Microsoft E"
+    "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+    "link": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+    "date": "2026-10-29",
+    "snippet": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab&nbsp;releas"
   },
   {
     "source": "The Hacker News",
-    "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
-    "link": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
-    "date": "2026-10-28",
-    "snippet": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a sus"
+    "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+    "link": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+    "date": "2026-10-29",
+    "snippet": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organ"
   },
   {
     "source": "The Hacker News",
-    "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
-    "link": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
-    "date": "2026-10-28",
-    "snippet": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intell"
+    "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+    "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+    "date": "2026-10-29",
+    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Kno"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
+    "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+    "date": "2026-10-29",
+    "snippet": "Cisco released security updates to patch a denial-of-service zero-day in Adaptive Security Appliance (ASA) and Threat Defense (FTD) software"
   },
   {
     "source": "BleepingComputer",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
     "date": "2026-10-28",
     "snippet": "Chinese state-sponsored hacking group Volt Typhoon has been using a framework that relies on rotating chains of connected devices compromise"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft urges Entra ID admins to migrate users to passkeys",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/",
-    "date": "2026-10-28",
-    "snippet": "Microsoft again asked Entra ID administrators to migrate users to phishing-resistant methods to avoid sign-in disruptions before it retires "
   },
   {
     "source": "Krebs on Security",
