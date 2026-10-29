@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
+    "link": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
+    "date": "2026-10-29",
+    "snippet": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting e"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
     "link": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
     "date": "2026-10-29",
@@ -28,46 +35,39 @@
     "snippet": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. A"
   },
   {
-    "source": "The Hacker News",
-    "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
-    "link": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
+    "source": "BleepingComputer",
+    "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
+    "link": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
     "date": "2026-10-29",
-    "snippet": "A flaw in Telegram for Android allowed an attacker to run code on a victim's phone via a voice call once the victim answered, according to s"
+    "snippet": "A crypto-mining campaign abusing Hugging Face models returned days after takedown, hijacking GPU servers and planting backdoors, with one mo"
   },
   {
     "source": "BleepingComputer",
-    "title": "Chrome extensions with 13.4 million installs caught hijacking searches",
-    "link": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
+    "title": "Japan Airlines suffers third-party data breach exposing passenger info",
+    "link": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
     "date": "2026-10-29",
-    "snippet": "A massive search-hijacking campaign involving 319 Chrome extensions with a combined 13.4 million reported installations redirected users' se"
+    "snippet": "Japan Airlines (JAL) has announced that a data breach at Amadeus's Passenger Service System exposed the data of about 92,000 customers. [..."
   },
   {
     "source": "BleepingComputer",
-    "title": "Microsoft fixes Remote Desktop failures caused by recent Windows updates",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/",
+    "title": "Polymarket halts trading after crypto-draining script breach, $2.5M traced",
+    "link": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
     "date": "2026-10-29",
-    "snippet": "Microsoft has resolved a known issue that prevents non-admin users from connecting to devices via Remote Desktop when the \"Administrator pro"
+    "snippet": "Prediction market platform Polymarket temporarily suspended trading on Thursday after hackers compromised a third-party service to distribut"
   },
   {
     "source": "BleepingComputer",
-    "title": "3 Ways AI Agents Already Operate in Your Browser",
-    "link": "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/",
+    "title": "Fake crypto app on Apple App Store linked to $23K wallet theft",
+    "link": "https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/",
     "date": "2026-10-29",
-    "snippet": "AI agents can control authenticated browsers, interact with corporate applications, and access sensitive data while appearing to act as legi"
+    "snippet": "A fake cryptocurrency trading app called Padre Terminal, previously available on the Apple App Store for iOS devices, has been linked to the"
   },
   {
     "source": "BleepingComputer",
-    "title": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
+    "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
     "date": "2026-10-29",
-    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies to patch a high-severity Linux kernel privilege esc"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Windows 11 KB5127936 update released with 41 changes and fixes",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/",
-    "date": "2026-10-29",
-    "snippet": "Microsoft released the KB5127936 preview cumulative update for Windows 11 versions 25H2 and 26H2, with 41 changes, including File Explorer a"
+    "snippet": "A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-byp"
   },
   {
     "source": "Krebs on Security",
