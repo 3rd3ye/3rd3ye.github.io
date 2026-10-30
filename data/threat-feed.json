@@ -36,6 +36,20 @@
   },
   {
     "source": "BleepingComputer",
+    "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
+    "date": "2026-10-29",
+    "snippet": "OpenAI says it won't reduce usage limits for the $100, $200, and $500 ChatGPT Pro plans, as well as Business Premium, and it also promised t"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Binance probes potential $5.8 billion crypto-theft hack",
+    "link": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
+    "date": "2026-10-29",
+    "snippet": "Cryptocurrency exchange Binance is investigating a potential security breach involving up to $5.8 billion in digital assets, in what could b"
+  },
+  {
+    "source": "BleepingComputer",
     "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
     "link": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
     "date": "2026-10-29",
@@ -54,20 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
     "date": "2026-10-29",
     "snippet": "Prediction market platform Polymarket temporarily suspended trading on Thursday after hackers compromised a third-party service to distribut"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Fake crypto app on Apple App Store linked to $23K wallet theft",
-    "link": "https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/",
-    "date": "2026-10-29",
-    "snippet": "A fake cryptocurrency trading app called Padre Terminal, previously available on the Apple App Store for iOS devices, has been linked to the"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
-    "date": "2026-10-29",
-    "snippet": "A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-byp"
   },
   {
     "source": "Krebs on Security",
