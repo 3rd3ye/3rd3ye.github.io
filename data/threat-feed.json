@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+    "link": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+    "date": "2026-10-30",
+    "snippet": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework"
+  },
+  {
+    "source": "The Hacker News",
     "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
     "link": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
     "date": "2026-10-30",
@@ -28,11 +35,11 @@
     "snippet": "The alert is critical. The fix is known. And the ticket sits in a queue for days. Security teams understand the risk, but the people who kee"
   },
   {
-    "source": "The Hacker News",
-    "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
-    "link": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
+    "source": "BleepingComputer",
+    "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+    "link": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
     "date": "2026-10-30",
-    "snippet": "Ahmad Umar Agha, a Syrian Electronic Army hacker known online as \"Th3Pr0,\" has been&nbsp;sentenced by a U.S. federal court&nbsp;to 42 months"
+    "snippet": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers "
   },
   {
     "source": "BleepingComputer",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
     "date": "2026-10-30",
     "snippet": "Attackers have started exploiting a maximum-severity GitLab vulnerability patched earlier this month, according to the US Cybersecurity and "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft finally fixes VPN issues caused by September updates",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
-    "date": "2026-10-30",
-    "snippet": "Microsoft has resolved Always On VPN connection failures triggered after installing the September 2026 Windows 11 security updates. [...]"
   },
   {
     "source": "Krebs on Security",
