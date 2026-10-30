@@ -1,38 +1,59 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Official Claude Code VS Code Extension Compromised to Install Persistent SSH Backdoor",
+    "link": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+    "date": "2026-10-30",
+    "snippet": "Cybersecurity researchers have disclosed that the official Anthropic Claude Code extension was compromised on the Open VSX registry to insta"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+    "link": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+    "date": "2026-10-30",
+    "snippet": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component. The vulnerability, tra"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+    "link": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+    "date": "2026-10-30",
+    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
+    "link": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+    "date": "2026-10-30",
+    "snippet": "Cryptocurrency giant Binance said on Thursday that a \"security incident\" on its platform has impacted about $6.3 billion worth of assets. Th"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft finally fixes VPN issues caused by September updates",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
+    "date": "2026-10-30",
+    "snippet": "Microsoft has resolved Always On VPN connection failures triggered after installing the September 2026 Windows 11 security updates. [...]"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+    "date": "2026-10-30",
+    "snippet": "Drupal warned admins to patch a critical access bypass vulnerability in the Commerce Core module that attackers are exploiting in the wild. "
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
+    "link": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+    "date": "2026-10-30",
+    "snippet": "Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromise"
+  },
+  {
+    "source": "The Hacker News",
     "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
     "link": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
     "date": "2026-10-29",
     "snippet": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting e"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
-    "link": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
-    "date": "2026-10-29",
-    "snippet": "A flaw in the Linux kernel's TCP code, tracked as&nbsp;CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux dist"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
-    "link": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
-    "date": "2026-10-29",
-    "snippet": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop application"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
-    "link": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
-    "date": "2026-10-29",
-    "snippet": "Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capab"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
-    "link": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
-    "date": "2026-10-29",
-    "snippet": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. A"
   },
   {
     "source": "BleepingComputer",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
     "date": "2026-10-29",
     "snippet": "Cryptocurrency exchange Binance is investigating a potential security breach involving up to $5.8 billion in digital assets, in what could b"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
-    "link": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
-    "date": "2026-10-29",
-    "snippet": "A crypto-mining campaign abusing Hugging Face models returned days after takedown, hijacking GPU servers and planting backdoors, with one mo"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Japan Airlines suffers third-party data breach exposing passenger info",
-    "link": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
-    "date": "2026-10-29",
-    "snippet": "Japan Airlines (JAL) has announced that a data breach at Amadeus's Passenger Service System exposed the data of about 92,000 customers. [..."
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Polymarket halts trading after crypto-draining script breach, $2.5M traced",
-    "link": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
-    "date": "2026-10-29",
-    "snippet": "Prediction market platform Polymarket temporarily suspended trading on Thursday after hackers compromised a third-party service to distribut"
   },
   {
     "source": "Krebs on Security",
