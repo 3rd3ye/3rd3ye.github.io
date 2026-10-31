@@ -29,6 +29,13 @@
   },
   {
     "source": "BleepingComputer",
+    "title": "Northflank security breach leads to abuse of customers' AI API keys",
+    "link": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+    "date": "2026-10-31",
+    "snippet": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a secu"
+  },
+  {
+    "source": "BleepingComputer",
     "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
     "link": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
     "date": "2026-10-31",
@@ -61,13 +68,6 @@
     "link": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
     "date": "2026-10-30",
     "snippet": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
-    "link": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
-    "date": "2026-10-30",
-    "snippet": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers "
   },
   {
     "source": "Krebs on Security",
