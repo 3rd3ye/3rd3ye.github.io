@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+    "link": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+    "date": "2026-10-31",
+    "snippet": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sen"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
     "link": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
     "date": "2026-10-31",
@@ -21,6 +28,34 @@
     "snippet": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday. T"
   },
   {
+    "source": "BleepingComputer",
+    "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+    "link": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+    "date": "2026-10-31",
+    "snippet": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracke"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Reddit to lock content behind logins to fight scrapers",
+    "link": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
+    "date": "2026-10-31",
+    "snippet": "Reddit announced in a post by co-founder Steve Huffman that the site will gradually become a \"logged-in service,\" offering limited access to"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+    "link": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+    "date": "2026-10-31",
+    "snippet": "AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know whe"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+    "link": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+    "date": "2026-10-31",
+    "snippet": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems"
+  },
+  {
     "source": "The Hacker News",
     "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
     "link": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
@@ -28,46 +63,11 @@
     "snippet": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework"
   },
   {
-    "source": "The Hacker News",
-    "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
-    "link": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
-    "date": "2026-10-30",
-    "snippet": "TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In "
-  },
-  {
     "source": "BleepingComputer",
     "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
     "link": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
     "date": "2026-10-30",
     "snippet": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
-    "link": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
-    "date": "2026-10-30",
-    "snippet": "Hardware wallet device maker Trezor has received credible reports about a suspected hardware crypto-theft implant in a Trezor Safe 5 sold by"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
-    "link": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
-    "date": "2026-10-30",
-    "snippet": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
-    "link": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
-    "date": "2026-10-30",
-    "snippet": "Flaws in SS7 and Diameter signaling protocols can allow attackers to track phone locations, intercept calls and SMS verification codes, and "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "CISA says max severity GitLab flaw now exploited in the wild",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
-    "date": "2026-10-30",
-    "snippet": "Attackers have started exploiting a maximum-severity GitLab vulnerability patched earlier this month, according to the US Cybersecurity and "
   },
   {
     "source": "Krebs on Security",
