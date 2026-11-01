@@ -1,31 +1,38 @@
 [
   {
     "source": "The Hacker News",
+    "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+    "link": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+    "date": "2026-11-01",
+    "snippet": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To d"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+    "link": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+    "date": "2026-11-01",
+    "snippet": "Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
+    "link": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+    "date": "2026-11-01",
+    "snippet": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraito"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
+    "link": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+    "date": "2026-11-01",
+    "snippet": "Cybersecurity researchers have disclosed details of what has been described as a \"highly sophisticated infection chain\" targeting government"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
     "link": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
     "date": "2026-10-31",
     "snippet": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sen"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
-    "link": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
-    "date": "2026-10-31",
-    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
-    "link": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
-    "date": "2026-10-31",
-    "snippet": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their pr"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
-    "link": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
-    "date": "2026-10-31",
-    "snippet": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday. T"
   },
   {
     "source": "BleepingComputer",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
     "date": "2026-10-31",
     "snippet": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
-    "link": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
-    "date": "2026-10-30",
-    "snippet": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework"
   },
   {
     "source": "Krebs on Security",
