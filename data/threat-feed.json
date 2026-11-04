@@ -1,38 +1,59 @@
 [
   {
     "source": "The Hacker News",
-    "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
-    "link": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
-    "date": "2026-11-03",
-    "snippet": "Customers of the mSecure password manager are being urged to act now to protect the confidential information they store in it, possibly by c"
+    "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
+    "link": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
+    "date": "2026-11-04",
+    "snippet": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted "
   },
   {
     "source": "The Hacker News",
-    "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
-    "link": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
-    "date": "2026-11-03",
-    "snippet": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party"
+    "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
+    "link": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+    "date": "2026-11-04",
+    "snippet": "Two flaws in the Xen hypervisor allow a malicious guest virtual machine (VM) to read and write the memory of other VMs on the same host, inc"
   },
   {
     "source": "The Hacker News",
-    "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
-    "link": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
-    "date": "2026-11-03",
-    "snippet": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmina"
+    "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
+    "link": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
+    "date": "2026-11-04",
+    "snippet": "Nearly every agent security pitch now ends on the same promise: the product stops the bad action in real time. The promise holds for one kin"
   },
   {
     "source": "The Hacker News",
-    "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
-    "link": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
-    "date": "2026-11-03",
-    "snippet": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass a"
+    "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+    "link": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+    "date": "2026-11-04",
+    "snippet": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure"
   },
   {
     "source": "The Hacker News",
-    "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
-    "link": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
-    "date": "2026-11-03",
-    "snippet": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensiv"
+    "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
+    "link": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
+    "date": "2026-11-04",
+    "snippet": "Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure. Al"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "US charges two Canadians accused of hacking US universities",
+    "link": "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/",
+    "date": "2026-11-04",
+    "snippet": "A federal grand jury indicted two Canadians suspected of hacking multiple US universities and using the compromised systems to mine for cryp"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
+    "date": "2026-11-04",
+    "snippet": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers have started exploiting a recently pat"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
+    "date": "2026-11-04",
+    "snippet": "A large-scale watering hole attack associated with Russian hackers has been targeting iOS and Android users visiting compromised sites or fa"
   },
   {
     "source": "BleepingComputer",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
     "date": "2026-11-03",
     "snippet": "Developer platform WorkOS suffered a data breach after a threat actor accessed business contact records and summaries of customer communicat"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Binance says fake job interview led to $6.3 billion crypto heist",
-    "link": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
-    "date": "2026-11-03",
-    "snippet": "Cryptocurrency exchange Binance says North Korean hackers used a fake job interview to trick an employee into installing malware that ultima"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Google: LLMjacking attacks rack up $1 million in cloud AI charges",
-    "link": "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
-    "date": "2026-11-03",
-    "snippet": "Large language model hijacking attacks, also known as LLMjacking, are generating large fraudulent cloud charges, with some organizations los"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Barracuda warns of critical flaws allowing root access to devices",
-    "link": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
-    "date": "2026-11-03",
-    "snippet": "Cybersecurity company Barracuda Networks warned customers to patch two vulnerabilities that can let attackers run commands with root privile"
   },
   {
     "source": "Krebs on Security",
