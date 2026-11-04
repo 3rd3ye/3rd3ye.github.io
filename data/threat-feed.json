@@ -1,73 +1,73 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
+    "link": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+    "date": "2026-11-04",
+    "snippet": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for "
+  },
+  {
+    "source": "The Hacker News",
+    "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+    "link": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+    "date": "2026-11-04",
+    "snippet": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched. D"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
+    "link": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
+    "date": "2026-11-04",
+    "snippet": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (A"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
+    "link": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+    "date": "2026-11-04",
+    "snippet": "The Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users thro"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
     "link": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
     "date": "2026-11-04",
     "snippet": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted "
   },
   {
-    "source": "The Hacker News",
-    "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
-    "link": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+    "source": "BleepingComputer",
+    "title": "Vercel rolls out new protection against stolen session cookie attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
     "date": "2026-11-04",
-    "snippet": "Two flaws in the Xen hypervisor allow a malicious guest virtual machine (VM) to read and write the memory of other VMs on the same host, inc"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
-    "link": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
-    "date": "2026-11-04",
-    "snippet": "Nearly every agent security pitch now ends on the same promise: the product stops the bad action in real time. The promise holds for one kin"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
-    "link": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
-    "date": "2026-11-04",
-    "snippet": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
-    "link": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
-    "date": "2026-11-04",
-    "snippet": "Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure. Al"
+    "snippet": "Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware"
   },
   {
     "source": "BleepingComputer",
-    "title": "US charges two Canadians accused of hacking US universities",
-    "link": "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/",
+    "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+    "link": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
     "date": "2026-11-04",
-    "snippet": "A federal grand jury indicted two Canadians suspected of hacking multiple US universities and using the compromised systems to mine for cryp"
+    "snippet": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices w"
   },
   {
     "source": "BleepingComputer",
-    "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
+    "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
+    "link": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
     "date": "2026-11-04",
-    "snippet": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers have started exploiting a recently pat"
+    "snippet": "DreamHost is warning of a data breach after attackers gained access to its File Manager platform for two months and stole customers' FTP/SFT"
   },
   {
     "source": "BleepingComputer",
-    "title": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
+    "title": "Cyberattack disrupts blood storage refrigeration systems in France",
+    "link": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
     "date": "2026-11-04",
-    "snippet": "A large-scale watering hole attack associated with Russian hackers has been targeting iOS and Android users visiting compromised sites or fa"
+    "snippet": "France's national blood service has confirmed that a cyberattack targeting a refrigeration equipment provider raised temperature and defrost"
   },
   {
     "source": "BleepingComputer",
-    "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
-    "date": "2026-11-03",
-    "snippet": "Attackers have compromised the update infrastructure for the cPGuard web security suite to distribute a backdoor and a data-stealing script."
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
-    "link": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
-    "date": "2026-11-03",
-    "snippet": "Developer platform WorkOS suffered a data breach after a threat actor accessed business contact records and summaries of customer communicat"
+    "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
+    "link": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
+    "date": "2026-11-04",
+    "snippet": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attac"
   },
   {
     "source": "Krebs on Security",
