@@ -1,38 +1,52 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
-    "link": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
-    "date": "2026-11-04",
-    "snippet": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for "
+    "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
+    "link": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html",
+    "date": "2026-11-05",
+    "snippet": "A critical finding can move through several security tools and still leave the organization exposed.&nbsp; The vulnerability has a severity "
   },
   {
     "source": "The Hacker News",
-    "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
-    "link": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
-    "date": "2026-11-04",
-    "snippet": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched. D"
+    "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+    "link": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+    "date": "2026-11-05",
+    "snippet": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948"
   },
   {
     "source": "The Hacker News",
-    "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
-    "link": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
-    "date": "2026-11-04",
-    "snippet": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (A"
+    "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
+    "link": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
+    "date": "2026-11-05",
+    "snippet": "October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authenti"
   },
   {
     "source": "The Hacker News",
-    "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
-    "link": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
-    "date": "2026-11-04",
-    "snippet": "The Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users thro"
+    "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
+    "link": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
+    "date": "2026-11-05",
+    "snippet": "Apple has revealed that it plans to start checking public iCloud links for harmful content starting with iOS 27.3, iPadOS 27.3, macOS 27.3, "
   },
   {
     "source": "The Hacker News",
-    "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
-    "link": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
-    "date": "2026-11-04",
-    "snippet": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted "
+    "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
+    "link": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
+    "date": "2026-11-05",
+    "snippet": "The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as "
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "GhostMap Android flaw lets malicious app trigger persistent boot loop",
+    "link": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
+    "date": "2026-11-05",
+    "snippet": "Attackers can force Android devices into a continuous boot loop using a specially crafted app that requires no permissions and only needs to"
+  },
+  {
+    "source": "Krebs on Security",
+    "title": "Want to Rent an Internet Address at the White House?",
+    "link": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
+    "date": "2026-11-05",
+    "snippet": "Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their interne"
   },
   {
     "source": "BleepingComputer",
@@ -63,24 +77,10 @@
     "snippet": "France's national blood service has confirmed that a cyberattack targeting a refrigeration equipment provider raised temperature and defrost"
   },
   {
-    "source": "BleepingComputer",
-    "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
-    "link": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
-    "date": "2026-11-04",
-    "snippet": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attac"
-  },
-  {
     "source": "Krebs on Security",
     "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
     "link": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
     "date": "2026-11-03",
     "snippet": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship"
-  },
-  {
-    "source": "Krebs on Security",
-    "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
-    "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
-    "date": "2026-10-21",
-    "snippet": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core s"
   }
 ]
