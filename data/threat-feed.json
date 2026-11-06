@@ -1,45 +1,59 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+    "link": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+    "date": "2026-11-06",
+    "snippet": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a S"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
+    "link": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
+    "date": "2026-11-06",
+    "snippet": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Secu"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "The Flood is Coming And The Pipes Were Already Full",
+    "link": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
+    "date": "2026-11-06",
+    "snippet": "An update on Athena, and some unsolicited predictions on what's coming next On Saturday, Dario Amodei published We Must Pace the Frontier. I"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
+    "link": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+    "date": "2026-11-06",
+    "snippet": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also ex"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
+    "link": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+    "date": "2026-11-06",
+    "snippet": "A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, resea"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
+    "link": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
+    "date": "2026-11-06",
+    "snippet": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches. [...]"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "MetaMask says recent attack didn't affect wallet infrastructure",
+    "link": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
+    "date": "2026-11-06",
+    "snippet": "Cryptocurrency wallet provider MetaMask said a recent security incident has not affected MetaMask wallets or its wallet infrastructure. [..."
+  },
+  {
     "source": "BleepingComputer",
     "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
     "link": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
     "date": "2026-11-06",
     "snippet": "The FBI and CISA warn that hackers are actively targeting industrial refrigeration and cold-chain monitoring systems worldwide, potentially "
-  },
-  {
-    "source": "The Hacker News",
-    "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
-    "link": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
-    "date": "2026-11-05",
-    "snippet": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard ope"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
-    "link": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
-    "date": "2026-11-05",
-    "snippet": "Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections "
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
-    "link": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
-    "date": "2026-11-05",
-    "snippet": "How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
-    "link": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html",
-    "date": "2026-11-05",
-    "snippet": "A critical finding can move through several security tools and still leave the organization exposed.&nbsp; The vulnerability has a severity "
-  },
-  {
-    "source": "The Hacker News",
-    "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
-    "link": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
-    "date": "2026-11-05",
-    "snippet": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948"
   },
   {
     "source": "BleepingComputer",
@@ -54,20 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/",
     "date": "2026-11-05",
     "snippet": "Truffle Security has launched the Secrets Revocation Program, a free initiative that helps API key issuers revoke 1.4 million publicly expos"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "OpenAI’s GPT-6 Astra silently obstructed safety research tasks",
-    "link": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
-    "date": "2026-11-05",
-    "snippet": "OpenAI has disclosed another AI alignment incident where GPT-6 Astra was found to sometimes quietly withhold help on safety research. [...]"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
-    "link": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
-    "date": "2026-11-05",
-    "snippet": "A newly disclosed OpenSSH vulnerability dubbed \"*sshole\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accou"
   },
   {
     "source": "Krebs on Security",
