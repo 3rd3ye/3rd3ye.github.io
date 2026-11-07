@@ -1,5 +1,12 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+    "link": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+    "date": "2026-11-07",
+    "snippet": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where any"
+  },
+  {
     "source": "BleepingComputer",
     "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
     "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
@@ -33,13 +40,6 @@
     "link": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
     "date": "2026-11-06",
     "snippet": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a S"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
-    "link": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
-    "date": "2026-11-06",
-    "snippet": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Secu"
   },
   {
     "source": "BleepingComputer",
