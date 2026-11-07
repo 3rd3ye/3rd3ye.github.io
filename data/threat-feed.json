@@ -1,5 +1,12 @@
 [
   {
+    "source": "BleepingComputer",
+    "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+    "date": "2026-11-07",
+    "snippet": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw e"
+  },
+  {
     "source": "The Hacker News",
     "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
     "link": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
     "date": "2026-11-06",
     "snippet": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shel"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
-    "link": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/",
-    "date": "2026-11-06",
-    "snippet": "​Veeam warned customers about boot failures affecting Software Appliance virtual machines (VMs) on hosts with AMD EPYC processors. [...]"
   },
   {
     "source": "Krebs on Security",
