@@ -1,5 +1,12 @@
 [
   {
+    "source": "BleepingComputer",
+    "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+    "link": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+    "date": "2026-11-08",
+    "snippet": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about "
+  },
+  {
     "source": "The Hacker News",
     "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
     "link": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
     "date": "2026-11-06",
     "snippet": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a sec"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
-    "link": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
-    "date": "2026-11-06",
-    "snippet": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnera"
   },
   {
     "source": "Krebs on Security",
