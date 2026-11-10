@@ -1,73 +1,73 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
-    "link": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
-    "date": "2026-11-09",
-    "snippet": "An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and da"
+    "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
+    "link": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+    "date": "2026-11-10",
+    "snippet": "An iOS sandbox escape published on GitHub lets an app read other apps' files on iPhones running iOS 26 and 27. That puts seed phrases, priva"
   },
   {
     "source": "The Hacker News",
-    "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
-    "link": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
-    "date": "2026-11-09",
-    "snippet": "Attackers used the Ethersphere project's own release automation to publish malicious versions of two of its tools for the Swarm decentralize"
+    "title": "Beyond the Alert: The Case for Rich Network Data",
+    "link": "https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html",
+    "date": "2026-11-10",
+    "snippet": "At some point your security will fail. This isn’t pessimism. It’s not because your team and tools aren’t sophisticated enough. It’s the reas"
   },
   {
     "source": "The Hacker News",
-    "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
-    "link": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
-    "date": "2026-11-09",
-    "snippet": "The South Asian cyber espionage group known as Bitter (aka APT-C-08, APT-Q-37, Hazy Tiger, Orange Yali, T-APT-17, and TA397) has been observ"
+    "title": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
+    "link": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
+    "date": "2026-11-10",
+    "snippet": "An iMessage flaw could let a remote attacker join a group chat and receive its messages, Apple said yesterday, and it released updates to fi"
   },
   {
     "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
-    "link": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
-    "date": "2026-11-09",
-    "snippet": "A system doesn't always need a complicated bug to let someone in. Sometimes, a blank password is enough. That's one of the bigger stories th"
+    "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
+    "link": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
+    "date": "2026-11-10",
+    "snippet": "The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset cal"
   },
   {
     "source": "The Hacker News",
-    "title": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
-    "link": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html",
-    "date": "2026-11-09",
-    "snippet": "The login systems behind two car brands' mobile apps could be taken over completely, two security researchers found, allowing them to access"
+    "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
+    "link": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
+    "date": "2026-11-10",
+    "snippet": "Four flaws that attackers could exploit without logging in were fixed today as part of SAP's monthly Security Patch Day—the vendor rates all"
   },
   {
     "source": "BleepingComputer",
-    "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
-    "link": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
-    "date": "2026-11-09",
-    "snippet": "Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the univer"
+    "title": "SAP patches ICM2SHELL and PROXYGATE maximum severity flaws",
+    "link": "https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities/",
+    "date": "2026-11-10",
+    "snippet": "SAP patched 35 vulnerabilities in its November 2026 security updates, including four maximum-severity issues affecting its NetWeaver, Web Di"
   },
   {
     "source": "BleepingComputer",
-    "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
-    "link": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
-    "date": "2026-11-09",
-    "snippet": "Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2."
+    "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
+    "date": "2026-11-10",
+    "snippet": "Cybersecurity company Barracuda Networks warned that attackers have begun exploiting two recently patched Email Security Gateway (ESG) vulne"
   },
   {
     "source": "BleepingComputer",
-    "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
-    "link": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
-    "date": "2026-11-09",
-    "snippet": "N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security resea"
+    "title": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
+    "link": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/",
+    "date": "2026-11-10",
+    "snippet": "The Russian state-backed threat group Turla has been using a new malicious toolset called 'Cereal' to intercept emails on Microsoft Exchange"
   },
   {
     "source": "BleepingComputer",
-    "title": "York University breach exposed personal information dating to 2007",
-    "link": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
-    "date": "2026-11-09",
-    "snippet": "York University has announced it suffered a cybersecurity incident in which a threat actor stole personal information people submitted throu"
+    "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
+    "link": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
+    "date": "2026-11-10",
+    "snippet": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since"
   },
   {
     "source": "BleepingComputer",
-    "title": "France blames Iranian hackers for supermarket attacks that sparked fires",
-    "link": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
-    "date": "2026-11-09",
-    "snippet": "France has linked October cyberattacks that disrupted refrigeration systems at more than 700 supermarkets and other retail locations to Iran"
+    "title": "Fireworks AI discloses new breach after cloud provider hack",
+    "link": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/",
+    "date": "2026-11-10",
+    "snippet": "AI infrastructure startup Fireworks has disclosed a new security breach in which attackers accessed its development machines after breaching"
   },
   {
     "source": "Krebs on Security",
