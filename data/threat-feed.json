@@ -1,6 +1,27 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
+    "link": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+    "date": "2026-11-09",
+    "snippet": "An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and da"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
+    "link": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
+    "date": "2026-11-09",
+    "snippet": "Attackers used the Ethersphere project's own release automation to publish malicious versions of two of its tools for the Swarm decentralize"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
+    "link": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+    "date": "2026-11-09",
+    "snippet": "The South Asian cyber espionage group known as Bitter (aka APT-C-08, APT-Q-37, Hazy Tiger, Orange Yali, T-APT-17, and TA397) has been observ"
+  },
+  {
+    "source": "The Hacker News",
     "title": "⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
     "link": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
     "date": "2026-11-09",
@@ -14,60 +35,39 @@
     "snippet": "The login systems behind two car brands' mobile apps could be taken over completely, two security researchers found, allowing them to access"
   },
   {
-    "source": "The Hacker News",
-    "title": "Web3Auth Flaw Exploited to Steal Keplr Crypto, Provider Empties Other Wallets for Safety",
-    "link": "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html",
+    "source": "BleepingComputer",
+    "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
+    "link": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
     "date": "2026-11-09",
-    "snippet": "Some people who set up a Keplr crypto wallet with their Google or Apple account have had money stolen by an attacker. Keplr uses a company c"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks",
-    "link": "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
-    "date": "2026-11-09",
-    "snippet": "Everyone running LNbits, a free, open-source Bitcoin Lightning wallet system, should shut down their servers now because of a wave of attack"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
-    "link": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
-    "date": "2026-11-09",
-    "snippet": "A single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Researc"
+    "snippet": "Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the univer"
   },
   {
     "source": "BleepingComputer",
-    "title": "FBI agent stole $2.5 million in crypto from hackers under investigation",
-    "link": "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/",
+    "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
+    "link": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
     "date": "2026-11-09",
-    "snippet": "A former FBI agent has pleaded guilty to stealing nearly $2.5 million from the wallets of fraud victims and nation-state hackers under inves"
+    "snippet": "Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2."
   },
   {
     "source": "BleepingComputer",
-    "title": "US bans MEXC crypto exchange over sanctions evasion, cybercrime links",
-    "link": "https://www.bleepingcomputer.com/news/security/us-bans-mexc-crypto-exchange-over-sanctions-evasion-cybercrime-links/",
+    "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
+    "link": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
     "date": "2026-11-09",
-    "snippet": "The US Department of the Treasury has cut off the MEXC Global crypto exchange from the US financial system over sanctions evasion and links "
+    "snippet": "N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security resea"
   },
   {
     "source": "BleepingComputer",
-    "title": "Ukraine dismantles crypto scam network that stole €4.3 million",
-    "link": "https://www.bleepingcomputer.com/news/security/ukraine-dismantles-crypto-scam-network-that-stole-43-million/",
+    "title": "York University breach exposed personal information dating to 2007",
+    "link": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
     "date": "2026-11-09",
-    "snippet": "Ukrainian law enforcement arrested four suspects in a case involving the theft of more than €4.3 million using a network of cryptocurrency i"
+    "snippet": "York University has announced it suffered a cybersecurity incident in which a threat actor stole personal information people submitted throu"
   },
   {
     "source": "BleepingComputer",
-    "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
-    "link": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
-    "date": "2026-11-08",
-    "snippet": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Hackers pull off $133 million French bank heist via service provider",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
-    "date": "2026-11-07",
-    "snippet": "French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcin"
+    "title": "France blames Iranian hackers for supermarket attacks that sparked fires",
+    "link": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
+    "date": "2026-11-09",
+    "snippet": "France has linked October cyberattacks that disrupted refrigeration systems at more than 700 supermarkets and other retail locations to Iran"
   },
   {
     "source": "Krebs on Security",
