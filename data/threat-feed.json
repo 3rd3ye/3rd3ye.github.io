@@ -1,13 +1,6 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
-    "link": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
-    "date": "2026-11-12",
-    "snippet": "Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said "
-  },
-  {
-    "source": "The Hacker News",
     "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
     "link": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
     "date": "2026-11-12",
@@ -15,59 +8,66 @@
   },
   {
     "source": "The Hacker News",
-    "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
-    "link": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
+    "title": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
+    "link": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
     "date": "2026-11-12",
-    "snippet": "N-able on Thursday said it's investigating a new public disclosure containing claims of additional vulnerabilities in on-premise versions of"
+    "snippet": "A search result isn't always safe. An access request isn't always harmless. And a familiar account doesn't always mean a familiar person is "
   },
   {
     "source": "The Hacker News",
-    "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
-    "link": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
+    "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
+    "link": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
     "date": "2026-11-12",
-    "snippet": "Since mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean"
+    "snippet": "Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File Syste"
   },
   {
     "source": "The Hacker News",
-    "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
-    "link": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
+    "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
+    "link": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
     "date": "2026-11-12",
-    "snippet": "PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could re"
+    "snippet": "A critical flaw in Red Hat Quay allows an attacker who can access a Quay registry to read and overwrite private container images in every re"
   },
   {
-    "source": "BleepingComputer",
-    "title": "Microsoft: Recent Windows updates cause SQL Server performance issues",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
+    "source": "The Hacker News",
+    "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
+    "link": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
     "date": "2026-11-12",
-    "snippet": "Microsoft has confirmed that Windows updates released since the October 2026 Patch Tuesday are causing SQL Server performance and stability "
+    "snippet": "Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console th"
   },
   {
     "source": "BleepingComputer",
-    "title": "Microsoft confirms Windows security updates installation issues",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/",
+    "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
     "date": "2026-11-12",
-    "snippet": "Microsoft has confirmed reports that the November 2026 security updates are failing to install on Windows 11 systems with the October previe"
+    "snippet": "A new worm-like malware toolkit named SCKit was deployed in the recent ScreenConnect attacks targeting managed service providers (MSPs), des"
   },
   {
     "source": "BleepingComputer",
-    "title": "Hackers plant GSocket on Linux servers for persistent access",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
+    "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
     "date": "2026-11-12",
-    "snippet": "Multiple threat actors are abusing GSocket, a legitimate open-source remote access tool, to maintain access to Linux servers even after patc"
+    "snippet": "A new campaign dubbed 'wfx-loot' has unfolded on GitHub where threat actors used 4,837 compromised accounts to probe 61,764 repositories, op"
   },
   {
     "source": "BleepingComputer",
-    "title": "Baker Tilly notifies clients of data breach at third-party provider",
-    "link": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
-    "date": "2026-11-11",
-    "snippet": "The Baker Tilly Advisory Group is notifying clients that a data breach has compromised certain personal information about them and their dep"
+    "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+    "date": "2026-11-12",
+    "snippet": "Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot, a"
   },
   {
     "source": "BleepingComputer",
-    "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
-    "link": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
-    "date": "2026-11-11",
-    "snippet": "ConnectWise is investigating an active malware campaign targeting managed service providers (MSPs) that uses compromised ScreenConnect envir"
+    "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
+    "link": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
+    "date": "2026-11-12",
+    "snippet": "Hackers are actively exploiting a newly disclosed N-able N-central zero-day vulnerability dubbed \"4EverAble2Shell\" to compromise servers and"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
+    "link": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
+    "date": "2026-11-12",
+    "snippet": "A critical vulnerability in the HTTP/2 module of Apache HTTP Server could be exploited by an unauthenticated attacker to obtain remote code "
   },
   {
     "source": "Krebs on Security",
