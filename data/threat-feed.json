@@ -1,38 +1,59 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
-    "link": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
-    "date": "2026-11-11",
-    "snippet": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could r"
+    "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
+    "link": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
+    "date": "2026-11-12",
+    "snippet": "Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said "
   },
   {
     "source": "The Hacker News",
-    "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
-    "link": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
-    "date": "2026-11-11",
-    "snippet": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has "
+    "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
+    "link": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
+    "date": "2026-11-12",
+    "snippet": "Security teams have more alerts, logs, and monitoring tools than ever. Yet when an attack happens, one simple question can still take too lo"
   },
   {
     "source": "The Hacker News",
-    "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
-    "link": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
-    "date": "2026-11-11",
-    "snippet": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple e"
+    "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
+    "link": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
+    "date": "2026-11-12",
+    "snippet": "N-able on Thursday said it's investigating a new public disclosure containing claims of additional vulnerabilities in on-premise versions of"
   },
   {
     "source": "The Hacker News",
-    "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
-    "link": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
-    "date": "2026-11-11",
-    "snippet": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said "
+    "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
+    "link": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
+    "date": "2026-11-12",
+    "snippet": "Since mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean"
   },
   {
     "source": "The Hacker News",
-    "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
-    "link": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
-    "date": "2026-11-11",
-    "snippet": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceab"
+    "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
+    "link": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
+    "date": "2026-11-12",
+    "snippet": "PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could re"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft: Recent Windows updates cause SQL Server performance issues",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
+    "date": "2026-11-12",
+    "snippet": "Microsoft has confirmed that Windows updates released since the October 2026 Patch Tuesday are causing SQL Server performance and stability "
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft confirms Windows security updates installation issues",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/",
+    "date": "2026-11-12",
+    "snippet": "Microsoft has confirmed reports that the November 2026 security updates are failing to install on Windows 11 systems with the October previe"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Hackers plant GSocket on Linux servers for persistent access",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
+    "date": "2026-11-12",
+    "snippet": "Multiple threat actors are abusing GSocket, a legitimate open-source remote access tool, to maintain access to Linux servers even after patc"
   },
   {
     "source": "BleepingComputer",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
     "date": "2026-11-11",
     "snippet": "ConnectWise is investigating an active malware campaign targeting managed service providers (MSPs) that uses compromised ScreenConnect envir"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "eMudhra revokes 8 more CA certificates after private key mishap",
-    "link": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
-    "date": "2026-11-11",
-    "snippet": "Certificate authority eMudhra has revoked eight additional intermediate CA certificates after an investigation into its recent certificate s"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
-    "link": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
-    "date": "2026-11-11",
-    "snippet": "Notion, the digital workspace platform, disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
-    "link": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
-    "date": "2026-11-11",
-    "snippet": "Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extrac"
   },
   {
     "source": "Krebs on Security",
