@@ -1,6 +1,20 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+    "link": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
+    "date": "2026-11-15",
+    "snippet": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleri"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+    "link": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+    "date": "2026-11-15",
+    "snippet": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key "
+  },
+  {
+    "source": "The Hacker News",
     "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
     "link": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
     "date": "2026-11-14",
@@ -33,20 +47,6 @@
     "link": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
     "date": "2026-11-13",
     "snippet": "Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built t"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
-    "link": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
-    "date": "2026-11-13",
-    "snippet": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK ak"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
-    "link": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
-    "date": "2026-11-13",
-    "snippet": "Three Trezor Safe 5 wallets bought from the reseller CryptoBilis contain an implant, an extra circuit board that can copy their recovery phr"
   },
   {
     "source": "BleepingComputer",
