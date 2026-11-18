@@ -1,6 +1,27 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
+    "link": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
+    "date": "2026-11-17",
+    "snippet": "A malicious widget can bypass the security filter that Telegram added to its Android app last week and run code outside it, according to Neb"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+    "link": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+    "date": "2026-11-17",
+    "snippet": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploit"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
+    "link": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
+    "date": "2026-11-17",
+    "snippet": "Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, indu"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
     "link": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
     "date": "2026-11-17",
@@ -14,60 +35,39 @@
     "snippet": "A now-patched flaw in Apple's audio service let apps on iPhones and iPads record audio even after the user tapped \"Don't Allow\" on the micro"
   },
   {
-    "source": "The Hacker News",
-    "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
-    "link": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
+    "source": "BleepingComputer",
+    "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
+    "link": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
     "date": "2026-11-17",
-    "snippet": "Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented back"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
-    "link": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
-    "date": "2026-11-17",
-    "snippet": "Apple on Monday introduced new controls that allow Mac users to give more granular access to data they give to apps, including those that us"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
-    "link": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
-    "date": "2026-11-17",
-    "snippet": "An attacker exploited a flaw in Optimizely Web Experimentation to plant malicious code in some of the scripts that customers' websites load "
+    "snippet": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remote"
   },
   {
     "source": "BleepingComputer",
-    "title": "Microsoft testing Remote Lock for lost or stolen Windows devices",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
+    "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
+    "link": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
     "date": "2026-11-17",
-    "snippet": "Microsoft is testing a new feature that lets enterprise IT administrators remotely lock stolen or lost Windows devices without wiping them. "
+    "snippet": "Credentials and access secrets exposed in public Docker Hub images are being extracted and exploited by attackers within as little as eight "
   },
   {
     "source": "BleepingComputer",
-    "title": "Court clears brothers of $25 million Ethereum crypto heist charges",
-    "link": "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/",
+    "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
+    "link": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
     "date": "2026-11-17",
-    "snippet": "US District Judge Jessica Clarke has acquitted two brothers accused of stealing $25 million in cryptocurrency in about 12 seconds through a "
+    "snippet": "The Fugaku supercomputer operated by Japan's RIKEN Center for Computational Science has been taken offline following a security breach. [..."
   },
   {
     "source": "BleepingComputer",
-    "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
-    "link": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
+    "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
+    "link": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
     "date": "2026-11-17",
-    "snippet": "Ride-hailing company Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fir"
+    "snippet": "Apple is reporting service disruptions affecting several of its services, including iCloud Mail, iCloud Account & Sign In, Apple School Mana"
   },
   {
     "source": "BleepingComputer",
-    "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
-    "link": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
+    "title": "Researchers hijack Hugging Face account for popular Kokoro AI model",
+    "link": "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/",
     "date": "2026-11-17",
-    "snippet": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in rans"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
-    "link": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
-    "date": "2026-11-17",
-    "snippet": "A suspected supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zo"
+    "snippet": "A Lack of ownership verification on the Hugging Face platform allowed researchers to take control of Kokoro, a text-to-speech model used in "
   },
   {
     "source": "Krebs on Security",
