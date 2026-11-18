@@ -1,38 +1,73 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
-    "link": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
-    "date": "2026-11-17",
-    "snippet": "A malicious widget can bypass the security filter that Telegram added to its Android app last week and run code outside it, according to Neb"
+    "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
+    "link": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
+    "date": "2026-11-18",
+    "snippet": "On AMD-based PCs and some Intel PCs, the TPM lockout for Windows Hello and BitLocker PINs can be reset by someone who opens the PC's case, r"
   },
   {
     "source": "The Hacker News",
-    "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
-    "link": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
-    "date": "2026-11-17",
-    "snippet": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploit"
+    "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
+    "link": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
+    "date": "2026-11-18",
+    "snippet": "TL;DR Attackers move first. On average, exploitation now starts before a patch exists (Mandiant M-Trends 2026). In 1H 2026, 23% of vulnerabi"
   },
   {
     "source": "The Hacker News",
-    "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
-    "link": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
-    "date": "2026-11-17",
-    "snippet": "Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, indu"
+    "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+    "link": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+    "date": "2026-11-18",
+    "snippet": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely use"
   },
   {
     "source": "The Hacker News",
-    "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
-    "link": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
-    "date": "2026-11-17",
-    "snippet": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain a"
+    "title": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are",
+    "link": "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html",
+    "date": "2026-11-18",
+    "snippet": "AI is speeding up how software is built, which means more code, more changes, and more chances for vulnerabilities to reach production. It's"
   },
   {
     "source": "The Hacker News",
-    "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
-    "link": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
-    "date": "2026-11-17",
-    "snippet": "A now-patched flaw in Apple's audio service let apps on iPhones and iPads record audio even after the user tapped \"Don't Allow\" on the micro"
+    "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+    "link": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+    "date": "2026-11-18",
+    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an ent"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Dizigom illegal streaming service with 21M monthly visits shuts down",
+    "link": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
+    "date": "2026-11-18",
+    "snippet": "The Alliance for Creativity and Entertainment (ACE) has announced the shutdown of Dizigom, one of Turkey's largest piracy sites, after a set"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
+    "date": "2026-11-18",
+    "snippet": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerabl"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft announces Windows Server 2028 with hardened security",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
+    "date": "2026-11-18",
+    "snippet": "Microsoft has announced Windows Server 2028, the next major release of its server operating system, at the Ignite 2026 conference on Tuesday"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "British Scattered Spider hacker sentenced to 6 years in prison",
+    "link": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
+    "date": "2026-11-18",
+    "snippet": "A leader of the Scattered Spider cybercrime collective has been sentenced to six years in prison in the United States for stealing millions "
+  },
+  {
+    "source": "Krebs on Security",
+    "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+    "link": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+    "date": "2026-11-18",
+    "snippet": "At least 178 top web destinations unwittingly served a variety of malware exploits against visitors over the past 24 hours thanks to a secur"
   },
   {
     "source": "BleepingComputer",
@@ -42,45 +77,10 @@
     "snippet": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remote"
   },
   {
-    "source": "BleepingComputer",
-    "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
-    "link": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
-    "date": "2026-11-17",
-    "snippet": "Credentials and access secrets exposed in public Docker Hub images are being extracted and exploited by attackers within as little as eight "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
-    "link": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
-    "date": "2026-11-17",
-    "snippet": "The Fugaku supercomputer operated by Japan's RIKEN Center for Computational Science has been taken offline following a security breach. [..."
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
-    "link": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
-    "date": "2026-11-17",
-    "snippet": "Apple is reporting service disruptions affecting several of its services, including iCloud Mail, iCloud Account & Sign In, Apple School Mana"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Researchers hijack Hugging Face account for popular Kokoro AI model",
-    "link": "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/",
-    "date": "2026-11-17",
-    "snippet": "A Lack of ownership verification on the Hugging Face platform allowed researchers to take control of Kokoro, a text-to-speech model used in "
-  },
-  {
     "source": "Krebs on Security",
     "title": "Who Runs the Ransomware Group Qilin?",
     "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
     "date": "2026-11-11",
     "snippet": "The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations i"
-  },
-  {
-    "source": "Krebs on Security",
-    "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
-    "link": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
-    "date": "2026-11-10",
-    "snippet": "Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating s"
   }
 ]
