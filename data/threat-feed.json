@@ -1,66 +1,73 @@
 [
   {
     "source": "The Hacker News",
+    "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
+    "link": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
+    "date": "2026-11-18",
+    "snippet": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in. The decade-old"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
+    "link": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
+    "date": "2026-11-18",
+    "snippet": "Six critical vulnerabilities in F5 BIG-IP allow an attacker to crash the Traffic Management Microkernel (TMM) without logging in, disrupting"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+    "link": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
+    "date": "2026-11-18",
+    "snippet": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, acc"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
+    "link": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
+    "date": "2026-11-18",
+    "snippet": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it contin"
+  },
+  {
+    "source": "The Hacker News",
     "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
     "link": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
     "date": "2026-11-18",
     "snippet": "On AMD-based PCs and some Intel PCs, the TPM lockout for Windows Hello and BitLocker PINs can be reset by someone who opens the PC's case, r"
   },
   {
-    "source": "The Hacker News",
-    "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
-    "link": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
+    "source": "BleepingComputer",
+    "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
+    "link": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
     "date": "2026-11-18",
-    "snippet": "TL;DR Attackers move first. On average, exploitation now starts before a patch exists (Mandiant M-Trends 2026). In 1H 2026, 23% of vulnerabi"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
-    "link": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
-    "date": "2026-11-18",
-    "snippet": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely use"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are",
-    "link": "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html",
-    "date": "2026-11-18",
-    "snippet": "AI is speeding up how software is built, which means more code, more changes, and more chances for vulnerabilities to reach production. It's"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
-    "link": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
-    "date": "2026-11-18",
-    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an ent"
+    "snippet": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more"
   },
   {
     "source": "BleepingComputer",
-    "title": "Dizigom illegal streaming service with 21M monthly visits shuts down",
-    "link": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
+    "title": "Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam",
+    "link": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
     "date": "2026-11-18",
-    "snippet": "The Alliance for Creativity and Entertainment (ACE) has announced the shutdown of Dizigom, one of Turkey's largest piracy sites, after a set"
+    "snippet": "Coinbase says it blocked $4.7 million in cryptocurrency transfers to scammers promoting a fake giveaway using an AI-generated deepfake of El"
   },
   {
     "source": "BleepingComputer",
-    "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
+    "title": "Data breach impacts 40 Irish credit unions in reported IT provider hack",
+    "link": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
     "date": "2026-11-18",
-    "snippet": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerabl"
+    "snippet": "A reported cyberattack on Wellington IT has exposed sensitive information belonging to members of 50 credit unions, the majority of which ar"
   },
   {
     "source": "BleepingComputer",
-    "title": "Microsoft announces Windows Server 2028 with hardened security",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
+    "title": "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
+    "link": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
     "date": "2026-11-18",
-    "snippet": "Microsoft has announced Windows Server 2028, the next major release of its server operating system, at the Ignite 2026 conference on Tuesday"
+    "snippet": "Hackers compromised Microsoft's official Agent Framework Python package on PyPI, publishing two malicious versions designed to steal cloud c"
   },
   {
     "source": "BleepingComputer",
-    "title": "British Scattered Spider hacker sentenced to 6 years in prison",
-    "link": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
+    "title": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
+    "link": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
     "date": "2026-11-18",
-    "snippet": "A leader of the Scattered Spider cybercrime collective has been sentenced to six years in prison in the United States for stealing millions "
+    "snippet": "Attackers are using deepfakes, helpdesk impersonation, and fake IT support requests to deceive employees and gain unauthorized access to cor"
   },
   {
     "source": "Krebs on Security",
@@ -68,13 +75,6 @@
     "link": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
     "date": "2026-11-18",
     "snippet": "At least 178 top web destinations unwittingly served a variety of malware exploits against visitors over the past 24 hours thanks to a secur"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
-    "link": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
-    "date": "2026-11-17",
-    "snippet": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remote"
   },
   {
     "source": "Krebs on Security",
