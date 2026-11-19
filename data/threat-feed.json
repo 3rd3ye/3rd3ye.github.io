@@ -1,38 +1,66 @@
 [
   {
     "source": "The Hacker News",
-    "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
-    "link": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
+    "title": "Everything Is a Web Application, Including Your Firewall",
+    "link": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
     "date": "2026-11-19",
-    "snippet": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses criti"
+    "snippet": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploit"
   },
   {
     "source": "The Hacker News",
-    "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
-    "link": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
-    "date": "2026-11-18",
-    "snippet": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in. The decade-old"
+    "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
+    "link": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
+    "date": "2026-11-19",
+    "snippet": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Expert"
   },
   {
     "source": "The Hacker News",
-    "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
-    "link": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
-    "date": "2026-11-18",
-    "snippet": "Six critical vulnerabilities in F5 BIG-IP allow an attacker to crash the Traffic Management Microkernel (TMM) without logging in, disrupting"
+    "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
+    "link": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
+    "date": "2026-11-19",
+    "snippet": "Ruby contains seven memory-safety flaws in its regular expression engine and its string case-conversion code. For five of them, its maintain"
   },
   {
     "source": "The Hacker News",
-    "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
-    "link": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
-    "date": "2026-11-18",
-    "snippet": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, acc"
+    "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
+    "link": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
+    "date": "2026-11-19",
+    "snippet": "Low-privilege database accounts that cannot read a single application table can still be used to run code on the database server itself, a r"
   },
   {
     "source": "The Hacker News",
-    "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
-    "link": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
-    "date": "2026-11-18",
-    "snippet": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it contin"
+    "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
+    "link": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
+    "date": "2026-11-19",
+    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Mana"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
+    "link": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
+    "date": "2026-11-19",
+    "snippet": "The Drupal Security Team has patched a critical remote code execution vulnerability that can let attackers take over vulnerable sites. [...]"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft tests new Edge Lockdown Mode that disables GPU APIs",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/",
+    "date": "2026-11-19",
+    "snippet": "Microsoft is developing a new Edge security feature to reduce the attack surface by disabling the WebGL, WebGL2, and WebGPU APIs. [...]"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Microsoft confirms app installation, launch issues after hotpatch",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/",
+    "date": "2026-11-19",
+    "snippet": "Microsoft has shared a workaround for installation and launch issues affecting Office and third-party applications after installing this mon"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "NVIDIA investigating Gentlemen ransomware breach claims",
+    "link": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/",
+    "date": "2026-11-19",
+    "snippet": "NVIDIA is investigating claims of a security breach after the Gentlemen ransomware group has added the company to its dark web data leak sit"
   },
   {
     "source": "BleepingComputer",
@@ -40,34 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
     "date": "2026-11-18",
     "snippet": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam",
-    "link": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
-    "date": "2026-11-18",
-    "snippet": "Coinbase says it blocked $4.7 million in cryptocurrency transfers to scammers promoting a fake giveaway using an AI-generated deepfake of El"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Data breach impacts 40 Irish credit unions in reported IT provider hack",
-    "link": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
-    "date": "2026-11-18",
-    "snippet": "A reported cyberattack on Wellington IT has exposed sensitive information belonging to members of 50 credit unions, the majority of which ar"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
-    "link": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
-    "date": "2026-11-18",
-    "snippet": "Hackers compromised Microsoft's official Agent Framework Python package on PyPI, publishing two malicious versions designed to steal cloud c"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
-    "link": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
-    "date": "2026-11-18",
-    "snippet": "Attackers are using deepfakes, helpdesk impersonation, and fake IT support requests to deceive employees and gain unauthorized access to cor"
   },
   {
     "source": "Krebs on Security",
