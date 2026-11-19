@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
+    "link": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
+    "date": "2026-11-19",
+    "snippet": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses criti"
+  },
+  {
+    "source": "The Hacker News",
     "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
     "link": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
     "date": "2026-11-18",
@@ -26,13 +33,6 @@
     "link": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
     "date": "2026-11-18",
     "snippet": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it contin"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
-    "link": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
-    "date": "2026-11-18",
-    "snippet": "On AMD-based PCs and some Intel PCs, the TPM lockout for Windows Hello and BitLocker PINs can be reset by someone who opens the PC's case, r"
   },
   {
     "source": "BleepingComputer",
