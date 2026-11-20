@@ -1,6 +1,20 @@
 [
   {
     "source": "The Hacker News",
+    "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+    "link": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+    "date": "2026-11-20",
+    "snippet": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start progra"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "VMware patches vCenter zero-day exploited in attacks since September",
+    "link": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+    "date": "2026-11-20",
+    "snippet": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hacke"
+  },
+  {
+    "source": "The Hacker News",
     "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
     "link": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
     "date": "2026-11-19",
@@ -22,17 +36,10 @@
   },
   {
     "source": "The Hacker News",
-    "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+    "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
     "link": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
     "date": "2026-11-19",
     "snippet": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Bro"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
-    "link": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
-    "date": "2026-11-19",
-    "snippet": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in insta"
   },
   {
     "source": "BleepingComputer",
@@ -61,13 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
     "date": "2026-11-19",
     "snippet": "The PHP development team released security updates addressing 18 vulnerabilities, including critical flaws that could allow unauthenticated "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Five warning signs of ransomware breach before encryption or data theft",
-    "link": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
-    "date": "2026-11-19",
-    "snippet": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins"
   },
   {
     "source": "Krebs on Security",
