@@ -1,5 +1,12 @@
 [
   {
+    "source": "Krebs on Security",
+    "title": "CTO of &#8216;RansomwareHelp&#8217; Indicted for Wire Fraud",
+    "link": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+    "date": "2026-11-21",
+    "snippet": "The chief technology officer and co-founder of ransomwarehelp.com, a six year old Florida business that claimed to use \"advanced cryptograph"
+  },
+  {
     "source": "The Hacker News",
     "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
     "link": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
@@ -75,12 +82,5 @@
     "link": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
     "date": "2026-11-18",
     "snippet": "At least 178 top web destinations unwittingly served a variety of malware exploits against visitors over the past 24 hours thanks to a secur"
-  },
-  {
-    "source": "Krebs on Security",
-    "title": "Who Runs the Ransomware Group Qilin?",
-    "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
-    "date": "2026-11-11",
-    "snippet": "The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations i"
   }
 ]
