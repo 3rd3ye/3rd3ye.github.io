@@ -35,6 +35,27 @@
     "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP N"
   },
   {
+    "source": "BleepingComputer",
+    "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+    "link": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+    "date": "2026-11-21",
+    "snippet": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health serv"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
+    "link": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+    "date": "2026-11-21",
+    "snippet": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's "
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+    "link": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+    "date": "2026-11-21",
+    "snippet": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Cen"
+  },
+  {
     "source": "Krebs on Security",
     "title": "CTO of &#8216;RansomwareHelp&#8217; Indicted for Wire Fraud",
     "link": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
@@ -54,27 +75,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
     "date": "2026-11-20",
     "snippet": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging ap"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
-    "link": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
-    "date": "2026-11-20",
-    "snippet": "J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal informa"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Still tracking company passwords in spreadsheets? You’re flying blind.",
-    "link": "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/",
-    "date": "2026-11-20",
-    "snippet": "Tracking company passwords in spreadsheets can leave IT administrators unaware of weak, reused, or compromised credentials stored and shared"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "N-able says recent security breach led to major service outage",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
-    "date": "2026-11-20",
-    "snippet": "N-able says attackers who breached one of its servers have caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services"
   },
   {
     "source": "Krebs on Security",
