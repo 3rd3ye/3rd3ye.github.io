@@ -1,6 +1,20 @@
 [
   {
     "source": "The Hacker News",
+    "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+    "link": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+    "date": "2026-11-22",
+    "snippet": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the indust"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+    "link": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+    "date": "2026-11-22",
+    "snippet": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that process"
+  },
+  {
+    "source": "The Hacker News",
     "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
     "link": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
     "date": "2026-11-21",
@@ -19,20 +33,6 @@
     "link": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
     "date": "2026-11-21",
     "snippet": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging se"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
-    "link": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
-    "date": "2026-11-21",
-    "snippet": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on "
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
-    "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
-    "date": "2026-11-21",
-    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP N"
   },
   {
     "source": "BleepingComputer",
