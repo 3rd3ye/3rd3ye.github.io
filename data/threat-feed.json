@@ -1,73 +1,73 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
-    "link": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
-    "date": "2026-11-23",
-    "snippet": "The China-aligned threat actor known as Webworm is suspected to be using a custom version of the open-source SoftEther VPN Bridge tool in an"
+    "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+    "link": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+    "date": "2026-11-24",
+    "snippet": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, includ"
   },
   {
     "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
-    "link": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
-    "date": "2026-11-23",
-    "snippet": "A stolen key. A trusted message. A routine update. None of these looks like the start of a major security problem. That's partly why they wo"
+    "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
+    "link": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+    "date": "2026-11-24",
+    "snippet": "A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under"
   },
   {
     "source": "The Hacker News",
-    "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
-    "link": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
-    "date": "2026-11-23",
-    "snippet": "A critical security flaw has been disclosed in the popular binary-parser library that could allow an attacker who controls parser definition"
+    "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+    "link": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+    "date": "2026-11-24",
+    "snippet": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain a"
   },
   {
     "source": "The Hacker News",
-    "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
-    "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
-    "date": "2026-11-23",
-    "snippet": "Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers. The "
+    "title": "Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity",
+    "link": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
+    "date": "2026-11-24",
+    "snippet": "A quirk in how the .NET Framework loads a program file let a local attacker run untrusted code past two separate protections on Windows buil"
   },
   {
     "source": "The Hacker News",
-    "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
-    "link": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
-    "date": "2026-11-23",
-    "snippet": "N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email"
+    "title": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk",
+    "link": "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html",
+    "date": "2026-11-24",
+    "snippet": "What if your biggest SOC budget problem isn't how much you spend, but how much analyst time you lose? According to ANY.RUN's estimates, SOC "
   },
   {
     "source": "BleepingComputer",
-    "title": "South Korea’s power giant KEPCO confirms data breach impacting 1.5 million",
-    "link": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
-    "date": "2026-11-23",
-    "snippet": "A threat actor breached the internal network of Korea Electric Power Corporation (KEPCO) and accessed two systems containing customer, emplo"
+    "title": "ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof",
+    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
+    "date": "2026-11-24",
+    "snippet": "The ShinyHunters extortion gang claims to have returned in posts on a new data leak site after a series of arrests over the past two months "
   },
   {
     "source": "BleepingComputer",
-    "title": "OpenRouter drops AI providers over leaked prompts and secrets",
-    "link": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
-    "date": "2026-11-23",
-    "snippet": "OpenRouter removed three AI providers from its platform after discovering that they had violated their stated data-handling policies and exp"
+    "title": "European Commission confirms data theft in EU Academy breach",
+    "link": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/",
+    "date": "2026-11-24",
+    "snippet": "The European Commission, the European Union's main executive body, has confirmed that attackers breached its EU Academy online learning hub "
   },
   {
     "source": "BleepingComputer",
-    "title": "Microsoft Azure flaw exploited to steal customers' API credentials",
-    "link": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
-    "date": "2026-11-23",
-    "snippet": "Microsoft is warning customers that a security vulnerability in Azure API Management (APIM) Classic tiers was exploited to steal stored API "
+    "title": "Hackers compromise Check Point Servers in 22 organizations",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
+    "date": "2026-11-24",
+    "snippet": "Threat actors have exploited multiple vulnerabilities to compromise two dozen Check Point Security management servers in an ongoing campaign"
   },
   {
     "source": "BleepingComputer",
-    "title": "Spanish LaLiga confirms hackers stole soccer fans’ personal data",
-    "link": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
-    "date": "2026-11-23",
-    "snippet": "LaLiga, Spain's top men's football league, disclosed a data breach that exposed personal information belonging to users of its services and "
+    "title": "Police disrupt 57 illegal streaming services with 7.3 million visits",
+    "link": "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/",
+    "date": "2026-11-24",
+    "snippet": "Law enforcement authorities from 11 countries have disrupted 57 illegal streaming services that operated hundreds of websites and drew over "
   },
   {
     "source": "BleepingComputer",
-    "title": "GlobeTopper loses $2.5 million after hackers steal $70k in gift cards",
-    "link": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/",
-    "date": "2026-11-23",
-    "snippet": "A cyberattack disrupted operations at B2B top-up solutions provider GlobeTopper, causing an estimated $2.5 million in lost revenue, while th"
+    "title": "From Vulnerability Noise to Resilience: Rethinking Security in the AI Era",
+    "link": "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/",
+    "date": "2026-11-24",
+    "snippet": "AI-driven development is adding complexity to software supply chains, leaving security teams overwhelmed by vulnerabilities that may pose li"
   },
   {
     "source": "Krebs on Security",
