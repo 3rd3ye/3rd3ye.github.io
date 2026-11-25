@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+    "link": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+    "date": "2026-11-24",
+    "snippet": "A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, an"
+  },
+  {
+    "source": "The Hacker News",
     "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
     "link": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
     "date": "2026-11-24",
@@ -28,11 +35,32 @@
     "snippet": "A quirk in how the .NET Framework loads a program file let a local attacker run untrusted code past two separate protections on Windows buil"
   },
   {
-    "source": "The Hacker News",
-    "title": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk",
-    "link": "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html",
+    "source": "BleepingComputer",
+    "title": "Rackspace shuts down Spot cloud platform after security breach",
+    "link": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
     "date": "2026-11-24",
-    "snippet": "What if your biggest SOC budget problem isn't how much you spend, but how much analyst time you lose? According to ANY.RUN's estimates, SOC "
+    "snippet": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters "
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "New Inception extortion gang launches large-scale vishing campaign",
+    "link": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
+    "date": "2026-11-24",
+    "snippet": "A newly formed data extortion group named 'Inception' has been linked to a large-scale campaign that targets single sign-on (SSO) credential"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Turnitin discloses cyberattack affecting customer-facing systems",
+    "link": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
+    "date": "2026-11-24",
+    "snippet": "Turnitin disclosed via a statement from its CEO, Chris Caren, that it recently detected unauthorized activity involving certain customer-fac"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Radware discloses breach exposing customer cloud access keys",
+    "link": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
+    "date": "2026-11-24",
+    "snippet": "Cybersecurity company Radware says attackers gained access to some of its customers' account details and cloud access keys through an unsecu"
   },
   {
     "source": "BleepingComputer",
@@ -40,34 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
     "date": "2026-11-24",
     "snippet": "The ShinyHunters extortion gang claims to have returned in posts on a new data leak site after a series of arrests over the past two months "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "European Commission confirms data theft in EU Academy breach",
-    "link": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/",
-    "date": "2026-11-24",
-    "snippet": "The European Commission, the European Union's main executive body, has confirmed that attackers breached its EU Academy online learning hub "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Hackers compromise Check Point Servers in 22 organizations",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
-    "date": "2026-11-24",
-    "snippet": "Threat actors have exploited multiple vulnerabilities to compromise two dozen Check Point Security management servers in an ongoing campaign"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Police disrupt 57 illegal streaming services with 7.3 million visits",
-    "link": "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/",
-    "date": "2026-11-24",
-    "snippet": "Law enforcement authorities from 11 countries have disrupted 57 illegal streaming services that operated hundreds of websites and drew over "
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "From Vulnerability Noise to Resilience: Rethinking Security in the AI Era",
-    "link": "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/",
-    "date": "2026-11-24",
-    "snippet": "AI-driven development is adding complexity to software supply chains, leaving security teams overwhelmed by vulnerabilities that may pose li"
   },
   {
     "source": "Krebs on Security",
