@@ -1,73 +1,73 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
-    "link": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
-    "date": "2026-11-24",
-    "snippet": "A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, an"
+    "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+    "link": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+    "date": "2026-11-25",
+    "snippet": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question"
   },
   {
     "source": "The Hacker News",
-    "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
-    "link": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
-    "date": "2026-11-24",
-    "snippet": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, includ"
+    "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
+    "link": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
+    "date": "2026-11-25",
+    "snippet": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in \"unau"
   },
   {
     "source": "The Hacker News",
-    "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
-    "link": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
-    "date": "2026-11-24",
-    "snippet": "A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under"
+    "title": "Credential Remediation Is Slow When You Don’t Know What Will Break",
+    "link": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
+    "date": "2026-11-25",
+    "snippet": "TL;DR More than 64% still valid after four years: GitGuardian’s State of Secrets Sprawl 2026 found that most valid secrets discovered in 202"
   },
   {
     "source": "The Hacker News",
-    "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
-    "link": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
-    "date": "2026-11-24",
-    "snippet": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain a"
+    "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
+    "link": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+    "date": "2026-11-25",
+    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vu"
   },
   {
     "source": "The Hacker News",
-    "title": "Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity",
-    "link": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
-    "date": "2026-11-24",
-    "snippet": "A quirk in how the .NET Framework loads a program file let a local attacker run untrusted code past two separate protections on Windows buil"
+    "title": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
+    "link": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
+    "date": "2026-11-25",
+    "snippet": "A former OpenAI employee accused of concealing a covert recording device at the company's San Francisco offices will be allowed to be releas"
   },
   {
     "source": "BleepingComputer",
-    "title": "Rackspace shuts down Spot cloud platform after security breach",
-    "link": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
-    "date": "2026-11-24",
-    "snippet": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters "
+    "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
+    "date": "2026-11-25",
+    "snippet": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series cont"
   },
   {
     "source": "BleepingComputer",
-    "title": "New Inception extortion gang launches large-scale vishing campaign",
-    "link": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
-    "date": "2026-11-24",
-    "snippet": "A newly formed data extortion group named 'Inception' has been linked to a large-scale campaign that targets single sign-on (SSO) credential"
+    "title": "More Pentests Without More Pentesters: Where AI Safely Helps",
+    "link": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
+    "date": "2026-11-25",
+    "snippet": "Penetration testers spend a significant portion of their engagements on documentation, reporting, and other tasks outside of testing. Pentes"
   },
   {
     "source": "BleepingComputer",
-    "title": "Turnitin discloses cyberattack affecting customer-facing systems",
-    "link": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
-    "date": "2026-11-24",
-    "snippet": "Turnitin disclosed via a statement from its CEO, Chris Caren, that it recently detected unauthorized activity involving certain customer-fac"
+    "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
+    "link": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
+    "date": "2026-11-25",
+    "snippet": "Eclypsium's November InfraTrust report warns that most infrastructure security advisories addressing exploited vulnerabilities over the past"
   },
   {
     "source": "BleepingComputer",
-    "title": "Radware discloses breach exposing customer cloud access keys",
-    "link": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
-    "date": "2026-11-24",
-    "snippet": "Cybersecurity company Radware says attackers gained access to some of its customers' account details and cloud access keys through an unsecu"
+    "title": "Microsoft fixes Microsoft 365 bug blocking access to Office apps",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/",
+    "date": "2026-11-25",
+    "snippet": "Earlier this week, Microsoft resolved a known issue that was preventing some Microsoft 365 customers from accessing Office applications. [.."
   },
   {
     "source": "BleepingComputer",
-    "title": "ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof",
-    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
-    "date": "2026-11-24",
-    "snippet": "The ShinyHunters extortion gang claims to have returned in posts on a new data leak site after a series of arrests over the past two months "
+    "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+    "date": "2026-11-25",
+    "snippet": "The Drupal security team has confirmed that a critical vulnerability that lets attackers hijack unpatched sites has been actively exploited "
   },
   {
     "source": "Krebs on Security",
