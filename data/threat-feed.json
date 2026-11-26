@@ -36,6 +36,27 @@
   },
   {
     "source": "BleepingComputer",
+    "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+    "date": "2026-11-25",
+    "snippet": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management int"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "1Password customer data stolen after employee GitHub account breach",
+    "link": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+    "date": "2026-11-25",
+    "snippet": "1Password has disclosed a data breach after a an employee's corporate GitHub account was hacked and used to deploy malicious code to the com"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
+    "link": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+    "date": "2026-11-25",
+    "snippet": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critic"
+  },
+  {
+    "source": "BleepingComputer",
     "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
     "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
     "date": "2026-11-25",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
     "date": "2026-11-25",
     "snippet": "Penetration testers spend a significant portion of their engagements on documentation, reporting, and other tasks outside of testing. Pentes"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
-    "link": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
-    "date": "2026-11-25",
-    "snippet": "Eclypsium's November InfraTrust report warns that most infrastructure security advisories addressing exploited vulnerabilities over the past"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft fixes Microsoft 365 bug blocking access to Office apps",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/",
-    "date": "2026-11-25",
-    "snippet": "Earlier this week, Microsoft resolved a known issue that was preventing some Microsoft 365 customers from accessing Office applications. [.."
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
-    "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
-    "date": "2026-11-25",
-    "snippet": "The Drupal security team has confirmed that a critical vulnerability that lets attackers hijack unpatched sites has been actively exploited "
   },
   {
     "source": "Krebs on Security",
