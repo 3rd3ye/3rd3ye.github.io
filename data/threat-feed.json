@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+    "link": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+    "date": "2026-11-27",
+    "snippet": "A Vietnam-sponsored hacking group has been attributed to attacks targeting Southeast Asian military, government, and legislative organizatio"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
     "link": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
     "date": "2026-11-27",
@@ -28,11 +35,25 @@
     "snippet": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases i"
   },
   {
-    "source": "The Hacker News",
-    "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
-    "link": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+    "source": "BleepingComputer",
+    "title": "pCloud confirms password manager hack after suspicious login alerts",
+    "link": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
     "date": "2026-11-27",
-    "snippet": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve"
+    "snippet": "The pCloud Pass password manager suffered a cyberattack, with users reporting that unknown devices had connected to their accounts even with"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "New Boston Scientific data breach exposes personal, medical info",
+    "link": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+    "date": "2026-11-27",
+    "snippet": "Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm. [...]"
+  },
+  {
+    "source": "BleepingComputer",
+    "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+    "link": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+    "date": "2026-11-27",
+    "snippet": "A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that le"
   },
   {
     "source": "BleepingComputer",
@@ -47,27 +68,6 @@
     "link": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
     "date": "2026-11-27",
     "snippet": "Forgotten virtual machines, unpatched servers, and excessive access permissions can create security blind spots across IT infrastructure. IS"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Malwarebytes Antivirus: Get 50% off during Black Friday 2026",
-    "link": "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
-    "date": "2026-11-27",
-    "snippet": "Malwarebytes' 2026 Black Friday and Cyber Monday sale is now live, offering 50% off security subscriptions for individuals, families, and sm"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Microsoft removes WSUS server role in Windows Server 2028",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
-    "date": "2026-11-27",
-    "snippet": "Microsoft will remove the WSUS server role from Windows Server 2028, the next major release of its server operating system. [...]"
-  },
-  {
-    "source": "BleepingComputer",
-    "title": "Drupal warns of new site takeover flaw exploited in attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
-    "date": "2026-11-27",
-    "snippet": "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites. "
   },
   {
     "source": "Krebs on Security",
