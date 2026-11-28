@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "pCloud Password Manager Hit by Cyber Attack Involving Email Address Exposure and Login Attempts",
+    "link": "https://thehackernews.com/2026/11/pcloud-password-manager-hit-by-cyber.html",
+    "date": "2026-11-28",
+    "snippet": "Cross-platform password manager pCloud Pass has confirmed it was targeted by a cyber attack after users reported seeing unknown devices bein"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
     "link": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
     "date": "2026-11-27",
@@ -26,13 +33,6 @@
     "link": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
     "date": "2026-11-27",
     "snippet": "Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation f"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
-    "link": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
-    "date": "2026-11-27",
-    "snippet": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases i"
   },
   {
     "source": "BleepingComputer",
